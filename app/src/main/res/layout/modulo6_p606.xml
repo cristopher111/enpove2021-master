@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margen_layout_pregunta"
+    android:padding="@dimen/padding_layout_pregunta"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/marco_pregunta">
+    <TextView
+        android:id="@+id/tv606periodo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TemaTextoPregunta"
+        android:text="@string/modulo_6_p606"/>
+
+
+    <RadioGroup
+        android:id="@+id/mod6_606_radiogroup_C6_P606"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/mod6_606_rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_6_p606_sp1" />
+
+        <RadioButton
+            android:id="@+id/mod6_606_rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_6_p606_sp2" />
+
+        <RadioButton
+            android:id="@+id/mod6_606_rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_6_p606_sp3" />
+
+        <RadioButton
+            android:id="@+id/mod6_606_rb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_6_p606_sp4" />
+
+        <RadioButton
+            android:id="@+id/mod6_606_rb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_6_p606_sp5" />
+
+        <RadioButton
+            android:id="@+id/mod5_606_rb6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_6_p606_sp6" />
+
+        <RadioButton
+            android:id="@+id/mod5_606_rb7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_6_p606_sp7" />
+
+        <RadioButton
+            android:id="@+id/mod5_606_rb8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_6_p606_sp8" />
+
+        <RadioButton
+            android:id="@+id/mod5_606_rb9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_6_p606_sp9" />
+
+        <RadioButton
+            android:id="@+id/mod5_606_rb10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_6_p606_sp10" />
+
+        <RadioButton
+            android:id="@+id/mod5_606_rb11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_6_p606_sp11" />
+
+        <RadioButton
+            android:id="@+id/mod6_606_rb12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margen_small"
+            android:text="@string/modulo_6_p606_sp12" />
+
+        <EditText
+            android:id="@+id/mod6_606_edittext_C6_P606_O"
+            style="@style/TemaInputEspecifiqueRadioIntermedio" />
+    </RadioGroup>
+</LinearLayout>

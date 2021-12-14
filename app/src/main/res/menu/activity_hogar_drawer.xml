@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_visita_encuestador"
+            android:icon="@drawable/visita_encuestador"
+            android:title="Visita Encuestador" />
+        <item
+            android:id="@+id/nav_visita_supervisor"
+            android:icon="@drawable/visita_supervisor"
+            android:title="Visita Supervisor" />
+        <item
+            android:id="@+id/nav_funcionario"
+            android:icon="@drawable/funcionario"
+            android:title="Funcionarios" />
+        <item
+            android:id="@+id/nav_p101_p107"
+            android:icon="@drawable/ic_filter_1"
+            android:title="Capítulo 1: P101 - P107" />
+        <item
+            android:id="@+id/nav_p108_p113"
+            android:icon="@drawable/ic_filter_1"
+            android:title="Capítulo 1: P108 - P113" />
+        <item
+            android:id="@+id/nav_p201_p206"
+            android:icon="@drawable/ic_filter_2"
+            android:title="Capítulo 2: P201 - P206" />
+    </group>
+</menu>

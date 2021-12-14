@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margen_layout_pregunta"
+    android:padding="@dimen/padding_layout_pregunta"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/marco_pregunta">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TemaTextoPregunta"
+        android:text="@string/modulo_2_p211"/>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_margin="@dimen/margen_small">
+        <Spinner
+            android:id="@+id/mod2_211_spinner_C2_P211"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawSelectorOnTop="false"/>
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TemaTextoPregunta"
+        android:text="¿Qué relación de parentesco tiene con el menor?"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RadioGroup
+            android:id="@+id/mod2_211_radiogroup_C2_P211_1"
+            style="@style/EstiloRadioGroup">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+            <RadioButton
+                android:id="@+id/mod2_211_rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.Hermano"/>
+            <RadioButton
+                android:id="@+id/mod2_211_rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Abuelo/a"/>
+            <RadioButton
+                android:id="@+id/mod2_211_rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Tio/a"
+                />
+            <RadioButton
+                android:id="@+id/mod2_211_rb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Otro"
+                />
+        </RadioGroup>
+        <EditText
+            android:layout_marginTop="100dp"
+            android:id="@+id/mod2_211_edittext_C2_P211_O"
+            style="@style/TemaInputEspecifiqueRadioIntermedio"/>
+    </LinearLayout>
+
+</LinearLayout>

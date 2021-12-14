@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".fragments.modulo6.FragmentP605P608">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/texto_medium"
+        android:textColor="@color/colorIcons"
+        android:background="@color/colorPrimary"
+        android:text="@string/modulo_6_nombre"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margen_small"
+            android:orientation="vertical">
+            <include layout="@layout/cabecera"/>
+            <include layout="@layout/modulo6_p605" android:id="@+id/layout_m6_p605"/>
+            <include layout="@layout/modulo6_p606" android:id="@+id/layout_m6_p606"/>
+            <include layout="@layout/modulo6_p607" android:id="@+id/layout_m6_p607"/>
+            <include layout="@layout/modulo6_p608" android:id="@+id/layout_m6_p608"/>
+            <!--
+            <include layout="@layout/modulo6_p609" android:id="@+id/layout_m6_p609"/>
+            -->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

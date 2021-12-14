@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ImportarActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MODULO IMPORTACION"
+            android:padding="20dp"
+            android:textSize="20sp"
+            android:textColor="@color/icons"
+            android:gravity="center"
+            android:background="@color/colorPrimary"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:textSize="20sp"
+                android:text="ARCHIVO DE LA VIVIENDA A IMPORTAR"
+                android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/importacion_edtArchivo"
+                    android:layout_gravity="center"
+                    android:layout_width="320dp"
+                    android:layout_height="64dp"
+                    android:gravity="center"
+                    android:background="@drawable/fondo_edit_text"/>
+
+                <Button
+                    android:id="@+id/btnBuscarArchivo"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Seleccionar ubicación del archivo"
+                    android:textColor="@color/colorIcons"
+                    android:textSize="12sp"
+                    android:paddingHorizontal="30dp"
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:drawableLeft="@drawable/baseline_folder_open_white_24dp"
+                    android:backgroundTint="@color/colorAccent"
+                    android:background="@drawable/borde_button"/>
+
+            <TextView
+                android:id="@+id/txtImportar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <Button
+                android:id="@+id/importacion_btnImportar"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:text="IMPORTAR"
+                android:textColor="@color/colorIcons"
+                android:textSize="18sp"
+                android:paddingHorizontal="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:drawableLeft="@drawable/baseline_import_export_white_36dp"
+                android:background="@drawable/borde_button"/>
+            <Button
+                android:id="@+id/importacion_btnVolver"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:text="SALIR"
+                android:textColor="@color/colorIcons"
+                android:textSize="18sp"
+                android:paddingHorizontal="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:drawableLeft="@drawable/baseline_close_white_24dp"
+                android:background="@drawable/borde_button"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

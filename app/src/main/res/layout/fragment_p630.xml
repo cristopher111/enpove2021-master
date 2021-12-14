@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".fragments.modulo6.FragmentP630">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/texto_medium"
+        android:textColor="@color/colorIcons"
+        android:background="@color/colorPrimary"
+        android:text="@string/modulo_6_nombre"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margen_small"
+            android:orientation="vertical">
+            <include layout="@layout/cabecera"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/sub_modulo_6_9_ind"
+                android:textColor="@color/cardview_dark_background"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/margen_small"
+                android:layout_marginRight="@dimen/margen_small"
+                android:background="@color/greyBluePrimaryLight"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/sub_modulo_6_9"
+                android:textColor="@color/cardview_dark_background"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/margen_small"
+                android:layout_marginRight="@dimen/margen_small"
+                android:background="@color/greyBluePrimaryLight"/>
+<!--            <include layout="@layout/modulo6_p630" android:id="@+id/layout_m6_p630"/>-->
+            <include layout="@layout/modulo6_p635x" android:id="@+id/layout_m6_p635"/>
+            <include layout="@layout/modulo6_p636x" android:id="@+id/layout_m6_p636"/>
+            <include layout="@layout/modulo6_p637x" android:id="@+id/layout_m6_p637"/>
+            <include layout="@layout/modulo6_p638x" android:id="@+id/layout_m6_p638"/>
+            <include layout="@layout/modulo6_p639x" android:id="@+id/layout_m6_p639"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margen_layout_pregunta"
+    android:padding="@dimen/padding_layout_pregunta"
+    android:background="@drawable/marco_pregunta">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:theme="@style/TemaTextoPregunta"
+            android:text="@string/modulo_7_p702"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modulo_7_p702_ind"/>
+    <CheckBox
+        android:id="@+id/mod7_702_checkbox_C7_P702_1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/modulo_7_p702_sp1"/>
+    <CheckBox
+        android:id="@+id/mod7_702_checkbox_C7_P702_2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/modulo_7_p702_sp2"/>
+    <CheckBox
+        android:id="@+id/mod7_702_checkbox_C7_P702_3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/modulo_7_p702_sp3"/>
+    <CheckBox
+        android:id="@+id/mod7_702_checkbox_C7_P702_4"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/modulo_7_p702_sp4"/>
+    <CheckBox
+        android:id="@+id/mod7_702_checkbox_C7_P702_5"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/modulo_7_p702_sp5"/>
+    <CheckBox
+        android:id="@+id/mod7_702_checkbox_C7_P702_6"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/modulo_7_p702_sp6"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/mod7_702_checkbox_C7_P702_7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/modulo_7_p702_sp7"/>
+        <EditText
+            android:id="@+id/mod7_702_edittext_C7_P702_O"
+            android:layout_marginLeft="@dimen/margen_small"
+            style="@style/TemaInputEspecifique"
+            android:hint="@string/modulo_7_p702_especifique"/>
+    </LinearLayout>
+
+</LinearLayout>

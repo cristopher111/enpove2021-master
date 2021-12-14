@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margen_layout_pregunta"
+    android:padding="@dimen/padding_layout_pregunta"
+    android:background="@drawable/marco_pregunta">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/sub_modulo_6_7"
+        android:textColor="@color/colorIcons"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/greyBluePrimaryDark"/>
+
+    <TextView
+        android:id="@+id/tv626periodo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TemaTextoPregunta"
+        android:text="@string/modulo_6_p626"/>
+   <!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/modulo_6_p626_ind"/>
+        -->
+    <RadioGroup
+        android:id="@+id/mod6_626_radiogroup_C6_P626"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <RadioButton
+            android:id="@+id/mod6_626_rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_6_p626_sp1"/>
+        <RadioButton
+            android:id="@+id/mod6_626_rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_6_p626_sp2"/>
+    </RadioGroup>
+</LinearLayout>

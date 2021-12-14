@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margen_layout_pregunta"
+    android:padding="@dimen/padding_layout_pregunta"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/marco_pregunta">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:theme="@style/TemaTextoPregunta"
+            android:text="@string/modulo_4_p409"/>
+
+<!--        <ImageView-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:src="@drawable/estrella">-->
+<!--        </ImageView>-->
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_margin="@dimen/margen_small">
+        <Spinner
+            android:id="@+id/mod4_409_spinner_C2_P409"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/modulo_4_p409_parentescos"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_margin="@dimen/margen_small">
+        <Spinner
+            android:id="@+id/mod4_409_spinner_C2_P409_parentesco"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/modulo_4_p409_parentescos_nuevo"/>
+    </android.support.v7.widget.CardView>
+
+    <EditText
+        android:inputType="textCapCharacters"
+        android:maxLength="50"
+        android:layout_marginTop="@dimen/margen_small"
+        android:id="@+id/text1_Editext"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingLeft="@dimen/margen_small"
+        android:enabled="false"
+        android:layout_margin="@dimen/margen_small"
+        android:background="@drawable/input_text_disabled"
+        android:hint="Especifique"/>
+
+    <CheckBox
+        android:id="@+id/mod4_409_2_checkbox_C4_P409_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margen_small"
+        android:layout_gravity="center"
+        android:text="@string/modulo_4_p409_p1"/>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/item_ruta_cardview"
+    android:layout_width="match_parent"
+    android:layout_margin="1dp"
+    android:focusable="true"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_height="32dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/txtnumero"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Nº"/>
+        <TextView
+            android:id="@+id/txtpais"
+            android:layout_width="0dp"
+            android:paddingLeft="@dimen/margen_small"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/modulo_3_p309_cab1"/>
+        <TextView
+            android:id="@+id/txtciudad"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/modulo_3_p309_cab2"/>
+        <TextView
+            android:id="@+id/txtmodotransito"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/modulo_3_p309_cab3"/>
+        <TextView
+            android:id="@+id/txtfecha"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/modulo_3_p309_cab4"/>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

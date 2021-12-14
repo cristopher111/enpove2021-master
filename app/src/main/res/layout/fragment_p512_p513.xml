@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".fragments.modulo5.FragmentP512P513">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/texto_medium"
+        android:textColor="@color/colorIcons"
+        android:background="@color/colorPrimary"
+        android:text="@string/modulo_5_nombre"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margen_small"
+            android:orientation="vertical">
+            <include layout="@layout/cabecera"/>
+            <TextView
+                android:id="@+id/sub_modulo_5_5_textview"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/sub_modulo_5_5"
+                android:textColor="@color/colorIcons"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/margen_small"
+                android:layout_marginRight="@dimen/margen_small"
+                android:background="@color/greyBluePrimaryDark"/>
+            <include layout="@layout/modulo5_p512" android:id="@+id/layout_m5_p512"/>
+            <include layout="@layout/modulo5_p513" android:id="@+id/layout_m5_p513"/>
+            <include layout="@layout/modulo5_p514x" android:id="@+id/layout_m5_p514x"/>
+            <TextView
+                android:id="@+id/mod_5_etnicidad"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/sub_modulo_5_0"
+                android:textColor="@color/colorIcons"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/margen_small"
+                android:layout_marginRight="@dimen/margen_small"
+                android:background="@color/greyBluePrimaryDark"/>
+            <include layout="@layout/modulo5_p515x" android:id="@+id/layout_m5_p515x"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="@dimen/margen_small"
+                android:layout_marginLeft="@dimen/margen_small">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/sub_modulo_516_1"
+                    android:textColor="@color/colorIcons"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:background="@color/greyBluePrimaryDark"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/sub_modulo_516_2"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:background="@color/greyBluePrimaryLight"/>
+            </LinearLayout>
+            <include layout="@layout/modulo5_p516x" android:id="@+id/layout_m5_p516x"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

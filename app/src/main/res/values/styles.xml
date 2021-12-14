@@ -1,0 +1,193 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="cardViewStyle">@style/CardView</item>
+        <item name="coordinatorLayoutStyle">@style/Widget.Design.CoordinatorLayout</item>
+    </style>
+
+    <style name="TemaTransparente" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/colorTransparenteDialog</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TemaTitulo" parent="AppTheme">
+        <item name="android:textSize">@dimen/texto_large</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TemaBoldCenterMedium" parent="AppTheme">
+        <item name="android:textSize">@dimen/texto_medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextInput" parent="Theme.AppCompat.Light">
+        <item name="android:textColorHint">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/texto_medium</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <style name="RaisedButtonDark" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/texto_large</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="RaisedButtonDarkMarco" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/texto_medium</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="RaisedButtonActivitiesAgregar" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/texto_medium</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="RaisedButtonAgregarFecha" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/texto_small</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="RaisedButtonVisitaAgregar" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/greyBluePrimaryDark</item>
+        <item name="colorControlHighlight">@color/greyBluePrimaryDark</item>
+        <item name="android:textSize">@dimen/texto_medium</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TemaTextoPregunta" parent="AppTheme">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/texto_small</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="TemaCabeceraP309" parent="AppTheme">
+        <item name="android:paddingLeft">@dimen/margen_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/texto_small</item>
+        <item name="android:textColor">@color/colorIcons</item>
+    </style>
+
+    <style name="TemaCabeceraVisitas" parent="AppTheme">
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/texto_small</item>
+        <item name="android:textColor">@color/colorIcons</item>
+    </style>
+
+    <style name="TemaCabeceraP318" parent="AppTheme">
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">@dimen/margen_small</item>
+        <item name="android:textSize">@dimen/texto_small</item>
+        <item name="android:textColor">@color/colorIcons</item>
+    </style>
+
+    <style name="TemaInputEspecifique" parent="AppTheme">
+        <item name="android:inputType">text</item>
+        <item name="android:enabled">false</item>
+        <item name="android:hint">@string/texto_especifique</item>
+        <item name="android:paddingLeft">@dimen/margen_small</item>
+        <item name="android:background">@drawable/input_text_disabled</item>
+        <item name="android:layout_height">@dimen/altura_input_especifique</item>
+        <item name="android:layout_width">@dimen/width_input_especifique</item>
+    </style>
+
+    <style name="TemaInputEspecifiqueNumber" parent="AppTheme">
+        <item name="android:inputType">numberPassword</item>
+        <item name="android:enabled">false</item>
+        <item name="android:hint">@string/texto_especifique</item>
+        <item name="android:paddingLeft">@dimen/margen_small</item>
+        <item name="android:background">@drawable/input_text_disabled</item>
+        <item name="android:layout_height">@dimen/altura_input_especifique</item>
+        <item name="android:layout_width">@dimen/width_input_especifique</item>
+    </style>
+
+    <style name="TemaInputEspecifiqueSpinnerTexto" parent="AppTheme">
+        <item name="android:inputType">text</item>
+        <item name="android:enabled">false</item>
+        <item name="android:hint">@string/texto_especifique</item>
+        <item name="android:paddingLeft">@dimen/margen_small</item>
+        <item name="android:background">@drawable/input_text_disabled</item>
+        <item name="android:layout_height">@dimen/altura_input_especifique</item>
+        <item name="android:layout_width">@dimen/width_input_especifique</item>
+    </style>
+
+    <style name="TemaInputEspecifiqueSpinnerNumber" parent="AppTheme">
+        <item name="android:inputType">numberPassword</item>
+        <item name="android:enabled">false</item>
+        <item name="android:hint">@string/texto_especifique</item>
+        <item name="android:paddingLeft">@dimen/margen_small</item>
+        <item name="android:background">@drawable/input_text_disabled</item>
+        <item name="android:layout_height">@dimen/altura_input_especifique</item>
+        <item name="android:layout_width">@dimen/width_input_especifique</item>
+    </style>
+
+    <style name="TemaInputEspecifiqueRadio" parent="AppTheme">
+        <item name="android:inputType">text</item>
+        <item name="android:enabled">false</item>
+        <item name="android:layout_marginLeft">@dimen/margen_small</item>
+        <item name="android:hint">@string/texto_especifique</item>
+        <item name="android:paddingLeft">@dimen/margen_small</item>
+        <item name="android:background">@drawable/input_text_disabled</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_width">@dimen/width_input_especifique</item>
+    </style>
+
+    <style name="TemaInputEspecifiqueRadioNumber" parent="AppTheme">
+        <item name="android:inputType">numberPassword</item>
+        <item name="android:enabled">false</item>
+        <item name="android:layout_marginLeft">@dimen/margen_small</item>
+        <item name="android:hint">@string/texto_especifique</item>
+        <item name="android:paddingLeft">@dimen/margen_small</item>
+        <item name="android:background">@drawable/input_text_disabled</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_width">@dimen/width_input_especifique</item>
+    </style>
+
+    <style name="TemaInputEspecifiqueRadioIntermedio" parent="AppTheme">
+        <item name="android:inputType">text</item>
+        <item name="android:enabled">false</item>
+        <item name="android:layout_marginLeft">@dimen/margen_xlarge</item>
+        <item name="android:hint">@string/texto_especifique</item>
+        <item name="android:paddingLeft">@dimen/margen_small</item>
+        <item name="android:background">@drawable/input_text_disabled</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_width">@dimen/width_input_especifique</item>
+    </style>
+
+    <style name="EstiloRadioGroup" parent="AppTheme">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

@@ -1,0 +1,3080 @@
+<resources>
+    <string name="app_name">ENPOVE 2021</string>
+    <string name="app_version">Versión 0.0.0</string>
+    <string name="title_activity_encuesta">EncuestaActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="content_logo_inei">logo inei</string>
+    <string name="nombre_encuesta">SEGUNDA ENCUESTA DIRIGIDA A LA POBLACION VENEZOLANA QUE RESIDE EN EL PAÍS 2021-2022</string>
+    <string name="login_texto_usuario">USUARIO</string>
+    <string name="login_texto_password">CONTRASEÑA</string>
+    <string name="login_texto_boton">INGRESAR</string>
+    <string name="nombre_modulo_caratula">Carátula</string>
+    <string name="nombre_modulo_entrevista_supervision">Entrevistas y Supervisión</string>
+    <string name="nombre_modulo_funcionarios_encuesta">Funcionarios de la Encuesta</string>
+    <string name="texto_especifique">Especifique</string>
+
+
+    <!--Strings asociados al marco-->
+    <string name="marco_mes">MES</string>
+    <string name="marco_anio">ANIO</string>
+    <string name="marco_periodo">PERIODO</string>
+    <string name="marco_conglomerado">CONGLOMERADO</string>
+
+    <!--Strings asociados a los datos generales-->
+    <string name="datos_generales_menu">Capítulo Inicial: Datos Generales</string>
+    <string name="datos_generales_submenu_1">Carátula</string>
+    <string name="datos_generales_submenu_2">Hogares</string>
+    <string name="datos_generales_submenu_3">Control de Visitas Encuestador</string>
+    <string name="datos_generales_submenu_4">Control de Visitas Supervisor</string>
+    <string name="datos_generales_submenu_5">Funcionarios</string>
+
+    <!--Strings asociados a la caratula-->
+    <string name="caratula_conglomerado">CONGLOMERADO</string>
+    <string name="caratula_tipo_seleccion">TIPO DE SELECCIÓN </string>
+    <string name="caratula_numero_seleccion_vivienda">N° SELECCIÓN</string>
+    <string name="caratula_vivienda_remplazo">VIVIENDA DE REMPLAZO</string>
+    <string name="caratula_vivienda_por_remplazar">Anote el Nº de Selección de la vivienda que reemplaza</string>
+
+    <string-array name="caratula_array_seleccion">
+        <item>Seleccione</item>
+        <item>1.Vivienda 1</item>
+        <item>2.Vivienda 2</item>
+        <item>3.Vivienda 3</item>
+        <item>4.Vivienda 4</item>
+        <item>5.Vivienda 5</item>
+        <item>6.Vivienda 6</item>
+    </string-array>
+
+
+
+
+    <!--Strings asociados a la caratula-->
+    <string name="caratula_ubicacion_geografica">UBICACIÓN GEOGRÁFICA</string>
+    <string name="caratula_departamento">1.DEPARTAMENTO</string>
+    <string name="caratula_provincia">2.PROVINCIA</string>
+    <string name="caratula_distrito">3.DISTRITO</string>
+    <string name="caratula_centro_poblado">4.CENTRO POBLADO</string>
+
+    <string name="caratula_ubicacion_muestral">UBICACIÓN MUESTRAL</string>
+    <string name="caratula_zona">5.ZONA N°</string>
+    <string name="caratula_n_manzana">6.MANZANA N°</string>
+    <string name="caratula_aer">7.AER N°</string>
+    <string name="caratula_n_vivienda">7.VIVIENDA N°</string>
+
+    <string name="caratula_direccion">8.DIRECCIÓN DE LA VIVIENDA <i>(Para tipo de vía seleccione sólo un código)</i></string>
+    <string-array name="caratula_array_tipo_via">
+        <item>Seleccione</item>
+        <item>1.Avenida</item>
+        <item>2.Jirón</item>
+        <item>3.Calle</item>
+        <item>4.Pasaje</item>
+        <item>5.Carretera</item>
+        <item>6.Prolongación</item>
+        <item>7.Otro</item>
+    </string-array>
+    <string name="caratula_tipo_via">TIPO DE VÍA</string>
+    <string name="caratula_nombre_via">NOMBRE DE VÍA</string>
+    <string name="caratula_n_puerta">N° PUERTA</string>
+    <string name="caratula_block">BLOCK</string>
+    <string name="caratula_interior">INTERIOR</string>
+    <string name="caratula_npta2">N° PUERTA – LETRA</string>
+    <string name="caratula_piso">PISO</string>
+    <string name="caratula_manzana">MANZANA</string>
+    <string name="caratula_lote">LOTE</string>
+    <string name="caratula_km">KM</string>
+    <string name="caratula_n_telefono">N° de TELÉFONO</string>
+
+    <string name="caratula_total_hogares">9.TOTAL DE HOGARES QUE OCUPAN LA VIVIENDA</string>
+    <string name="caratula_n_hogares">¿CUÁNTOS HOGARES OCUPAN ESTA VIVIENDA?</string>
+    <string name="caratula_n_hogares_ind">Sr./a: Si HOGAR es la persona o grupo de personas que se alimentan de una misma olla y atienden en común otras necesidades básicas.</string>
+
+    <string name="caratula_viven_venezolanos">15.EN ESTE HOGAR, ¿VIVE ALGUNA PERSONA QUE LLEGÓ DE VENEZUELA?</string>
+
+    <!--Strings asociados a las visitas-->
+    <string name="visita_titulo">12.ENTREVISTA Y SUPERVISIÓN</string>
+    <string name="visita_visitas_hogar_encuestador">VISITAS AL HOGAR (ENCUESTADOR/A)</string>
+    <string name="visita_visitas_hogar_supervisor">VISITAS AL HOGAR (SUPERVISOR/A)</string>
+    <string name="visita_numero">N°</string>
+    <string name="visita_encuestador">ENCUESTADOR/A</string>
+    <string name="visita_supervisor">SUPERVISOR/A LOCAL</string>
+    <string name="visita_fecha">FECHA</string>
+    <string name="visita_fecha_ind">Indique la fecha de la visita</string>
+    <string name="visita_hora">HORA</string>
+    <string name="visita_hora_inicio">HORA INICIO</string>
+    <string name="visita_hora_inicio_ind">Indique la hora de inicio de la visita</string>
+    <string name="visita_hora_final">HORA FINAL</string>
+    <string name="visita_de">DE</string>
+    <string name="visita_a">A</string>
+    <string name="visita_proxima">PRÓXIMA VISITA</string>
+    <string name="visita_proxima_fecha">FECHA PRÓXIMA VISITA</string>
+    <string name="visita_proxima_hora">HORA PRÓXIMA VISITA</string>
+    <string name="visita_resultado_visita">RESULTADO VISITA</string>
+    <string name="visita_resultado_final">13.RESULTADO FINAL DE LA ENCUESTA</string>
+    <string name="visita_resultado">RESULTADO</string>
+    <string-array name="visita_array_resultados">
+        <item>Seleccione resultado</item>
+        <item>1.Completa</item>
+        <item>2.Incompleta</item>
+        <item>3.Rechazo</item>
+        <item>4.Ausente</item>
+        <item>5.Vivienda desocupada</item>
+        <item>6.No se inició la entrevista</item>
+<!--        <item>7.Teléfono fuera de servicio</item>-->
+<!--        <item>8.Teléfono no existe/Equivocado</item>-->
+        <item>7.Nunca vivió alguna persona venezolana en la vivienda</item>
+        <item>8.La persona venezolana se mudó de la vivienda</item>
+        <item>9.Otro</item>
+    </string-array>
+    <string-array name="visita_array_supervisor">
+        <item>Seleccione resultado</item>
+        <item>1.VERIFICACIÓN DE LA MUESTRA Y SUPERVISIÓN PRESENCIAL</item>
+        <item>2.VERIFICACIÓN DE LA INFORMACIÓN</item>
+        <item>3.REVISIÓN DEL CUESTIONARIO</item>
+
+    </string-array>
+
+    <string-array name="visita_array_residente">
+        <item>Seleccione resultado</item>
+        <item>1.Completa</item>
+        <item>2.Incompleta</item>
+        <item>3.Rechazo</item>
+        <item>4.Ausente</item>
+        <item>5.Teléfono Apagado</item>
+        <item>6.Timbra, pero no contesta</item>
+        <item>7.Teléfono fuera de servicio</item>
+        <item>8.Teléfono no existe</item>
+        <item>9.Teléfono no disponible</item>
+        <item>10.Teléfono equivocado</item>
+        <item>11.No hay cobertura de red</item>
+        <item>12.No tiene número de teléfono</item>
+        <item>13.Otro</item>
+    </string-array>
+
+    <string name="visita_especifique">Especifique</string>
+    <string name="visita_agregar">AGREGAR VISITA</string>
+    <string name="visita_guardar">guardar visita</string>
+
+
+    <!--Strings asociados a los hogares-->
+    <string name="hogares_titulo">HOGARES QUE CONSTITUYEN LA VIVIENDA</string>
+    <string name="hogares_numero">N°</string>
+    <string name="hogares_jefe">JEFE HOGAR</string>
+    <string name="hogares_estado">ESTADO</string>
+
+
+    <string name="funcionario_titulo_resultado_final">13.RESULTADO FINAL DE LA ENCUESTA</string>
+
+
+    <!--Strings asociados a funcionarios-->
+    <string name="funcionario_titulo">14.FUNCIONARIOS DE LA ENCUESTA</string>
+    <string name="funcionario_cargo">CARGO</string>
+    <string name="funcionario_dni">DNI</string>
+    <string name="funcionario_nombres">NOMBRES Y APELLIDOS</string>
+    <string name="funcionario_encuestador">ENTREVISTADOR/A:</string>
+    <string name="funcionario_supervisor">SUPERVISOR/A LOCAL:</string>
+    <string name="funcionario_coordinador">COORDINADOR/A:</string>
+    <string name="funcionario_supervisor_n">SUPERVISOR/A NACIONAL:</string>
+
+
+
+    <!--Strings asociados a la Cabecera-->
+    <string name="cabecera_persona_n">Persona N°</string>
+    <string name="cabecera_nombre">Nombre: </string>
+    <string name="cabecera_informante_n">Informante N°</string>
+
+    <!--NUEVAS PREGUNTAS CARATULA 2021-->
+    <string name="cabecera_pregunta_15">15.En este Hogar ¿Vive alguna persona que llegó de Venezuela?</string>
+    <string name="sub_pregunta_15">(Por lo menos una persona de nacionalidad Venezolana)</string>
+    <string name="caratula_p015_si">1.Sí</string>
+    <string name="caratula_p015_no">2.No</string>
+    <string name="caratula_texto_numero">N° de Personas</string>
+
+    <string name="cabecera_pregunta_16">16.Total de Personas Registradas en el CAP. II</string>
+    <string name="cabecera_pregunta_17">17.Total de Personas Registradas en el CAP. II que migraron de Venezuela</string>
+    <string name="cabecera_pregunta_18">18.Total de Personas Venezolanas de 0 a 17 años</string>
+    <string name="cabecera_pregunta_19">19.Total de Personas Venezolanas de 3 a 17 años</string>
+    <string name="cabecera_pregunta_20">20.Total de Personas Venezolanas con alguna discapacidad</string>
+
+    <string name="cabecera_pregunta_21">21.La vivienda seleccionada es parte de un</string>
+    <string name="cabecera_pregunta_21_sp1">1. Hotel, Hostal</string>
+    <string name="cabecera_pregunta_21_sp2">2. Albergue</string>
+    <string name="cabecera_pregunta_21_sp3">3. Vivienda Particular</string>
+    <string name="cabecera_pregunta_21_sp4">4. Otro Establecimiento</string>
+    <string name="cabecera_pregunta_21_especifique">Especifique</string>
+
+
+
+    <!--Strings asociados al Capítulo : CARACTERÍSTICAS DE LA VIVIENDA Y DEL HOGAR-->
+
+    <string name="modulo_1_nombre">I.CARACTERÍSTICAS DE LA VIVIENDA Y DEL HOGAR</string>
+    <string name="modulo_1_menu">Capítulo I: Características de la Vivienda y del Hogar</string>
+    <string name="modulo_1_submenu_1">Preguntas 101 - 106</string>
+    <string name="modulo_1_submenu_2">Preguntas 107 - 112</string>
+
+    <string name="sub_modulo_1_1">DATOS DE LA VIVIENDA</string>
+    <string name="sub_modulo_1_1_101">POR OBSERVACIÓN</string>
+
+    <string name="modulo_1_p101">101.TIPO DE VIVIENDA:</string>
+    <string name="modulo_1_p101_ind">(Observe la vivienda y seleccione solo un código)</string>
+    <string name="modulo_1_p101_sp1">1.Casa independiente</string>
+    <string name="modulo_1_p101_sp2">2.Departamento en edificio</string>
+    <string name="modulo_1_p101_sp3">3.Vivienda en quinta</string>
+    <string name="modulo_1_p101_sp4">4.Vivienda en casa de vecindad (callejón, solar o corralón)</string>
+    <string name="modulo_1_p101_sp5">5.Choza o cabaña</string>
+    <string name="modulo_1_p101_sp6">6.Vivienda improvisada</string>
+    <string name="modulo_1_p101_sp7">7.Local no destinado para habitación humana</string>
+    <string name="modulo_1_p101_sp8">8.	Otro</string>
+    <string name="modulo_1_p101_especifique">Especifique</string>
+
+    <string name="modulo_1_p102">102.¿EL MATERIAL DE CONSTRUCCIÓN PREDOMINANTE EN LAS PAREDES EXTERIORES ES:</string>
+    <string name="modulo_1_p102_ind">(Lea cada una de las alternativas y seleccione solo un código)</string>
+    <string name="modulo_1_p102_sp1">1.Ladrillo o bloque de cemento?</string>
+    <string name="modulo_1_p102_sp2">2.Piedra, sillar con cal o cemento?</string>
+    <string name="modulo_1_p102_sp3">3.Adobe?</string>
+    <string name="modulo_1_p102_sp4">4.Tapia?</string>
+    <string name="modulo_1_p102_sp5">5.Quincha (caña con barro)?</string>
+    <string name="modulo_1_p102_sp6">6.Piedra con barro?</string>
+    <string name="modulo_1_p102_sp7">7.Madera (pona, tornillo, etc.)?</string>
+    <string name="modulo_1_p102_sp8">8.Triplay/calamina/estera?</string>
+    <string name="modulo_1_p102_sp9">9.Otro material?</string>
+    <string name="modulo_1_p102_especifique">Especifique</string>
+
+    <string name="modulo_1_p103">103.¿EL MATERIAL DE CONSTRUCCIÓN PREDOMINANTE EN LOS TECHOS ES:</string>
+    <string name="modulo_1_p103_ind">(Lea cada una de las alternativas y seleccione solo un código)</string>
+    <string name="modulo_1_p103_sp1">1.Concreto armado?</string>
+    <string name="modulo_1_p103_sp2">2.Madera?</string>
+    <string name="modulo_1_p103_sp3">3.Tejas?</string>
+    <string name="modulo_1_p103_sp4">4.Planchas de calamina, fibra de cemento o similares?</string>
+    <string name="modulo_1_p103_sp5">5.Caña o estera con torta de barro o cemento?</string>
+    <string name="modulo_1_p103_sp6">6.Triplay/estera/carrizo?</string>
+    <string name="modulo_1_p103_sp7">7.Paja, hojas de palmera, etc.?</string>
+    <string name="modulo_1_p103_sp8">8.Otro material?</string>
+    <string name="modulo_1_p103_especifique">Especifique</string>
+
+    <string name="modulo_1_p104">104.¿EL MATERIAL PREDOMINANTE EN LOS PISOS ES:</string>
+    <string name="modulo_1_p104_ind">(Lea cada una de las alternativas y seleccione solo un código)</string>
+    <string name="modulo_1_p104_sp1">1.Parquet o madera pulida?</string>
+    <string name="modulo_1_p104_sp2">2.Láminas asfálticas, vinílicos o similares?</string>
+    <string name="modulo_1_p104_sp3">3.Losetas, terrazos o similares?</string>
+    <string name="modulo_1_p104_sp4">4.Madera (pona, tornillo, etc.)?</string>
+    <string name="modulo_1_p104_sp5">5.Cemento?</string>
+    <string name="modulo_1_p104_sp6">6.Tierra?</string>
+    <string name="modulo_1_p104_sp7">7.Otro material?</string>
+    <string name="modulo_1_p104_especifique">Especifique</string>
+
+    <string name="modulo_1_p105">105.¿CUÁNTAS HABITACIONES EN TOTAL TIENE LA VIVIENDA, SIN CONTAR EL BAÑO, LA COCINA, LOS PASADIZOS Y GARAGE?</string>
+    <string name="modulo_1_p105_ind">Nº de habitaciones</string>
+
+    <string name="modulo_1_p106">106.¿CUÁNTAS HABITACIONES SE USAN EXCLUSIVAMENTE PARA DORMIR?</string>
+    <string name="modulo_1_p106_ind">Nº de habitaciones exclusivas para dormir:</string>
+
+    <!-- EMPIEZA EL SEGUNDO MODULO DEL HOGAR -->
+
+    <string name="sub_modulo_1_2">DATOS DEL HOGAR</string>.
+    <string name="sub_modulo_1_3">ESCALA DE EXPERIENCIA EN INSEGURIDAD ALIMENTARIA</string>
+
+    <string name="modulo_1_p107">107.¿LA VIVIENDA QUE OCUPA ES:</string>
+    <string name="modulo_1_p107_ind">(Lea cada una de las alternativas y seleccione solo un código)</string>
+    <string name="modulo_1_p107_sp1">1.¿Alquilada?</string>
+    <string name="modulo_1_p107_sp2">2.¿Propia, totalmente pagada?</string>
+    <string name="modulo_1_p107_sp3">3.¿Propia, por invasión?</string>
+    <string name="modulo_1_p107_sp4">4.¿Propia, comprándola a plazos?</string>
+    <string name="modulo_1_p107_sp5">5.¿Cedida por otro hogar?</string>
+    <string name="modulo_1_p107_sp6">6.¿Cedida por el centro de trabajo?</string>
+    <string name="modulo_1_p107_sp7">7.¿Cedida por otra institución?</string>
+    <string name="modulo_1_p107_sp8">8.¿Otra?</string>
+    <string name="modulo_1_p107_especifique">Especifique</string>
+
+
+    <!--AGREGANDO LA PREGUNTA 108 ES UNA NUEVA 2021 -->
+    <string name="modulo_1_p108">108.¿SU HOGAR CUENTA CON LOS SERVICIOS DE :</string>
+    <string name="modulo_1_p108_sp1"> Agua por red pública?</string>
+    <string name="modulo_1_p108_sp2"> Desague por red pública?</string>
+    <string name="modulo_1_p108_sp3"> Alumbrado eleéctrico por red pública?</string>
+    <string name="modulo_1_p108_sp4"> Internet?</string>
+    <string name="modulo_1_p108_si">1.Sí</string>
+    <string name="modulo_1_p108_no">2.No</string>
+
+    <string name="modulo_1_p109">109.EN SU HOGAR, ¿LA ENERGÍA O COMBUSTIBLE QUE UTILIZA PARA COCINAR LOS ALIMENTOS ES:</string>
+    <string name="modulo_1_p109_ind">(Lea cada una de las alternativas y seleccione solo un código)</string>
+    <string name="modulo_1_p109_sp1">1.Electricidad?</string>
+    <string name="modulo_1_p109_sp2">2.Gas (balón GLP)?</string>
+    <string name="modulo_1_p109_sp3">3.Gas natural (Sistema de tuberías)?</string>
+    <string name="modulo_1_p109_sp4">4.Otro?</string>
+    <string name="modulo_1_p109_especifique">Especifique</string>
+    <string name="modulo_1_p109_sp5">5.NO COCINAN</string>
+
+    <string name="modulo_1_p110">110.SU HOGAR TIENE:</string>
+    <string name="modulo_1_p110_ind">(Lea cada una de las alternativas y seleccione solo un código para cada una de ellas)</string>
+    <string name="modulo_1_p110_sp1">1.¿Televisor a color?</string>
+    <string name="modulo_1_p110_sp2">2.¿Cocina a gas?</string>
+    <string name="modulo_1_p110_sp3">3.¿Licuadora?</string>
+    <string name="modulo_1_p110_sp4">4.¿Plancha eléctrica?</string>
+    <string name="modulo_1_p110_sp5">5.¿Computadora/laptop/tableta? </string>
+    <string name="modulo_1_p110_sp6">6.¿Telefono celular? </string>
+    <string name="modulo_1_p110_sp7">7.¿Telefono fijo?</string>
+    <string name="modulo_1_p110_sp8">8.¿Radio?</string>
+    <string name="modulo_1_p110_sp9">9.¿Refrigeradora/congeladora?</string>
+    <string name="modulo_1_p110_sp10">10.¿Lavadora de ropa?</string>
+    <string name="modulo_1_p110_sp11">11.¿Otro?</string>
+    <string name="modulo_1_p110_sp12">12.¿Otro?</string>
+    <string name="modulo_1_p110_sp13">13.¿Otro?</string>
+    <string name="modulo_1_p110_especifique">Especifique</string>
+    <string name="modulo_1_p110_si">1.Sí</string>
+    <string name="modulo_1_p110_no">2.No</string>
+
+    <!-- PREGUNTA 111 ES NUEVA -->
+    <string name="modulo_1_p111">111.EN LOS ÚLTIMOS 6 MESES DE %1$s ¿HAN TENIDO QUE CAMBIAR DE VIVIENDA?</string>
+    <string name="modulo_1_p111_sp1">1.Sí</string>
+    <string name="modulo_1_p111_sp2">2.No</string>
+
+    <string name="modulo_1_p111A">111A.¿CUÁNTAS VECES?</string>
+
+    <string name="modulo_1_p112">112.EN EL MES ANTERIOR %1$s ¿USTED O ALGÚN MIEMBRO ADULTO (DE 18 AÑOS Y MÁS EDAD) DE SU HOGAR, DEBIDO A LA FALTA DE DINERO U OTROS RECURSOS HA PASADO POR LAS SITUACIONES SIGUIENTES:</string>
+    <string name="modulo_1_p112_ind">(Lea cada una de las alternativas y seleccione un código para cada una de ellas)</string>
+    <string name="modulo_1_p112_sp1">1.Se han sentido muy preocupados por no tener suficientes alimentos para comer?</string>
+    <string name="modulo_1_p112_sp2">2.Pudieron comer alimentos saludables y nutritivos o de su preferencia?</string>
+    <string name="modulo_1_p112_sp3">3.Comió solo unos pocos tipos de alimentos?</string>
+    <string name="modulo_1_p112_sp4">4.Tuvo que saltarse una comida por falta de alimentos?</string>
+    <string name="modulo_1_p112_sp5">5.Comió menos de lo que pensaba que debería/n comer?</string>
+    <string name="modulo_1_p112_sp6">6.Su hogar se quedó sin alimentos?</string>
+    <string name="modulo_1_p112_sp7">7.Tenía hambre, pero no comía por no tener suficiente dinero para alimentarse?</string>
+    <string name="modulo_1_p112_sp8">8.Estuvo sin comer durante un día entero?</string>
+    <string name="modulo_1_p112_si">1.Sí</string>
+    <string name="modulo_1_p112_no">2.No</string>
+
+    <!--Strings asociados al Capítulo 2 : CARACTERÍSTICAS DE LOS RESIDENTES DEL HOGAR-->
+    <string name="modulo_2_nombre">II.CARACTERÍSTICAS DE LOS RESIDENTES DEL HOGAR</string>
+    <string name="modulo_2_menu">Capítulo II: Características de los residentes del hogar</string>
+    <string name="modulo_2_submenu_1">Preguntas 201 - 211</string>
+
+    <string name="modulo_2_p202_pregunta_miembros">¿CUÁL ES EL PRIMER NOMBRE DE CADA UNA DE LAS PERSONAS QUE VIVEN PERMANENTEMENTE EN ESTE HOGAR Y DE LAS QUE ESTÁN ALOJADAS AQUÍ?</string>
+    <string name="modulo_2_p202_ind">(No olvide registrar a los miembros del hogar ausentes y recién nacidos)</string>
+
+    <string name="modulo_2_cab_nro">N°</string>
+    <string name="modulo_2_cab_nombre">Nombre</string>
+    <string name="modulo_2_cab_parentesco">Parentesco</string>
+    <string name="modulo_2_cab_sexo">Sexo</string>
+    <string name="modulo_2_cab_edad">Edad</string>
+    <string name="modulo_2_cab_estado_civil">Estado Civil</string>
+    <string name="modulo_2_cab_llego_venezuela">¿Migro?</string>
+
+
+    <string name="modulo_2_p202_nombre">Primer Nombre</string>
+    <string name="modulo_2_p202_boton_guardar">guardar persona</string>
+
+
+    <string name="modulo_2_p202">202.¿CUÁL ES EL PRIMER NOMBRE Y APELLIDO DE CADA UNA DE LAS PERSONAS QUE VIVEN PERMANENTEMENTE EN ESTE HOGAR Y DE LAS QUE ESTÁN ALOJADAS AQUÍ?</string>
+    <string name="modulo_2_p203">203.¿CUÁL ES LA RELACIÓN DE PARENTESCO CON EL (LA) JEFE/A DEL HOGAR?</string>
+
+    <string-array name="modulo_2_p203_parentescos">
+        <item>Seleccione Parentesco</item>
+        <item>1.Jefe/a del hogar</item>
+        <item>2.Esposo/a o compañero/a</item>
+        <item>3.Hijo/a o hijastro/a</item>
+        <item>4.Yerno/Nuera</item>
+        <item>5.Nieto/a</item>
+        <item>6.Padres/Suegros</item>
+        <item>7.Hermano/a</item>
+        <item>8.Otro pariente</item>
+        <item>9.Trabajador/a del hogar</item>
+        <item>10.Pensionista</item>
+        <item>11.Otro No Pariente</item>
+    </string-array>
+
+    <string name="modulo_2_p204">204.SEXO</string>
+    <string name="modulo_2_p204_sp1">1.Hombre</string>
+    <string name="modulo_2_p204_sp2">2.Mujer</string>
+
+    <string-array name="modulo_2_p204_sexo">
+        <item>Seleccione Sexo</item>
+        <item>H</item>
+        <item>M</item>
+    </string-array>
+
+    <string name="modulo_2_p205">205¿QUÉ EDAD TIENE EN AÑOS CUMPLIDOS?</string>
+    <string name="modulo_2_p205_anio">Años</string>
+    <string name="modulo_2_p205_mes">Meses</string>
+    <string name="modulo_2_p205_mes_ind">Sólo para menores de 1 año</string>
+
+    <string-array name="modulo_2_p205a_años">
+        <item>-- Seleccione Años --</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+    </string-array>
+
+    <string-array name="modulo_2_p205b_meses">
+    <item>-- Seleccione Mes --</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+
+    <string name="sub_modulo_2_1">PARA 12 AÑOS Y MÁS DE EDAD</string>
+
+    <string name="modulo_2_p206">206.ACTUALMENTE, ¿CUÁL ES SU ESTADO CIVIL O CONYUGAL?</string>
+    <string-array name="modulo_2_p206_estado_civil">
+        <item>Seleccione Estado Civil</item>
+        <item>1.Conviviente</item>
+        <item>2.Casado/a</item>
+        <item>3.Viudo/a</item>
+        <item>4.Divorciado/a</item>
+        <item>5.Separado/a o Ex conviviente</item>
+        <item>6.Soltero/a</item>
+    </string-array>
+
+    <string name="sub_modulo_2_2">PARA 14 AÑOS Y MÁS DE EDAD</string>
+
+    <string name="modulo_2_p207">207.¿CUÁL ES SU NÚMERO DE CELULAR?</string>
+    <string name="modulo_2_p207_sp1">1.El N° es</string>
+    <string name="modulo_2_p207_sp2">2.No quiso dar N°</string>
+    <string name="modulo_2_p207_sp3">3.No tiene</string>
+    <string name="modulo_2_p207_sp4">4.No sabe</string>
+
+    <string name="modulo_2_p207_especifique">Especifique</string>
+
+    <string name="sub_modulo_2_3">PARA TODAS LAS PERSONAS</string>
+
+    <string name="modulo_2_p208">208.¿MIGRÓ DE VENEZUELA?</string>
+    <string name="modulo_2_p208_si">SI</string>
+    <string name="modulo_2_p208_no">NO</string>
+
+    <string name="sub_modulo_2_4">VERIFIQUE P: SI MARCO CODIGO 1(SI) Y LA PERSONAS ES MENOR DE 18 AÑOS (DE 0 A 17 AÑOS) DILIGENCIE P209,P210 Y P211, SEGUN CORRESPONDA</string>
+
+    <!-- NUEVA PREGUNTA 209 2021 -->
+    <string name="modulo_2_p209">209.¿EN ESTE HOGAR VIVE SU PADRE?</string>
+    <string name="modulo_2_P209_ind">(Marque código Si o No, segun corresponda)</string>
+    <string name="modulo_2_p209_si">SI</string>
+    <string name="modulo_2_p209_no">NO</string>
+    <string name="modulo_2_p209_sp0">¿En qué país vive?</string>
+    <string name="modulo_2_p209_sp1">1.Perú</string>
+    <string name="modulo_2_p209_sp2">2.Venezuela</string>
+    <string name="modulo_2_p209_sp3">3.Otro pais</string>
+    <string name="modulo_2_p209_sp4">4.Fallecio/No sabe</string>
+
+    <!-- NUEVA PREGUNTA 210 2021 -->
+    <string name="modulo_2_p210">210.¿EN ESTE HOGAR VIVE SU MADRE?</string>
+    <string name="modulo_2_P210_ind">(Marque código Si o No, segun corresponda)</string>
+    <string name="modulo_2_p210_si">SI</string>
+    <string name="modulo_2_p210_no">NO</string>
+    <string name="modulo_2_p210_sp0">¿En qué país vive?</string>
+    <string name="modulo_2_p210_sp1">1.Perú</string>
+    <string name="modulo_2_p210_sp2">2.Venezuela</string>
+    <string name="modulo_2_p210_sp3">3.Otro pais</string>
+    <string name="modulo_2_p210_sp4">4.Fallecio/No sabe</string>
+
+
+    <!-- NUEVA PREGUNTA 211 2021 -->
+    <string name="modulo_2_p211_cabezera">211.SOLO SI EN P209 Y P210 MARCÓ CPÓDIGO 2(NO), EN AMBAS PREGUNTAS</string>
+    <string name="modulo_2_p211">211.¿QUÉ PERSONA DEL HOGAR ES RESPONSABLE DE SU CUIDADO?</string>
+
+    <!--Strings asociados al Capítulo 3: SITUACIÓN MIGRATORIA DE LA PERSONA-->
+    <string name="modulo_3_nombre">III. SITUACIÓN MIGRATORIA DE LA PERSONA (Para todas las personas)</string>
+    <string name="modulo_3_menu">Capítulo III: Situación Migratoria</string>
+    <string name="modulo_3_submenu_1">Preguntas 301 - 305</string>
+    <string name="modulo_3_submenu_2">Preguntas 306 - 308</string>
+    <string name="modulo_3_submenu_3">Preguntas 309</string>
+    <string name="modulo_3_submenu_4">Preguntas 310 - 312</string>
+    <string name="modulo_3_submenu_5">Preguntas 313 - 317</string>
+    <string name="modulo_3_submenu_6">Preguntas 313</string>
+
+    <string name="modulo_3_p301">301.¿EN QUE DÍA, MES Y AÑO NACIÓ?</string>
+    <string name="modulo_3_p301_dia">Día</string>
+    <string name="modulo_3_p301_mes">Mes</string>
+    <string name="modulo_3_p301_anio">Año</string>
+    <string name="modulo_3_p301_boton">AGREGAR FECHA</string>
+
+    <string name="modulo_3_p302">302.¿CUÁL ES SU PAÍS NACIMIENTO?</string>
+    <string name="modulo_3_p302_especifique">(Especifique)</string>
+
+    <string name="modulo_3_p303">303.¿EN QUÉ MES Y AÑO INGRESÓ AL PERÚ POR ÚLTIMA VEZ?</string>
+    <string name="modulo_3_p303_mes">MES:</string>
+    <string name="modulo_3_p303_anio">AÑO:</string>
+    <string name="modulo_3_p303_no_nacido">Aún no había nacido</string>
+
+    <string name="modulo_3_p304">304.¿POR QUÉ CIUDAD INGRESÓ A PERÚ LA ÚLTIMA VEZ?</string>
+    <string name="modulo_3_p304_ind">(Espere la respuesta y seleccione solo un código)</string>
+    <string name="modulo_3_p304_sp1">1.Tumbes</string>
+    <string name="modulo_3_p304_sp2">2.Tacna</string>
+    <string name="modulo_3_p304_sp3">3.Iñapari (Madre de Dios)</string>
+    <string name="modulo_3_p304_sp4">4.Lima - Aeropuerto</string>
+    <string name="modulo_3_p304_sp5">5.Otro Lugar</string>
+    <string name="modulo_3_p304_especifique">Especifique</string>
+
+    <string name="modulo_3_p305">305.LA ÚLTIMA VEZ QUE INGRESÓ A PERÚ, ¿REGISTRÓ SU ENTRADA EN UN PUESTO DE CONTROL MIGRATORIO?</string> <!--//1105-->
+    <string name="modulo_3_p305_sp1">1.Sí</string>
+    <string name="modulo_3_p305_sp2">2.No</string>
+
+    <string name="modulo_3_p306">306.¿QUÉ DOCUMENTOS DE IDENTIDAD DE SU PAÍS TIENE CON USTED?</string> <!--//1105-->
+    <string name="modulo_3_p306_ind">(Espere la respuesta y seleccione uno o más códigos)</string>
+    <string name="modulo_3_p306_sp1">1.Cédula de identidad vigente</string>
+    <string name="modulo_3_p306_sp2">2.Cédula de identidad vencida</string>
+    <string name="modulo_3_p306_sp3">3.Pasaporte vigente</string>
+    <string name="modulo_3_p306_sp4">4.Pasaporte vencido</string>
+    <string name="modulo_3_p306_sp5">5.Certificado o partida de nacimiento</string>
+    <string name="modulo_3_p306_sp6">6.Otro</string>
+    <string name="modulo_3_p306_sp7">7.NO TIENE NINGÚN DOCUMENTO</string>
+    <string name="modulo_3_p306_especifique">Especifique</string>
+
+
+
+
+
+    <string name="modulo_3_p307">307. ¿ACTUALMENTE, QUÉ TIPO DE PERMISO MIGRATORIO TIENE PARA ESTAR EN PERÚ?</string>
+    <string name="modulo_3_p307_ind">(Espere la respuesta y seleccione uno o más códigos)</string>
+    <string name="modulo_3_p307_sp1">1.Carné de Permiso Temporal de Permanencia (CPP)</string>
+    <string name="modulo_3_p307_sp2">2.Carné de extranjería por humanitaria (CMH)</string>
+    <string name="modulo_3_p307_sp3">3.Carné de extranjería por PTP</string>
+    <string name="modulo_3_p307_sp4">4.Carné de extranjería por vulnerabilidad</string>
+    <string name="modulo_3_p307_sp5">5.Carné de extranjería por familiar de residente</string>
+    <string name="modulo_3_p307_sp6">6.Carné de extranjería por trabajador</string>
+    <string name="modulo_3_p307_sp7">7.Carné de extranjería por refugiado</string>
+    <string name="modulo_3_p307_sp8">8.Otro tipo de carné de extranjería</string>
+    <string name="modulo_3_p307_sp9">9.Permiso Temporal de Permanencia (PTP)</string>
+    <string name="modulo_3_p307_sp10">10.Permiso Temporal de Permanencia (PTP) vencido</string>
+    <string name="modulo_3_p307_sp11">11.Visa humanitaria que no fue canjeada por carné de extranjería, pero fue prorrogada</string>
+    <string name="modulo_3_p307_sp12">12.Turista vigente</string>
+    <string name="modulo_3_p307_sp13">13.DNI</string>
+    <string name="modulo_3_p307_sp14">14.Otro tipo de permiso</string>
+    <string name="modulo_3_p307_sp15">15.No cuenta con un permiso vigente</string>
+    <string name="modulo_3_p307_especifique_sp16">Especifique</string>
+
+
+
+
+    <string name="modulo_3_p307A">307A. ¿CUÁL ES LA RAZÓN PRINCIPAL POR LA QUE NO CUENTA CON PERMISO MIGRATORIO PARA ESTAR EN PERÚ?</string>
+    <string name="modulo_3_p307A_ind">(Espere la respuesta y seleccione un código)</string>
+    <string name="modulo_3_p307A_sp1">1.No me enteré de que existían estas posibilidades</string>
+    <string name="modulo_3_p307A_sp2">2.No tengo documentación</string>
+    <string name="modulo_3_p307A_sp3">3.Tengo multa y no he podido cancelarla</string>
+    <string name="modulo_3_p307A_sp4">4.No tengo alternativas migratorias</string>
+    <string name="modulo_3_p307A_sp5">5.No tengo los medios electrónicos para ingresar a la Plataforma de Migraciones </string>
+    <string name="modulo_3_p307A_sp6">6.No me interesa hacerlo</string>
+    <string name="modulo_3_p307A_sp7">7.Otro</string>
+    <string name="modulo_3_p307A_especifique">Especifique</string>
+
+    ¿CUÁL ES LA RAZÓN PRINCIPAL POR LA QUE NO CUENTA
+    CON PERMISO MIGRATORIO PARA ESTAR EN PERÚ?
+
+    <string name="modulo_3_p308_cognitiva">"SEÑOR/A, SEÑORITA: AHORA ME GUSTARÍA HACERLE UNAS PREGUNTAS ADICIONALES PARA SABER QUE LE PARECIERON ESTAS PREGUNTAS"</string>
+    <string name="modulo_3_p308">308.¿USTED, HA SOLICITADO REFUGIO?</string>
+    <string name="modulo_3_p308_ind">(Espere la respuesta y seleccione solo un código)</string>
+    <string name="modulo_3_p308_sp1">1.Sí, solicité refugio, decisión pendiente</string>
+    <string name="modulo_3_p308_sp2">2.Sí, solicité pero abandoné mi solicitud</string>
+    <string name="modulo_3_p308_sp3">3.Sí, soy refugiado reconocido, con carnet de extranjería</string>
+    <string name="modulo_3_p308_sp4">4.Sí, pero fue denegada</string>
+    <string name="modulo_3_p308_sp5">5.No solicité refugio</string>
+
+    <string name="modulo_3_p309">309. ¿CUÁL ES LA RAZÓN PRINCIPAL POR LA QUE NO HA SOLICITADO REFUGIO?</string>
+    <string name="modulo_3_p309_ind">(Espere la respuesta y seleccione solo un código)</string>
+    <string name="modulo_3_p309_sp1">1.No tengo información/no sé qué es</string>
+    <string name="modulo_3_p309_sp2">2.No sé cómo hacerlo</string>
+    <string name="modulo_3_p309_sp3">3.Lo intenté, pero la plataforma no funciona</string>
+    <string name="modulo_3_p309_sp4">4.Lo intenté, pero no recibieron mi solicitud</string>
+    <string name="modulo_3_p309_sp5">5.Me dijeron que no era necesario</string>
+    <string name="modulo_3_p309_sp6">6.Problemas económicos</string>
+    <string name="modulo_3_p309_sp7">7.Lejanía de oficina migratoria</string>
+    <string name="modulo_3_p309_sp8">8.No he necesitado</string>
+    <string name="modulo_3_p309_sp9">9.Otro</string>
+    <string name="modulo_3_p309_especifique">Especifique</string>
+
+
+    <string name="modulo_3_p309_1">¿Por qué motivo?</string>
+    <string name="modulo_3_p309_1_ind">(Marque una alternativa)</string>
+    <string name="modulo_3_p309_1_sp1">1.Cuenta con Carnet de Extranjería</string>
+    <string name="modulo_3_p309_1_sp2">2.Cuenta con DNI</string>
+    <string name="modulo_3_p309_1_sp3">3.Otro</string>
+    <string name="modulo_3_p309_1_especifique">Especifique</string>
+
+
+
+    <string name="modulo_3_p310">310.¿EN QUÉ ESTADO DE VENEZUELA VIVÍA PERMANENTEMENTE ANTES DE INICIAR SU VIAJE?</string>
+    <string name="modulo_3_p310_sp1">Estado</string>
+    <string name="modulo_3_p310_sp2">Municipio</string>
+
+    <string name="modulo_3_p311_cognitiva">"SEÑOR/A, SEÑORITA: AHORA ME GUSTARÍA HACERLE UNAS PREGUNTAS ADICIONALES PARA SABER QUE LE PARECIERON ESTAS PREGUNTAS"</string>
+    <string name="modulo_3_p311">311.USTED, ¿PIENSA QUEDARSE A VIVIR EN EL PERÚ?</string>
+    <string name="modulo_3_p311_sp1">1.Sí</string>
+    <string name="modulo_3_p311_sp2">2.No</string>
+
+    <string name="modulo_3_p312">312.DE NO QUEDARSE EN PERÚ, ¿A QUÉ PAÍS PIENSA CONTINUAR SU VIAJE?</string>
+    <string name="modulo_3_p312_ind">(Espere la respuesta y seleccione solo un código)</string>
+    <string name="modulo_3_p312_sp1">1.Chile</string>
+    <string name="modulo_3_p312_sp2">2.Argentina</string>
+    <string name="modulo_3_p312_sp3">3.Otro país</string>
+    <string name="modulo_3_p312_especifique">Especifique</string>
+    <string name="modulo_3_p312_sp4">4.Regresar a Venezuela</string>
+
+    <string name="modulo_3_p313">313. USTED, ¿DEJÓ EN VENEZUELA, PARTE DE LOS MIEMBROS DE SU HOGAR CON QUIENES VIVÍA?</string>
+    <string name="modulo_3_p313_enc">Para personas de 12 años y más de edad</string>
+    <string name="modulo_3_p313_sp1">1.Sí</string>
+    <string name="modulo_3_p313_sp2">1.No</string>
+    <string name="modulo_3_p313_cab1">¿A quienes dejó en venezuela?</string>
+    <string name="modulo_3_p313_ind">(Relación de parentesco)</string>
+    <string name="modulo_3_p313_cab2">Sexo</string>
+    <string name="modulo_3_p313_cab3">Edad</string>
+    <string name="modulo_3_p313_cab4">¿Piensa traer a sus familiares en los próximos 12 meses?</string>
+    <string name="modulo_3_p313_sexo_op1">1.Hombre</string>
+    <string name="modulo_3_p313_sexo_op2">2.Mujer</string>
+    <string name="modulo_3_p313_12meses_si">1.Sí</string>
+    <string name="modulo_3_p313_12meses_no">2.No</string>
+    <string-array name="modulo_3_p313_array_parentesco">
+        <item>Seleccione relación parentesco</item>
+        <item>1.Papá</item>
+        <item>2.Mamá</item>
+        <item>3.Esposo/a o Compañero/a</item>
+        <item>4.Hijo/a o Hijastro/a</item>
+        <item>5.Yerno/Nuera</item>
+        <item>6.Nieto/a</item>
+        <item>7.Suegros</item>
+        <item>8.Hermano/a</item>
+        <item>9.Otro/pariente</item>
+    </string-array>
+
+    <string name="modulo_3_p309_descripcion">(Describa la ruta desde el punto de partida en Venezuela)</string>
+    <string name="modulo_3_p309_cab1">País</string>
+    <string name="modulo_3_p309_cab2">Ciudad</string>
+    <string name="modulo_3_p309_cab3">Modo de tránsito</string>
+    <string name="modulo_3_p309_cab4">Fecha</string>
+    <string name="modulo_3_p309_cab4_mes">Mes</string>
+    <string name="modulo_3_p309_cab4_anio">Año</string>
+    <string name="modulo_3_p309_boton">guardar ruta</string>
+
+    <string name="modulo_3_p314">314.DE NO QUEDARSE EN PERÚ, ¿A QUÉ PAÍS PIENSA CONTINUAR SU VIAJE?</string>
+    <string name="modulo_3_p314_ind">(Espere la respuesta y seleccione solo un código)</string>
+    <string name="modulo_3_p314_sp1">1.Chile</string>
+    <string name="modulo_3_p314_sp2">2.Argentina</string>
+    <string name="modulo_3_p314_sp3">3.Otro país</string>
+    <string name="modulo_3_p314_especifique">Especifique</string>
+
+    <string name="modulo_3_p315">315.ACTUALMENTE, ¿CUÁL ES SU SITUACIÓN MIGRATORIA EN EL PERÚ?</string>
+    <string name="modulo_3_p315_ind">(Espere la respuesta y seleccione uno o más códigos)</string>
+    <string name="modulo_3_p315_sp1">1.Visa de turista</string>
+    <string name="modulo_3_p315_sp2">2.Visa de trabajo</string>
+    <string name="modulo_3_p315_sp3">3.Visa de estudiante</string>
+    <string name="modulo_3_p315_sp4">4.Solicitante de PTP</string>
+    <string name="modulo_3_p315_sp5">5.Con Permiso Temporal de permanencia – PTP</string>
+    <string name="modulo_3_p315_sp6">6.Solicitante de refugio</string>
+    <string name="modulo_3_p315_sp7">7.Refugiado</string>
+    <string name="modulo_3_p315_sp8">8.Carnet de Extranjería</string>
+    <string name="modulo_3_p315_sp9">9.DNI</string>
+    <string name="modulo_3_p315_sp10">10.Otra Situación</string>
+    <string name="modulo_3_p315_sp11">11.Otra situación</string>
+    <string name="modulo_3_p315_sp12">12.NINGUNA DE LAS SITUACIONES</string>
+    <string name="modulo_3_p315_especifique">Especifique</string>
+
+    <string name="modulo_3_p316">316.EN EL PERÚ, ¿CON QUIÉN ESTÁ VIVIENDO:</string>
+    <string name="modulo_3_p316_ind">(Espere la respuesta y seleccione solo un código)</string>
+    <string name="modulo_3_p316_sp1">1.Con su familia</string>
+    <string name="modulo_3_p316_sp2">2.Con amigos/as</string>
+    <string name="modulo_3_p316_sp3">3.Con su familia y amigos/as</string>
+    <string name="modulo_3_p316_sp4">4.Solo/a</string>
+    <string name="modulo_3_p316_sp5">5.Otro</string>
+    <string name="modulo_3_p316_especifique">Especifique</string>
+
+    <string name="modulo_3_p317">317.LA HABITACIÓN QUE UTILIZA PARA DORMIR, ¿CON CUÁNTAS PERSONAS COMPARTE?</string>
+    <string name="modulo_3_p317_ind">(Espere la respuesta y seleccione solo un código)</string>
+    <string name="modulo_3_p317_sp1">1.Duerme solo en la habitación</string>
+    <string name="modulo_3_p317_sp2">2.Con 1 persona</string>
+    <string name="modulo_3_p317_sp3">3.Con 2 a 3 personas</string>
+    <string name="modulo_3_p317_sp4">4.Con 4 a más personas</string>
+    <string name="modulo_3_p317_sp5">5.Otro</string>
+    <string name="modulo_3_p317_especifique">Especifique</string>
+
+    <string name="modulo_3_p318">313. USTED, ¿DEJÓ EN VENEZUELA, PARTE DE LOS MIEMBROS DE SU HOGAR CON QUIENES VIVÍA?</string>
+    <string name="modulo_3_p318_sp1">1.Sí</string>
+    <string name="modulo_3_p318_sp2">2.No</string>
+    <string name="modulo_3_p318_cab1">¿A quienes dejó en venezuela?</string>
+    <string name="modulo_3_p318_ind">(Relación de parentesco)</string>
+    <string name="modulo_3_p318_cab2">Sexo</string>
+    <string name="modulo_3_p318_cab3">Edad</string>
+    <string name="modulo_3_p318_cab3_descripcion">(Años Cumplidos)</string> <!--//1105-->
+    <string name="modulo_3_p318_cab4">¿Piensa traer a sus familiares en los próximos 12 meses?</string> <!--//1105-->
+    <string name="modulo_3_p318_sexo_op1">1.Hombre</string>
+    <string name="modulo_3_p318_sexo_op2">2.Mujer</string>
+    <string name="modulo_3_p318_12meses_si">1.Sí</string>
+    <string name="modulo_3_p318_12meses_no">2.No</string>
+    <string-array name="modulo_3_p318_array_parentesco">
+        <item>Seleccione relación parentesco</item>
+        <item>1.Papá</item>
+        <item>2.Mamá</item>
+        <item>3.Esposo/a o Compañero/a</item>
+        <item>4.Hijo/a o Hijastro/a</item>
+        <item>5.Yerno/Nuera</item>
+        <item>6.Nieto/a</item>
+        <item>7.Suegros</item>
+        <item>8.Hermano/a</item>
+        <item>9.Otro/a pariente</item>
+    </string-array>
+
+
+
+
+    <!--Strings asociados al Capítulo 4: SALUD-->
+    <string name="modulo_4_nombre">IV. SALUD (Para todas las personas)</string>
+    <string name="modulo_4_menu">Capítulo IV: Salud</string>
+    <string name="modulo_4_submenu_1">Preguntas 401 - 404</string>0
+    <string name="modulo_4_submenu_2">Preguntas 405 - 407</string>
+    <string name="modulo_4_submenu_3">Preguntas 408 - 410</string>
+    <string name="modulo_4_submenu_4">Preguntas 411 - 416</string>
+
+    <string name="modulo_4_p401">401. ¿EL SISTEMA DE SEGURO DE SALUD AL CUAL USTED ESTÁ AFILIADO "ACTUALMENTE, ES:</string>
+    <string name="modulo_4_p401_ind">(Lea cada una de las alternativas y seleccione uno o más códigos)</string>
+    <string name="modulo_4_p401_sp1">1.ESSALUD?</string>
+    <string name="modulo_4_p401_sp2">2.Seguro Privado de Salud?</string>
+    <string name="modulo_4_p401_sp3">3.Seguro Integral de Salud – SIS?</string>
+    <string name="modulo_4_p401_sp4">4.Otro?</string>
+    <string name="modulo_4_p401_sp5">5.NO ESTA AFILIADO</string>
+    <string name="modulo_4_p401_especifique">Especifique</string>
+
+    <string name="modulo_4_p402">402.¿PADECE DE ALGUNA ENFERMEDAD O MALESTAR CRÓNICO? (Artritis, hipertensión, asma, reumatismo, diabetes, tuberculosis, VIH, colesterol, etc.)</string>
+    <string name="modulo_4_p402_ind">(Artritis, hipertensión, asma, reumatismo, diabetes, tuberculosis, VIH, colesterol, etc.)</string>
+    <string name="modulo_4_p402_sp1">1.Sí</string>
+    <string name="modulo_4_p402_sp2">2.No</string>
+
+    <string name="modulo_4_p403">403.¿QUÉ ENFERMEDAD O MALESTAR CRÓNICO PADECE?</string>
+    <string name="modulo_4_p403_ind">(Espere la respuesta y seleccione uno o más códigos)</string>
+    <string name="modulo_4_p403_sp1">1.Artritis</string>
+    <string name="modulo_4_p403_sp2">2.Hipertensión</string>
+    <string name="modulo_4_p403_sp3">3.Asma</string>
+    <string name="modulo_4_p403_sp4">4.Reumatismo</string>
+    <string name="modulo_4_p403_sp5">5.Diabetes</string>
+    <string name="modulo_4_p403_sp6">6.Tuberculosis</string>
+    <string name="modulo_4_p403_sp7">7.Colesterol</string>
+    <string name="modulo_4_p403_sp8">8.Enfermedad pulmonar</string>
+    <string name="modulo_4_p403_sp9">9.Cáncer</string>
+    <string name="modulo_4_p403_sp10">10.Alteraciones de salud mental</string>
+    <string name="modulo_4_p403_sp11">11.Enfermedad del corazón</string>
+    <string name="modulo_4_p403_sp12">12.VIH/ SIDA</string>
+    <string name="modulo_4_p403_sp13">13.Otras infecciones de transmisión sexual</string>
+    <string name="modulo_4_p403_sp14">14.Otro</string>
+    <string name="modulo_4_p403_especifique">Especifique</string>
+
+    <string name="modulo_4_p404">404.¿RECIBE USTED TRATAMIENTO EN EL PERÚ PARA LA ENFERMEDAD O MALESTAR CRÓNICO QUE PADECE?</string>
+    <string name="modulo_4_p404_ind">(Espere la respuesta y seleccione solo un código)</string>
+    <string name="modulo_4_p404_sp1">1.Sí, con la frecuencia necesaria</string>
+    <string name="modulo_4_p404_sp2">2.Sí, pero no con la frecuencia necesaria</string>
+    <string name="modulo_4_p404_sp3">3.NO RECIBE TRATAMIENTO</string>
+
+    <!--    <string name="modulo_4_p405">405.DESDE SU LLEGADA AL PERÚ ¿PRESENTÓ USTED ALGÚN/A:</string>-->
+    <string name="modulo_4_p405">405.EN LAS ÚLTIMAS 4 SEMANAS, DEL …..AL…..,¿PRESENTÓ USTED ALGÚN/A:</string>
+    <string name="modulo_4_p405_ind">(Lea cada una de las alternativas y seleccione uno o más códigos)</string>
+    <string name="modulo_4_p405_sp1">1.Síntoma o malestar (tos, dolor de cabeza, fiebre, nauseas)?</string>
+    <string name="modulo_4_p405_sp2">2.Enfermedad (gripe, colitis, etc.)?</string>
+    <string name="modulo_4_p405_sp3">3.Recaída de enfermedad crónica?</string>
+    <string name="modulo_4_p405_sp4">4.Accidente?</string>
+    <string name="modulo_4_p405_sp5">5.Molestia o problema como: depresión, enojo, ansiedad, estrés,  etc.?</string>
+    <string name="modulo_4_p405_sp6">6.Embarazo?</string>
+    <string name="modulo_4_p405_sp7">7.No tuvo enfermedad, síntoma, recaída, accidente</string>
+
+    <string name="modulo_4_p405x">405. EN LAS ÚLTIMAS 4 SEMANAS, DEL %1$s .¿PRESENTÓ USTED ALGÚN/A:</string>
+    <string name="modulo_4_p405_indx">(Lea cada una de las alternativas y seleccione uno o más códigos)</string>
+    <string name="modulo_4_p405_sp1x">1.Síntoma o malestar (tos, dolor de cabeza, fiebre, náuseas, etc.)?</string>
+    <string name="modulo_4_p405_sp2x">2.Enfermedad (gripe, colitis, etc.)?</string>
+    <string name="modulo_4_p405_sp3x">3.Recaída de enfermedad crónica?</string>
+    <string name="modulo_4_p405_sp4x">4.Accidente?</string>
+    <string name="modulo_4_p405_sp5x">5.NO TUVO ENFERMEDAD, SÍNTOMA,RECAÍDA, ACCIDENTE</string>
+
+    <string name="modulo_4_p406">406.¿A DÓNDE ACUDIÓ PARA CONSULTAR POR ESTA ENFERMEDAD, SÍNTOMA O MALESTAR Y/O ACCIDENTE?</string>
+    <string name="modulo_4_p406_ind">(Espere la respuesta y seleccione uno o más códigos)</string>
+    <string name="modulo_4_p406_sp1">1.Centro de Salud MINSA</string>
+    <string name="modulo_4_p406_sp2">2.Centro de atención ESSALUD</string>
+    <string name="modulo_4_p406_sp3">3.Consultorio particular</string>
+    <string name="modulo_4_p406_sp4">4.Clínica particular</string>
+    <string name="modulo_4_p406_sp5">5.Farmacia o botica</string>
+    <string name="modulo_4_p406_sp6">6.Se automedicó</string>
+    <string name="modulo_4_p406_sp7">7.Otro</string>
+    <string name="modulo_4_p406_sp8">8.NO BUSCO ATENCIÓN</string>
+    <string name="modulo_4_p406_especifique">Especifique</string>
+
+    <string name="modulo_4_p407">407.¿CUÁLES SON LAS RAZONES POR LAS QUE NO ACUDIÓ A UN CENTRO O ESTABLECIMIENTO DE SALUD?</string>
+    <string name="modulo_4_p407_ind">(Espere la respuesta y seleccione uno o más códigos)</string>
+    <string name="modulo_4_p407_sp1">1.No tuvo dinero</string>
+    <string name="modulo_4_p407_sp2">2.Se encuentra lejos</string>
+    <string name="modulo_4_p407_sp3">3.Demora mucho en atender</string>
+    <string name="modulo_4_p407_sp4">4.No confía en los médicos</string>
+    <string name="modulo_4_p407_sp5">5.No era tan grave / No fue necesario</string>
+    <string name="modulo_4_p407_sp6">6.No tiene seguro</string>
+    <string name="modulo_4_p407_sp7">7.Se automedicó, repitió receta anterior</string>
+    <string name="modulo_4_p407_sp8">8.Falta de tiempo</string>
+    <string name="modulo_4_p407_sp9">9.Por maltrato de personal de salud</string>
+    <string name="modulo_4_p407_sp10">10.Por falta de documentos</string>
+    <string name="modulo_4_p407_sp11">11.Temor por su situación migratoria</string>
+    <string name="modulo_4_p407_sp12">12.No confía en las prácticas de salud y parto</string>
+    <string name="modulo_4_p407_sp13">13.Otro</string>
+    <string name="modulo_4_p407_especifique">Especifique</string>
+
+    <string name="sub_modulo_4_1">Para personas de 0 a 17 años de edad</string>
+    <string name="modulo_4_p408_p1">DISCAPACIDAD</string>
+    <string name="modulo_4_p408_p2">A continuación, le haré algunas preguntas para saber si Usted presenta alguna limitación o dificultad PERMANENTE, que le impida o dificulte desarrollarse normalmente en sus actividades diarias.</string>
+    <string name="modulo_4_p408">408.¿TIENE UD. LIMITACIONES DE FORMA PERMANENTE, PARA:</string>
+    <string name="modulo_4_p408_ind">(Lea cada una de las alternativas y seleccione un código para cada una de ellas)</string>
+    <string name="modulo_4_p408_si">Sí</string>
+    <string name="modulo_4_p408_no">No</string>
+    <string name="modulo_4_p408_sp1">1.Moverse o caminar, para usar brazos o piernas?</string>
+    <string name="modulo_4_p408_sp2">2.Ver, aun usando anteojos?</string>
+    <string name="modulo_4_p408_sp3">3.Hablar o comunicarse, aun usando lenguaje de señas u otro?</string>
+    <string name="modulo_4_p408_sp4">4.Oír, aun usando audífonos?</string>
+    <string name="modulo_4_p408_sp5">5.Entender o aprender (concentrarse y recordar)?</string>
+    <string name="modulo_4_p408_sp6">6.Relacionarse con los demás, por sus pensamientos, sentimientos, emociones o conductas?</string>
+
+    <string name="modulo_4_p409">409.¿QUE PERSONA DEL HOGAR ES RESPONSABLE DE SU CUIDADO?</string>
+    <string name="modulo_4_p409_sp1">N° DE ORDEN</string>
+    <string name="modulo_4_p409_sp2">NOMBRE Y APELLIDO</string>
+    <string-array name="modulo_4_p409_parentescos_nuevo">
+        <item>Seleccione Parentesco</item>
+        <item>1.Padre/Madre</item>
+        <item>2.Esposo/a</item>
+        <item>3.Abuelo/a</item>
+        <item>4.Suegro/a</item>
+        <item>5.Tio/a</item>
+        <item>6.Otro</item>
+
+    </string-array>
+    <string-array name="modulo_4_p409_parentescos">
+        <item>Seleccione Parentesco</item>
+        <item>1.Jefe/a del hogar</item>
+        <item>2.Esposo/a o compañero/a</item>
+        <item>3.Hijo/a o hijastro/a</item>
+        <item>4.Yerno/Nuera</item>
+        <item>5.Nieto/a</item>
+        <item>6.Padres/Suegros</item>
+        <item>7.Hermano/a</item>
+        <item>8.Otro pariente</item>
+        <item>9.Trabajador/a del hogar</item>
+        <item>10.Pensionista</item>
+        <item>11.Otro No Pariente</item>
+    </string-array>
+
+    <string name="modulo_4_p409_p1">SOY RESPONSABLE DE MI CUIDADO</string>
+
+    <string name="modulo_4_p410_p1">COVID 19</string>
+    <string name="modulo_4_p410_p2">Sr(a), ahora me gustaría preguntarle sobre algunos aspectos en relación a la COVID_19, para saber si padece o padeció de esta enfermedad y recibió atención para su recuperación. </string>
+
+    <string name="modulo_4_p410a">410A.¿SE HA VACUNADO USTED CONTRA LA COVID-19?</string>
+    <string name="modulo_4_p410a_sp1">1.Si</string>
+    <string name="modulo_4_p410a_sp2">2.No</string>
+
+    <string name="modulo_4_p410b">410B.¿CUÁNTAS DOSIS SE APLICÓ?</string>
+    <string name="modulo_4_p410b_ind">(Marque una alternativa)</string>
+    <string name="modulo_4_p410b_sp1">1.Primera dosis</string>
+    <string name="modulo_4_p410b_sp2">2.Segunda dosis</string>
+    <string name="modulo_4_p410b_sp3">2.Tercera dosis</string>
+
+
+
+    <string name="modulo_4_p410">410.¿USTED TUVO O TIENE LA COVID-19?</string>
+    <string name="modulo_4_p410_ind">(Lea cada una de las alternativas y seleccione un código)</string>
+    <string name="modulo_4_p410_sp1">1.Si tiene</string>
+    <string name="modulo_4_p410_sp2">2.Si tuvo</string>
+    <string name="modulo_4_p410_sp3">3.No tiene</string>
+    <string name="modulo_4_p410_sp4">4.No sabe</string>
+
+    <string name="modulo_4_p411">411.¿LE REALIZARON ALGUNA PRUEBA PARA DESCARTAR LA COVID - 19?</string>
+    <string name="modulo_4_p411_ind">(Lea cada una de las alternativas y seleccione uno o más códigos)</string>
+    <string name="modulo_4_p411_sp1">1.Sí</string>
+    <string name="modulo_4_p411_sp2">2.No</string>
+
+    <string name="modulo_4_p412">412.¿USTED RECIBIÓ ATENCIÓN POR LA COVID - 19?</string>
+    <string name="modulo_4_p412_ind">(Espere la respuesta y seleccione solo un código)</string>
+    <string name="modulo_4_p412_sp1">1.Si, Consulta en Centro de Salud MINSA/Centro de atención ESSALUD</string>
+    <string name="modulo_4_p412_sp2">2.Si, consulta en consultorio particular o clínica particular</string>
+    <string name="modulo_4_p412_sp3">3.Sí, me hospitalicé</string>
+    <string name="modulo_4_p412_sp4">4.No fue necesario consulta ni hospitalización</string>
+    <string name="modulo_4_p412_sp5">5.Necesité, pero no recibí atención médica u hospitalización</string>
+
+    <string name="sub_modulo_4_0">Para niños/as menores de 5 años de edad (0 a 4 años)</string>
+    <string name="modulo_4_p413">413.EN LOS ÚLTIMOS 4 MESES DE %1$s ¿EL/LA NIÑO/A MENOR DE 5 AÑOS DE SU HOGAR</string>
+    <string name="modulo_4_p413_ind">( Lea cada una de las alternativas y seleccione un código para cada una de ellas)</string>
+    <string name="modulo_4_p413_sp1">1.Tuvo control de crecimiento y  desarrollo?</string>
+    <string name="modulo_4_p413_sp2">2.Recibió vacunas?</string>
+    <string name="modulo_4_p413_sp3">3.Recibió consejería (presencial o por teléfono o similar)?</string>
+    <string name="modulo_4_p413_sp4">4.Recibió suplemento de hierro?</string>
+    <string name="modulo_4_p413_sp5">5.NO HAY NIÑAS/OS MENORES DE 5 AÑOS</string>
+    <string name="modulo_4_p413_si">SI</string>
+    <string name="modulo_4_p413_no">NO</string>
+
+
+    <string name="sub_modulo_4_3">Para mujeres de 12 a 49 años de edad</string>
+    <string name="modulo_4_p414">414.EN LOS ÚLTIMOS 6 MESES, DE %1$s ¿ESTUVO EMBARAZADA?</string>
+    <string name="modulo_4_p414_sp1">1.Sí</string>
+    <string name="modulo_4_p414_sp2">2.No</string>
+    <string name="modulo_4_p414_sp3">3.No hay mujeres de 12 a 49 años</string>
+
+    <string name="modulo_4_p415">415.¿TUVO ALGÚN CONTROL PRENATAL?</string>
+    <string name="modulo_4_p415_sp1">1.Sí</string>
+    <string name="modulo_4_p415_sp2">2.No</string>
+
+    <string name="sub_modulo_4_2">Para personas de 15 y más años de edad</string>
+
+    <string name="modulo_4_p416">416.¿A DÓNDE ACUDIÓ PARA REALIZAR EL CONTROL PRE NATAL?</string>
+    <string name="modulo_4_p416_ind">(Espere la respuesta y seleccione uno o más códigos)</string>
+    <string name="modulo_4_p416_sp1">1.Centro de Salud MINSA</string>
+    <string name="modulo_4_p416_sp2">2.Centro de atención ESSALUD</string>
+    <string name="modulo_4_p416_sp3">3.Consultorio particular</string>
+    <string name="modulo_4_p416_sp4">4.Clínica particular</string>
+    <string name="modulo_4_p416_sp5">5.Otro</string>
+    <string name="modulo_4_p416_sp6">6.No sabe</string>
+    <string name="modulo_4_p416_especifique">Especifique</string>
+
+    <string name="sub_modulo_4_4_ind">A continuación, le haré algunas preguntas para saber si Ud. presenta alguna limitación o dificultad PERMANENTE, que le impida o dificulte desarrollarse normalmente en sus actividades diarias.</string>
+
+    <string name="sub_modulo_4_4">Para personas de 15 años y más de edad</string>
+    <string name="sub_modulo_4_4_1">Sr(a): Ahora me gustaría conversar con usted sobre salud sexual y reproductiva; es decir, acerca de las diferentes formas o métodos que una persona puede usar para evitar un embarazo y/o enfermedades de transmisión sexual.</string>
+    <string name="modulo_4_p417">417.¿HA TENIDO USTED O SU PAREJA ACCESO A:</string>
+    <string name="modulo_4_p417_ind">(Lea cada una de las alternativas y seleccione un código para cada una de ellas)</string>
+    <string name="modulo_4_p417_si">1.SÍ</string>
+    <string name="modulo_4_p417_no">2.NO</string>
+    <string name="modulo_4_p417_noconoce">3.No Conoce</string>
+    <string name="modulo_4_p417_sp1">1.Métodos anticonceptivos?</string>
+    <string name="modulo_4_p417_spa">417.A. ¿Qué método anticonceptivo utiliza Usted o su pareja:</string>
+    <string name="modulo_4_p417_spa1">1.Esterilización femenina</string>
+    <string name="modulo_4_p417_spa2">2.Esterilización masculina (Vasectomía)</string>
+    <string name="modulo_4_p417_spa3">3.Pildora</string>
+    <string name="modulo_4_p417_spa4">4.Inyección</string>
+    <string name="modulo_4_p417_spa5">5.Implantes</string>
+    <string name="modulo_4_p417_spa6">6.Condón</string>
+    <string name="modulo_4_p417_spa7">7.Condón femenino</string>
+    <string name="modulo_4_p417_spa8">8.Espumas, jaleas, óvulos (vaginales)</string>
+    <string name="modulo_4_p417_spa9">9.Lactancia exclusiva (MELA)</string>
+    <string name="modulo_4_p417_spa10">10.Abstinencia periódica</string>
+    <string name="modulo_4_p417_spa11">11.Retiro</string>
+    <string name="modulo_4_p417_spa12">12.Anticoncepción oral de emergencia</string>
+    <string name="modulo_4_p417_spa13">13.Otro</string>
+
+
+    <string name="modulo_4_p417_sp2">2.Prueba de VIH y otras infecciones de transmisión sexual?</string>
+    <string name="modulo_4_p417_sp3">3.Educación y consejería sobre salud sexual y reproductiva?</string>
+    <string name="modulo_4_p417_sp4">4.Otro servicio  sobre salud sexual y reproductiva?</string>
+    <string name="modulo_4_p417_especifique">Especifique</string>
+    <string name="modulo_4_p417_sp5">5.Prueba de VIH y otras infecciones de transmisión sexual?  YA NO SE USA</string>
+    <string name="modulo_4_p417_sp6">6.Educación y consejería? YA NO SE USA</string>
+    <string name="modulo_4_p417_sp7">7.Otro servicio? YA NO SE USA</string>
+    <string name="modulo_4_p417_sp8">8.NO TIENE ACCESO A ESTOS SERVICIOS YA NO SE USA</string>
+    <string name="modulo_4_p417_sp9">9.NO TIENE CONOCIMIENTO/NO USA  YA NO SE USA</string>
+
+
+    <string name="sub_modulo_4_5">SOLO PARA EL JEFE/A DEL HOGAR</string>
+    <string name="modulo_4_p418">418.DE LAS PERSONAS QUE VIVÍAN PERMANENTEMENTE EN EL HOGAR ¿ALGUNA FALLECIÓ POR COVID-19?</string>
+    <string name="modulo_4_p418_sp1">1.Sí</string>
+    <string name="modulo_4_p418_sp2">2.No</string>
+
+    <string name="modulo_4_p418A">418A.¿La persona era venezolana?</string>
+    <string name="modulo_4_p418A_sp1">1.Sí</string>
+    <string name="modulo_4_p418A_sp2">2.No</string>
+
+    <!--Strings asociados al Capítulo 5: EDUCACIÓN-->
+    <string name="modulo_5_nombre">V. EDUCACIÓN (Para personas de 3 años y más de edad)</string>
+    <string name="modulo_5_menu">Capítulo V: Educación</string>
+    <string name="modulo_5_submenu_1">Preguntas 501 - 505</string>
+    <string name="modulo_5_submenu_2">Preguntas 506 - 507</string>
+    <string name="modulo_5_submenu_3">Preguntas 508 - 511</string>
+    <string name="modulo_5_submenu_4">Preguntas 512 - 513</string>
+
+    <string name="modulo_5_p501A">501A. EL ÚLTIMO NIVEL DE ESTUDIOS QUE APROBÓ, LO REALIZÓ EN:</string>
+    <string name="modulo_5_p501A_sp1">1.¿Venezuela?</string>
+    <string name="modulo_5_p501A_sp2">2.¿Perú?</string>
+    <string name="modulo_5_p501A_sp3">3.Sin nivel educativo</string>
+
+    <string name="modulo_5_p501">501. EN VENEZUELA ¿CUÁL ES EL ÚLTIMO NIVEL DE ESTUDIOS QUE APROBÓ?</string>
+    <string name="modulo_5_p501_ind">(Espere la respuesta y seleccione solo un código)</string>
+    <string name="modulo_5_p501_sp1">1.Sin nivel</string>
+    <string name="modulo_5_p501_sp2">2.Preescolar</string>
+    <string name="modulo_5_p501_sp3">3.Educación Básica Incompleta</string>
+    <string name="modulo_5_p501_sp4">4.Educación Básica Completa</string>
+    <string name="modulo_5_p501_sp5">5.Educación Media Diversificada Incompleta</string>
+    <string name="modulo_5_p501_sp6">6.Educación Media Diversificada Completa</string>
+    <string name="modulo_5_p501_sp7">7.Técnico Superior Incompleta</string>
+    <string name="modulo_5_p501_sp8">8.Técnico Superior Completa</string>
+    <string name="modulo_5_p501_sp9">9.Superior Universitaria Incompleta</string>
+    <string name="modulo_5_p501_sp10">10.Superior Universitaria Completa</string>
+    <string name="modulo_5_p501_sp11">11.Maestría/ Doctorado</string>
+
+    <string name="modulo_5_p501B">501B. EN PERÚ ¿CUÁL ES EL ÚLTIMO AÑO O GRADO DE ESTUDIOS Y   NIVEL QUE APROBÓ?</string>
+    <string name="modulo_5_p501B_sp1">1.Sin nivel</string>
+    <string name="modulo_5_p501B_sp2">2.Educación inicial</string>
+    <string name="modulo_5_p501B_sp3">3.Primaria incompleta</string>
+    <string name="modulo_5_p501B_sp4">4.Primaria completa</string>
+    <string name="modulo_5_p501B_sp5">5.Secundaria incompleta</string>
+    <string name="modulo_5_p501B_sp6">6.Secundaria completa</string>
+    <string name="modulo_5_p501B_sp7">7.Básica especial</string>
+    <string name="modulo_5_p501B_sp8">8.Superior No universitaria incompleta</string>
+    <string name="modulo_5_p501B_sp9">9.Superior No universitaria completa</string>
+    <string name="modulo_5_p501B_sp10">10.Superior Universitaria incompleta</string>
+    <string name="modulo_5_p501B_sp11">11.Superior Universitaria completa</string>
+    <string name="modulo_5_p501B_sp12">12.Maestría/Doctorado</string>
+
+    <string name="modulo_5_p502">502.¿CUÁL ES LA CARRERA SUPERIOR UNIVERSITARIA O NO UNIVERSITARIA QUE USTED ESTUDIA O HA ESTUDIADO? </string>
+    <string name="modulo_5_p502_especifique">Especifique</string>
+    <string name="modulo_5_p502_sp1">1.NO SABE</string>
+
+
+    <string name="modulo_5_p503">503.EL AÑO 2020, ¿ESTUVO INSCRITO/MATRICULADO EN ALGUN CENTRO O PROGRAMA DE EDUCACION BÁSICA O SUPERIOR EN PERÚ?</string>
+    <string name="modulo_5_p503_sp1">1.Sí</string>
+    <string name="modulo_5_p503_sp2">2.No</string>
+
+
+    <string name="modulo_5_p504">504. ¿CUÁL ES EL GRADO O AÑO DE ESTUDIOS AL QUE ASISTIÓ EL AÑO 2020?</string>
+    <string name="modulo_5_p504_ind">(Espere la respuesta)</string>
+    <string name="modulo_5_p504_sp1">1.Educación Inicial</string>
+    <string name="modulo_5_p504_sp2">2.Primaria</string>
+    <string name="modulo_5_p504_sp3">3.Secundaria</string>
+    <string name="modulo_5_p504_sp4">4.Basica Especial</string>
+    <string name="modulo_5_p504_sp5">5.Superior no universitaria</string>
+    <string name="modulo_5_p504_sp6">6.Superior universitaria</string>
+    <string name="modulo_5_p504_sp7">7.Maestría/ Doctorado</string>
+    <string name="modulo_5_p504_anio">Año</string>
+    <string name="modulo_5_p504_grado">Grado</string>
+    <string name="modulo_5_p504_cent_est">Centro Estudios</string>
+    <string name="modulo_5_p504_estatal">Estatal</string>
+    <string name="modulo_5_p504_no_estatal">No Estatal</string>
+
+
+    <string name="modulo_5_p505">505. EL AÑO 2021, ¿ESTUVO INSCRITO/MATRICULADO EN ALGÚN CENTRO O PROGRAMA DE EDUCACIÓN BÁSICA O SUPERIOR A DISTANCIA O PRESENCIAL EN PERÚ?</string>
+    <string name="modulo_5_p505_sp1">1.Sí</string>
+    <string name="modulo_5_p505_sp2">2.No</string>
+
+    <string name="modulo_5_p506">506. EL AÑO 2021, ¿ASISTIÓ A ALGUN CENTRO O PROGRAMA DE EDUCACIÓN BÁSICA O SUPERIOR A DISTANCIA O PRESENCIAL EN PERÚ?</string>
+    <string name="modulo_5_p506_sp1">1.Sí</string>
+    <string name="modulo_5_p506_sp2">2.No</string>
+
+    <string name="modulo_5_p506a">506A.¿EN QUÉ MODALIDAD?</string>
+    <string name="modulo_5_p506a_ind">(Marque una alternativa)</string>
+    <string name="modulo_5_p506a_sp1">1.Presencial</string>
+    <string name="modulo_5_p506a_sp2">2.Remota</string>
+    <string name="modulo_5_p506a_sp3">3.Mixta</string>
+
+    <string name="modulo_5_p507">507. ¿CUÁL ES EL AÑO O GRADO DE ESTUDIOS EN EL QUE ESTUVO INSCRITO/MATRICULADO O ASISTIENDO?</string>
+    <string name="modulo_5_p507_ind">(Espere la respuesta)</string>
+    <string name="modulo_5_p507_sp1">1.Educación Inicial</string>
+    <string name="modulo_5_p507_sp2">2.Primaria</string>
+    <string name="modulo_5_p507_sp3">3.Secundaria</string>
+    <string name="modulo_5_p507_sp4">4.Basica Especial</string>
+    <string name="modulo_5_p507_sp5">5.Superior no universitaria</string>
+    <string name="modulo_5_p507_sp6">6.Superior universitaria</string>
+    <string name="modulo_5_p507_sp7">7.Maestría/ Doctorado</string>
+    <string name="modulo_5_p507_anio">Año/Grado</string>
+    <string name="modulo_5_p507_grado">Grado</string>
+    <string name="modulo_5_p507_cent_est">Centro Estudios</string>
+    <string name="modulo_5_p507_estatal">Estatal</string>
+    <string name="modulo_5_p507_no_estatal">No Estatal</string>
+
+
+    <string name="sub_modulo_5_1">Para personas de 3 a 17 años de edad</string>
+    <string name="modulo_5_p508">508. A TRAVÉS DE QUÉ MEDIO ACCEDIÓ AL CONTENIDO DEL PROGRAMA \"APRENDO EN CASA\" O \"CLASES A DISTANCIA\"</string>
+    <string name="modulo_5_p508_ind">(Lea cada alternativa y seleccione uno o más códigos)</string>
+    <string name="modulo_5_p508_sp1">1.¿Televisión?</string>
+    <string name="modulo_5_p508_sp2">2.¿Radio/equipo de sonido?</string>
+    <string name="modulo_5_p508_sp3">3.¿Plataforma virtual /página Web (Computadora o Tablet o celular)?</string>
+    <string name="modulo_5_p508_sp4">4.¿Otros?</string>
+    <string name="modulo_5_p508_sp5">5.ASISTIÓ A CLASES PRESENCIALES</string>
+    <string name="modulo_5_p508_especifique">Especifique</string>
+
+    <string name="sub_modulo_5_2">Para personas que respondieron Códigos 10 y 11 en la pregunta 501.</string>
+
+    <string name="modulo_5_p509">509. ¿QUÉ DIFICULTADES TUVO CON LAS CLASES DEL PROGRAMA \"APRENDO EN CASA\" O \"CLASES A DISTANCIA\"?</string>
+    <string name="modulo_5_p509_ind">(Espere la respuesta y seleccione uno o más códigos)</string>
+    <string name="modulo_5_p509_sp1">1.No hubo quien acompañe al niño/a mientras veía el programa (Falta de tiempo)</string>
+    <string name="modulo_5_p509_sp2">2.Pocos equipos (computadora, laptop, celular, etc.) en casa para todos</string>
+    <string name="modulo_5_p509_sp3">3.La conexión de internet o plan datos era mala o inestable</string>
+    <string name="modulo_5_p509_sp4">4.Su paquete de internet o plan de datos era limitado, no pudo comprar más</string>
+    <string name="modulo_5_p509_sp5">5.El profesor no interactuaba continuamente con el niño/a</string>
+    <string name="modulo_5_p509_sp6">6.Era complicado para el niño/a o para los padres acceder al programa/plataforma virtual</string>
+    <string name="modulo_5_p509_sp7">7.Otras</string>
+    <string name="modulo_5_p509_sp8">8.NO TUVO DIFICULTADES</string>
+    <string name="modulo_5_p509_especifique">Especifique</string>
+
+    <string name="modulo_5_p510">510. EL RESULTADO QUE OBTUVO EL AÑO 2020 FUE:</string>
+    <string name="modulo_5_p510_sp1">1.¿Aprobado?</string>
+    <string name="modulo_5_p510_sp2">2.¿Desaprobado?</string>
+    <string name="modulo_5_p510_sp3">3.¿Retirado?</string>
+    <string name="modulo_5_p510_sp4">4.¿Otro?</string>
+    <string name="modulo_5_p510_sp5">5.¿No aprueba, ni desaprueba (inicial)?</string>
+    <string name="modulo_5_p510_especifique">Especifique</string>
+
+    <string name="sub_modulo_5_3">Para PERSONAS DE 3 A 25 AÑOS DE EDAD (Que en el año 2021 NO asistieron a un centro de educación básica o superior)</string>
+    <string name="modulo_5_p511">511. ¿CUÁL ES LA PRINCIPAL RAZÓN POR LA QUE NO ESTUVO MATRICULADO O NO ASISTIÓ A ALGÚN CENTRO O PROGRAMA DE EDUCACIÓN BÁSICA O SUPERIOR?</string>
+    <string name="modulo_5_p511_ind">(Espere la respuesta y seleccione solo un código)</string>
+    <string name="modulo_5_p511_sp1">1.Problemas económicos</string>
+    <string name="modulo_5_p511_sp2">2.Estuve trabajando/ayudando a la familia en el trabajo</string>
+    <string name="modulo_5_p511_sp3">3.Desconocimiento del sistema educativo (no sabía cómo acceder)</string>
+    <string name="modulo_5_p511_sp4">4.No tenía documentos</string>
+    <string name="modulo_5_p511_sp5">5.No tuvo computadora, laptop, tablet o teléfono celular</string>
+    <string name="modulo_5_p511_sp6">6.No tenía TV o radio</string>
+    <string name="modulo_5_p511_sp7">7.No tenía acceso a internet o plan de datos</string>
+    <string name="modulo_5_p511_sp8">8.No conocía sobre el programa \"Aprendo en casa\"</string>
+    <string name="modulo_5_p511_sp9">9.No me interesa/no me gusta el estudio</string>
+    <string name="modulo_5_p511_sp10">10.Se dedicó a los quehaceres del hogar</string>
+    <string name="modulo_5_p511_sp11">11.No consiguió vacante, no lo aceptaron, no sabía el procedimiento de la matricula</string>
+    <string name="modulo_5_p511_sp12">12.Otra rázon</string>
+    <string name="modulo_5_p511_especifique">Especifique</string>
+
+    <string name="sub_modulo_5_4">ETNICIDAD (14 y más años de edad)</string>
+
+    <string name="sub_modulo_5_5">Para personas que respondieron Códigos 10 y 11 en la pregunta 501.</string>
+    <string name="modulo_5_p512">512.¿OBTUVO USTED EL TÍTULO QUE ACREDITE SUS ESTUDIOS?</string>
+    <string name="modulo_5_p512_sp1">1.Sí</string>
+    <string name="modulo_5_p512_sp2">2.No</string>
+
+    <string name="modulo_5_p513">513.¿HA HOMOLOGADO SU TÍTULO EN PERÚ?</string>
+    <string name="modulo_5_p513_sp1">1.Sí</string>
+    <string name="modulo_5_p513_sp2">2.No</string>
+
+    <string name="modulo_5_p514">514.¿POR QUÉ NO HA HOMOLOGADO SU TÍTULO?</string>
+    <string name="modulo_5_p514_ind">(Espere la respuesta y seleccione solo un código)</string>
+    <string name="modulo_5_p514_sp1">1.No conozco el procedimiento</string>
+    <string name="modulo_5_p514_sp2">2.No traje mis diplomas</string>
+    <string name="modulo_5_p514_sp3">3.No tengo dinero</string>
+    <string name="modulo_5_p514_sp4">4.Otra razón</string>
+    <string name="modulo_5_p514_especifique">Especifique</string>
+
+    <string name="sub_modulo_5_6">ETNICIDAD</string>
+
+    <string name="sub_modulo_5_0">Para personas de 14 años y más de edad</string>
+    <string name="modulo_5_p515">515.POR SUS COSTUMBRES Y SUS ANTEPASADOS, ¿UD. SE SIENTE O SE CONSIDERA:</string>
+    <string name="modulo_5_p515_ind">(Entregue la tarjeta N° 1, espere la respuesta y seleccione solo un código)</string>
+    <string name="modulo_5_p515_sp1">1.Negro/a ?</string>
+    <string name="modulo_5_p515_sp2">2.Afrodescendientes ?</string>
+    <string name="modulo_5_p515_sp3">3.Moreno/a ?</string>
+    <string name="modulo_5_p515_sp4">4.Blanco/a ?</string>
+    <string name="modulo_5_p515_sp5">5.Mestizo/a ?</string>
+    <string name="modulo_5_p515_sp6">6.Otro ?</string>
+    <string name="modulo_5_p515_sp7">7.NO SABE</string>
+    <string name="modulo_5_p515_especifique">Especifique</string>
+
+    <string name="sub_modulo_516_1">ORIENTACIÓN SEXUAL</string>
+    <string name="sub_modulo_516_2">Sr(a): Orientación Sexual, es la capacidad de sentir atracción emocional, afectiva y sexual por personas del género opuesto (varón o mujer), de su mismo género o varios géneros.</string>
+    <string name="modulo_5_p516">516.DE ACUERDO A SU ORIENTACIÓN SEXUAL ¿USTED ACTUALMENTE SE CONSIDERA:</string>
+    <string name="modulo_5_p516_ind">(Entregue la tarjeta N° 2, espere la respuesta y seleccione solo un código)</string>
+    <string name="modulo_5_p516_sp1">1.Heterosexual?</string>
+    <string name="modulo_5_p516_sp2">2.Gay?</string>
+    <string name="modulo_5_p516_sp3">3.Lesbiana?</string>
+    <string name="modulo_5_p516_sp4">4.Bisexual?</string>
+    <string name="modulo_5_p516_sp5">5.Pansexual?</string>
+    <string name="modulo_5_p516_sp6">6.Asexual?</string>
+    <string name="modulo_5_p516_sp7">7.Otro?</string>
+    <string name="modulo_5_p516_sp8">8.NO SABE</string>
+    <string name="modulo_5_p516_especifique">Especifique</string>
+
+    <!--Strings asociados al Capítulo 6: EMPLEO-->
+    <string name="modulo_6_nombre">VI. EMPLEO (Para personas de 5 años y más de edad)</string>
+    <string name="modulo_6_menu">Capítulo VI: Empleo</string>
+    <string name="modulo_6_submenu_1">Preguntas 601 - 604</string>
+    <string name="modulo_6_submenu_2">Preguntas 605 - 608</string>
+    <string name="modulo_6_submenu_3">Preguntas 609 - 612</string>
+    <string name="modulo_6_submenu_4">Preguntas 613 - 617</string>
+    <string name="modulo_6_submenu_5">Preguntas 618 - 621</string>
+    <string name="modulo_6_submenu_6">Preguntas 622 - 625</string>
+    <string name="modulo_6_submenu_7">Preguntas 626 - 629</string>
+    <string name="modulo_6_submenu_8">Preguntas 630</string>
+
+    <string name="sub_modulo_6_1">CONDICIÓN DE ACTIVIDAD</string>
+
+    <string name="modulo_6_p601">601.LA SEMANA PASADA, DEL %1$s ¿TUVO ALGÚN TRABAJO? (sin contar los quehaceres del hogar)</string>
+    <string name="modulo_6_p601_ind"><i><b>(sin contar con los quehaceres del hogar)</b></i></string>
+    <string name="modulo_6_p601_sp1">1.Si</string>
+    <string name="modulo_6_p601_sp2">2.No</string>
+
+    <string name="modulo_6_p602">602.EL TRABAJO QUE REALIZÓ LA SEMANA PASADA, DEL %1$s , ¿FUE A CAMBIO DE UN PAGO O GANANCIA EN DINERO O ESPECIE? (Como pago en especie considere el pago en alimentos crudos o preparados, ropa,transporte, vivienda, entre otros.)</string>
+    <string name="modulo_6_p602_sp1">1.Si</string>
+    <string name="modulo_6_p602_sp2">2.No</string>
+
+    <string name="modulo_6_p603">603.AUNQUE NO TRABAJÓ LA SEMANA PASADA, ¿TIENE ALGÚN EMPLEO FIJO AL QUE PRÓXIMAMENTE VOLVERÁ?</string>
+    <string name="modulo_6_p603_sp1">1.Si</string>
+    <string name="modulo_6_p603_sp2">2.No</string>
+
+    <string name="modulo_6_p604">604.AUNQUE NO TRABAJÓ LA SEMANA PASADA, ¿TIENE ALGÚN NEGOCIO PROPIO AL QUE PRÓXIMAMENTE VOLVERÁ?</string>
+    <string name="modulo_6_p604_sp1">1.Si</string>
+    <string name="modulo_6_p604_sp2">2.No</string>
+
+    <string name="modulo_6_p605">605.LA SEMANA PASADA REALIZÓ ALGUNA ACTIVIDAD AL MENOS UNA HORA PARA OBTENER INGRESOS EN DINERO O EN ESPECIE, COMO:</string>
+    <string name="modulo_6_p605_ind"><i><b>(Lea cada una de las alternativas y seleccione un código para cada una de ellas)</b></i></string>
+    <string name="modulo_6_p605_sp1">1.¿Trabajando en un negocio propio o de un familiar?</string>
+    <string name="modulo_6_p605_sp2">2.¿Ofreciendo algún servicio?</string>
+    <string name="modulo_6_p605_sp3">3.¿Haciendo algo en casa para vender?</string>
+    <string name="modulo_6_p605_sp4">4.¿Vendiendo productos de belleza, ropa, joyas, entre otros?</string>
+    <string name="modulo_6_p605_sp5">5.¿Realizando alguna labor artesanal?</string>
+    <string name="modulo_6_p605_sp6">6.¿Haciendo prácticas pagadas en un centro de trabajo?</string>
+    <string name="modulo_6_p605_sp7">7.¿Trabajando para un hogar particular?</string>
+    <string name="modulo_6_p605_sp8">8.¿Fabricando algún producto?</string>
+    <string name="modulo_6_p605_sp9">9.¿Realizando labores remuneradas en la chacra o cuidado de animales?</string>
+    <string name="modulo_6_p605_sp10">10.¿Ayudando a un familiar de su hogar, sin remuneración?</string>
+    <string name="modulo_6_p605_sp11">11.¿Ayudando con el empleo de algún miembro de su hogar?</string>
+    <string name="modulo_6_p605_sp12">12.¿Otra?</string>
+    <string name="modulo_6_p605_especifique">Especifique</string>
+    <string name="modulo_6_p605_no">No</string>
+    <string name="modulo_6_p605_si">Sí</string>
+
+    <string name="modulo_6_p606">606.LA SEMANA PASADA DEL %1$s , ¿POR QUÉ ESTUVO AUSENTE DEL TRABAJO?</string>
+    <string name="modulo_6_p606_ind"><i><b>(Lea cada una de las alternativas y seleccione un código para cada una de ellas)</b></i></string>
+    <string name="modulo_6_p606_sp1">1.Turno de trabajo, horario flexible,naturaleza del trabajo</string>
+    <string name="modulo_6_p606_sp2">2.Vacaciones, días feriados</string>
+    <string name="modulo_6_p606_sp3">3.Enfermedad, dolencia, accidente</string>
+    <string name="modulo_6_p606_sp4">4.Licencia por maternidad, paternidad</string>
+    <string name="modulo_6_p606_sp5">5.Licencia por estudios o capacitación</string>
+    <string name="modulo_6_p606_sp6">6.Otra licencia personal (cuidar de la familia, obligaciones cívicas)</string>
+    <string name="modulo_6_p606_sp7">7.Suspensión temporal, menos clientes,pausa en el trabajo</string>
+    <string name="modulo_6_p606_sp8">8.Mal clima, desastres naturales</string>
+    <string name="modulo_6_p606_sp9">9.Huelga o conflicto laboral</string>
+    <string name="modulo_6_p606_sp10">10.Discapacidad de larga duración</string>
+    <string name="modulo_6_p606_sp11">11.Trabajo de temporada</string>
+    <string name="modulo_6_p606_sp12">12.Otro</string> <!--//1105-->
+    <string name="modulo_6_p606_especifique">Especifique</string>
+
+    <string name="modulo_6_p607">607.SIGUE RECIBIENDO INGRESOS POR SU TRABAJO DURANTE ESTA AUSENCIA?</string>
+    <string name="modulo_6_p607_sp1">1.Si</string>
+    <string name="modulo_6_p607_sp2">2.No</string>
+
+    <string name="modulo_6_p608">608.TOMANDO EN CONSIDERACIÓN EL TIEMPO QUE USTED ESTUVO AUSENTE, ¿REGRESARÁ AL MISMO EMPLEO O NEGOCIO:</string>
+    <string name="modulo_6_p608_sp1">1.En 3 meses o antes?</string>
+    <string name="modulo_6_p608_sp2">2.Después de 3 meses?</string>
+    <string name="modulo_6_p608_sp3">3.No está seguro de regresar (NO LEER)</string>
+
+    <string name="sub_modulo_6_2">OCUPADOS</string>
+    <string name="sub_modulo_6_2_ind">OCUPACIÓN PRINCIPAL</string>
+
+    <string name="modulo_6_p609">609.¿CUÁL ES LA OCUPACIÓN PRINCIPAL QUE DESEMPEÑÓ?</string>
+    <string name="modulo_6_p609_especifique">Especifique</string>
+
+    <string name="modulo_6_p610">610.¿QUÉ TAREAS REALIZÓ EN SU OCUPACIÓN PRINCIPAL?</string>
+    <string name="modulo_6_p610_especifique">Especifique</string>
+
+    <string name="modulo_6_p611">611.¿A QUÉ SE DEDICA EL NEGOCIO, ORGANISMO O EMPRESA EN LA QUE TRABAJÓ EN SU OCUPACIÓN PRINCIPAL?</string>
+    <string name="modulo_6_p611_especifique">Especifique</string>
+
+    <!-- BORRAR NO OLVIDAR -->
+    <string name="modulo_6_p611a">611A.LA SEMANA PASADA, CUMPLIENDO CON SUS OBLIGACIONES ACTUALES DE TRABAJO, ¿TUVO LA VOLUNTAD DE TRABAJAR MAS HORAS Y ADEMÁS ESTUVO DISPONIBLE PARA HACERLO?</string>
+    <string name="modulo_6_p611a_sp1">1.Sí</string>
+    <string name="modulo_6_p611a_sp2">2.No</string>
+
+    <string name="modulo_6_p611b">611B.LA SEMANA PASADA, ¿ESTUVO UD. BUSCANDO OTRO TRABAJO?</string>
+    <string name="modulo_6_p611b_sp1">1.Sí</string>
+    <string name="modulo_6_p611b_sp2">2.No</string>
+
+    <string name="modulo_6_p612">612.USTED SE DESEMPEÑÓ EN SU OCUPACIÓN PRINCIPAL O NEGOCIO COMO:</string>
+    <string name="modulo_6_p612_sp1">1.¿Empleador o patrono?</string>
+    <string name="modulo_6_p612_sp2">2.¿Trabajador independiente?</string>
+    <string name="modulo_6_p612_sp3">3.¿Empleado u Obrero?</string>
+    <string name="modulo_6_p612_sp4">4.¿Ayudante en un negocio de la familia? </string>
+    <string name="modulo_6_p612_sp5">5.¿Ayudante en el empleo de un familiar?</string>
+    <string name="modulo_6_p612_sp6">6.¿Trabajador del hogar?</string>
+    <string name="modulo_6_p612_sp7">7.¿Aprendiz/practicante remunerado?</string>
+    <string name="modulo_6_p612_sp8">8.¿Practicante sin remuneración?</string>
+
+    <string name="modulo_6_p613">613.USTED, ¿HA FIRMADO ALGÚN CONTRATO LABORAL O BRINDÓ ALGÚN COMPROBANTE DE PAGO POR SUS SERVICIOS?</string>
+    <string name="modulo_6_p613_sp1">1.Sí</string>
+    <string name="modulo_6_p613_sp2">2.No</string>
+
+    <string name="modulo_6_p614">614.EN SU TRABAJO, NEGOCIO O EMPRESA, INCLUYÉNDOSE UD., ¿LABORARON:</string>
+    <string name="modulo_6_p614_sp1">1.Hasta 20 personas?</string>
+    <string name="modulo_6_p614_sp2">2.De 21 a 50 personas?</string>
+    <string name="modulo_6_p614_sp3">3.De 51 a 100 personas?</string>
+    <string name="modulo_6_p614_sp4">4.De 101 a 500 personas?</string>
+    <string name="modulo_6_p614_sp5">5.Más de 500 personas?</string>
+    <string name="modulo_6_p614_sp6">Nº de personas</string>
+
+    <string name="modulo_6_p615">615.LA SEMANA PASADA, DEL %1$s ¿CUÁNTAS HORAS  TRABAJÓ EN SU OCUPACIÓN PRINCIPAL Y EN SUS  OCUPACIONES SECUNDARIAS? (DÍA POR DÍA)</string>
+    <string name="modulo_6_p615_sp1">Ocupación Principal</string>
+    <string name="modulo_6_p615_sp2">Ocupación/es Secundaria/s.</string>
+    <string name="modulo_6_p615_dom">Dom</string>
+    <string name="modulo_6_p615_lun">Lun</string>
+    <string name="modulo_6_p615_mar">Mar</string>
+    <string name="modulo_6_p615_mier">Mier</string>
+    <string name="modulo_6_p615_jue">Jue</string>
+    <string name="modulo_6_p615_vie">Vie</string>
+    <string name="modulo_6_p615_sab">Sab</string>
+    <string name="modulo_6_p615_total">TOTAL</string>
+
+    <string name="modulo_6_p616">616.EN TOTAL UD. TRABAJÓ (TOTAL, P615) HORAS LA SEMANA PASADA. ¿NORMALMENTE TRABAJA ESAS HORAS A LA SEMANA?</string>
+    <string name="modulo_6_p616_sp1">Si</string>
+    <string name="modulo_6_p616_sp2">No</string>
+
+    <string name="modulo_6_p616_a">616A.NORMALMENTE, ¿CUÁNTAS HORAS TRABAJA A LA SEMANA EN TODAS SUS OCUPACIONES?</string>
+    <string name="modulo_6_p616_a_sp1">Nº DE HORAS</string>
+
+    <string name="modulo_6_p617">617.LA SEMANA PASADA, ¿QUERÍA TRABAJAR MÁS HORAS DE LAS QUE NORMALMENTE TRABAJA?</string>
+    <string name="modulo_6_p617_sp1">1.Sí</string>
+    <string name="modulo_6_p617_sp2">2.No</string>
+
+    <string name="modulo_6_p618">618.LA SEMANA PASADA, ¿ESTUVO DISPONIBLE PARA TRABAJAR MÁS HORAS?</string>
+    <string name="modulo_6_p618_sp1">1.Sí</string>
+    <string name="modulo_6_p618_sp2">2.No</string>
+
+    <string name="modulo_6_p619">619.LA SEMANA PASADA, ¿ESTUVO BUSCANDO OTRO TRABAJO?</string>
+    <string name="modulo_6_p619_sp1">1.Sí</string>
+    <string name="modulo_6_p619_sp2">2.No</string>
+
+    <string name="sub_modulo_6_3">DEPENDIENTES</string>
+    <!--    <string name="modulo_6_p620">620.LA SEMANA PASADA REALIZÓ ALGUNA ACTIVIDAD AL MENOS UNA HORA PARA OBTENER INGRESOS EN DINERO O EN ESPECIE, COMO:</string>-->
+    <string name="modulo_6_p620">620. LA SEMANA PASADA, ¿HA REALIZADO SU TRABAJO:</string>
+    <string name="modulo_6_p620_ind"><i><b>(Lea cada una de las alternativas y seleccione un código para cada una de ellas)</b></i></string>
+    <string name="modulo_6_p620_sp1">1.¿De manera presencial, en su centro de trabajo, todos los días laborales, como de costumbre?</string>
+    <string name="modulo_6_p620_sp2">2.¿De manera presencial, en su centro de trabajo, solo algunos días laborales?</string>
+    <string name="modulo_6_p620_sp3">3.¿Realizando trabajo mixto (presencial algunos días Laborales y trabajo remoto desde su domicilio)?</string>
+    <string name="modulo_6_p620_sp4">4.¿Desde su domicilio, realizando trabajo remoto todos los días laborales (usando una computadora, laptop, entre otros)?</string>
+    <string name="modulo_6_p620_sp5">5.¿Por teletrabajo?</string>
+    <string name="modulo_6_p620_sp6">6.¿Estaba de vacaciones, licencia, descanso médico, entre otros?</string>
+    <string name="modulo_6_p620_sp7">7.¿Otra modalidad?</string>
+    <string name="modulo_6_p620_especifique">Especifique</string>
+
+
+    <string name="sub_modulo_6_4">INGRESO POR TRABAJO</string>
+    <string name="sub_modulo_6_4_ind">INGRESO DE LA OCUPACION PRINCIPAL POR TRABAJO DEPENDIENTE</string>
+
+    <string name="modulo_6_p621">621.EN SU OCUPACIÓN PRINCIPAL, ¿LA FRECUENCIA CON QUE A USTED LE PAGAN ES:</string>
+    <string name="modulo_6_p621_ind"><i><b>(Lea cada alternativa y seleccione solo un código)</b></i></string>
+    <string name="modulo_6_p621_sp1">1.Diario?</string>
+    <string name="modulo_6_p621_sp2">2.Semanal?</string>
+    <string name="modulo_6_p621_sp3">3.Quincenal?</string>
+    <string name="modulo_6_p621_sp4">4.Mensual?</string>
+    <string name="modulo_6_p621_sp5">5.No recibió pago alguno</string>
+
+    <string name="modulo_6_p622">622.¿CUÁNTO FUE SU INGRESO TOTAL SIN DESCUENTOS EN EL/LA OCUPACION ANTERIOR, INCLUYENDO HORAS EXTRAS, BONIFICACIONES, PAGO POR CONCEPTO DE REFRIGERIO, MOVILIDAD, COMISIONES, ETC.?</string>
+    <string name="modulo_6_p622_dinero">En Dinero</string>
+    <string name="modulo_6_p622_especie">En Especie</string>
+    <string name="modulo_6_p622_entero">(En enteros)</string>
+
+    <string name="sub_modulo_6_5">INGRESO DE LA OCUPACION PRINCIPAL POR TRABAJO INDEPENDIENTE (Solo para empleador o patrono / trabajador independiente)</string>
+
+    <string name="modulo_6_p623">623.EN SU OCUPACION PRINCIPAL, ¿CUÁL FUE SU GANANCIA NETA EN EL MES ANTERIOR? (Si solo recibe ingreso en especie valorícelo)</string>
+    <string name="modulo_6_p623_dinero">En Dinero</string>
+    <string name="modulo_6_p623_especie">En Especie</string>
+    <string name="modulo_6_p623_entero">(En enteros)</string>
+    <string name="modulo_6_p623_nas">NO SABE / NO TIENEN GANANCIA</string>
+
+    <string name="sub_modulo_6_6">INGRESO DE LA OCUPACIÓN SECUNDARIA</string>
+
+    <string name="modulo_6_p624">624.EN SU/S OCUPACIÓN/ES SECUNDARIA/S, ¿CUÁL FUE SU INGRESO EN EL MES ANTERIOR?</string>
+    <string name="modulo_6_p624_dinero">En Dinero</string>
+    <string name="modulo_6_p624_especie">En Especie</string>
+    <string name="modulo_6_p624_entero">(En enteros)</string>
+    <string name="modulo_6_p624_nas">SIN REMUNERACIÓN</string>
+    <string name="modulo_6_p624_nas2">NO TUVO ACTIVIDAD SECUNDARIA</string>
+    <string name="modulo_6_p624_sp1">SIN REMUNERACIÓN</string>
+    <string name="modulo_6_p624_sp2">NO TUVO ACTIVIDAD SECUNDARIA</string>
+
+    <string name="modulo_6_p625">625.EL CENTRO DE TRABAJO DONDE DESEMPEÑA SU OCUPACIÓN PRINCIPAL, ¿ESTÁ UBICADO:</string>
+    <string name="modulo_6_p625_sp1">1.Aquí, en este distrito</string>
+    <string name="modulo_6_p625_sp2">2.En otro distrito</string>
+    <string name="modulo_6_p625_dist">Distrito</string>
+    <string name="modulo_6_p625_prov">Provincia:</string>
+    <string name="modulo_6_p625_dep">Departamento:</string>
+
+
+    <string name="sub_modulo_6_7">DESOCUPADOS</string>
+
+    <string name="modulo_6_p626">626.EN LAS ÚLTIMAS 4 SEMANAS, DEL %1$s , ¿HIZO ALGO PARA CONSEGUIR TRABAJO?</string>
+    <string name="modulo_6_p626_sp1">1.Sí</string>
+    <string name="modulo_6_p626_sp2">2.No</string>
+
+    <string name="modulo_6_p627">627.LA SEMANA PASADA, ¿HIZO ALGO PARA CONSEGUIR TRABAJO?</string>
+    <string name="modulo_6_p627_sp1">1.Sí</string>
+    <string name="modulo_6_p627_sp2">2.No</string>
+
+    <string name="modulo_6_p628">628.¿QUÉ ESTUVO HACIENDO LA SEMANA PASADA:</string>
+    <string name="modulo_6_p628_sp1">1.Hizo trámites, buscó local, gestionó préstamos para establecer su propio negocio?</string>
+    <string name="modulo_6_p628_sp2">2.Reparando sus activos (local, máquina, equipo)?</string>
+    <string name="modulo_6_p628_sp3">3.Esperando el inicio de un trabajo dependiente, (como obrero, empleado o trabajador del hogar)?</string>
+    <string name="modulo_6_p628_sp4">4.Estudiando?</string>
+    <string name="modulo_6_p628_sp5">5.Quehaceres del hogar?</string>
+    <string name="modulo_6_p628_sp6">6.Vivía de su pensión o jubilación u otras rentas?</string>
+    <string name="modulo_6_p628_sp7">7.Enfermo o incapacitado?</string>
+    <string name="modulo_6_p628_sp8">8.Otro?</string>
+    <string name="modulo_6_p628_si">Sí</string>
+    <string name="modulo_6_p628_no">No</string>
+    <string name="modulo_6_p628_especifique">Especifique</string>
+
+    <string name="modulo_6_p629">629.LA SEMANA PASADA, ¿QUERÍA USTED TRABAJAR? </string>
+    <string name="modulo_6_p629_si">1.Sí</string>
+    <string name="modulo_6_p629_no">2.No</string>
+
+    <string name="modulo_6_p630">630.LA SEMANA PASADA, ¿ESTUVO DISPONIBLE PARA TRABAJAR?</string>
+    <string name="modulo_6_p630_si">1.Sí</string>
+    <string name="modulo_6_p630_no">2.No</string>
+
+    <string name="modulo_6_p631">631.¿POR QUÉ NO BUSCÓ TRABAJO?</string>
+    <string name="modulo_6_p631_ind"><i><b>(Espere la respuesta y seleccione solo un código)</b></i></string>
+    <string name="modulo_6_p631_sp1">1.No hay trabajo</string>
+    <string name="modulo_6_p631_sp2">2.Se cansó de buscar</string>
+    <string name="modulo_6_p631_sp3">3.Por su edad</string>
+    <string name="modulo_6_p631_sp4">4.Falta de experiencia</string>
+    <string name="modulo_6_p631_sp5">5.Sus estudios no le permiten</string>
+    <string name="modulo_6_p631_sp6">6.Los quehaceres del hogar no le permiten</string>
+    <string name="modulo_6_p631_sp7">7.Razones de salud</string>
+    <string name="modulo_6_p631_sp8">8.Falta de capital</string>
+    <string name="modulo_6_p631_sp9">9.Espera los resultados de una búsqueda anterior</string>
+    <string name="modulo_6_p631_sp10">10.Por el Covid-19 (para evitar contagio, por ser vulnerable, entre otros)</string>
+    <string name="modulo_6_p631_sp11">11.Otro</string>
+    <string name="modulo_6_p631_sp12">12.Ya encontró trabajo</string>
+    <string name="modulo_6_p631_sp13">13.Si buscó trabajo</string>
+    <string name="modulo_6_p631_especifique">Especifique</string>
+
+    <string name="modulo_6_p632">632. LA SEMANA PASADA, ¿QUÉ HIZO PARA CONSEGUIR TRABAJO?</string>
+    <string name="modulo_6_p632_ind"><i><b>(Acepte una o más alternativas)</b></i></string>
+    <string name="modulo_6_p632_ind2"><u>Consultó:</u></string>
+    <string name="modulo_6_p632_sp1">1.Empleador/patrono</string>
+    <string name="modulo_6_p632_sp2">2.Agencia de empleo</string>
+    <string name="modulo_6_p632_sp3">3.Bolsa de trabajo de Instituciones públicas</string>
+    <string name="modulo_6_p632_sp4">4.Bolsa de trabajo de Instituciones privadas</string>
+    <string name="modulo_6_p632_sp5">5.Amigos y/o parientes</string>
+    <string name="modulo_6_p632_sp6">6.Diarios, revistas o anuncios</string>
+    <string name="modulo_6_p632_sp7">7.Envío su currículum vitae a empresas o instituciones</string>
+    <string name="modulo_6_p632_sp8">8.Publicó avisos en diarios, revistas o anuncios</string>
+    <string name="modulo_6_p632_sp9">9.Buscó clientes o pedidos</string>
+    <string name="modulo_6_p632_sp10">10.Otro</string>
+    <string name="modulo_6_p632_sp11">11.No hizo nada para conseguir trabajo</string> <!--NUEVO CAMPO-->
+    <string name="modulo_6_p632_especifique">Especifique</string>
+
+
+    <string name="modulo_6_p632_i">Registre el código de la gestión más importante:</string>
+
+
+
+
+    <string name="modulo_6_p633">633¿CUÁNTAS SEMANAS HA ESTADO BUSCANDO TRABAJO, SIN INTERRUPCIONES?</string>
+    <string name="modulo_6_p633_semana">Número de semanas</string>
+
+    <string name="sub_modulo_6_8">Verifique el Capítulo II, si se registró a personas menores de 18 años de edad.</string>
+
+    <string name="sub_modulo_6_34">  Para el Jefe de Hogar o personas de 18 y más años de edad
+    - Verifique Capítulo II, pregunta 205.
+    - Si registró a personas menores de 18 años de edad aplique 634, caso contrario pase a 635.
+    </string>
+
+
+    <string name="modulo_6_p634">634.¿CON QUIÉN DEJA A LOS/AS MENORES DE EDAD DEL HOGAR, CUANDO ESTÁ TRABAJANDO Y/O BUSCANDO TRABAJO?</string>
+    <string name="modulo_6_p634_ind"><i><b>(Espere la respuesta y seleccione uno o más códigos)</b></i></string>
+    <string name="modulo_6_p634_sp1">1.Con familiares y parientes</string>
+    <string name="modulo_6_p634_sp2">2.En la cuna del colegio</string>
+    <string name="modulo_6_p634_sp3">3.Con amigos/as</string>
+    <string name="modulo_6_p634_sp4">4.Con vecinos/as</string>
+    <string name="modulo_6_p634_sp5">5.Se lo lleva al trabajo</string>
+    <string name="modulo_6_p634_sp6">6.Se quedan solos</string>
+    <string name="modulo_6_p634_sp7">7.Otro</string>
+    <string name="modulo_6_p634_especifique">Especifique</string>
+
+    <string name="sub_modulo_6_9">TRABAJO EN PERÚ</string>
+    <string name="sub_modulo_6_9_ind">Para personas de 5 años y más de edad</string>
+
+    <string name="modulo_6_p635">635.USTED, ¿HA TRABAJADO EN PERU O HA DESEMPEÑADO ALGUNA ACTIVIDAD SIN RECIBIR EL PAGO ACORDADO?</string>
+    <string name="modulo_6_p635_ind"><i><b>(Espere la respuesta y seleccione solo un código)</b></i></string>
+    <string name="modulo_6_p635_sp1">1.Sí, recibió menos de lo establecido</string>
+    <string name="modulo_6_p635_sp2">2.Sí, no recibió pago alguno</string>
+    <string name="modulo_6_p635_sp3">3.No</string>
+    <string name="modulo_6_p635_sp4">4.No sabe</string>
+    <string name="modulo_6_p635_sp5">5.PREFIERE NO RESPONDER</string>
+
+    <string name="sub_modulo_6_10">TRABAJO ANTERIOR</string>
+    <string name="sub_modulo_6_10_ind">(Para todas las personas de 5 años y más de edad)</string>
+
+    <string name="modulo_6_p636">636.EN VENEZUELA, ¿TENÍA USTED TRABAJO ANTES DE INICIAR SU VIAJE? </string>
+    <string name="modulo_6_p636_si">1.Sí</string>
+    <string name="modulo_6_p636_no">2.No</string>
+
+    <string name="modulo_6_p637">637.¿CUÁL ES LA OCUPACIÓN PRINCIPAL QUE DESEMPEÑÓ?</string>
+    <string name="modulo_6_p637_especifique">Especifique</string>
+
+    <string name="sub_modulo_6_11">Sr(a): AHORA VAMOS HABLAR DE SUS INGRESOS NO LABORALES</string>
+    <string name="sub_modulo_6_11_ind">(Personas de 14 años y más de edad)</string>
+
+    <string name="modulo_6_p638">638. EN LOS ÚLTIMOS 6 MESES DE %1$s ¿RECIBIÓ INGRESOS POR CONCEPTO DE:</string>
+    <string name="modulo_6_p638_ind"><i><b>(Seleccione solo un código para cada alternativa)</b></i></string>
+    <string name="modulo_6_p638_sp1">a.Pensión de divorcio, alimentos y/o jubilación</string>
+    <string name="modulo_6_p638_sp2">b.Arrendamiento de casas, maquinarias, vehículos?</string>
+    <string name="modulo_6_p638_sp3">c.Ingresos financieros?</string>
+    <string name="modulo_6_p638_sp4">d.Otros ingresos?</string>
+    <string name="modulo_6_p638_especifique">Especifique</string>
+    <string name="modulo_6_p638_si">1.Sí</string>
+    <string name="modulo_6_p638_no">2.No</string>
+    <string-array name="modulo_6_p638_frecuencia">
+        <item>Frecuencia</item>
+        <item>1.Mensual</item>
+        <item>2.Bimestral</item>
+        <item>3.Semestral</item>
+        <item>4.Anual</item>
+    </string-array>
+    <string name="modulo_6_p638_monto">S/.</string>
+
+    <string name="sub_modulo_6_12">ENVÍO DE REMESAS</string>
+    <string name="sub_modulo_6_12_ind">(Personas de 14 años y más de edad)</string>
+
+    <string name="modulo_6_p639">639.EN LOS ÚLTIMOS TRES MESES, ¿USTED HA ENVIADO REMESAS/DINERO A:</string>
+    <string name="modulo_6_p639_ind"><i><b>(Seleccione solo un código para cada alternativa)</b></i></string>
+    <string name="modulo_6_p639_sp1">a.Venezuela?</string>
+    <string name="modulo_6_p639_sp2">b.Otro país?</string>
+    <string name="modulo_6_p639_si">1.Sí</string>
+    <string name="modulo_6_p639_no">2.No</string>
+    <string name="modulo_6_p639_medios">MEDIOS DE ENVÍO</string>
+    <string name="modulo_6_p639_med1">Transferencias bancarias y/o agencia de envío</string>
+    <string name="modulo_6_p639_med2">Personas independientes</string>
+    <string name="modulo_6_p639_med3">Otro</string>
+    <string name="modulo_6_p639_especifique">Especifique</string>
+    <string name="modulo_6_p639_frecuencia">FRECUENCIA</string>
+    <string-array name="modulo_6_p639_frecuencia">
+        <item>Seleccione frecuencia</item>
+        <item>1.Diario</item>
+        <item>2.Semanal</item>
+        <item>3.Quincenal</item>
+        <item>4.Mensual</item>
+        <item>5.Bimestral</item>
+        <item>6.Trimestral</item>
+        <item>7.Otro</item>
+    </string-array>
+    <string name="modulo_6_p639_monto">MONTO S/.</string>
+    <string-array name="modulo_6_p639_monto">
+        <item>Seleccione monto</item>
+        <item>1.¿0 – 100 soles?</item>
+        <item>2.¿101 – 200 soles?</item>
+        <item>3.¿201 – a más soles?</item>
+    </string-array>
+
+    <!--Strings asociados al Capítulo 7: DISCRIMINACIÓN -->
+    <string name="modulo_7_nombre">VII. DISCRIMINACIÓN (Para personas de 5 años y más de edad)</string>
+    <string name="modulo_7_menu">Capítulo VII: Discriminación</string>
+    <string name="modulo_7_submenu_1">Preguntas 701 – 705</string>
+    <string name="modulo_7_submenu_2">Preguntas 706 – 709</string>
+
+    <!--    <string name="modulo_7_p701">701.USTED, ¿SE HA SENTIDO DISCRIMINADO POR SER PERSONA VENEZOLANA DESDE QUE LLEGÓ AL PERÚ?</string>-->
+    <string name="modulo_7_p701">701. USTED, ¿SE HA SENTIDO DISCRIMINADO DESDE QUE LLEGÓ A PERÚ?</string>
+    <string name="modulo_7_p701_si">1.Sí</string>
+    <string name="modulo_7_p701_no">2.No</string>
+
+    <!--    <string name="modulo_7_p702">702.¿POR QUIÉN SE HA SENTIDO DISCRIMINADO?</string>-->
+    <string name="modulo_7_p702">702.¿POR QUÉ MOTIVO SE HA SENTIDO DISCRIMINADO?</string>
+    <string name="modulo_7_p702_ind">(Entregue la tarjeta Nº 3, espere la respuesta y acepte una o más alternativas)</string>
+    <string name="modulo_7_p702_sp1">1.Género</string>
+    <string name="modulo_7_p702_sp2">2.Orientación sexual</string>
+    <string name="modulo_7_p702_sp3">3.Condición migratoria (no tiene papeles, ilegal.)</string>
+    <string name="modulo_7_p702_sp4">4.Condición socioeconómica</string>
+    <string name="modulo_7_p702_sp5">5.Nacionalidad</string>
+    <string name="modulo_7_p702_sp6">6.Raza y forma de hablar</string>
+    <string name="modulo_7_p702_sp7">7.Otro</string>
+    <string name="modulo_7_p702_especifique">Especifique</string>
+
+
+    <string name="modulo_7_p703">703.USTED, ¿EN QUÉ LUGARES SE HA SENTIDO DISCRIMINADO?</string>
+    <string name="modulo_7_p703_ind">(Acepte una o más alternativas)</string>
+    <string name="modulo_7_p703_sp1">1.En su centro de trabajo</string>
+    <string name="modulo_7_p703_sp2">2.En la Institución Educativa</string>
+    <string name="modulo_7_p703_sp3">3.En el establecimiento de salud</string>
+    <string name="modulo_7_p703_sp4">4.En las Instituciones de Justicia</string>
+    <string name="modulo_7_p703_sp5">5.En la calle/lugares públicos</string>
+    <string name="modulo_7_p703_sp6">6.En el transporte público (bus, colectivo, Metro de Lima, Corredor azul, Metropolitano, etc.)</string>
+    <string name="modulo_7_p703_sp7">7.En las oficinas de Migración</string>
+    <string name="modulo_7_p703_sp8">8.En las oficinas de la Cancillería</string>
+    <string name="modulo_7_p703_sp9">9.En tu comunidad/barrio</string>
+    <string name="modulo_7_p703_sp10">10.Otro lugar</string>
+    <string name="modulo_7_p703_especifique">Especifique</string>
+
+    <string name="modulo_7_p704">704.¿POR QUIÉN/ES SE HA SENTIDO DISCRIMINADO?</string>
+    <string name="modulo_7_p704_ind">(Acepte una o más alternativas)</string>
+    <string name="modulo_7_p704_sp1">1.Persona de su país</string>
+    <string name="modulo_7_p704_sp2">2.Jefe o supervisores o compañeros de trabajo</string>
+    <string name="modulo_7_p704_sp3">3.Servidor público</string>
+    <string name="modulo_7_p704_sp4">4.Fuerzas del orden</string>
+    <string name="modulo_7_p704_sp5">5.Vecino/a</string>
+    <string name="modulo_7_p704_sp6">6.Arrendatario</string>
+    <string name="modulo_7_p704_sp7">7.Extraño/a</string>
+    <string name="modulo_7_p704_sp8">8.Compañeros de colegio</string>
+    <string name="modulo_7_p704_sp9">9.Otro</string>
+    <string name="modulo_7_p704_especifique">Especifique</string>
+
+    <string name="modulo_7_p705">705.EN GENERAL, ¿SIENTE USTED QUE LA DISCRIMINACIÓN DURANTE LA PANDEMIA (DESDE EL 16 DE MARZO DEL 2020) ......:</string>
+    <string name="modulo_7_p705_ind">(Lea cada alternativa y seleccione solo un código)</string>
+    <string name="modulo_7_p705_sp1">1.Ha aumentado?</string>
+    <string name="modulo_7_p705_sp2">2.Ha disminuido?</string>
+    <string name="modulo_7_p705_sp3">3.Sigue igual?</string>
+
+    <string name="modulo_7_p706">706.¿POR PARTE DE QUIEN/ES HA INCREMENTADO LA DISCRIMINACIÓN?</string>
+    <string name="modulo_7_p706_ind">(Acepte una o más alternativas)</string>
+    <string name="modulo_7_p706_sp1">1.Persona de su país</string>
+    <string name="modulo_7_p706_sp2">2.Jefe o supervisores o compañeros de trabajo</string>
+    <string name="modulo_7_p706_sp3">3.Servidor público</string>
+    <string name="modulo_7_p706_sp4">4.Fuerzas del orden</string>
+    <string name="modulo_7_p706_sp5">5.Vecino/a</string>
+    <string name="modulo_7_p706_sp6">6.Arrendatario</string>
+    <string name="modulo_7_p706_sp7">7.Extraño/a</string>
+    <string name="modulo_7_p706_sp8">8.Compañeros de colegio</string>
+    <string name="modulo_7_p706_sp9">9.Otros</string>
+    <string name="modulo_7_p706_especifique">Especifique</string>
+
+
+    <string name="modulo_7_p707">707.EN LA COMUNIDAD O BARRIO DONDE VIVE, ¿PARTICIPA USTED EN ASOCIACIONES O ESPACIOS DE REUNIÓN COMUNITARIOS, COMO:</string> <!--//1105-->
+    <string name="modulo_7_p707_ind">(Lea cada una de las alternativas y seleccione uno o más códigos)</string>
+    <string name="modulo_7_p707_sp1">1.Iglesia?</string>
+    <string name="modulo_7_p707_sp2">2.Junta de vecinos?</string>
+    <string name="modulo_7_p707_sp3">3.Asociaciones de padres?</string>
+    <string name="modulo_7_p707_sp4">4.Asociación de venezolanos?</string>
+    <string name="modulo_7_p707_sp5">5.Asociación de refugiados?</string>
+    <string name="modulo_7_p707_sp6">6.Grupos juveniles?</string>
+    <string name="modulo_7_p707_sp7">7.Grupos deportivos?</string>
+    <string name="modulo_7_p707_sp8">8.Otra institución?</string>
+    <string name="modulo_7_p707_especifique">Especifique</string>
+    <string name="modulo_7_p707_sp9">9.NO PARTICIPA</string>
+
+    <string name="modulo_7_p708">708.AHORA LE VOY A LEER ALGUNAS ORACIONES, SOLO DEBE DECIRME SI ESTÁ DE ACUERDO O NO:</string>
+    <string name="modulo_7_p708_ind">(Lea cada una de las alternativas y seleccione un código)</string>
+    <string name="modulo_7_p708_sp1">1.Me siento identificado/a con la sociedad y/o cultura peruana</string>
+    <string name="modulo_7_p708_sp2">2.Me siento como un extraño/a en Perú</string>
+    <string name="modulo_7_p708_sp3">3.Me siento aislado/a por la sociedad y/o cultura peruana</string>
+    <string name="modulo_7_p708_sp4">¿Está de acuerdo?</string>
+    <string name="modulo_7_p708_si">SÍ</string>
+    <string name="modulo_7_p708_no">NO</string>
+
+    <string name="modulo_7_p709">709. ¿CUÁLES SERÍAN LAS TRES \"PRINCIPALES\" NECESIDADES, QUE NO ESTÁN SIENDO CUBIERTAS EN SU HOGAR HOY EN DÍA?</string>
+    <string name="modulo_7_p709_ind">(Espere la respuesta y seleccione solo las tres principales necesidades)</string>
+    <string name="modulo_7_p709_sp1">1.Alimentos</string>
+    <string name="modulo_7_p709_sp2">2.Acceso a salud </string>
+    <string name="modulo_7_p709_sp3">3.Asistencia para regularizar la situación migratoria y/o estatus de refugiado</string>
+    <string name="modulo_7_p709_sp4">4.Generación de ingresos/empleo</string>
+    <string name="modulo_7_p709_sp5">5.Educación y capacitación</string>
+    <string name="modulo_7_p709_sp6">6.Artículos no alimentarios (ropa/cuidado personal, etc.)</string>
+    <string name="modulo_7_p709_sp7">7.Alojamiento</string>
+    <string name="modulo_7_p709_sp8">8.Acceso a servicios de agua y/o desagüe</string>
+    <string name="modulo_7_p709_sp9">9.Reunificación familiar</string>
+    <string name="modulo_7_p709_sp10a">10.Esparcimiento y diversión</string>
+    <string name="modulo_7_p709_sp10">11.Otra necesidad</string>
+    <string name="modulo_7_p709_especifique">Especifique</string>
+    <string name="modulo_7_p709_sp11">12.SUS NECESIDADES YA ESTAN CUBIERTAS</string>
+
+
+    <!--Strings asociados al Capítulo 8: GÉNERO Y VICTIMIZACIÓN-->
+    <string name="modulo_8_nombre">VIII. GÉNERO Y VICTIMIZACIÓN (Para personas de 18 años y más de edad)</string>
+    <string name="modulo_8_menu">Capítulo VIII: Género y Victimización</string>
+    <string name="modulo_8_submenu_1">Preguntas 801 - 804</string>
+    <string name="modulo_8_submenu_2">Preguntas 805 - 808</string>
+    <string name="modulo_8_submenu_3">Preguntas 809 - 812</string>
+    <string name="modulo_8_submenu_4">Preguntas 813 - 816</string>
+    <string name="modulo_8_submenu_5">Preguntas 817 - 820</string>
+    <string name="modulo_8_submenu_6">Preguntas 821 - 823</string>
+
+    <string name="modulo_8_p801">801.¿EN SU HOGAR, QUIÉN DECIDE CÓMO SE GASTA PRINCIPALMENTE EL DINERO?</string>
+    <string name="modulo_8_p801_ind">(Espere la respuesta y seleccione solo un código)</string>
+    <string name="modulo_8_p801_sp1">1.Entrevistado/a</string>
+    <string name="modulo_8_p801_sp2">2.Esposo/a o compañero/a</string>
+    <string name="modulo_8_p801_sp3">3.Ambos</string>
+    <string name="modulo_8_p801_sp4">4.Alguien más en el hogar</string>
+    <string name="modulo_8_p801_sp5">5.Entrevistado/a y alguien más </string>
+
+    <string name="modulo_8_p802">802.DESDE QUE LLEGÓ A PERÚ, ¿CONOCE DE ALGUNA PERSONA VENEZOLANA QUE HAYA SIDO VÍCTIMA DE:</string>
+    <string name="modulo_8_p802_sp1">1.Maltrato físico?</string>
+    <string name="modulo_8_p802_sp2">2.Maltrato psicológico?</string>
+    <string name="modulo_8_p802_sp3">3.Violencia sexual?</string>
+    <string name="modulo_8_p802_si">SI</string>
+    <string name="modulo_8_p802_no">NO</string>
+
+    <string name="modulo_8_p802A">802A.SABE USTED ¿QUIÉN LLEVÓ A CABO EL MALTRATO FISICO ?</string>
+    <string name="modulo_8_p802A_2">802A.SABE USTED ¿QUIÉN LLEVÓ A CABO EL MALTRATO PSICOLÓGICO ?</string>
+    <string name="modulo_8_p802A_3">802A.SABE USTED ¿QUIÉN LLEVÓ A CABO LA VIOLENCIA SEXUAL ?</string>
+    <string name="modulo_8_p802A_sp1">1.Cónyuge / pareja</string>
+    <string name="modulo_8_p802A_sp2">2.Otros familiares</string>
+    <string name="modulo_8_p802A_sp3">3.Jefes o supervisores/compañeros de trabajo</string>
+    <string name="modulo_8_p802A_sp4">4.Servidor público</string>
+    <string name="modulo_8_p802A_sp5">5.Servidor privado</string>
+    <string name="modulo_8_p802A_sp6">6.Fuerzas del orden</string>
+    <string name="modulo_8_p802A_sp7">7.Un extraño</string>
+    <string name="modulo_8_p802A_sp8">8.Otro</string>
+    <string name="modulo_8_p802A_especifique">Especifique</string>
+
+    <string-array name="modulo_8_p802A_array">
+        <item>Seleccione</item>
+        <item>1.Cónyuge / pareja</item>
+        <item>2.Otros familiares</item>
+        <item>3.Jefes o supervisores/compañeros de trabajo</item>
+        <item>4.Servidor público</item>
+        <item>5.Servidor privado</item>
+        <item>6.Fuerzas del orden</item>
+        <item>7.Un extraño</item>
+        <item>8.Otro.</item>
+    </string-array>
+
+
+    <string name="modulo_8_p803">803.¿USTED SABE SI ESTA PERSONA, QUE SUFRIÓ VIOLENCIA SEXUAL, ACUDIÓ A ALGUNA PERSONA O INSTITUCIÓN PARA PEDIR AYUDA?</string>
+    <string name="modulo_8_p803_ind">(Espere la respuesta y seleccione solo un código)</string>
+    <string name="modulo_8_p803_sp1">Sí</string> <!--//1105-->
+    <string name="modulo_8_p803_sp2">No</string> <!--//1105-->
+
+
+    <string name="modulo_8_p804">804.USTED SABE, ¿A QUIÉN O A DÓNDE RECURRIÓ?</string>
+    <string name="modulo_8_p804_ind">(Entregue la Tarjeta Nº 4, espere la respuesta y seleccione uno o más códigos)</string>
+    <string name="modulo_8_p804_sp1">1.Esposo/a o compañero/a</string>
+    <string name="modulo_8_p804_sp2">2.Padre o Madre</string>
+    <string name="modulo_8_p804_sp3">3.Familiar</string>
+    <string name="modulo_8_p804_sp4">4.Amigo/a o vecino/a</string>
+    <string name="modulo_8_p804_sp5">5.Iglesia</string>
+    <string name="modulo_8_p804_sp6">6.Comisaría</string>
+    <string name="modulo_8_p804_sp7">7.Juzgado/Fiscalía</string>
+    <string name="modulo_8_p804_sp8">8.Establecimiento de salud</string>
+    <string name="modulo_8_p804_sp9">9.DEMUNA</string>
+    <string name="modulo_8_p804_sp10">10.Centro de Emergencia Mujer – CEM/MIMP</string>
+    <string name="modulo_8_p804_sp11">11.Defensoría del pueblo</string>
+    <string name="modulo_8_p804_sp12">12.Organización privada</string>
+    <string name="modulo_8_p804_sp13">13.ONG</string>
+    <string name="modulo_8_p804_sp14">14.Otro</string>
+    <string name="modulo_8_p804_especifique">Especifique</string>
+
+    <string name="modulo_8_p806">806.EN SU OPINIÓN, ¿LAS SITUACIONES DE VIOLENCIA (FÍSICA, PSICOLÓGICA Y SEXUAL) SON:</string>
+    <string name="modulo_8_p806_ind">(Lea cada alternativa y seleccione un código)</string>
+    <string name="modulo_8_p806_sp1">1.Más frecuentes que antes de la COVID-19?</string>
+    <string name="modulo_8_p806_sp2">2.Menos frecuentes que antes de la COVID-19?</string>
+    <string name="modulo_8_p806_sp3">3.Igual de frecuentes que antes de la COVID-19?</string>
+
+
+    <string name="modulo_8_p805">805. USTED SABE, ¿PORQUÉ NO PIDIÓ AYUDA LA PERSONA QUE FUE VÍCTIMA DE VIOLENCIA SEXUAL?</string>
+    <string name="modulo_8_p805_ind">(Espere la respuesta y seleccione uno o más códigos)</string>
+    <string name="modulo_8_p805_sp1">1.No sabía a donde ir/ no conoce los servicios</string>
+    <string name="modulo_8_p805_sp2">2.De nada sirve</string>
+    <string name="modulo_8_p805_sp3">3.Miedo a las consecuencias</string>
+    <string name="modulo_8_p805_sp4">4.Vergüenza</string>
+    <string name="modulo_8_p805_sp5">5.No tenía acceso por ser venezolano/a</string>
+    <string name="modulo_8_p805_sp6">6.Falta de recursos económicos</string>
+    <string name="modulo_8_p805_sp7">7.Falta de tiempo</string>
+    <string name="modulo_8_p805_sp8">8.Miedo a ser enviado de vuelta a Venezuela</string>
+    <string name="modulo_8_p805_sp9">9.No sabe</string>
+
+    <string name="modulo_8_p807">807. DESDE QUE LLEGÓ A PERÚ, ¿SABE O CONOCE DE ALGUNA PERSONA VENEZOLANA QUE SE HA VISTO EN LA NECESIDAD DE TENER SEXO A CAMBIO DE ALGÚN BIEN O SERVICIO?</string>
+    <string name="modulo_8_p807_si">1.Sí</string>
+    <string name="modulo_8_p807_no">2.No</string>
+
+
+    <string name="modulo_8_p808">808.USTED, ¿SABE O CONOCE QUIÉN FUE LA PERSONA QUE MALTRATÓ VERBALMENTE A LA VÍCTIMA? </string>
+    <string name="modulo_8_p808_ind">(Entregue la tarjeta, espere la respuesta y seleccione uno o más códigos)</string>
+    <string name="modulo_8_p808_sp1">1.Esposo/a o compañero/a</string>
+    <string name="modulo_8_p808_sp2">2.Padre</string>
+    <string name="modulo_8_p808_sp3">3.Madre</string>
+    <string name="modulo_8_p808_sp4">4.Otro familiar femenino</string>
+    <string name="modulo_8_p808_sp5">5.Otro familiar masculino</string>
+    <string name="modulo_8_p808_sp6">6.Empleador/a </string>
+    <string name="modulo_8_p808_sp7">7.Profesor/a </string>
+    <string name="modulo_8_p808_sp8">8.Empleado/a público</string>
+    <string name="modulo_8_p808_sp9">9.Fuerzas del orden</string>
+    <string name="modulo_8_p808_sp10">10.Empleado/a privado</string>
+    <string name="modulo_8_p808_sp11">11.Extraño/a </string>
+    <string name="modulo_8_p808_sp12">12.Compañero/a de estudio</string>
+    <string name="modulo_8_p808_sp13">13.Otro</string>
+    <string name="modulo_8_p808_especifique">Especifique</string>
+
+    <string name="modulo_8_p809">809.DESDE QUE LLEGÓ AL PERÚ, ¿SABE O CONOCE DE ALGUNA PERSONA VENEZOLANA QUE HA SIDO VÍCTIMA DE MALTRATO FÍSICO?</string>
+    <string name="modulo_8_p809_si">1.Sí</string>
+    <string name="modulo_8_p809_no">2.No</string>
+
+    <string name="modulo_8_p810">810.USTED, ¿SABE O CONOCE QUIÉN FUE LA PERSONA QUE MALTRATÓ FÍSICAMENTE A LA VÍCTIMA?</string>
+    <string name="modulo_8_p810_ind">(Entregue la tarjeta, espere la respuesta y seleccione uno o más códigos)</string>
+    <string name="modulo_8_p810_sp1">1.Esposo/a o compañero/a</string>
+    <string name="modulo_8_p810_sp2">2.Padre</string>
+    <string name="modulo_8_p810_sp3">3.Madre</string>
+    <string name="modulo_8_p810_sp4">4.Otro familiar femenino</string>
+    <string name="modulo_8_p810_sp5">5.Otro familiar masculino</string>
+    <string name="modulo_8_p810_sp6">6.Empleador/a </string>
+    <string name="modulo_8_p810_sp7">7.Profesor/a </string>
+    <string name="modulo_8_p810_sp8">8.Empleado/a público</string>
+    <string name="modulo_8_p810_sp9">9.Fuerzas del orden</string>
+    <string name="modulo_8_p810_sp10">10.Empleado/a privado</string>
+    <string name="modulo_8_p810_sp11">11.Extraño/a </string>
+    <string name="modulo_8_p810_sp12">12.Compañero/a de estudio</string>
+    <string name="modulo_8_p810_sp13">13.Otro</string>
+    <string name="modulo_8_p810_especifique">Especifique</string>
+
+    <string name="modulo_8_p811">811.ESTAS SITUACIONES DE MALTRATO FÍSICO, SON:</string>
+    <string name="modulo_8_p811_ind">(Lea cada una de las alternativas y seleccione solo un código)</string>
+    <string name="modulo_8_p811_sp1">1.¿Más frecuentes que cuando vivía en Venezuela)?</string>
+    <string name="modulo_8_p811_sp2">2.¿Menos frecuentes que cuando vivía en Venezuela?</string>
+    <string name="modulo_8_p811_sp3">3.¿Igual de frecuentes que cuando vivía en Venezuela?</string>
+
+    <string name="modulo_8_p812">812.USTED SABE, ¿SI ESTA PERSONA ACUDIÓ A PEDIR AYUDA A ALGUNA PERSONA O INSTITUCIÓN?</string>
+    <string name="modulo_8_p812_si">1.Sí</string>
+    <string name="modulo_8_p812_no">2.No</string>
+
+    <string name="modulo_8_p813">813.USTED TIENE CONOCIMIENTO, ¿A QUIÉN O A DÓNDE RECURRIÓ?</string>
+    <string name="modulo_8_p813_ind">(Entregue la tarjeta, espere la respuesta y seleccione uno o más códigos)</string>
+    <string name="modulo_8_p813_sp1">1.Esposo/a o compañero/a</string>
+    <string name="modulo_8_p813_sp2">2.Padre o madre</string>
+    <string name="modulo_8_p813_sp3">3.Familiar</string>
+    <string name="modulo_8_p813_sp4">4.Amigo/a o vecino/a</string>
+    <string name="modulo_8_p813_sp5">5.Iglesia</string>
+    <string name="modulo_8_p813_sp6">6.Comisaria</string>
+    <string name="modulo_8_p813_sp7">7.Juzgado/Fiscalía</string>
+    <string name="modulo_8_p813_sp8">8.Establecimiento de salud</string>
+    <string name="modulo_8_p813_sp9">9.DEMUNA</string>
+    <string name="modulo_8_p813_sp10">10.Centro de Emergencia Mujer – CEM/MIMP</string>
+    <string name="modulo_8_p813_sp11">11.Defensoría del Pueblo</string>
+    <string name="modulo_8_p813_sp12">12.Organización privada</string>
+    <string name="modulo_8_p813_sp13">13.ONG</string>
+    <string name="modulo_8_p813_sp14">14.Otro</string>
+    <string name="modulo_8_p813_especifique">Especifique</string>
+
+    <string name="modulo_8_p814">814.USTED SABE, ¿PORQUE NO PIDIÓ AYUDA LA PERSONA QUE FUE VÍCTIMA DE MALTRATO FÍSICO?</string>
+    <string name="modulo_8_p814_ind">(Espere la respuesta y seleccione uno o más códigos)</string>
+    <string name="modulo_8_p814_sp1">1.No sabía a donde ir/ no conoce los servicios</string>
+    <string name="modulo_8_p814_sp2">2.De nada sirve</string>
+    <string name="modulo_8_p814_sp3">3.Miedo a las consecuencias</string>
+    <string name="modulo_8_p814_sp4">4.Vergüenza</string>
+    <string name="modulo_8_p814_sp5">5.No tenía acceso por ser venezolano/a</string>
+    <string name="modulo_8_p814_sp6">6.Falta de recursos económicos</string>
+    <string name="modulo_8_p814_sp7">7.Falta de tiempo</string>
+    <string name="modulo_8_p814_sp8">8.Miedo a ser enviado de vuelta a Venezuela</string>
+
+    <string name="modulo_8_p815">815.¿DESDE QUE LLEGÓ AL PERÚ, SABE O CONOCE DE ALGUNA PERSONA VENEZOLANA QUE HA SIDO VÍCTIMA DE VIOLENCIA SEXUAL?</string>
+    <string name="modulo_8_p815_si">1.Sí</string>
+    <string name="modulo_8_p815_no">2.No</string>
+
+    <string name="modulo_8_p816">816.USTED, ¿SABE O CONOCE QUIÉN FUE LA PERSONA QUE VIOLENTÓ SEXUALMENTE A LA VÍCTIMA? </string>
+    <string name="modulo_8_p816_ind">(Entregue la tarjeta, espere la respuesta y seleccione uno o más códigos)</string>
+    <string name="modulo_8_p816_sp1">1.Esposo/a o compañero/a</string>
+    <string name="modulo_8_p816_sp2">2.Padre</string>
+    <string name="modulo_8_p816_sp3">3.Madre</string>
+    <string name="modulo_8_p816_sp4">4.Otro familiar femenino</string>
+    <string name="modulo_8_p816_sp5">5.Otro familiar masculino</string>
+    <string name="modulo_8_p816_sp6">6.Empleador/a </string>
+    <string name="modulo_8_p816_sp7">7.Profesor/a </string>
+    <string name="modulo_8_p816_sp8">8.Empleado/a público</string>
+    <string name="modulo_8_p816_sp9">9.Fuerzas del orden</string>
+    <string name="modulo_8_p816_sp10">10.Empleado/a privado</string>
+    <string name="modulo_8_p816_sp11">11.Extraño/a </string>
+    <string name="modulo_8_p816_sp12">12.Compañero/a de estudio</string>
+    <string name="modulo_8_p816_sp13">13.Otro</string>
+    <string name="modulo_8_p816_especifique">Especifique</string>
+
+    <string name="modulo_8_p817">817.ESTAS SITUACIONES, SOBRE VIOLENCIA SEXUAL SON:</string>
+    <string name="modulo_8_p817_ind">(Lea cada una de las alternativas y seleccione solo un código)</string>
+    <string name="modulo_8_p817_sp1">1.¿Más frecuentes que cuando vivía en Venezuela?</string>
+    <string name="modulo_8_p817_sp2">2.¿Menos frecuentes que cuando vivía en Venezuela?</string>
+    <string name="modulo_8_p817_sp3">3.¿Igual de frecuentes que cuando vivía en Venezuela?</string>
+
+    <string name="modulo_8_p818">818.¿USTED SABE SI ESTA PERSONA, QUE SUFRIÓ VIOLENCIA SEXUAL, ACUDIÓ A ALGUNA PERSONA O INSTITUCIÓN PARA PEDIR AYUDA?</string>
+    <string name="modulo_8_p818_si">1.Sí</string>
+    <string name="modulo_8_p818_no">2.No</string>
+
+    <string name="modulo_8_p819">819.	USTED SABE, ¿A QUIÉN O A DÓNDE RECURRIÓ?</string>
+    <string name="modulo_8_p819_ind">(Entregue la tarjeta, espere la respuesta y seleccione uno o más códigos)</string>
+    <string name="modulo_8_p819_sp1">1.Esposo/a o compañero/a</string>
+    <string name="modulo_8_p819_sp2">2.Padre o madre</string>
+    <string name="modulo_8_p819_sp3">3.Familiar</string>
+    <string name="modulo_8_p819_sp4">4.Amigo/a o vecino/a</string>
+    <string name="modulo_8_p819_sp5">5.Iglesia</string>
+    <string name="modulo_8_p819_sp6">6.Comisaria</string>
+    <string name="modulo_8_p819_sp7">7.Juzgado/Fiscalía</string>
+    <string name="modulo_8_p819_sp8">8.Establecimiento de salud</string>
+    <string name="modulo_8_p819_sp9">9.DEMUNA</string>
+    <string name="modulo_8_p819_sp10">10.Centro de Emergencia Mujer – CEM/MIMP</string>
+    <string name="modulo_8_p819_sp11">11.Defensoría del Pueblo</string>
+    <string name="modulo_8_p819_sp12">12.Organización privada</string>
+    <string name="modulo_8_p819_sp13">13.ONG</string>
+    <string name="modulo_8_p819_sp14">14.Otro</string>
+    <string name="modulo_8_p819_especifique">Especifique</string>
+
+    <string name="modulo_8_p820">820.EN SU OPINIÓN, ESTAS SITUACIONES DE VIOLENCIA SEXUAL SE PRESENTAN CON MÁS FRECUENCIA EN:</string>
+    <string name="modulo_8_p820_ind">(Lea cada una de las alternativas y seleccione uno o más códigos)</string>
+    <string name="modulo_8_p820_sp1">1.¿El hogar?</string>
+    <string name="modulo_8_p820_sp2">2.¿Residencia de alguien más?</string>
+    <string name="modulo_8_p820_sp3">3.¿Lugar de trabajo?</string>
+    <string name="modulo_8_p820_sp4">4.¿Centro educativo o de salud?</string>
+    <string name="modulo_8_p820_sp5">5.¿Dependencia pública (ministerios, municipalidad, otras)?</string>
+    <string name="modulo_8_p820_sp6">6.¿Comisaria?</string>
+    <string name="modulo_8_p820_sp7">7.¿Al solicitar un empleo?</string>
+    <string name="modulo_8_p820_sp8">8.¿En un local público (club, restaurante, tienda, discoteca)?</string>
+    <string name="modulo_8_p820_sp9">9.¿En un local u oficina privada (banco, compañías de servicios públicos, etc.)? </string>
+    <string name="modulo_8_p820_sp10">10.¿En la calle?</string>
+    <string name="modulo_8_p820_sp11">11.¿Otro?</string>
+    <string name="modulo_8_p820_especifique">Especifique</string>
+
+    <string name="modulo_8_p821">821.SABE USTED, ¿PORQUÉ NO PIDIÓ AYUDA LA PERSONA QUE FUE VÍCTIMA DE VIOLENCIA SEXUAL?</string>
+    <string name="modulo_8_p821_ind">(Espere la respuesta y seleccione uno o más códigos)</string>
+    <string name="modulo_8_p821_sp1">1.No sabía a donde ir/ no conoce los servicios</string>
+    <string name="modulo_8_p821_sp2">2.De nada sirve</string>
+    <string name="modulo_8_p821_sp3">3.Miedo a las consecuencias</string>
+    <string name="modulo_8_p821_sp4">4.Vergüenza</string>
+    <string name="modulo_8_p821_sp5">5.No tenía acceso por ser venezolano/a</string>
+    <string name="modulo_8_p821_sp6">6.Falta de recursos económicos</string>
+    <string name="modulo_8_p821_sp7">7.Falta de tiempo</string>
+    <string name="modulo_8_p821_sp8">8.Miedo a ser enviado de vuelta a Venezuela</string>
+
+    <string name="modulo_8_p822">822.DESDE QUE LLEGÓ AL PERÚ, SABE O CONOCE DE ALGUNA PERSONA VENEZOLANA QUE SE HA VISTO EN LA NECESIDAD DE TENER SEXO A CAMBIO DE ALGÚN BIEN O SERVICIO?</string>
+    <string name="modulo_8_p822_si">1.Sí</string>
+    <string name="modulo_8_p822_no">2.No</string>
+
+    <string name="modulo_8_p823">823.USTED SABE, SI ÉSTA SITUACIÓN SE DIÓ PARA ACCEDER A:</string>
+    <string name="modulo_8_p823_ind">(Lea cada una de las alternativas y seleccione uno o más códigos)</string>
+    <string name="modulo_8_p823_sp1">1.¿Una oportunidad laboral?</string>
+    <string name="modulo_8_p823_sp2">2.¿Dinero?</string>
+    <string name="modulo_8_p823_sp3">3.¿Vivienda, ropa o comida?</string>
+    <string name="modulo_8_p823_sp4">4.¿Por protección?</string>
+    <string name="modulo_8_p823_sp5">5.¿Otra situación?</string>
+    <string name="modulo_8_p823_especifique">Especifique</string>
+
+    <string name="agradecimeinto">Agradezco a usted la oportunidad de colaborar con esta investigación de gran importancia para la integración de la población migrante en la sociedad peruana. La información recolectada se mantendrá privada y confidencial. Muchas gracias.</string>
+
+    <string name="siglas_encuesta">ENPOVE 2018</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="modulo_3_p318_boton">Guardar Persona</string>
+    <string name="modulo_3_p309_titulo_agregar">AGREGAR RUTA</string>
+    <string name="modulo_3_p318_titulo_agregar">AGREGAR PERSONA</string>
+    <string name="title_activity_vivienda">ViviendaActivity</string>
+    <string name="title_activity_hogar">HogarActivity</string>
+
+
+    <string-array name="paises">
+        <item>Seleccione País</item>
+        <item>1.Antigua y Barbuda</item>
+        <item>2.Argentina</item>
+        <item>3.Bahamas</item>
+        <item>4.Barbados</item>
+        <item>5.Belice</item>
+        <item>6.Bolivia</item>
+        <item>7.Brasil</item>
+        <item>8.Canadá</item>
+        <item>9.Chile</item>
+        <item>10.Colombia</item>
+        <item>11.Costa Rica</item>
+        <item>12.Cuba</item>
+        <item>13.Dominica</item>
+        <item>14.Ecuador</item>
+        <item>15.El Salvador</item>
+        <item>16.Estados Unidos</item>
+        <item>17.Granada</item>
+        <item>18.Guatemala</item>
+        <item>19.Guyana</item>
+        <item>20.Haití</item>
+        <item>21.Honduras</item>
+        <item>22.Jamaica</item>
+        <item>23.México</item>
+        <item>24.Nicaragua</item>
+        <item>25.Panamá</item>
+        <item>26.Paraguay</item>
+        <item>27.Perú</item>
+        <item>28.República Dominicana</item>
+        <item>29.San Cristóbal y Nieves</item>
+        <item>30.San Vicente y las Granadinas</item>
+        <item>31.Santa Lucía</item>
+        <item>32.Surinam</item>
+        <item>33.Trinidad y Tobago</item>
+        <item>34.Uruguay</item>
+        <item>35.Venezuela</item>
+        <item>99.Otro país</item>
+    </string-array>
+
+    <string-array name="rutas_paises">
+        <item>SELECCIONE PAÍS</item>
+        <item>1.VENEZUELA</item>
+        <item>2.COLOMBIA</item>
+        <item>3.ECUADOR </item>
+        <item>4.BRASIL</item>
+        <item>5.PERÚ</item>
+        <item>9999.OTRO PAÍS</item>
+    </string-array>
+
+    <string-array name="numeros_meses">
+        <item>mes</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="numeros_anios">
+        <item>año</item>
+        <item>2022</item>
+        <item>2021</item>
+        <item>2020</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2008</item>
+        <item>2007</item>
+        <item>2006</item>
+        <item>2005</item>
+        <item>2004</item>
+        <item>2003</item>
+        <item>2002</item>
+        <item>2001</item>
+        <item>2000</item>
+        <item>1999</item>
+        <item>1998</item>
+        <item>1997</item>
+        <item>1996</item>
+        <item>1995</item>
+        <item>1994</item>
+        <item>1993</item>
+        <item>1992</item>
+        <item>1991</item>
+        <item>1990</item>
+        <item>1989</item>
+        <item>1988</item>
+        <item>1987</item>
+        <item>1986</item>
+        <item>1985</item>
+        <item>1984</item>
+        <item>1983</item>
+        <item>1982</item>
+        <item>1981</item>
+        <item>1980</item>
+        <item>1979</item>
+        <item>1978</item>
+        <item>1977</item>
+        <item>1976</item>
+        <item>1975</item>
+        <item>1974</item>
+        <item>1973</item>
+        <item>1972</item>
+        <item>1971</item>
+        <item>1970</item>
+    </string-array>
+
+    <string-array name="array_estados">
+        <item>Seleccione estado</item>
+        <item>01.Distrito Capital</item>
+        <item>02.Estado Amazonas</item>
+        <item>03.Estado Anzoátegui</item>
+        <item>04.Estado Apure</item>
+        <item>05.Estado Aragua</item>
+        <item>06.Estado Barinas</item>
+        <item>07.Estado Bolívar</item>
+        <item>08.Estado Carabobo</item>
+        <item>09.Estado Cojedes</item>
+        <item>10.Estado Delta Amacuro</item>
+        <item>11.Estado Falcón</item>
+        <item>12.Estado Guarico</item>
+        <item>13.Estado Lara</item>
+        <item>14.Estado Miranda</item>
+        <item>15.Estado Monagas</item>
+        <item>16.Estado Nueva Esparta</item>
+        <item>17.Estado Portuguesa</item>
+        <item>18.Estado Sucre</item>
+        <item>19.Estado Táchira</item>
+        <item>20.Estado Trujillo</item>
+        <item>21.Estado Vargas</item>
+        <item>22.Estado Yaracuy</item>
+        <item>23.Estado Zulia</item>
+        <item>9999.Otro estado</item>
+    </string-array>
+
+    <string-array name="array_carreras_tecnicas">
+        <item>111015- EDUCACION INICIAL</item>
+        <item>111025- EDUCACION INICIAL (INTERCULTURAL Y BILINGÜE)</item>
+        <item>112015- EDUCACION PRIMARIA</item>
+        <item>112025- EDUCACION PRIMARIA (INTERCULTURAL Y BILINGÜE)</item>
+        <item>121015- EDUCACION EN COMPUTACION  E INFORMATICA</item>
+        <item>121025- EDUCACION EN IDIOMAS - INGLES</item>
+        <item>121035- EDUCACION PARA EL TRABAJO</item>
+        <item>121045- EDUCACION RELIGIOSA</item>
+        <item>121055- EDUCACION SECUNDARIA  - CIENCIA, TECNOLOGIA Y AMBIENTE</item>
+        <item>121065- EDUCACION SECUNDARIA  - CIENCIAS SOCIALES</item>
+        <item>121075- EDUCACION SECUNDARIA  - COMUNICACION</item>
+        <item>121085- EDUCACION SECUNDARIA  - MATEMATICA</item>
+        <item>121095- EDUCACION SECUNDARIA  TECNICA</item>
+        <item>131015- EDUCACION FISICA</item>
+        <item>141015- EDUCACION ESPECIAL AUDICION</item>
+        <item>141025- EDUCACION ESPECIAL RETARDO</item>
+        <item>151015- EDUCACION ARTISTICA</item>
+        <item>151025- EDUCACION DANZA</item>
+        <item>151035- EDUCACION EN DANZA CLASICA</item>
+        <item>151045- EDUCACION MUSICAL</item>
+        <item>151055- PEDAGOGIA  DE LA INTERPRETACION MUSICAL</item>
+        <item>199015- EDUCACION BASICA ALTERNATIVA</item>
+        <item>199025- OTRAS CARRERAS  DE EDUCACION</item>
+        <item>214015- INTERPRETACION DE IDIOMAS</item>
+        <item>214025- TRADUCCION DE IDIOMAS</item>
+        <item>214035- TRADUCCION E INTERPRETACION</item>
+        <item>215015- ARCHIVOS</item>
+        <item>216015- RELIGION Y EDUCACION PARA EL TRABAJO</item>
+        <item>216025- TEOLOGIA - CATOLICA</item>
+        <item>216035- TEOLOGIA - EVANGELICA</item>
+        <item>216045- TEOLOGIA - FORMACION RELIGIOSA</item>
+        <item>221015- ARTES PLASTICAS Y VISUALES</item>
+        <item>221025- CONSTRUCCION DE ARTE EN MADERA</item>
+        <item>221035- RESTAURACION Y CONSERVACION  DE OBRAS  DE ARTE</item>
+        <item>222015- ANIMACION DIGITAL</item>
+        <item>222025- ARTES GRAFICAS</item>
+        <item>222035- ARTES GRAFICAS Y PUBLICITARIAS</item>
+        <item>222045- ARTES Y CIENCIAS PUBLICITARIAS</item>
+        <item>222055- CIENCIAS PUBLICITARIAS</item>
+        <item>222065- DIRECCION DE ARTES GRAFICOS Y PUBLICITARIAS</item>
+        <item>222075- DIRECCION Y DISEÑO GRAFICO</item>
+        <item>222085- DIRECCION Y DISEÑO PUBLICITARIO</item>
+        <item>222095- DISEÑO DE INTERIORES</item>
+        <item>222105- DISEÑO DE PRODUCTO</item>
+        <item>222115- DISEÑO ESCENOGRAFICO</item>
+        <item>222125- DISEÑO GRAFICO</item>
+        <item>222135- DISEÑO GRAFICO Y PUBLICIDAD DIGITAL</item>
+        <item>222145- DISEÑO GRAFICO Y PUBLICITARIO</item>
+        <item>222155- DISEÑO INDUSTRIAL</item>
+        <item>222165- DISEÑO PUBLICITARIO</item>
+        <item>222175- DISEÑO TECNICO</item>
+        <item>222185- DISEÑO WEB Y MULTIMEDIA</item>
+        <item>222195- PRODUCCION DE IMPRESOS</item>
+        <item>222205- PUBLICIDAD</item>
+        <item>223015- DANZA</item>
+        <item>223025- INTERPRETE EN DANZA CLASICA</item>
+        <item>224015- COMPOSICION</item>
+        <item>224025- DIRECCION MUSICAL</item>
+        <item>224035- INTERPRETACION MUSICAL</item>
+        <item>224045- MUSICA</item>
+        <item>224055- MUSICA Y TECNOLOGIA DE SONIDO</item>
+        <item>224065- MUSICOLOGIA</item>
+        <item>224075- PRODUCCION MUSICAL</item>
+        <item>225015- ACTUACION</item>
+        <item>225025- ARTE DRAMATICO</item>
+        <item>225035- TEATRO Y TELEVISION</item>
+        <item>311015- PROMOCION COMUNAL</item>
+        <item>311025- RELACIONES INSTITUCIONALES</item>
+        <item>311035- RELACIONES PUBLICAS</item>
+        <item>311045- TECNOLOGIA PENITENCIARIA</item>
+        <item>313015- TERAPIA PSICOANALITICA</item>
+        <item>321015- CIENCIAS DE LA COMUNICACION</item>
+        <item>321025- COMUNICACION  AUDIOVISUAL</item>
+        <item>321035- COMUNICACION  AUDIOVISUAL MULTIMEDIA</item>
+        <item>321045- COMUNICACION  ESCENICA</item>
+        <item>321055- COMUNICACION  INTEGRAL</item>
+        <item>321065- COMUNICACION  SOCIAL</item>
+        <item>321075- DIRECCION Y GUIONIZACION</item>
+        <item>321085- DIRECCION Y PRODUCCION EN RADIO</item>
+        <item>321095- DIRECCION, REALIZACION DE CINE Y TV</item>
+        <item>321105- PRODUCCION DE ESPECTACULOS</item>
+        <item>321115- PRODUCCION DE PROGRAMAS DE TELEVISION</item>
+        <item>321125- PRODUCCION DE RADIO Y TELEVISION</item>
+        <item>322015- LOCUCION,  COMUNICACION  RADIAL Y TELEVISIVA</item>
+        <item>322025- OPERACIONES DE COMUNICACIONES</item>
+        <item>322035- PERIODISMO</item>
+        <item>322045- PERIODISMO AUDIOVISUAL</item>
+        <item>322055- PERIODISMO DEPORTIVO</item>
+        <item>322065- PERIODISMO RADIAL Y TELEVISIVO</item>
+        <item>322075- REPORTERISMO</item>
+        <item>323015- AUDIOVISUAL MULTIMEDIA</item>
+        <item>323025- CAMARA Y EDICION CREATIVA</item>
+        <item>323035- FOTOGRAFIA</item>
+        <item>331015- ABASTECIMIENTO</item>
+        <item>331025- ADMINISTRACION</item>
+        <item>331035- ADMINISTRACION BANCARIA</item>
+        <item>331045- ADMINISTRACION BANCARIA POR COMPETENCIAS</item>
+        <item>331055- ADMINISTRACION BANCARIA Y FINANCIERA</item>
+        <item>331065- ADMINISTRACION DE AEROPUERTOS</item>
+        <item>331075- ADMINISTRACION DE AGENCIA DE VIAJES</item>
+        <item>331085- ADMINISTRACION DE BANCA Y FINANZAS</item>
+        <item>331095- ADMINISTRACION DE EMPRESAS</item>
+        <item>331105- ADMINISTRACION DE EMPRESAS DE TRANSPORTES</item>
+        <item>331115- ADMINISTRACION DE NEGOCIOS</item>
+        <item>331125- ADMINISTRACION DE NEGOCIOS Y VENTAS</item>
+        <item>331135- ADMINISTRACION DE SEGUROS</item>
+        <item>331145- ADMINISTRACION EJECUTIVA</item>
+        <item>331155- ADMINISTRACION INDUSTRIAL</item>
+        <item>331165- ADMINISTRACION LOGISTICA</item>
+        <item>331175- ADMINISTRACION MUNICIPAL</item>
+        <item>331185- ADMINISTRACION Y GESTION COMERCIAL</item>
+        <item>331195- ADMINISTRACION Y GESTION EMPRESARIAL</item>
+        <item>331205- ADMINISTRACION Y FINANZAS</item>
+        <item>331215- DIRECCION DE EMPRESAS</item>
+        <item>331225- DIRECCION DE EMPRESAS Y FINANZAS</item>
+        <item>331235- GERENCIA</item>
+        <item>331245- GESTION COMERCIAL</item>
+        <item>331255- GESTION DEL EMPRENDIMIENTO</item>
+        <item>331265- GESTION Y ADMINISTRACION DE NEGOCIOS</item>
+        <item>331275- ORGANIZACION Y ADMINISTRACION DE EMPRESAS</item>
+        <item>332015- ADMINISTRACION DE EMPRESAS TURISTICAS</item>
+        <item>332025- ADMINISTRACION DE EMPRESAS TURISTICAS  Y HOTELERAS</item>
+        <item>332035- ADMINISTRACION DE HOSTELERIA</item>
+        <item>332045- ADMINISTRACION DE HOTELES Y RESTAURANTES</item>
+        <item>332055- ADMINISTRACION DE HOTELES, RESTAURANTES Y AFINES</item>
+        <item>332065- ADMINISTRACION DE SERVICIOS DE HOSTELERIA</item>
+        <item>332075- ADMINISTRACION DE NEGOCIOS INTERNACIONALES DE TURISMO</item>
+        <item>332085- ADMINISTRACION HOTELERA</item>
+        <item>332095- ADMINISTRACION Y GERENCIA  EN HOTELERIA INTERNACIONAL</item>
+        <item>332105- COCINA</item>
+        <item>332115- ECOTURISMO Y GESTION AMBIENTAL</item>
+        <item>332125- GASTRONOMIA Y ARTE CULINARIO</item>
+        <item>332135- HOSTELERIA</item>
+        <item>332145- HOTELES Y RESTAURANTES</item>
+        <item>332155- PASTELERIA</item>
+        <item>332165- SERVICIOS HOTELEROS Y COCINA</item>
+        <item>332175- TURISMO  Y HOTELERIA</item>
+        <item>333015- MARKETING</item>
+        <item>333025- MARKETING EMPRESARIAL</item>
+        <item>333035- MARKETING INTEGRAL</item>
+        <item>333045- MARKETING VISUAL</item>
+        <item>333055- MARKETING Y PUBLICIDAD</item>
+        <item>333065- MARKETING Y VENTAS</item>
+        <item>333075- MERCADOTECNIA</item>
+        <item>333085- VENTAS</item>
+        <item>335015- ADMINISTRACION DE NEGOCIOS INTERNACIONALES</item>
+        <item>335025- COMERCIO EXTERIOR</item>
+        <item>335035- COMERCIO EXTERIOR AREA ARTESANIA DEL VESTIR</item>
+        <item>335045- COMERCIO EXTERIOR AREA FINANZAS</item>
+        <item>335055- COMERCIO EXTERIOR AREA MARKETING</item>
+        <item>335065- LOGISTICA DEL COMERCIO INTERNACIONAL</item>
+        <item>337015- ASISTENTE EJECUTIVO</item>
+        <item>337025- SECRETARIADO EJECUTIVO</item>
+        <item>337035- SECRETARIADO EJECUTIVO BILINGÜE</item>
+        <item>337045- SECRETARIADO EJECUTIVO COMPUTARIZADO</item>
+        <item>337055- SECRETARIADO EJECUTIVO  Y GERENCIAL</item>
+        <item>337065- SECRETARIADO INTERNACIONAL EJECUTIVO</item>
+        <item>339015- ADMINISTRACION DE RECURSOS HUMANOS</item>
+        <item>339025- ADMINISTRACION DE SERVICIOS DE POSTALES</item>
+        <item>339035- ADMINISTRATIVO</item>
+        <item>339045- AGENCIA DE DESARROLLO INTEGRAL</item>
+        <item>339055- COMERCIO</item>
+        <item>339065- MONEDA EXTRANJERA</item>
+        <item>339075- PLANIFICACION EMPRESARIAL</item>
+        <item>339085- PLANIFICACION Y GESTION DE DESARROLLO</item>
+        <item>339095- SUPERVISION DE OPERACIONES</item>
+        <item>341015- ANALISIS ECONOMICO</item>
+        <item>341025- ECONOMIA EMPRESARIAL</item>
+        <item>341035- ELABORACION Y EVALUACION DE PROYECTO</item>
+        <item>342015- BANCA Y FINANZAS</item>
+        <item>342025- CONTABILIDAD</item>
+        <item>342035- CONTABILIDAD  COMPUTARIZADA</item>
+        <item>342045- CONTABILIDAD  Y FINANZAS</item>
+        <item>342055- CREDITO SECTORIAL</item>
+        <item>342065- CREDITOS</item>
+        <item>342075- FINANZAS</item>
+        <item>342085- OPERACIONES BANCARIAS Y FINANCIERAS</item>
+        <item>352015- ANALISIS POLITICO</item>
+        <item>412015- ZOOTECNIA</item>
+        <item>413015- HIDROGRAFIA Y NAVEGACION</item>
+        <item>414015- METEOROLOGIA</item>
+        <item>422015- ANALISIS QUIMICO</item>
+        <item>422025- QUIMICA INDUSTRIAL</item>
+        <item>422035- TECNOLOGIA DE ANALISIS QUIMICO</item>
+        <item>441015- ADMINISTRACION DE CENTRO DE COMPUTO</item>
+        <item>441025- ADMINISTRACION INFORMATICA DE EMPRESAS</item>
+        <item>441035- ADMINISTRACION Y SISTEMAS</item>
+        <item>441045- ANALISIS DE SISTEMAS</item>
+        <item>441055- ANALISIS DE SISTEMAS Y MODELACION DE BASE DE DATOS</item>
+        <item>441065- ANALISTA</item>
+        <item>441075- ANALISTA PROGRAMADOR</item>
+        <item>441085- COMPUTACION</item>
+        <item>441095- COMPUTACION  E INFORMATICA</item>
+        <item>441105- COMPUTACION  Y ADMINISTRACION DE SISTEMAS</item>
+        <item>441115- COMPUTACION  Y SISTEMAS</item>
+        <item>441125- INFORMATICA</item>
+        <item>441135- MICROCOMPUTACION E INFORMATICA</item>
+        <item>441145- PROCESAMIENTO DE DATOS</item>
+        <item>441155- PROGRAMACION</item>
+        <item>441165- REDES Y COMUNICACION  DE DATOS</item>
+        <item>441175- REDES Y COMUNICACIONES</item>
+        <item>441185- REDES Y SEGURIDAD INFORMATICA</item>
+        <item>441195- REPARACION DE COMPUTADORAS</item>
+        <item>441205- REPARACION DE COMPUTADORAS Y REDES</item>
+        <item>441215- SEGURIDAD INFORMATICA</item>
+        <item>441225- SISTEMAS DE INFORMACION</item>
+        <item>441235- SISTEMAS INFORMATICOS PARA LA PRODUCTIVIDAD</item>
+        <item>441245- SOFTWARE Y SISTEMAS</item>
+        <item>441255- SOPORTE DE SISTEMAS Y REDES</item>
+        <item>512015- CONTROL DE TRANSITO AEREO</item>
+        <item>512025- SISTEMAS DE TELECOMUNICACIONES</item>
+        <item>512035- TECNICA EN INGENIERIA DE SONIDOS</item>
+        <item>512045- TECNICA EN INGENIERIA DE TELECOMUNICACIONES</item>
+        <item>512055- TECNICA EN INGENIERIA DE TELEMATICA</item>
+        <item>512065- TELECOMUNICACIONES</item>
+        <item>512075- TELEMATICA</item>
+        <item>521015- PROCESOS INDUSTRIALES Y DE SISTEMAS</item>
+        <item>521025- SALUD Y SEGURIDAD OCUPACIONAL</item>
+        <item>521035- TECNOLOGIA DE LA PRODUCCION</item>
+        <item>522015- GASTRONOMIA INDUSTRIAL</item>
+        <item>522025- INDUSTRIAS ALIMENTARIAS</item>
+        <item>522035- INDUSTRIAS ALIMENTARIAS LACTEAS</item>
+        <item>523015- AGROINDUSTRIAS</item>
+        <item>523025- OLIVICULTURA Y ELAIOTECNIA</item>
+        <item>523035- VITICULTURA  Y ENOLOGIA</item>
+        <item>524015- ELECTRICIDAD</item>
+        <item>524025- ELECTRICIDAD INDUSTRIAL</item>
+        <item>524035- ELECTROTECNIA INDUSTRIAL</item>
+        <item>524045- TECNICAS DE INGENIERIA ELECTRICA</item>
+        <item>525015- ELECTRONICA</item>
+        <item>525025- ELECTRONICA AERONAUTICA</item>
+        <item>525035- ELECTRONICA DE MICROCOMPUTADORAS</item>
+        <item>525045- ELECTRONICA DE SISTEMAS INDUSTRIALES</item>
+        <item>525055- ELECTRONICA DIGITAL</item>
+        <item>525065- ELECTRONICA INDUSTRIAL</item>
+        <item>525075- ELECTRONICA Y AUTOMATIZACION INDUSTRIAL</item>
+        <item>525085- ELECTRONICA DE SISTEMAS COMPUTARIZADOS</item>
+        <item>525095- SISTEMAS AUTOMATICOS PROGRAMABLES</item>
+        <item>525105- TECNICAS DE INGENIERIA ELECTRONICA</item>
+        <item>526015- AERONAUTICA</item>
+        <item>526025- AUTOTRONICA</item>
+        <item>526035- AVIONICA</item>
+        <item>526045- MANTENIMIENTO DE AERONAVES</item>
+        <item>526055- MANTENIMIENTO DE ESTRUCTURAS</item>
+        <item>526065- MANTENIMIENTO DE MAQUINARIA</item>
+        <item>526075- MANTENIMIENTO DE MAQUINARIA DE PLANTA</item>
+        <item>526085- MANTENIMIENTO DE MAQUINARIA PESADA</item>
+        <item>526095- MANTENIMIENTO DE MOTORES, HELICES Y UNIDAD DE POTENCIA AUXILIAR</item>
+        <item>526105- MANTENIMIENTO DE VEHICULOS MOTORIZADOS Y EQUIPOS CONTRA    INCENDIO</item>
+        <item>526115- MANTENIMIENTO Y OPERACION DE ARMAMENTO Y EQUIPOS AUXILIARES</item>
+        <item>526125- MAQUINAS NAVALES</item>
+        <item>526135- MECANICA AERONAUTICA</item>
+        <item>526145- MECANICA AERONAVAL</item>
+        <item>526155- MECANICA AGRICOLA</item>
+        <item>526165- MECANICA AUTOMOTRIZ</item>
+        <item>526175- MECANICA DE MANTENIMIENTO</item>
+        <item>526185- MECANICA DE PRODUCCION</item>
+        <item>526195- MECANICA HIDRAULICA</item>
+        <item>526205- MOTORES</item>
+        <item>526215- OPERACION DE MAQUINAS, HERRAMIENTAS Y CONTROL NUMERICO</item>
+        <item>526225- TECNICA EN INGENIERIA MECANICA DE MANTENIMIENTO</item>
+        <item>526235- TECNICA EN INGENIERIA MECANICA DE PRODUCCION</item>
+        <item>526245- TECNOLOGIA MECANICA ELECTRICA</item>
+        <item>527015- CONCENTRACION  DE MINERALES</item>
+        <item>527025- EXPLOTACION MINERA</item>
+        <item>527035- GEOLOGIA  DE MINAS</item>
+        <item>527045- LABORATORIO QUIMICO Y METALURGICO</item>
+        <item>527055- METALURGIA</item>
+        <item>527065- MODELERIA Y FUNDICION</item>
+        <item>527075- PROCESOS QUIMICOS Y METALURGICOS</item>
+        <item>528015- DISEÑO DE MODAS</item>
+        <item>528025- DISEÑO DE MODAS Y MODISTERIA INDUSTRIAL</item>
+        <item>528035- DISEÑO TEXTIL</item>
+        <item>528045- DISEÑO Y PRODUCCION DE TEXTILES</item>
+        <item>528055- GESTION DE MODAS Y CONFECCIONES</item>
+        <item>528065- GESTION DE LA PRODUCCION EN LA INDUSTRIA DE LAS CONFECCIONES</item>
+        <item>528075- GESTION TEXTIL</item>
+        <item>528085- INDUSTRIA DEL CUERO</item>
+        <item>528095- INDUSTRIA DEL VESTIDO</item>
+        <item>528105- PRODUCCION TEXTIL</item>
+        <item>531015- AEROFOTOGRAFIA</item>
+        <item>531025- CONSTRUCCION CIVIL</item>
+        <item>531035- DIBUJO EN CONSTRUCCION CIVIL</item>
+        <item>531045- EDIFICACIONES</item>
+        <item>531055- GEOMATICA</item>
+        <item>531065- GESTION DE LA PRODUCCION EN LA INDUSTRIA DE LA CONSTRUCCION</item>
+        <item>531075- LABORATORIO DE SUELOS, CONCRETO Y ASFALTO</item>
+        <item>531085- SUELOS, CONCRETO Y ASFALTO</item>
+        <item>531095- TOPOGRAFIA</item>
+        <item>531105- TOPOGRAFIA SUPERFICIAL Y MINERA</item>
+        <item>533015- ARQUITECTURA DE INTERIORES</item>
+        <item>534015- CONSERVACION  DE BIENES ARQUEOLOGICOS</item>
+        <item>534025- CONSERVACION  Y RESTAURACION</item>
+        <item>534035- RESTAURACION DE MONUMENTOS HISTORICOS Y BIENES INMUEBLES</item>
+        <item>591015- CONDUCCION  DE EMBARCACIONES DE PESCA</item>
+        <item>591025- PRODUCCION EN PESQUERIA</item>
+        <item>591035- TECNOLOGIA PESQUERA</item>
+        <item>594015- MANEJO DE CUENCAS  Y GESTION AMBIENTAL</item>
+        <item>594025- MEDIO AMBIENTE</item>
+        <item>594035- MEDIO AMBIENTE Y RECURSOS NATURALES</item>
+        <item>611015- ADMINISTRACION DE NEGOCIOS AGROPECUARIOS</item>
+        <item>611025- ADMINISTRACION RURAL</item>
+        <item>611035- AGROPECUARIA</item>
+        <item>611045- FRUTICULTURA</item>
+        <item>611055- FRUTICULTURA Y OLIVICULTURA</item>
+        <item>611065- GESTION DE RECURSOS HIDRICOS</item>
+        <item>611075- HORTICULTURA</item>
+        <item>611085- JARDINERIA Y PAISAJISMO</item>
+        <item>611095- PRODUCCION AGRARIA</item>
+        <item>611105- PRODUCCION AGRICOLA</item>
+        <item>611115- PRODUCCION AGROPECUARIA</item>
+        <item>611125- PRODUCCION PECUARIA</item>
+        <item>611135- PRODUCCION Y GESTION PECUARIA</item>
+        <item>611145- RIEGO DRENAJE</item>
+        <item>611155- TECNOLOGIA AGRICOLA</item>
+        <item>612015- ADMINISTRACION DE RECURSOS FORESTALES</item>
+        <item>612025- FORESTAL</item>
+        <item>612035- FORESTAL (PARA ZONA DE SELVA)</item>
+        <item>613015- ACUICULTURA</item>
+        <item>711015- ANESTESIOLOGIA</item>
+        <item>711025- PARAMEDICO</item>
+        <item>712015- NUTRICION Y DIETETICA</item>
+        <item>712025- NUTRICION Y TECNOLOGIA DE LOS ALIMENTOS</item>
+        <item>713015- PROTESIS DENTAL</item>
+        <item>714015- AUXILIAR DE ENFERMERIA</item>
+        <item>714025- CUIDADOS  AUXILIARES DE ENFERMERIA</item>
+        <item>714035- ENFERMERIA TECNICA</item>
+        <item>714045- INYECTABLES Y PRIMEROS AUXILIOS</item>
+        <item>715015- FISIOTERAPIA Y REHABILITACION</item>
+        <item>715025- LABORATORIO CLINICO</item>
+        <item>715035- MANTENIMIENTO DE ESTABLECIMIENTOS DE SALUD</item>
+        <item>715045- OPTICA</item>
+        <item>715055- OPTOMETRIA</item>
+        <item>715065- ORTOPEDIA</item>
+        <item>715075- RADIOLOGIA</item>
+        <item>716015- FARMACIA</item>
+        <item>717015- OBSTETRICIA</item>
+        <item>811015- CONDUCCION  EN TURISMO</item>
+        <item>811025- ECOLOGIA TURISTICA</item>
+        <item>811035- GUIA OFICIAL DE CAMINATA</item>
+        <item>811045- GUIA OFICIAL DE MONTAÑA</item>
+        <item>811055- GUIA OFICIAL DE TURISMO</item>
+        <item>811065- INFORMACION TURISTICA</item>
+        <item>811075- OPERACIONES DE VIAJES</item>
+        <item>811085- OPERACIONES HOTELERAS</item>
+        <item>811095- PROMOCION DE TURISMO </item>
+        <item>811105- TURISMO</item>
+        <item>811115- VIAJES Y TURISMO</item>
+        <item>812015- COSMETICA DERMATOLOGICA</item>
+        <item>11015- ARMAS SUBMARINAS (MARINA)</item>
+        <item>11025- ARTILLERIA (EJERCITO)</item>
+        <item>11035- CAPITANIA  Y GUARDACOSTAS (MARINA)</item>
+        <item>11045- DEFENSA AEREA (FAP)</item>
+        <item>11055- FUERZAS ESPECIALES (EJERCITO)</item>
+        <item>11065- INFANTERIA DE MARINA (MARINA)</item>
+        <item>11075- INTELIGENCIA (FAP)</item>
+        <item>11085- MANIOBRAS (EJERCITO)</item>
+        <item>11095- OPERACIONES ESPECIALES (EJERCITO)</item>
+        <item>11105- POLICIA NAVAL (MARINA)</item>
+        <item>11115- SEGURIDAD E INSTRUCCION MILITAR (FAP)</item>
+        <item>11125- SENSORES (MARINA)</item>
+        <item>21015- ADMINISTRACION Y CIENCIAS POLICIALES (PNP)</item>
+        <item>99999- OTRA CARRERA TECNICA</item>
+    </string-array>
+
+    <string-array name="array_carreras_universitarias">
+        <item>111016- EDUCACION BASICA, INICIAL Y PRIMARIA</item>
+        <item>111026- EDUCACION INICIAL</item>
+        <item>111036- EDUCACION INICIAL -  NIÑEZ TEMPRANA</item>
+        <item>111046- EDUCACION INICIAL -  RETARDO MENTAL</item>
+        <item>111056- EDUCACION INICIAL BILINGÜE</item>
+        <item>111066- EDUCACION INICIAL Y ARTE</item>
+        <item>111076- EDUCACION INTERCULTURAL BILINGÜE: NIVEL INICIAL Y NIVEL PRIMARIA</item>
+        <item>112016- EDUCACION PRIMARIA</item>
+        <item>112026- EDUCACION PRIMARIA -  EDUCACION BASICA ALTERNATIVA</item>
+        <item>112036- EDUCACION PRIMARIA - INGLES</item>
+        <item>112046- EDUCACION PRIMARIA INTERCULTURAL</item>
+        <item>112056- EDUCACION PRIMARIA Y BILINGÜE</item>
+        <item>112066- EDUCACION PRIMARIA Y BILINGÜE INTERCULTURAL</item>
+        <item>112076- EDUCACION PRIMARIA Y PROBLEMAS DE APRENDIZAJE</item>
+        <item>121016- EDUCACION SECUNDARIA</item>
+        <item>121026- EDUCACION SECUNDARIA  - ANTROPOLOGIA SOCIAL</item>
+        <item>121036- EDUCACION SECUNDARIA  - ARTE</item>
+        <item>121046- EDUCACION SECUNDARIA  BILINGÜE</item>
+        <item>121056- EDUCACION SECUNDARIA  - BIOLOGIA, QUIMICA Y TECNOLOGIA DE LOS ALIMENTOS</item>
+        <item>121066- EDUCACION SECUNDARIA  - BIOLOGIA Y QUIMICA</item>
+        <item>121076- EDUCACION SECUNDARIA  - CIENCIA TECNOLOGIA Y AMBIENTE</item>
+        <item>121086- EDUCACION SECUNDARIA  - CIENCIA TECNOLOGIA DE LA COMUNICACION</item>
+        <item>121096- EDUCACION SECUNDARIA  - CIENCIAS BIOLOGICAS Y QUIMICA</item>
+        <item>121106- EDUCACION SECUNDARIA  - CIENCIAS HISTORICO SOCIALES</item>
+        <item>121116- EDUCACION SECUNDARIA  - CIENCIAS MATEMATICAS,  FISICAS E INFORMATICA</item>
+        <item>121126- EDUCACION SECUNDARIA  - CIENCIAS NATURALES</item>
+        <item>121136- EDUCACION SECUNDARIA  - CIENCIAS NATURALES TECNOLOGIA Y AMBIENTE</item>
+        <item>121146- EDUCACION SECUNDARIA  - CIENCIAS NATURALES Y ECOLOGIA</item>
+        <item>121156- EDUCACION SECUNDARIA  - CIENCIAS SOCIALES</item>
+        <item>121166- EDUCACION SECUNDARIA  - CIENCIAS SOCIALES - FILOSOFIA</item>
+        <item>121176- EDUCACION SECUNDARIA  - CIENCIAS SOCIALES - GEOGRAFIA</item>
+        <item>121186- EDUCACION SECUNDARIA  - CIENCIAS SOCIALES - HISTORIA</item>
+        <item>121196- EDUCACION SECUNDARIA  - CIENCIAS SOCIALES - PSICOLOGIA</item>
+        <item>121206- EDUCACION SECUNDARIA  - CIENCIAS SOCIALES Y BIOETICA</item>
+        <item>121216- EDUCACION SECUNDARIA  - CIENCIAS SOCIALES Y DESARROLLO RURAL</item>
+        <item>121226- EDUCACION SECUNDARIA  - CIENCIAS SOCIALES Y PROMOCION SOCIO CULTURAL</item>
+        <item>121236- EDUCACION SECUNDARIA  - CIENCIAS SOCIALES Y TURISMO</item>
+        <item>121246- EDUCACION SECUNDARIA  - COMPUTACION  E INFORMATICA</item>
+        <item>121256- EDUCACION SECUNDARIA  - COMUNICACION</item>
+        <item>121266- EDUCACION SECUNDARIA  - FILOSOFIA, PSICOLOGIA Y CIENCIAS SOCIALES</item>
+        <item>121276- EDUCACION SECUNDARIA  - FILOSOFIA Y CIENCIAS SOCIALES</item>
+        <item>121286- EDUCACION SECUNDARIA  - FILOSOFIA Y PSICOPEDAGOGIA</item>
+        <item>121296- EDUCACION SECUNDARIA  - FILOSOFIA Y RELIGION</item>
+        <item>121306- EDUCACION SECUNDARIA  - HISTORIA, GEOGRAFIA  Y ECOLOGIA</item>
+        <item>121316- EDUCACION SECUNDARIA  - HISTORIA, GEOGRAFIA  Y CIENCIAS SOCIALES</item>
+        <item>121326- EDUCACION SECUNDARIA  - HISTORIA Y CIENCIAS SOCIALES</item>
+        <item>121336- EDUCACION SECUNDARIA  - HISTORIA Y GEOGRAFIA</item>
+        <item>121346- EDUCACION SECUNDARIA  - IDIOMA EXTRANJERO TRADUCCION E INTERPRETACION</item>
+        <item>121356- EDUCACION SECUNDARIA  - IDIOMA EXTRANJERO/ORIGINARIO</item>
+        <item>121366- EDUCACION SECUNDARIA  - INGLES</item>
+        <item>121376- EDUCACION SECUNDARIA  - INGLES E ITALIANO</item>
+        <item>121386- EDUCACION SECUNDARIA  - INGLES Y ALEMAN</item>
+        <item>121396- EDUCACION SECUNDARIA  - INGLES Y FRANCES</item>
+        <item>121406- EDUCACION SECUNDARIA  - LENGUA, COMUNICACION  E IDIOMA INGLES</item>
+        <item>121416- EDUCACION SECUNDARIA  - LENGUA LITERATURA Y GESTION EDUCATIVA</item>
+        <item>121426- EDUCACION SECUNDARIA  - LENGUA Y LITERATURA</item>
+        <item>121436- EDUCACION SECUNDARIA  - LENGUAJE, LITERATURA E IDIOMAS</item>
+        <item>121446- EDUCACION SECUNDARIA  - LINGÜISTICA  Y LITERATURA</item>
+        <item>121456- EDUCACION SECUNDARIA  - MATEMATICA</item>
+        <item>121466- EDUCACION SECUNDARIA  - MATEMATICA,  COMPUTACION  E INFORMATICA</item>
+        <item>121476- EDUCACION SECUNDARIA  - MATEMATICA,  COMPUTACION  Y FISICA</item>
+        <item>121486- EDUCACION SECUNDARIA  - MATEMATICA E INFORMATICA</item>
+        <item>121496- EDUCACION SECUNDARIA  - MATEMATICA,  FISICA E INFORMATICA</item>
+        <item>121506- EDUCACION SECUNDARIA  - MATEMATICA Y FISICA</item>
+        <item>121516- EDUCACION SECUNDARIA  - PARA EL TRABAJO</item>
+        <item>121526- EDUCACION SECUNDARIA  - PERSONA, FAMILIA Y RELACIONES HUMANAS</item>
+        <item>121536- EDUCACION SECUNDARIA  - QUIMICA,  FISICA Y BIOLOGIA</item>
+        <item>121546- EDUCACION SECUNDARIA  - RELIGION</item>
+        <item>121556- EDUCACION SECUNDARIA  - RELIGIOSA Y CIENCIAS SOCIALES</item>
+        <item>121996- OTRAS CARRERAS  DE EDUCACION SECUNDARIA</item>
+        <item>131016- EDUCACION FISICA</item>
+        <item>131026- EDUCACION FISICA EN EDADES TEMPRANAS</item>
+        <item>131036- EDUCACION FISICA EN POBLACIONES ESPECIALES</item>
+        <item>131046- EDUCACION FISICA Y DANZAS</item>
+        <item>131056- EDUCACION FISICA Y DEPORTES</item>
+        <item>141016- AUDICION, LENGUAJE Y APRENDIZAJE</item>
+        <item>141026- DISCAPACIDAD  INTELECTUAL Y MULTIDISCAPACIDAD</item>
+        <item>151016- EDUCACION ARTISTICA</item>
+        <item>151026- EDUCACION ARTISTICA - ARTE DRAMATICO</item>
+        <item>151036- EDUCACION ARTISTICA - ARTES PLASTICAS</item>
+        <item>151046- EDUCACION ARTISTICA - DANZA FOLKLORICA</item>
+        <item>151056- EDUCACION ARTISTICA - MUSICA</item>
+        <item>151996- OTRAS CARRERAS  DE EDUCACION ARTISTICAS</item>
+        <item>161016- ARTES INDUSTRIALES</item>
+        <item>161026- AUTOMATIZACION INDUSTRIAL</item>
+        <item>161036- CONSTRUCCION CIVIL</item>
+        <item>161046- CONSTRUCCIONES METALICAS - SOLDADURA INDUSTRIAL</item>
+        <item>161056- DISEÑO INDUSTRIAL Y ARQUITECTONICO</item>
+        <item>161066- EBANISTERIA Y DECORACION</item>
+        <item>161076- ELECTRICIDAD</item>
+        <item>161086- ELECTRONICA</item>
+        <item>161096- ELECTRONICA E INFORMATICA</item>
+        <item>161106- FUERZA MOTRIZ</item>
+        <item>161116- MECANICA AUTOMOTRIZ</item>
+        <item>161126- MECANICA DE PRODUCCION</item>
+        <item>161136- METALURGIA Y JOYERIA</item>
+        <item>161146- TECNOLOGIA TEXTIL</item>
+        <item>161156- TECNOLOGIA DEL VESTIDO</item>
+        <item>161166- TELECOMUNICACIONES E INFORMATICA</item>
+        <item>161996- OTRAS CARRERAS  DE EDUCACION TECNOLOGICA</item>
+        <item>199016- EDUCACION </item>
+        <item>199996- OTRAS CARRERAS  DE EDUCACION</item>
+        <item>211016- ANTROPOLOGIA</item>
+        <item>211026- ANTROPOLOGIA SOCIAL</item>
+        <item>211036- ARQUEOLOGIA</item>
+        <item>211046- ARQUEOLOGIA E HISTORIA</item>
+        <item>212016- HISTORIA</item>
+        <item>212026- HISTORIA Y GESTION CULTURAL</item>
+        <item>213016- COMUNICACION  LINGÜISTICA  Y LITERATURA</item>
+        <item>213026- LINGÜISTICA</item>
+        <item>213036- LITERATURA</item>
+        <item>213046- LITERATURA Y LINGÜISTICA  </item>
+        <item>214016- IDIOMAS</item>
+        <item>214026- LENGUA, TRADUCCION E INTERPRETACION</item>
+        <item>214036- TRADUCCION E INTERPRETACION</item>
+        <item>215016- ARCHIVO Y GESTION DOCUMENTAL  </item>
+        <item>215026- BIBLIOTECOLOGIA Y CIENCIAS DE LA INFORMACION</item>
+        <item>216016- FILOSOFIA</item>
+        <item>216026- TEOLOGIA</item>
+        <item>217016- ESTUDIOS LATINOAMERICANOS</item>
+        <item>217026- ESTUDIOS DE LENGUAJE Y CULTURA</item>
+        <item>217036- ESTUDIOS PERUANOS</item>
+        <item>217046- ESTUDIOS TEORICOS Y CRITICOS</item>
+        <item>221016- ARTES </item>
+        <item>221026- ARTE Y HUMANIDADES</item>
+        <item>221036- ARTES ESCENICAS</item>
+        <item>221046- ARTES ESCENICAS Y LITERATURA</item>
+        <item>221056- CONSERVACION  Y RESTAURACION</item>
+        <item>221066- ESCULTURA</item>
+        <item>221076- GRABADO</item>
+        <item>221086- PINTURA</item>
+        <item>221996- OTRAS CARRERAS  DE ARTE</item>
+        <item>222016- ARTE Y DISEÑO GRAFICO EMPRESARIAL </item>
+        <item>222026- ARTE Y DISEÑO EMPRESARIAL</item>
+        <item>222036- DIRECCION DE ARTES GRAFICAS Y PUBLICITARIAS</item>
+        <item>222046- DISEÑO DIGITAL PUBLICITARIO</item>
+        <item>222056- DISEÑO GRAFICO</item>
+        <item>222066- DISEÑO GRAFICO PUBLICITARIO</item>
+        <item>222076- DISEÑO INDUSTRIAL</item>
+        <item>222086- DISEÑO INDUSTRIAL Y ARQUITECTONICO</item>
+        <item>222096- DISEÑO PROFESIONAL DE INTERIORES</item>
+        <item>222106- DISEÑO PROFESIONAL GRAFICO</item>
+        <item>222116- DISEÑO Y GESTION EN MODA</item>
+        <item>222996- OTRAS CARRERAS  DE DISEÑO</item>
+        <item>223016- DANZA</item>
+        <item>224016- ARTISTA MUSICO</item>
+        <item>224026- INTERPRETACION MUSICAL</item>
+        <item>224036- MUSICA</item>
+        <item>224046- MUSICA CON MENCION EN CANTO</item>
+        <item>224056- MUSICA CON MENCION EN COMPOSICION MUSICAL</item>
+        <item>224066- MUSICA CON MENCION EN COMPOSICION Y ETNOMUSICOLOGO</item>
+        <item>224076- MUSICA CON MENCION EN INTERPRETE, PRODUCTOR Y DIRECTOR</item>
+        <item>224086- MUSICA CON MENCION EN MUSICOLOGIA</item>
+        <item>224096- MUSICA Y TECNOLOGIA DE SONIDO</item>
+        <item>224106- PRODUCCION MUSICAL</item>
+        <item>225016- TEATRO CON MENCION EN ACTUACION</item>
+        <item>225026- TEATRO CON MENCION EN DISEÑO ESCENOGRAFICO</item>
+        <item>311016- SOCIOLOGIA</item>
+        <item>312016- GERONTOLOGIA SOCIAL</item>
+        <item>312026- SERVICIO SOCIAL</item>
+        <item>312036- TRABAJO SOCIAL</item>
+        <item>313016- PSICOLOGIA</item>
+        <item>313026- PSICOLOGIA DEL CONSUMIDOR</item>
+        <item>313036- PSICOLOGIA HUMANA</item>
+        <item>313046- PSICOLOGIA ORGANIZACIONAL</item>
+        <item>321016- CIENCIA Y TECNOLOGIA DE LA COMUNICACION    </item>
+        <item>321026- CIENCIAS DE LA COMUNICACION</item>
+        <item>321036- CIENCIAS DE LA COMUNICACION  SOCIAL   </item>
+        <item>321046- CIENCIAS DE LA COMUNICACION  Y PUBLICIDAD</item>
+        <item>321056- COMUNICACION  AUDIOVISUAL</item>
+        <item>321066- COMUNICACION  AUDIOVISUAL Y MEDIOS INTERACTIVOS</item>
+        <item>321076- COMUNICACION  E IDIOMA INGLES</item>
+        <item>321086- COMUNICACION  E IMAGEN EMPRESARIAL</item>
+        <item>321096- COMUNICACION  PARA EL DESARROLLO</item>
+        <item>321106- COMUNICACION  Y MARKETING</item>
+        <item>321116- COMUNICACION  Y PERIODISMO</item>
+        <item>321126- COMUNICACION  Y PUBLICIDAD</item>
+        <item>321136- COMUNICACIONES     </item>
+        <item>322016- MULTIMEDIA Y FOTOGRAFIA PUBLICITARIA</item>
+        <item>322026- PERIODISMO</item>
+        <item>322036- PERIODISMO ESCRITO</item>
+        <item>322046- PERIODISMO RADIAL</item>
+        <item>322056- PERIODISMO TELEVISIVO</item>
+        <item>322066- PRODUCCION DE RADIO, CINE Y TELEVISION</item>
+        <item>322076- PUBLICIDAD</item>
+        <item>322086- PUBLICIDAD Y MULTIMEDIA</item>
+        <item>331016- ADMINISTRACION</item>
+        <item>331026- ADMINISTRACION DE BANCA Y FINANZAS</item>
+        <item>331036- ADMINISTRACION DE EMPRESAS</item>
+        <item>331046- ADMINISTRACION DE NEGOCIOS</item>
+        <item>331056- ADMINISTRACION DE NEGOCIOS TURISTICOS</item>
+        <item>331066- ADMINISTRACION DE SERVICIOS</item>
+        <item>331076- ADMINISTRACION EN SALUD</item>
+        <item>331086- ADMINISTRACION Y EMPRENDIMIENTO</item>
+        <item>331096- ADMINISTRACION Y FINANZAS</item>
+        <item>331106- ADMINISTRACION Y GERENCIA</item>
+        <item>331116- ADMINISTRACION Y GESTION EMPRESARIAL</item>
+        <item>331126- ADMINISTRACION Y RECURSOS HUMANOS</item>
+        <item>331136- ADMINISTRACION Y SISTEMAS</item>
+        <item>331146- CIENCIAS ADMINISTRATIVAS  </item>
+        <item>331156- CIENCIAS EMPRESARIALES</item>
+        <item>331166- INGENIERIA ADMINISTRATIVA</item>
+        <item>331176- INGENIERIA COMERCIAL</item>
+        <item>331186- INGENIERIA COMERCIAL Y FINANCIERA</item>
+        <item>331195- INGENIERIA DE NEGOCIOS</item>
+        <item>331206- INGENIERIA EMPRESARIAL</item>
+        <item>331216- INGENIERIA EMPRESARIAL Y DE SISTEMAS</item>
+        <item>331226- INGENIERIA EN GESTION EMPRESARIAL   </item>
+        <item>332016- ADMINISTRACION DE EMPRESAS TURISTICAS</item>
+        <item>332026- ADMINISTRACION DE NEGOCIOS TURISTICOS</item>
+        <item>332036- ADMINISTRACION DE NEGOCIOS TURISTICOS  Y HOTELEROS</item>
+        <item>332046- ADMINISTRACION DE SERVICIOS TURISTICOS    </item>
+        <item>332056- ADMINISTRACION DE TURISMO SOSTENIBLE Y HOTELERIA</item>
+        <item>332066- ADMINISTRACION EN TURISMO</item>
+        <item>332076- ADMINISTRACION EN TURISMO  Y HOTELERIA    </item>
+        <item>332086- ADMINISTRACION EN TURISMO  Y NEGOCIOS</item>
+        <item>332096- ADMINISTRACION EN TURISMO, HOTELERIA Y GASTRONOMIA</item>
+        <item>332106- ADMINISTRACION HOTELERA</item>
+        <item>332116- ADMINISTRACION HOTELERA Y DE SERVICIOS</item>
+        <item>332126- ADMINISTRACION HOTELERA Y ECOTURISMO</item>
+        <item>332136- ADMINISTRACION TURISTICA</item>
+        <item>332146- ADMINISTRACION TURISTICA HOTELERA     </item>
+        <item>332156- ADMINISTRACION TURISTICA, HOTELERA Y GASTRONOMICA   </item>
+        <item>332166- ARTE CULINARIO</item>
+        <item>332176- ECOTURISMO</item>
+        <item>332186- GASTRONOMIA</item>
+        <item>332196- GASTRONOMIA Y ARTE CULINARIO</item>
+        <item>332206- GASTRONOMIA Y GESTION DE RESTAURANTES</item>
+        <item>332216- GASTRONOMIA, ARTE CULINARIO Y GESTION DE RESTAURANTES</item>
+        <item>332226- GERENCIA  EN HOTELERIA, TURISMO  Y GASTRONOMIA </item>
+        <item>332236- GERENCIA  EN SERVICIOS  TURISTICOS  Y HOTELEROS</item>
+        <item>332246- GESTION EN HOTELERIA Y TURISMO</item>
+        <item>332256- HOTELERIA Y ADMINISTRACION</item>
+        <item>332266- INGENIERIA ECOTURISMO</item>
+        <item>332276- TURISMO</item>
+        <item>332286- TURISMO - CONDUCCION  DE GRUPOS</item>
+        <item>332296- TURISMO - GESTION TURISTICA  Y MEDIO AMBIENTE</item>
+        <item>332306- TURISMO SOSTENIBLE</item>
+        <item>332316- TURISMO SOSTENIBLE Y HOTELERIA</item>
+        <item>332326- TURISMO  Y ADMINISTRACION</item>
+        <item>332336- TURISMO  Y HOTELERIA</item>
+        <item>332346- TURISMO  Y NEGOCIOS</item>
+        <item>332356- TURISMO, HOTELERIA Y GASTRONOMIA</item>
+        <item>332366- TURISMO, HOTELERIA Y GESTION CULTURAL</item>
+        <item>333016- ADMINISTRACION Y MARKETING</item>
+        <item>333026- ADMINISTRACION Y MARKETING ESTRATEGICO</item>
+        <item>333036- MARKETING</item>
+        <item>333046- MARKETING EMPRESARIAL</item>
+        <item>333056- MARKETING Y ADMINISTRACION</item>
+        <item>333066- MARKETING Y DIRECCION DE EMPRESAS</item>
+        <item>333076- MARKETING Y GESTION COMERCIAL</item>
+        <item>333086- MARKETING Y NEGOCIOS GLOBALES</item>
+        <item>333096- MARKETING Y NEGOCIOS INTERNACIONALES</item>
+        <item>333106- MARKETING Y PUBLICIDAD</item>
+        <item>334016- ADMINISTRACION Y AGRONEGOCIOS</item>
+        <item>334026- INGENIERIA DE NEGOCIOS AGROFORESTALES </item>
+        <item>334036- INGENIERIA EN AGRONEGOCIOS</item>
+        <item>335016- ADMINISTRACION DE NEGOCIOS GLOBALES</item>
+        <item>335026- ADMINISTRACION DE NEGOCIOS INTERNACIONALES    </item>
+        <item>335036- COMERCIO EXTERIOR</item>
+        <item>335046- COMERCIO EXTERIOR  Y MARKETING INTERNACIONAL</item>
+        <item>335056- COMERCIO Y NEGOCIOS INTERNACIONALES</item>
+        <item>335066- GESTION</item>
+        <item>335076- GESTION DE PUERTOS Y ADUANAS</item>
+        <item>335086- INGENIERIA COMERCIAL Y NEGOCIOS INTERNACIONALES</item>
+        <item>335096- LOGISTICA INTERNACIONAL</item>
+        <item>335106- NEGOCIOS GLOBALES</item>
+        <item>335116- NEGOCIOS INTERNACIONALES    </item>
+        <item>335126- NEGOCIOS INTERNACIONALES Y TURISMO</item>
+        <item>335136- RELACIONES INTERNACIONALES</item>
+        <item>335146- RELACIONES INTERNACIONALES Y NEGOCIACIONES</item>
+        <item>336016- ADMINISTRACION PUBLICA</item>
+        <item>336026- ADMINISTRACION PUBLICA Y GESTION SOCIAL</item>
+        <item>336036- GESTION DE NEGOCIOS</item>
+        <item>336046- GESTION PUBLICA Y DESARROLLO SOCIAL</item>
+        <item>339016- ADMINISTRACION Y GESTION DEPORTIVA</item>
+        <item>339026- ADMINISTRACION Y NEGOCIOS DEL DEPORTE</item>
+        <item>339036- COOPERATIVISMO</item>
+        <item>339046- GESTION DE NEGOCIOS</item>
+        <item>339056- GESTION DE RECURSOS HUMANOS</item>
+        <item>339066- GESTION Y ALTA DIRECCION</item>
+        <item>339076- RELACIONES INDUSTRIALES</item>
+        <item>339996- OTRAS CARRERAS  DE ADMINISTRACION</item>
+        <item>341016- CIENCIAS ECONOMICAS</item>
+        <item>341026- ECONOMIA</item>
+        <item>341036- ECONOMIA AGRARIA</item>
+        <item>341046- ECONOMIA GERENCIAL</item>
+        <item>341056- ECONOMIA INTERNACIONAL</item>
+        <item>341066- ECONOMIA PUBLICA</item>
+        <item>341076- ECONOMIA Y FINANZAS</item>
+        <item>341086- ECONOMIA Y GESTION AMBIENTAL</item>
+        <item>341096- ECONOMIA Y MICROFINANZAS</item>
+        <item>341106- ECONOMIA Y NEGOCIOS INTERNACIONALES</item>
+        <item>341116- INGENIERIA ECONOMICA</item>
+        <item>341126- INGENIERIA ECONOMICA Y DE NEGOCIOS</item>
+        <item>342016- AUDITORIA EMPRESARIAL Y DEL SECTOR PUBLICO</item>
+        <item>342026- BANCA Y SEGUROS</item>
+        <item>342036- CIENCIAS CONTABLES</item>
+        <item>342046- CIENCIAS CONTABLES Y FINANCIERAS</item>
+        <item>342056- CONTABILIDAD</item>
+        <item>342066- CONTABILIDAD  ADMINISTRATIVA  Y AUDITORIA</item>
+        <item>342076- CONTABILIDAD  AUDITORIA Y FINANZAS </item>
+        <item>342086- CONTABILIDAD  Y ADMINISTRACION</item>
+        <item>342096- CONTABILIDAD  Y AUDITORIA</item>
+        <item>342106- CONTABILIDAD  Y FINANZAS</item>
+        <item>342116- CONTABILIDAD  Y TRIBUTACION</item>
+        <item>342126- FINANZAS</item>
+        <item>342136- GESTION TRIBUTARIA</item>
+        <item>351016- DERECHO</item>
+        <item>351026- DERECHO CORPORATIVO</item>
+        <item>351036- DERECHO EMPRESARIAL</item>
+        <item>351046- DERECHO DEL MAR Y SERVICIOS  ADUANEROS</item>
+        <item>351056- DERECHO Y CIENCIAS POLITICAS   </item>
+        <item>352016- CIENCIA POLITICA</item>
+        <item>352026- CIENCIA POLITICA Y GOBIERNO</item>
+        <item>411016- BIOLOGIA</item>
+        <item>411026- BIOLOGIA EN ACUICULTURA</item>
+        <item>411036- BIOLOGIA MARINA Y ECONEGOCIOS</item>
+        <item>411046- BIOLOGIA Y MICROBIOLOGIA</item>
+        <item>411056- BIOTECNOLOGIA</item>
+        <item>411066- BOTANICA</item>
+        <item>411076- CIENCIAS BIOLOGICAS</item>
+        <item>411086- GENETICA  Y BIOTECNOLOGIA</item>
+        <item>411096- INGENIERIA BIOTECNOLOGICA</item>
+        <item>411106- MICROBIOLOGIA</item>
+        <item>411116- MICROBIOLOGIA Y PARASITOLOGIA</item>
+        <item>412016- INGENIERIA ZOOTECNIA    </item>
+        <item>412026- ZOOTECNIA</item>
+        <item>421016- CIENCIAS FISICO MATEMATICA    </item>
+        <item>421026- FISICA</item>
+        <item>421036- FISICA APLICADA</item>
+        <item>421046- INGENIERIA FISICA</item>
+        <item>422016- INGENIERIA DE PROCESOS QUIMICOS Y METALURGICOS</item>
+        <item>422026- INGENIERIA QUIMICA</item>
+        <item>422036- QUIMICA</item>
+        <item>423016- GEOLOGIA</item>
+        <item>423026- GEOLOGIA  GEOTECNIA</item>
+        <item>423036- INGENIERIA DE GEOLOGIA  - GEOTECNIA</item>
+        <item>423046- INGENIERIA GEOFISICA</item>
+        <item>423056- INGENIERIA GEOLOGICA</item>
+        <item>431016- MATEMATICA    </item>
+        <item>431026- MATEMATICA APLICADA</item>
+        <item>431036- MATEMATICA E INFORMATICA</item>
+        <item>432016- ESTADISTICA</item>
+        <item>432026- ESTADISTICA E INFORMATICA</item>
+        <item>432036- INGENIERIA ESTADISTICA</item>
+        <item>432046- INGENIERIA ESTADISTICA E INFORMATICA</item>
+        <item>433016- INVESTIGACION OPERATIVA</item>
+        <item>441016- CIENCIAS DE LA COMPUTACION</item>
+        <item>441026- CIENCIAS DE LA INFORMACION</item>
+        <item>441036- COMPUTACION  CIENTIFICA</item>
+        <item>441046- COMPUTACION  E INFORMATICA</item>
+        <item>441056- INFORMATICA</item>
+        <item>511016- INGENIERIA DE SEGURIDAD Y AUDITORIA INFORMATICA</item>
+        <item>511026- INGENIERIA DE SISTEMAS</item>
+        <item>511036- INGENIERIA DE SISTEMAS DE INFORMACION</item>
+        <item>511046- INGENIERIA DE SISTEMAS DE INFORMACION Y GESTION</item>
+        <item>511056- INGENIERIA DE SISTEMAS E INFORMATICA   </item>
+        <item>511066- INGENIERIA DE SISTEMAS EMPRESARIALES</item>
+        <item>511076- INGENIERIA DE SISTEMAS Y COMPUTACION   </item>
+        <item>511086- INGENIERIA DE SISTEMAS Y GESTION DE TECNOLOGIAS DE LA INFORMACION</item>
+        <item>511096- INGENIERIA DE SISTEMAS Y SEGURIDAD INFORMATICA</item>
+        <item>511106- INGENIERIA DE SISTEMAS Y TELEMATICA</item>
+        <item>511116- INGENIERIA DE SISTEMAS Y TECNOLOGICAS</item>
+        <item>511126- INGENIERIA DE SOFTWARE</item>
+        <item>511136- INGENIERIA DE TECNOLOGIAS DE LA INFORMACION Y SISTEMAS</item>
+        <item>511146- INGENIERIA EN TECNOLOGIAS Y SISTEMAS DE INFORMACION</item>
+        <item>511156- INGENIERIA INFORMATICA</item>
+        <item>511166- INGENIERIA INFORMATICA Y ESTADISTICA  </item>
+        <item>512016- INGENIERIA DE REDES Y COMUNICACIONES</item>
+        <item>512026- INGENIERIA DE TECNOLOGIAS DE INFORMACION Y COMUNICACION</item>
+        <item>512036- INGENIERIA DE TECNOLOGIAS DE INFORMACION Y SISTEMAS</item>
+        <item>512046- INGENIERIA DE TELECOMUNICACIONES     </item>
+        <item>512056- INGENIERIA EN TELECOMUNICACIONES Y REDES     </item>
+        <item>512066- INGENIERIA EN TELECOMUNICACIONES Y TELEMATICA     </item>
+        <item>512076- INGENIERIA EN TELEINFORMATICA     </item>
+        <item>521016- INGENIERIA AMBIENTAL Y DE PREVENCION DE RIESGOS</item>
+        <item>521026- INGENIERIA DE HIGIENE Y SEGURIDAD INDUSTRIAL</item>
+        <item>521036- INGENIERIA DE LA PRODUCCION Y ADMINISTRACION</item>
+        <item>521046- INGENIERIA INDUSTRIAL</item>
+        <item>521056- INGENIERIA INDUSTRIAL Y COMERCIAL</item>
+        <item>521066- INGENIERIA INDUSTRIAL Y DE GESTION EMPRESARIAL</item>
+        <item>521076- INGENIERIA INDUSTRIAL Y SISTEMAS</item>
+        <item>522016- INDUSTRIAS ALIMENTARIAS</item>
+        <item>522026- INGENIERIA ALIMENTARIA    </item>
+        <item>522036- INGENIERIA DE INDUSTRIAS ALIMENTARIAS   </item>
+        <item>523016- AGROINDUSTRIAS</item>
+        <item>523026- INGENIERIA AGROINDUSTRIAL</item>
+        <item>523036- INGENIERIA AGROINDUSTRIAL Y AGRONEGOCIOS</item>
+        <item>523046- INGENIERIA AGROINDUSTRIAL Y COMERCIO EXTERIOR</item>
+        <item>523056- INGENIERIA AGROINDUSTRIAL Y DE BIOCOMERCIO</item>
+        <item>524016- INGENIERIA DE SISTEMAS DE ENERGIA   </item>
+        <item>524026- INGENIERIA ELECTRICA</item>
+        <item>524036- INGENIERIA ELECTRICA Y DE POTENCIA</item>
+        <item>524046- INGENIERIA ELECTRICA Y ELECTRONICA</item>
+        <item>524056- INGENIERIA EN ENERGIA</item>
+        <item>524066- INGENIERIA EN ENERGIA RENOVABLE Y GESTION AMBIENTAL</item>
+        <item>524076- INGENIERIA ENERGETICA</item>
+        <item>525016- INGENIERIA ELECTRONICA</item>
+        <item>525026- INGENIERIA ELECTRONICA - BIOMEDICA</item>
+        <item>525036- INGENIERIA ELECTRONICA - MECATRONICA</item>
+        <item>525046- INGENIERIA ELECTRONICA - TELECOMUNICACIONES</item>
+        <item>525056- INGENIERIA ELECTRONICA Y AUTOMATIZACION   </item>
+        <item>525066- INGENIERIA ELECTRONICA Y TELECOMUNICACIONES</item>
+        <item>526016- INGENIERIA DE MATERIALES</item>
+        <item>526026- INGENIERIA ELECTROMECANICA</item>
+        <item>526036- INGENIERIA MECANICA</item>
+        <item>526046- INGENIERIA MECANICA DE FLUIDOS</item>
+        <item>526056- INGENIERIA MECANICA ELECTRICA </item>
+        <item>526066- INGENIERIA MECANICA ELECTRICA Y MECATRONICA</item>
+        <item>526076- INGENIERIA MECATRONICA</item>
+        <item>527016- INGENIERIA DE MINAS</item>
+        <item>527026- INGENIERIA DE MINAS Y MAQUINARIA PESADA</item>
+        <item>527036- INGENIERIA DE PETROLEO</item>
+        <item>527046- INGENIERIA DE PETROLEO Y GAS NATURAL</item>
+        <item>527056- INGENIERIA METALURGICA    </item>
+        <item>527066- INGENIERIA METALURGICA Y DE MATERIALES   </item>
+        <item>527076- INGENIERIA PETROQUIMICA</item>
+        <item>528016- INGENIERIA TEXTIL</item>
+        <item>528026- INGENIERIA TEXTIL Y CONFECCIONES     </item>
+        <item>531016- INGENIERIA CIVIL</item>
+        <item>531026- INGENIERIA CIVIL Y AMBIENTAL</item>
+        <item>531036- INGENIERIA CIVIL Y DESARROLLO INMOBILIARIO</item>
+        <item>531046- INGENIERIA CIVIL Y DISEÑO ARQUITECTONICO</item>
+        <item>531056- INGENIERIA TOPOGRAFICA Y AGRIMENSURA</item>
+        <item>532016- INGENIERIA SANITARIA</item>
+        <item>532026- INGENIERIA SANITARIA Y AMBIENTAL</item>
+        <item>533016- ARQUEOARQUITECTURA  Y GESTION TURISTICA</item>
+        <item>533026- ARQUITECTURA</item>
+        <item>533036- ARQUITECTURA DE INTERIORES</item>
+        <item>533046- ARQUITECTURA DEL PAISAJE</item>
+        <item>533056- ARQUITECTURA Y DISEÑO DE INTERIORES</item>
+        <item>533066- ARQUITECTURA Y GESTION DE PROYECTOS</item>
+        <item>533076- ARQUITECTURA Y GESTION DE TERRITORIOS</item>
+        <item>533086- ARQUITECTURA Y TERRITORIO</item>
+        <item>533096- ARQUITECTURA Y URBANISMO</item>
+        <item>533106- ARQUITECTURA Y URBANISMO AMBIENTAL</item>
+        <item>533116- ARQUITECTURA, URBANISMO Y ARTES</item>
+        <item>533126- ARQUITECTURA, URBANISMO Y TERRITORIO</item>
+        <item>533136- URBANISMO</item>
+        <item>591016- INGENIERIA DE LA PRODUCCION E INDUSTRIALIZACION DE RECURSOS HIDROBIOLOGICOS</item>
+        <item>591026- INGENIERIA PESQUERA</item>
+        <item>591036- PESQUERIA</item>
+        <item>592016- CIENCIAS AERONAUTICAS</item>
+        <item>592026- CIENCIAS NAVALES</item>
+        <item>592036- INGENIERIA AERONAUTICA</item>
+        <item>592046- INGENIERIA DE NAVEGACION  Y MARINA MERCANTE</item>
+        <item>592056- INGENIERIA DEL TRANSPORTE MARITIMO Y GESTION LOGISTICA PORTUARIA</item>
+        <item>592066- INGENIERIA HIDRAULICA</item>
+        <item>592076- INGENIERIA MARITIMA</item>
+        <item>592086- INGENIERIA NAVAL</item>
+        <item>593016- GEOGRAFIA</item>
+        <item>593026- GEOGRAFIA  Y MEDIO AMBIENTE</item>
+        <item>593036- INGENIERIA GEOGRAFICA</item>
+        <item>593046- INGENIERIA GEOGRAFICA Y ECOLOGICA</item>
+        <item>594016- CIENCIA TECNOLOGIA Y AMBIENTE</item>
+        <item>594026- DESARROLLO AMBIENTAL</item>
+        <item>594036- ECOLOGIA</item>
+        <item>594046- GESTION AMBIENTAL EMPRESARIAL</item>
+        <item>594056- INGENIERIA AMBIENTAL</item>
+        <item>594066- INGENIERIA AMBIENTAL Y RECURSOS NATURALES</item>
+        <item>594076- INGENIERIA DE RECURSOS NATURALES Y ENERGIAS RENOVABLES</item>
+        <item>594086- INGENIERIA DE MEDIO AMBIENTE   </item>
+        <item>594096- INGENIERIA EN ECOLOGIA DE BOSQUES TROPICALES</item>
+        <item>594106- INGENIERIA EN ECOTURISMO</item>
+        <item>594116- INGENIERIA EN GESTION AMBIENTAL    </item>
+        <item>594126- METEOROLOGIA</item>
+        <item>599016- INGENIERIA AUTOMOTRIZ</item>
+        <item>599026- INGENIERIA BIOMEDICA</item>
+        <item>599036- INGENIERIA DE DISEÑO GRAFICO</item>
+        <item>599046- INGENIERIA DE TRANSPORTES</item>
+        <item>611016- AGRONOMIA</item>
+        <item>611026- AGRONOMIA TROPICAL</item>
+        <item>611036- CIENCIAS AGRARIAS</item>
+        <item>611046- CIENCIAS PECUARIAS</item>
+        <item>611056- CONSERVACION  DE SUELOS Y AGUA</item>
+        <item>611066- INGENIERIA AGRARIA</item>
+        <item>611076- INGENIERIA AGRICOLA</item>
+        <item>611086- INGENIERIA AGRICOLA Y FORESTAL</item>
+        <item>611096- INGENIERIA AGROECOLOGICA Y DESARROLLO RURAL</item>
+        <item>611106- INGENIERIA AGRONOMA</item>
+        <item>611116- INGENIERIA AGRONOMICA</item>
+        <item>611126- INGENIERIA AGRONOMICA TROPICAL</item>
+        <item>611136- INGENIERIA AGROPECUARIA</item>
+        <item>611146- INGENIERIA DE NEGOCIOS AGRONOMICOS Y FORESTALES</item>
+        <item>611156- INGENIERIA EN CIENCIAS AGRARIAS</item>
+        <item>612016- CIENCIAS FORESTALES</item>
+        <item>612026- CIENCIAS FORESTALES Y DEL AMBIENTE</item>
+        <item>612036- INGENIERIA AGROFORESTAL</item>
+        <item>612046- INGENIERIA AGROFORESTAL ACUICOLA</item>
+        <item>612056- INGENIERIA FORESTAL</item>
+        <item>612066- INGENIERIA FORESTAL Y DEL MEDIO AMBIENTE    </item>
+        <item>613016- ACUICULTURA</item>
+        <item>613026- INGENIERIA EN ACUICULTURA</item>
+        <item>621016- MEDICINA VETERINARIA</item>
+        <item>621026- VETERINARIA Y ZOOTECNIA</item>
+        <item>621036- MEDICINA VETERINARIA Y ZOOTECNIA</item>
+        <item>711016- MEDICINA</item>
+        <item>711026- MEDICINA HUMANA</item>
+        <item>712016- BROMATOLOGIA Y NUTRICION</item>
+        <item>712026- CIENCIAS DE LA NUTRICION</item>
+        <item>712036- CIENCIAS DE LOS ALIMENTOS    </item>
+        <item>712046- NUTRICION</item>
+        <item>712056- NUTRICION HUMANA</item>
+        <item>712066- NUTRICION, SALUD Y TECNICAS ALIMENTARIAS</item>
+        <item>712076- NUTRICION Y DIETETICA</item>
+        <item>713016- ESTOMATOLOGIA</item>
+        <item>713026- ODONTOLOGIA</item>
+        <item>714016- ENFERMERIA</item>
+        <item>715016- LABORATORIO CLINICO</item>
+        <item>715026- LABORATORIO Y ANATOMIA PATOLOGICA</item>
+        <item>715036- OPTOMETRIA</item>
+        <item>715046- RADIOLOGIA</item>
+        <item>715056- TECNOLOGIA MEDICA</item>
+        <item>715066- TERAPIA DE LENGUAJE</item>
+        <item>715076- TERAPIA FISICA</item>
+        <item>715086- TERAPIA FISICA Y REHABILITACION</item>
+        <item>715096- TERAPIA OCUPACIONAL</item>
+        <item>716016- CIENCIAS FARMACEUTICAS Y BIOQUIMICA</item>
+        <item>716026- FARMACIA Y BIOQUIMICA</item>
+        <item>716036- TOXICOLOGIA</item>
+        <item>717016- OBSTETRICIA</item>
+        <item>717026- OBSTETRICIA Y PUERICULTURA</item>
+        <item>719016- CIENCIAS DEL DEPORTE</item>
+        <item>11016- CIENCIAS DE LA ADMINISTRACION AEROESPACIAL (AVIACION)</item>
+        <item>11026- CIENCIAS MILITARES (EJERCITO)</item>
+        <item>11036- CIENCIAS ADMINISTRATIVAS MARITIMAS (MARINA)</item>
+        <item>21016- ADMINISTRACION Y CIENCIAS POLICIALES (OFICIALES)</item>
+        <item>99999- OTRA CARRERA UNIVERSITARIA</item>
+    </string-array>
+</resources>
+
+
+

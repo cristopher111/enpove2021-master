@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margen_layout_pregunta"
+    android:padding="@dimen/padding_layout_pregunta"
+    android:background="@drawable/marco_pregunta">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TemaTextoPregunta"
+        android:text="@string/modulo_5_p514"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/modulo_5_p514_ind"/>
+
+    <RadioGroup
+        android:id="@+id/mod5_514_radiogroup_C5_P514"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <RadioButton
+            android:id="@+id/mod5_514_rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_5_p514_sp1"/>
+        <RadioButton
+            android:id="@+id/mod5_514_rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_5_p514_sp2"/>
+        <RadioButton
+            android:id="@+id/mod5_514_rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_5_p514_sp3"/>
+        <RadioButton
+            android:id="@+id/mod5_514_rb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_5_p514_sp4"/>
+        <EditText
+            android:id="@+id/mod5_514_edittext_C5_P514_O"
+            style="@style/TemaInputEspecifiqueRadioIntermedio"/>
+    </RadioGroup>
+</LinearLayout>

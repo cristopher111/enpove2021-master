@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margen_layout_pregunta"
+    android:padding="@dimen/padding_layout_pregunta"
+    android:background="@drawable/marco_pregunta">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TemaTextoPregunta"
+        android:text="@string/modulo_3_p302"/>
+    <android.support.v7.widget.CardView
+        android:layout_margin="@dimen/margen_small"
+        android:layout_width="match_parent"
+        android:layout_height="32dp">
+        <Spinner
+            android:id="@+id/mod3_302_spinner_C3_P302"
+            android:layout_width="match_parent"
+            android:drawSelectorOnTop="true"
+            android:layout_height="match_parent"/>
+    </android.support.v7.widget.CardView>
+    <EditText
+        android:inputType="textCapCharacters"
+        android:maxLength="50"
+        android:layout_marginTop="@dimen/margen_small"
+        android:id="@+id/et_p003_o"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingLeft="@dimen/margen_small"
+        android:enabled="false"
+        android:layout_margin="@dimen/margen_small"
+        android:background="@drawable/input_text_disabled"
+        android:hint="Especifique"/>
+</LinearLayout>

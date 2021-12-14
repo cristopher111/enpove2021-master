@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_volver_hogares"
+        android:orderInCategory="100"
+        android:title="Volver a Hogares"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_finalizar_hogar"
+        android:orderInCategory="100"
+        android:title="Ir a Visita Hogar"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_cobertura"
+        android:visible="false"
+        android:orderInCategory="100"
+        android:title="Cobertura por Capitulos"
+        app:showAsAction="never" />
+</menu>

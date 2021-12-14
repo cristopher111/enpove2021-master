@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margen_layout_pregunta"
+    android:padding="@dimen/padding_layout_pregunta"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/marco_pregunta">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:theme="@style/TemaTextoPregunta"
+            android:text="@string/modulo_3_p309_1"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/modulo_3_p309_1_ind"/>
+    <RadioGroup
+        android:id="@+id/mod3_309_1_radiogroup_C3_P309"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <RadioButton
+            android:id="@+id/mod3_309_1_rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_3_p309_1_sp1"/>
+        <RadioButton
+            android:id="@+id/mod3_309_1_rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margen_small"
+            android:text="@string/modulo_3_p309_1_sp2"/>
+
+        <RadioButton
+            android:id="@+id/mod3_309_1_rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margen_small"
+            android:text="@string/modulo_3_p309_1_sp3"/>
+        <EditText
+            android:id="@+id/mod3_309_1_edittext_C3_P309_O"
+            style="@style/TemaInputEspecifiqueRadioIntermedio"/>
+
+    </RadioGroup>
+
+</LinearLayout>

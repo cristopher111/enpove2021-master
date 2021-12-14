@@ -1,0 +1,1316 @@
+
+p	java:S115¥"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(® 
+p	java:S115¸"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(´¼ş¹
+u	java:S115ï"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ã–—‹ÿÿÿÿÿ
+p	java:S115¨"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(œ³‘
+u	java:S115é"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ã²®çÿÿÿÿÿ
+p	java:S115Š"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(·Şë¡
+u	java:S115‹"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ö…Èéûÿÿÿÿ
+p	java:S115Û"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(œÜÜÏ
+T
+java:S1444i">Make this "public static municipios_cod_municipio" field final(åĞ’°
+p	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ŠİüÓ
+u	java:S115¾"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ößÀøÿÿÿÿ
+p	java:S115ã"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(°ôÚş
+u	java:S115î"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(äı·ûÿÿÿÿ
+p	java:S115ã"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¥¢Ğ€
+p	java:S115ä"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(°¬ß
+u	java:S115¹"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(²»ßäşÿÿÿÿ
+u	java:S115¬"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Î³Àÿÿÿÿÿ
+p	java:S115¯"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(û–‰Æ
+u	java:S115ó"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÓÙúÿÿÿÿ
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(©˜ë…úÿÿÿÿ
+p	java:S115½"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼¼Œœ
+W
+java:S1444"<Make this "public static tablavisitassupervisor" field final(é‰úşÿÿÿÿ
+}
+java:S1104"bMake tablavisitassupervisor a static final constant or non-public and provide accessors if needed.(é‰úşÿÿÿÿ
+z
+java:S3008]"_Rename this field "ubigeo_cod_provincia" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹š¨ÿÿÿÿÿ
+u	java:S115à"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ããé¨ÿÿÿÿÿ
+o	java:S1158"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(×ü¨
+p	java:S115ì	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¢ÒŠµ
+u	java:S115ˆ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(®²©¦ıÿÿÿÿ
+p	java:S115Æ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÑÄº’
+p	java:S115¬"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(·»Ã­
+p	java:S115É"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Æşï¦
+o	java:S115ú	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ñÎêo
+u	java:S115Á"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(À‚Äÿÿÿÿÿ
+p	java:S115í"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¹åæâ
+p	java:S115¹"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(“ôØõ
+u	java:S115Œ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¿®­ùÿÿÿÿ
+u	java:S115ˆ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(õÊÜìúÿÿÿÿ
+o	java:S115Ğ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¾Éùs
+p	java:S115Ø"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(œóÔ
+p	java:S115â"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ˆÀÇÉ
+p	java:S115‰"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(•™ó²
+u	java:S115‰"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ËÉ¨ıüÿÿÿÿ
+q
+java:S3008"VRename this field "usuario_dni" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùëøùùÿÿÿÿ
+p	java:S115î"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ê¾‘Ñ
+p	java:S115ö	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(²ç¦¶
+p	java:S115û"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¹¿Òª
+p	java:S115÷"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£Àö´
+~
+java:S1104["cMake ubigeo_cod_departamento a static final constant or non-public and provide accessors if needed.(›âÕñüÿÿÿÿ
+p	java:S115¯"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(½™°¾
+`
+java:S1444‰"DMake this "public static visita_supervisor_vis_fecha_mm" field final(úŒÍ–øÿÿÿÿ
+u	java:S115¢"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ãß‹Øùÿÿÿÿ
+u	java:S115ë"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(û“÷İÿÿÿÿÿ
+u	java:S115õ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼‘º¬ÿÿÿÿÿ
+M
+java:S1444"2Make this "public static tablamodulo3" field final(äóÂüÿÿÿÿ
+r
+java:S1104"WMake usuario_dni a static final constant or non-public and provide accessors if needed.(Ùëøùùÿÿÿÿ
+u	java:S115Ø	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(®Ÿ¯²ıÿÿÿÿ
+u	java:S115ã"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(×ŠÒ¢ùÿÿÿÿ
+p	java:S115×	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‰ú¼
+o	java:S115¶"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İ‘–~
+p	java:S115¹"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(–Â½®
+o	java:S115º"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(†Ù°
+M
+java:S1444"2Make this "public static tablahogares" field final(¢ªëıÿÿÿÿ
+u	java:S115§"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µÚ‘şÿÿÿÿ
+p	java:S115§"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(›‚ö¤
+u	java:S115­"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ã´ëîûÿÿÿÿ
+u	java:S115®"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(øÌşÅşÿÿÿÿ
+o	java:S115²"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ùñõ
+~
+java:S1104\"cMake ubigeo_nom_departamento a static final constant or non-public and provide accessors if needed.(ÑØôÿÿÿÿÿ
+u	java:S115¿"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Í£‰×úÿÿÿÿ
+M
+java:S1444"7Make this "public static tablafuncionarios" field final(«³Ç»
+u	java:S115ı"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(»Ş¯ºúÿÿÿÿ
+u	java:S115õ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(„ˆÁÃøÿÿÿÿ
+u	java:S115å"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¨ò„äÿÿÿÿÿ
+~
+java:S1104"cMake tablavisitasencuestador a static final constant or non-public and provide accessors if needed.(”‘ÎŞıÿÿÿÿ
+€
+java:S1192‹"dUse already-defined constant 'visita_encuestador_vis_hor_ini' instead of duplicating its value here.(°ÕãÜÿÿÿÿÿ
+u	java:S115¾"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÔŞŠ¼üÿÿÿÿ
+u	java:S115á"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(©ÅÉ”üÿÿÿÿ
+u	java:S115Ğ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ü£˜´ÿÿÿÿÿ
+u	java:S115ı"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—×«şÿÿÿÿ
+…
+java:S3008Š"iRename this field "visita_supervisor_vis_fecha_aa" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±»´…úÿÿÿÿ
+p	java:S115Ÿ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ùû–†
+u	java:S115Ñ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(½Àú¦şÿÿÿÿ
+t	java:S115:"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ªÎ˜×ıÿÿÿÿ
+u	java:S115È"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(äÔ§ªûÿÿÿÿ
+u	java:S115Ï"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(«Ö’äúÿÿÿÿ
+p	java:S115¢"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œåöî
+p	java:S115á"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚•ı¾
+u	java:S115ø"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÍÆ±˜úÿÿÿÿ
+u	java:S115Ã"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(í©¤Æøÿÿÿÿ
+p	java:S115¹	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÄõæÙ
+u	java:S115ÿ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ù¨äÏüÿÿÿÿ
+u	java:S115ë"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(«î¬²ûÿÿÿÿ
+u	java:S115ü"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ûøúğûÿÿÿÿ
+p	java:S115Á"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(×ĞÄ
+p	java:S115‘
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(³Ûûƒ
+o	java:S115È"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¡èŠf
+p	java:S115ñ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(´³à
+s
+java:S3008u"XRename this field "estado_numero" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş¬ëßşÿÿÿÿ
+X
+java:S1444["=Make this "public static ubigeo_cod_departamento" field final(›âÕñüÿÿÿÿ
+u	java:S115ğ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(úæ¯ÿÿÿÿÿ
+p	java:S115œ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(çâÛ«
+u	java:S115³"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ÿ­ßÃşÿÿÿÿ
+u	java:S115Ö"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İ‚­òúÿÿÿÿ
+€
+java:S1104‡"dMake visita_supervisor_numero a static final constant or non-public and provide accessors if needed.(·èÚÒıÿÿÿÿ
+t
+java:S1104~"YMake usuario_clave a static final constant or non-public and provide accessors if needed.(ùÃÁëşÿÿÿÿ
+o	java:S115½"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(äÚñi
+p	java:S115“"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¸şÄ¼
+u	java:S115Ñ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£ËØ×ùÿÿÿÿ
+u	java:S115İ	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(û¨´öøÿÿÿÿ
+p	java:S115‚"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬÷Óê
+
+java:S1104k"dMake municipios_num_municipio a static final constant or non-public and provide accessors if needed.(âò†Èúÿÿÿÿ
+u	java:S115×"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(©ıçıÿÿÿÿ
+p	java:S115»"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(á½ï„
+p	java:S115è"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(å½©×
+p	java:S115€"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(³ñë
+o	java:S115A"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(É¨àÌ
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œ½²´şÿÿÿÿ
+p	java:S115Ë	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(óØƒÅ
+p	java:S115í"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(–áä
+O
+java:S1444*"9Make this "public static tablafragmentshogar" field final(ç¶½ß
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(í‚ñ¤şÿÿÿÿ
+p	java:S115
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ö¾¥
+H
+java:S1444"2Make this "public static tablamodulo6" field final(» ñ
+u	java:S115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Òİíèşÿÿÿÿ
+p	java:S115æ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£âÅ×
+p	java:S115ş	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ïó–å
+u	java:S115ñ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œ€Çßøÿÿÿÿ
+u
+java:S1104Š"YMake paises_nombre a static final constant or non-public and provide accessors if needed.(î¼·‹úÿÿÿÿ
+k
+java:S1104"TMake rutas_id a static final constant or non-public and provide accessors if needed.(«ÎÏ½
+p	java:S115¦"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ã™ã˜
+p	java:S115„"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œ¿Îß
+p	java:S115Æ	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(•’Áõ
+u	java:S115ˆ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ı§‘‰ùÿÿÿÿ
+p	java:S115Ì"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ê©ó
+k
+java:S3008ˆ"TRename this field "paises_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹½ Æ
+u	java:S115à"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ìâˆÿşÿÿÿÿ
+u	java:S115×"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(õ  ùÿÿÿÿ
+u	java:S115Õ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Á›½´øÿÿÿÿ
+u	java:S115«"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(°ş ­úÿÿÿÿ
+t	java:S115N"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Åî„­øÿÿÿÿ
+y
+java:S1104a"^Make ubigeo_descripcion a static final constant or non-public and provide accessors if needed.(™ ş„úÿÿÿÿ
+u	java:S115˜"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÄîĞëıÿÿÿÿ
+u	java:S115¸"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œ÷‡‡şÿÿÿÿ
+‚
+java:S1104†"fMake visita_supervisor_id_hogar a static final constant or non-public and provide accessors if needed.(®›è†üÿÿÿÿ
+u	java:S115Š"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÚÆóšùÿÿÿÿ
+u	java:S115ê"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‰İî‚şÿÿÿÿ
+u	java:S115±"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µÈÜ´úÿÿÿÿ
+p	java:S115¢"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‰º™”
+p	java:S115ß"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(˜…²ç
+u	java:S115Ú"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™¾Ùšúÿÿÿÿ
+p	java:S115”"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ó€ê
+p	java:S115Å"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(˜ ªÈ
+u	java:S115ä"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(´¾Óëıÿÿÿÿ
+s
+java:S3008_"^Rename this field "ubigeo_cod_distrito" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô™Å
+u	java:S115ñ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(œ©­Óüÿÿÿÿ
+p	java:S115Ë"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬ÖÈ‡
+u	java:S115˜"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İœÏÎøÿÿÿÿ
+o	java:S115»"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ëæ€
+u	java:S115ƒ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¦ÜæŠıÿÿÿÿ
+J
+java:S1444‰"3Make this "public static paises_numero" field final(€‹°…
+u	java:S115á"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ß³ğ±ûÿÿÿÿ
+u	java:S115ˆ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(­ëÊÑşÿÿÿÿ
+p	java:S115³"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‡½¶
+o
+java:S3008s"TRename this field "estado_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğı’”şÿÿÿÿ
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¡ÖÃ¯ıÿÿÿÿ
+u	java:S115ğ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ıùñóüÿÿÿÿ
+X
+java:S1444"=Make this "public static tablavisitasencuestador" field final(”‘ÎŞıÿÿÿÿ
+u	java:S115”"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æ´¾–ÿÿÿÿÿ
+y
+java:S1104("cMake tablacoberturafragments a static final constant or non-public and provide accessors if needed.(‹ŠÂ¹
+u	java:S115Ö"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(•§¤ÿùÿÿÿÿ
+„
+java:S3008‹"hRename this field "visita_supervisor_vis_hor_ini" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ÕãÜÿÿÿÿÿ
+n
+java:S1104"XMake tablausuario a static final constant or non-public and provide accessors if needed.(ğä™
+n
+java:S1104$"XMake tablaestados a static final constant or non-public and provide accessors if needed.(ôÜÓö
+u	java:S115…"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‡àıœüÿÿÿÿ
+u	java:S115Á"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¦à¾èşÿÿÿÿ
+u	java:S115É	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(å¢ßûıÿÿÿÿ
+u	java:S115‡
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(À¿”ıÿÿÿÿ
+p	java:S115µ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ùŠË
+p	java:S115Ş"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ì”£à
+t
+java:S1104_"_Make ubigeo_cod_distrito a static final constant or non-public and provide accessors if needed.(Ô™Å
+n
+java:S1104"SMake DB_NAME a static final constant or non-public and provide accessors if needed.(÷š®İüÿÿÿÿ
+p	java:S115Õ	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼¶†
+u	java:S115ğ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(˜ûÉøÿÿÿÿ
+u	java:S115³"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ƒéÿúÿÿÿÿ
+p	java:S115Í"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(º½„‰
+u	java:S115İ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ëïÉÿÿÿÿÿ
+P
+java:S1444#"5Make this "public static tablamunicipios" field final(‹ë ºşÿÿÿÿ
+p	java:S115‚"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬ğé÷
+u	java:S115
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(É´ê¶úÿÿÿÿ
+o	java:S115í"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÇùÇu
+o	java:S115ı	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÏÌ¹;
+q
+java:S1104
+"VMake tablarutas a static final constant or non-public and provide accessors if needed.(–Øêùÿÿÿÿ
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.( áÔñûÿÿÿÿ
+…
+java:S3008ˆ"iRename this field "visita_supervisor_vis_fecha_dd" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Âéøÿÿÿÿ
+u	java:S115·"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÊŸø©ùÿÿÿÿ
+p	java:S115¶"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(óÜü¨
+p	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ûì·
+u	java:S115ö"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÚĞ¢Èüÿÿÿÿ
+u	java:S115•"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ê÷Óıÿÿÿÿ
+u	java:S115ã"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(á´„±ÿÿÿÿÿ
+u	java:S115…"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ûÙÏ´üÿÿÿÿ
+N
+java:S1444u"3Make this "public static estado_numero" field final(ş¬ëßşÿÿÿÿ
+o	java:S115Ù"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(”„ÄE
+p	java:S115Í"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ï¿òÙ
+p	java:S115Ö	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¥Û—÷
+p	java:S115°"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ãÑÇÏ
+u
+java:S1104*"_Make tablafragmentshogar a static final constant or non-public and provide accessors if needed.(ç¶½ß
+u	java:S115·"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(äÁ§şÿÿÿÿ
+p	java:S115ó"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Â¼¶§
+x
+java:S1104"\Make usuario_cargo_id a static final constant or non-public and provide accessors if needed.( æú°ıÿÿÿÿ
+p	java:S115±"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(í¥ï
+p	java:S115ş"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Å«÷ß
+u	java:S115÷"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¾Ö‹£ıÿÿÿÿ
+p	java:S115§"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¯Çöá
+p	java:S115â"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ûç­‹
+~
+java:S3008"hRename this field "visita_supervisor_vis_hor_fin" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êı
+u	java:S115Ë"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(óãÇûÿÿÿÿ
+u	java:S115¬	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Õ²›¶ÿÿÿÿÿ
+p	java:S115º	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Â’Ò«
+ƒ
+java:S1192"hUse already-defined constant 'fragments_hogar_visitas_supervisor' instead of duplicating its value here.(é‰úşÿÿÿÿ
+o
+java:S3008}"ZRename this field "usuario_usuario" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”øƒp
+u	java:S115§"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Şœì™ÿÿÿÿÿ
+u	java:S115í"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼éåÿÿÿÿÿ
+p	java:S115‹"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(³®
+u	java:S115ñ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Åù²Øúÿÿÿÿ
+u	java:S115‰"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ƒÛÖüşÿÿÿÿ
+p	java:S115Å	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ã€³×
+u	java:S115±"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(«±Ôşÿÿÿÿ
+o	java:S115Ì"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(øÒÀ
+u	java:S115Õ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÍÓ…Ğùÿÿÿÿ
+u	java:S115¥"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ëâ¾ûÿÿÿÿ
+u	java:S115ß"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ê‰ğÖùÿÿÿÿ
+H
+java:S1444t"3Make this "public static estado_nombre" field final(é¸†P
+p	java:S115È"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İÀ•ì
+u	java:S115Š"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(é‚ÅÂúÿÿÿÿ
+u	java:S115ı"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ë†Å†øÿÿÿÿ
+_
+java:S1192»"IDefine a constant instead of duplicating this literal " TEXT," 794 times.(×ĞZ
+p	java:S115¨"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ùƒ±“
+}
+java:S1104"fMake visita_supervisor_vis_resu a static final constant or non-public and provide accessors if needed.(ˆìĞŸ
+p	java:S115´	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¿åÁõ
+u	java:S115È	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(äõ¨£şÿÿÿÿ
+p	java:S115ù"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‡Öæ‹
+p	java:S115Ñ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ëô÷…
+u	java:S115Û"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.( İ›ıÿÿÿÿ
+u	java:S115Ş"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ˆÀÜñşÿÿÿÿ
+p	java:S115Ä"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(àŠµ…
+o	java:S115G"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¸ÒîÑ
+u	java:S115´"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ßÖµŠøÿÿÿÿ
+p	java:S115é"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¶µ˜ï
+U
+java:S1118":Add a private constructor to hide the implicit public one.(ÌÀ¯“şÿÿÿÿ
+u	java:S115À"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(„¡†‘ùÿÿÿÿ
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(²Åµıÿÿÿÿÿ
+u	java:S115‚"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ƒ¿¯Ëÿÿÿÿÿ
+p	java:S115‡"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(•šÌì
+u	java:S115’"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ìæ”ûúÿÿÿÿ
+u	java:S115­"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(“–¦ãşÿÿÿÿ
+u	java:S115ß"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Š…Û™øÿÿÿÿ
+p	java:S115ö"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ìâàÔ
+F
+java:S1444ˆ"/Make this "public static paises_id" field final(¹½ Æ
+u	java:S115£"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(›òä†ıÿÿÿÿ
+u	java:S115­"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¾ùÎ•ùÿÿÿÿ
+p	java:S115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÔÌóõ
+`
+java:S1444ˆ"DMake this "public static visita_supervisor_vis_fecha_dd" field final(¡Âéøÿÿÿÿ
+u	java:S115³"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(êõ’¤şÿÿÿÿ
+u	java:S115¦"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ïëî¿ùÿÿÿÿ
+u	java:S115²"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Å•Á´øÿÿÿÿ
+u	java:S115Ÿ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¯®üùÿÿÿÿ
+u	java:S115²"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(÷˜³éùÿÿÿÿ
+N
+java:S1444_"9Make this "public static ubigeo_cod_distrito" field final(Ô™Å
+_
+java:S1444"CMake this "public static visita_supervisor_vis_min_fin" field final(’áªóüÿÿÿÿ
+u	java:S115ò"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(·ï÷“øÿÿÿÿ
+p	java:S115ô	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—½°
+u	java:S115à	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¨€ßÈüÿÿÿÿ
+T
+java:S1444"9Make this "public static tablam3p318personas" field final(£À¿ÿÿÿÿÿ
+p	java:S115÷"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¡»©½
+p	java:S115¸	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(§¼¦Ü
+p	java:S115©"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(×à£ê
+u	java:S115¡"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(±ûËÎûÿÿÿÿ
+u	java:S115ò"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ƒ¨Ïçşÿÿÿÿ
+p	java:S115Ò"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(›ÊÙÕ
+p	java:S115À"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µ·Ø¶
+p	java:S115œ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ã¢ò
+p	java:S115¼"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(›«ïº
+p	java:S115Ó"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÉØŠÛ
+p	java:S115à"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(…Î¹ÿ
+p	java:S115ú"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£×
+u	java:S115Ô"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÌªµŸıÿÿÿÿ
+u	java:S115ã"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æËï„ıÿÿÿÿ
+p	java:S115Ã"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æ ‘¬
+v
+java:S1192"aUse already-defined constant 'fragments_vivienda_caratula' instead of duplicating its value here.(Ïœ™4
+u	java:S115ü"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚›’ˆıÿÿÿÿ
+p	java:S115Ş"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æÔÒ’
+„
+java:S3008"hRename this field "visita_supervisor_vis_min_fin" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’áªóüÿÿÿÿ
+u	java:S115‚"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(’îü–ıÿÿÿÿ
+…
+java:S3008‰"iRename this field "visita_supervisor_vis_fecha_mm" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úŒÍ–øÿÿÿÿ
+u	java:S115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ïŸÂßÿÿÿÿÿ
+t
+java:S1104h"YMake municipios_id a static final constant or non-public and provide accessors if needed.(ÇØùÿÿÿÿ
+o	java:S115ó"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ä¹©5
+p	java:S115Û	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¾ôŒè
+p	java:S115š"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ŞæÇ·
+u	java:S115ü"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(À²ßšıÿÿÿÿ
+p	java:S115ñ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¤®¤ø
+u	java:S115˜"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(½Ç´úÿÿÿÿ
+p	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(õæÀ
+p	java:S115Ç"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ëğ¡û
+u	java:S115Å"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‹ğÛÛúÿÿÿÿ
+u	java:S115—"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ğûóÏüÿÿÿÿ
+{
+java:S1104^"`Make ubigeo_nom_provincia a static final constant or non-public and provide accessors if needed.(›÷²úÿÿÿÿ
+u	java:S115Ã"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¨şşÓûÿÿÿÿ
+k
+java:S1192í"TDefine a constant instead of duplicating this literal " TEXT PRIMARY KEY," 21 times.(†³öÍ
+T
+java:S1444">Make this "public static tablaresultadosupervisor" field final(ë‹½ú
+u	java:S115Ú"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ıšğÿúÿÿÿÿ
+p	java:S115°"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼·ËÉ
+u	java:S115â"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(€ìàÕüÿÿÿÿ
+u	java:S115õ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ìßÆÂşÿÿÿÿ
+p	java:S115Ô"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¦İ×Ÿ
+u	java:S115Ï	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬’Å÷ûÿÿÿÿ
+u	java:S115½"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‰†ÛÙşÿÿÿÿ
+p	java:S115Ë"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(´ïõ‰
+E
+java:S1444Z"/Make this "public static ubigeo_id" field final(ÊÏ„º
+{
+java:S3008l"`Rename this field "municipios_cod_estado" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ×™øÿÿÿÿ
+p	java:S115Ù"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(®ŞÌã
+s
+java:S1104"XMake tablahogares a static final constant or non-public and provide accessors if needed.(¢ªëıÿÿÿÿ
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(›ôñ¥øÿÿÿÿ
+u	java:S115İ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(·ˆÈşûÿÿÿÿ
+u	java:S115©"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¶ÿ—¾şÿÿÿÿ
+o	java:S115Î"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(öëëw
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(”Ãÿşÿÿÿÿ
+p	java:S115¼"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¶§ÏÃ
+p	java:S115º"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(î¸¸Ù
+p	java:S115Ì"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Õ‡©ô
+o	java:S115¸"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ç¼È
+o	java:S115½"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—ƒ¥j
+u	java:S115ï	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™ÚÅÒüÿÿÿÿ
+p	java:S115Ÿ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÓÄ­­
+p	java:S115µ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(»Çº
+p	java:S115¥"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ê÷¨Ò
+p	java:S115Å"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¢úè°
+T
+java:S1444`"9Make this "public static ubigeo_nom_distrito" field final(àÒÓ‰şÿÿÿÿ
+u	java:S115û"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(şÿ£öüÿÿÿÿ
+p	java:S115¬"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(÷ŠÍ
+u	java:S115ë	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¸±‰­üÿÿÿÿ
+u	java:S115»"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æåúÁûÿÿÿÿ
+M
+java:S1444"2Make this "public static tablamodulo5" field final(µÅóúÿÿÿÿ
+u	java:S115ó"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ãÒúàûÿÿÿÿ
+u	java:S115¿"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(üçòˆıÿÿÿÿ
+H
+java:S1444"3Make this "public static tablacaratula" field final(Ïœ™4
+u	java:S115Ü"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(«³§Èıÿÿÿÿ
+u	java:S115Œ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(óÎúøşÿÿÿÿ
+o	java:S115ë"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—‡·@
+u	java:S115Å"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(²Óñîûÿÿÿÿ
+u	java:S115Ü"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‰¸å—şÿÿÿÿ
+u	java:S115³"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ş£Ş”ûÿÿÿÿ
+o	java:S115>"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼˜¾ß
+u	java:S115à"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‰ò›ƒùÿÿÿÿ
+N
+java:S1444~"3Make this "public static usuario_clave" field final(ùÃÁëşÿÿÿÿ
+u	java:S115ê"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÍŠ»óøÿÿÿÿ
+m
+java:S3008"RRename this field "DB_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷š®İüÿÿÿÿ
+p	java:S115ò	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Â¨‚Š
+r
+java:S1104"\Make tablam3p309rutas a static final constant or non-public and provide accessors if needed.(½¶«‡
+m
+java:S1192u"RUse already-defined constant 'hogar_numero' instead of duplicating its value here.(ş¬ëßşÿÿÿÿ
+p	java:S115“"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ìè¼’
+j
+java:S3008Z"TRename this field "ubigeo_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÏ„º
+u	java:S115“"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¾¼»­ùÿÿÿÿ
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ªéëÿùÿÿÿÿ
+u
+java:S1104'"ZMake tablafragments a static final constant or non-public and provide accessors if needed.(®Ö…‚ıÿÿÿÿ
+u	java:S115À"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(±íŞİüÿÿÿÿ
+u	java:S115´"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬´¢¿úÿÿÿÿ
+p	java:S115¾"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ƒèãš
+€
+java:S1192Œ"dUse already-defined constant 'visita_encuestador_vis_min_ini' instead of duplicating its value here.(Ñüğ÷ûÿÿÿÿ
+u	java:S115†"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(“åùÙøÿÿÿÿ
+u	java:S115å	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¸Šæ„øÿÿÿÿ
+p	java:S115‰"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ôÿ½
+p	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(…ßŸí
+p	java:S115‘"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ö¸“‚
+p	java:S115Ä	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÌŠ­
+p	java:S115´"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ñÇ•®
+u	java:S115Ç"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(›¤ıºûÿÿÿÿ
+p	java:S115­"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¾àë’
+u	java:S115‡"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ìœÛ»úÿÿÿÿ
+p	java:S115¥"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Û™¬Å
+u	java:S115Ê"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(†ê€ûûÿÿÿÿ
+u	java:S115‰"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ìü¡úÿÿÿÿ
+p	java:S115®	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ğéÆª
+p	java:S115ÿ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÆÀ‡¡
+u	java:S115¯"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(˜ÿÌÁıÿÿÿÿ
+Z
+java:S1444‡">Make this "public static visita_supervisor_numero" field final(·èÚÒıÿÿÿÿ
+p	java:S115ö"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(é— 
+p	java:S115‹"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¯¬¨
+~
+java:S3008k"cRename this field "municipios_num_municipio" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âò†Èúÿÿÿÿ
+u	java:S115ø"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÔõÕ·şÿÿÿÿ
+p	java:S115ş"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¾–† 
+p	java:S115í"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(³¬¿‰
+u	java:S115Æ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(º‚±ºúÿÿÿÿ
+u	java:S115÷"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ˆç÷¥ÿÿÿÿÿ
+p	java:S115Ó"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(äŠ¿³
+p	java:S115²"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İÚÓ—
+p	java:S115˜"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æêñĞ
+q
+java:S1104|"VMake usuario_id a static final constant or non-public and provide accessors if needed.(Çÿ¬ãıÿÿÿÿ
+{
+java:S1104"eMake tablaresultadoencuestador a static final constant or non-public and provide accessors if needed.(‹Ú£¡
+p	java:S115õ	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Î¨Ìç
+u	java:S115–"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¹õ×¯ıÿÿÿÿ
+u	java:S115æ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ôì÷Ïøÿÿÿÿ
+u	java:S115¾"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ƒƒ×ûúÿÿÿÿ
+f
+java:S1192¹"ODefine a constant instead of duplicating this literal "CREATE TABLE " 23 times.(şğÖç
+p	java:S115õ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(½“§ù
+u	java:S115Ø"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(´°‡ùÿÿÿÿ
+p	java:S115‰"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‰šÜ¬
+H
+java:S1444&"2Make this "public static tablalayouts" field final(¡Ü¹
+u	java:S115ç"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ßÔ¸ûıÿÿÿÿ
+u	java:S115Ú	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(šå³¨şÿÿÿÿ
+u	java:S115Ú"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ê¨‡¼üÿÿÿÿ
+p	java:S115”
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(÷ñ¬€
+u	java:S115ª"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ª‰èöıÿÿÿÿ
+p	java:S115¤"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¶şãÆ
+p	java:S115Ä"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬µ–œ
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(“•­şÿÿÿÿ
+p	java:S115â"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ß¦Ç–
+p	java:S115¡"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(’—«Å
+u	java:S115©"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(º­©ûÿÿÿÿ
+p	java:S115¨"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¯ŸŸ”
+p	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¥íÅÀ
+u	java:S115°"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Âšÿÿÿÿÿ
+p	java:S115Œ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ß‘ïâ
+p	java:S115½"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ä¸øñ
+u	java:S115ê"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Şş«ûûÿÿÿÿ
+p	java:S115µ	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÍæøÁ
+p	java:S115‹"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ê“­
+u	java:S115´"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(»µÉÀøÿÿÿÿ
+u	java:S115ø"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ø± ¥úÿÿÿÿ
+I
+java:S1444"3Make this "public static tablamodulo1v" field final(„ØÈš
+w
+java:S3008"[Rename this field "usuario_cargo_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( æú°ıÿÿÿÿ
+o	java:S115ò"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÒÔD
+u	java:S115ô"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ş——ÿüÿÿÿÿ
+F
+java:S1444	"1Make this "public static tablapaises" field final(Å™Ó
+p	java:S115²"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ı¤¹œ
+p	java:S115¼"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Çç‘¹
+u	java:S115µ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(“ ıÒúÿÿÿÿ
+p	java:S115€
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Î¼û–
+p	java:S115Ş"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(óû»™
+u	java:S115Ù"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ùİåÃşÿÿÿÿ
+p	java:S115‘"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¸§ÁÁ
+u	java:S115ª"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‰ÂÂÉûÿÿÿÿ
+p	java:S115‘"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ìí²ª
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İş±˜ûÿÿÿÿ
+u	java:S115Š"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£œİìûÿÿÿÿ
+o	java:S115F"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(œ‚ªÀ
+u	java:S115¤"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Âùùéıÿÿÿÿ
+u	java:S115“"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÜËÌÃûÿÿÿÿ
+H
+java:S1444"-Make this "public static DB_PATH" field final(©˜ë…úÿÿÿÿ
+p	java:S115Û"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ğÈØ¼
+p	java:S115İ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ÿİü—
+x
+java:S1192"aUse already-defined constant 'visita_encuestador_vis_resu' instead of duplicating its value here.(ˆìĞŸ
+u	java:S115’"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(äÖÿÿÿÿÿ
+p	java:S115á"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(šÆû±
+p	java:S115î"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ä’éâ
+p	java:S115æ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(üÉŞì
+u	java:S115ó	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(•Ïò¡şÿÿÿÿ
+u	java:S115Ú"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ø‡’“úÿÿÿÿ
+
+java:S1192ˆ"eUse already-defined constant 'visita_encuestador_vis_fecha_dd' instead of duplicating its value here.(¡Âéøÿÿÿÿ
+p	java:S115›"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÖÏ©
+u	java:S115Ú"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(×‹Üıøÿÿÿÿ
+u	java:S115â"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ğ¶™ãüÿÿÿÿ
+p	java:S115¨"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ú”ü
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ıûÕ
+p	java:S115Ö"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¡şì
+I
+java:S1444‘"2Make this "public static rutas_numero" field final(´ò™
+u	java:S115í	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Å¿˜Êÿÿÿÿÿ
+u	java:S115·"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÿ’Ç¶úÿÿÿÿ
+u	java:S115ö"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(±ò¶¼ûÿÿÿÿ
+t	java:S1155"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÑšÚìüÿÿÿÿ
+u	java:S115ª"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(³ õ–ıÿÿÿÿ
+p	java:S115ˆ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ïÊùÉ
+u	java:S115ò"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ØŸ‡Òÿÿÿÿÿ
+O
+java:S1444'"4Make this "public static tablafragments" field final(®Ö…‚ıÿÿÿÿ
+g
+java:S1192t"RUse already-defined constant 'marco_nombre' instead of duplicating its value here.(é¸†P
+p	java:S115Ë"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¯ŸŒÓ
+j
+java:S3008"SRename this field "rutas_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ÎÏ½
+p	java:S115ƒ
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ğãÏˆ
+u	java:S115ù	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(·‡ƒùÿÿÿÿ
+p	java:S115ü"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ï®ãÀ
+u	java:S115¶"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ô´ÎĞıÿÿÿÿ
+t	java:S115J"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(”èøøÿÿÿÿ
+p	java:S115Ï"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ùşŒ°
+S
+java:S1444a"8Make this "public static ubigeo_descripcion" field final(™ ş„úÿÿÿÿ
+n	java:S115L"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÃæÚH
+_
+java:S1444…"CMake this "public static visita_supervisor_id_vivienda" field final(¹ü«òşÿÿÿÿ
+u	java:S115ÿ	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(’ÎÍ€şÿÿÿÿ
+N
+java:S1444h"3Make this "public static municipios_id" field final(ÇØùÿÿÿÿ
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(…Õ˜ıùÿÿÿÿ
+u	java:S115ù"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(†¯½Öúÿÿÿÿ
+u	java:S115„"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(åË¤üÿÿÿÿ
+u	java:S115¢"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÂÛ·¾øÿÿÿÿ
+u	java:S115†"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(şÉÃ”ıÿÿÿÿ
+p	java:S115‡"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÔªÉ–
+u	java:S115ÿ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(§¨ˆúÿÿÿÿ
+W
+java:S1444)"<Make this "public static tablafragmentsvivienda" field final(ÍƒŞ®úÿÿÿÿ
+t	java:S115;"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ùåÿ¨øÿÿÿÿ
+u	java:S115Â"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ú¡ÇŠşÿÿÿÿ
+o	java:S115«"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ãê¾ 
+U
+java:S1444]":Make this "public static ubigeo_cod_provincia" field final(¹š¨ÿÿÿÿÿ
+p	java:S115Ù"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(½¿µÅ
+o
+java:S1104‘"XMake rutas_numero a static final constant or non-public and provide accessors if needed.(´ò™
+u	java:S115™"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¡ÃÁüÿÿÿÿ
+H
+java:S1444$"2Make this "public static tablaestados" field final(ôÜÓö
+u	java:S115ì"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(“­•ôûÿÿÿÿ
+o	java:S115ä"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‹Å© 
+u	java:S115Ù	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÙÿÑÜúÿÿÿÿ
+s
+java:S1104"]Make tablafuncionarios a static final constant or non-public and provide accessors if needed.(«³Ç»
+u	java:S115ı"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(« Íùÿÿÿÿ
+p	java:S115¿"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(…Úı
+u	java:S115Á	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Š¿Ÿêøÿÿÿÿ
+t
+java:S3008Š"XRename this field "paises_nombre" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î¼·‹úÿÿÿÿ
+}
+java:S1104)"bMake tablafragmentsvivienda a static final constant or non-public and provide accessors if needed.(ÍƒŞ®úÿÿÿÿ
+u	java:S115É"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(“Ëºïøÿÿÿÿ
+u	java:S115Â	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(õÍœûÿÿÿÿ
+o	java:S115ª"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(§œÃ7
+|
+java:S1104„"`Make visita_supervisor_id a static final constant or non-public and provide accessors if needed.(Îüõ¬ıÿÿÿÿ
+s
+java:S1104"XMake tablamodulo4 a static final constant or non-public and provide accessors if needed.(µèáÄÿÿÿÿÿ
+p	java:S115Î"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(õÆ†é
+p	java:S115ß"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(èØï
+p	java:S115‡"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ë¶™¬
+p	java:S115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(÷Äş·
+W
+java:S1444"@Make this "public static visita_supervisor_vis_resu" field final(ˆìĞŸ
+H
+java:S1444"-Make this "public static DB_NAME" field final(÷š®İüÿÿÿÿ
+p	java:S115½	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(˜¹°Ä
+u	java:S115Š"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚†°¹ıÿÿÿÿ
+R	java:S125§"<This block of commented-out lines of code should be removed.(×‡ÔÖ
+u	java:S115Ô"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(û‡ÎÖúÿÿÿÿ
+o	java:S115à"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ü¬·
+u	java:S115™"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(áğ¡ºıÿÿÿÿ
+p	java:S115Â"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÖÂàÕ
+p	java:S115’"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ø¨ö¹
+p	java:S115¸"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Üú½Ó
+u	java:S115¼"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(˜œ—²ıÿÿÿÿ
+o	java:S115ì"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£ÿ„u
+o	java:S115¾"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(˜¤·F
+p	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(şı¶ı
+p	java:S115å"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ôéÓª
+u	java:S115ß"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ú†²ğıÿÿÿÿ
+u	java:S115º"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İ÷ğºÿÿÿÿÿ
+u	java:S115İ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¦¾©şûÿÿÿÿ
+u	java:S115Ä"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(èù¤“øÿÿÿÿ
+z
+java:S1192"dUse already-defined constant 'visita_encuestador_vis_hor_fin' instead of duplicating its value here.(êı
+t
+java:S1104’"XMake rutas_nombre a static final constant or non-public and provide accessors if needed.(ú¤¶Ïúÿÿÿÿ
+o	java:S115Â"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(…™Şc
+o	java:S115Ç"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(«ß”V
+p	java:S115ş"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µ€òá
+z
+java:S1104i"dMake municipios_cod_municipio a static final constant or non-public and provide accessors if needed.(åĞ’°
+p	java:S115†"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ì¹ÖÓ
+p	java:S115§"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(–æµ³
+u	java:S115Î"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬Çƒ˜ûÿÿÿÿ
+p	java:S115­	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¿ú£Ì
+u	java:S115‘"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ò×Ü—ÿÿÿÿÿ
+…
+java:S1104…"iMake visita_supervisor_id_vivienda a static final constant or non-public and provide accessors if needed.(¹ü«òşÿÿÿÿ
+u	java:S115é"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ª‚øÑüÿÿÿÿ
+u	java:S115ä"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Êğ²ıúÿÿÿÿ
+u	java:S115ù"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ãò¹äÿÿÿÿÿ
+u	java:S115û"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(›ùÔíùÿÿÿÿ
+p	java:S115Ò"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Û„öÊ
+o	java:S115Ö"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¾úç4
+u	java:S115ï"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ú‡­óüÿÿÿÿ
+u	java:S115„"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ê™ÚĞøÿÿÿÿ
+p	java:S115…"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£‰İ
+u	java:S115¨"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(´—Åüÿÿÿÿ
+p	java:S115·	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Şù’â
+p	java:S115¶"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(·ÅŒœ
+p	java:S115»"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‰Í¹
+y
+java:S3008`"^Rename this field "ubigeo_nom_distrito" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÒÓ‰şÿÿÿÿ
+p	java:S115Ş"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ËÒá¾
+p	java:S115”"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÿ¶Áô
+p	java:S115œ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‘ì«
+o	java:S115Ğ	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¾•µk
+p	java:S115ñ	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(±‘èŒ
+…
+java:S1104Œ"iMake visita_supervisor_vis_min_ini a static final constant or non-public and provide accessors if needed.(Ñüğ÷ûÿÿÿÿ
+o	java:S115í"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ºÊ0
+u	java:S115—"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™Ê±˜ùÿÿÿÿ
+Y
+java:S1444k">Make this "public static municipios_num_municipio" field final(âò†Èúÿÿÿÿ
+u	java:S115¸"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™Æÿÿÿÿÿ
+o	java:S115Á"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(òÖ¿'
+o	java:S115¨"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µË\
+p	java:S115†
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(³ÿƒ
+p	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œ÷‰Ê
+o	java:S115ë"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£ÙåU
+u	java:S115­"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(®ÙÈúúÿÿÿÿ
+u	java:S115î"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(†Íáıÿÿÿÿ
+†
+java:S1104ˆ"jMake visita_supervisor_vis_fecha_dd a static final constant or non-public and provide accessors if needed.(¡Âéøÿÿÿÿ
+p	java:S115±"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¥ØÇµ
+p	java:S115È"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¶—±
+s
+java:S3008’"WRename this field "rutas_nombre" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú¤¶Ïúÿÿÿÿ
+Y
+java:S1444j">Make this "public static municipios_nom_municipio" field final(­À›Äüÿÿÿÿ
+v
+java:S1104#"[Make tablamunicipios a static final constant or non-public and provide accessors if needed.(‹ë ºşÿÿÿÿ
+p	java:S115’"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ƒ¿òğ
+
+java:S1192Š"eUse already-defined constant 'visita_encuestador_vis_fecha_aa' instead of duplicating its value here.(±»´…úÿÿÿÿ
+t	java:S115O"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¹òÈáüÿÿÿÿ
+o	java:S115™"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(±€…9
+n
+java:S1104"XMake tablamodulo6 a static final constant or non-public and provide accessors if needed.(» ñ
+o	java:S115ğ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(÷ª‰\
+p	java:S115¬"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Šïµ
+p	java:S115»"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÄúŸ¥
+†
+java:S1104‰"jMake visita_supervisor_vis_fecha_mm a static final constant or non-public and provide accessors if needed.(úŒÍ–øÿÿÿÿ
+u	java:S115Ú"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¿°›ûÿÿÿÿ
+p	java:S115ê"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ôœ©Ì
+M
+java:S1444"2Make this "public static tablamodulo4" field final(µèáÄÿÿÿÿÿ
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(à‰ìÆşÿÿÿÿ
+o	java:S115@"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¹åëó
+p	java:S115«"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ó¸ê—
+u	java:S115·"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¨ª¼¼ûÿÿÿÿ
+u	java:S115ß"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÙØşõùÿÿÿÿ
+v
+java:S1104€"ZMake usuario_nombre a static final constant or non-public and provide accessors if needed.(€Æäçùÿÿÿÿ
+s
+java:S3008~"XRename this field "usuario_clave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÃÁëşÿÿÿÿ
+u	java:S115¶"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(çùÄ¤ıÿÿÿÿ
+u	java:S115¿"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Éø±…úÿÿÿÿ
+u	java:S115Û"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(†êÌ¾ÿÿÿÿÿ
+z
+java:S1104"dMake tablaresultadosupervisor a static final constant or non-public and provide accessors if needed.(ë‹½ú
+p	java:S115­"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÁĞÌ
+u	java:S115É"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(€û•Îşÿÿÿÿ
+p	java:S115¹"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(åÄˆç
+p	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ñ«´µ
+u	java:S115é	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¯í¿âüÿÿÿÿ
+R
+java:S1444"6Make this "public static usuario_cargo_id" field final( æú°ıÿÿÿÿ
+u	java:S115ø	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ç”¡†ùÿÿÿÿ
+u	java:S115ª"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(“Ä˜°øÿÿÿÿ
+u	java:S115«	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ú°­Éûÿÿÿÿ
+u	java:S115î	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ß²æùÿÿÿÿ
+u	java:S115†"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(íø——øÿÿÿÿ
+p	java:S115Û"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(è¡¼Ñ
+p	java:S115À	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‘Ò˜ó
+o	java:S115³"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(øôö/
+u	java:S115×"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(² şÿÿÿÿ
+p	java:S115À"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(è“Ëˆ
+p	java:S115‘"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ê…×²
+
+java:S3008‡"cRename this field "visita_supervisor_numero" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·èÚÒıÿÿÿÿ
+p	java:S115Ñ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ô§ìÅ
+p	java:S115Ê"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬å³á
+u	java:S115ç"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ŞÛùĞÿÿÿÿÿ
+v
+java:S3008m"`Rename this field "municipios_nom_estado" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íññª
+p	java:S115Ø"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ªàöã
+u	java:S115®"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ËŞ£´ùÿÿÿÿ
+p	java:S115
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(›ô¦”
+p	java:S115…
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Çü›
+p	java:S115Æ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(’ğÅ¤
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(íËÓüÿÿÿÿ
+p	java:S115°	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‰¾é
+u	java:S115ˆ
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(şÔ–åøÿÿÿÿ
+u	java:S115ì"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(°ƒ‹Œıÿÿÿÿ
+u	java:S115ô"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(“ãÅÔûÿÿÿÿ
+p	java:S115¾"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(½œÜÒ
+„
+java:S3008…"hRename this field "visita_supervisor_id_vivienda" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ü«òşÿÿÿÿ
+u	java:S115ª"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(šéå›øÿÿÿÿ
+u	java:S115¡"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¨ëäüÿÿÿÿ
+u	java:S115Á"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(íÚçêşÿÿÿÿ
+p	java:S115á	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ıö‘Ê
+p	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(èÒº
+l
+java:S1104ˆ"UMake paises_id a static final constant or non-public and provide accessors if needed.(¹½ Æ
+\
+java:S1444†"@Make this "public static visita_supervisor_id_hogar" field final(®›è†üÿÿÿÿ
+u	java:S115¯"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ìÌôÇüÿÿÿÿ
+p	java:S115ğ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(­õ±Ä
+p	java:S115ï"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(•Ö«Ï
+q
+java:S1104"[Make tablaresidentes a static final constant or non-public and provide accessors if needed.(Êî‹É
+u	java:S115¹"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼¹Îùÿÿÿÿ
+p	java:S115½"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(­¡¹Ÿ
+o	java:S115Á"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ˆéÖi
+u	java:S115Ğ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(åé™Åûÿÿÿÿ
+u	java:S115”"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Î©´¥ıÿÿÿÿ
+p	java:S115Ó"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(€Êè÷
+p	java:S115Í"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ßöƒ„
+p	java:S115±	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Äú–Ú
+u	java:S115Ü"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ºÜÓÄıÿÿÿÿ
+u	java:S115¼"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(×äÍ„ÿÿÿÿÿ
+p	java:S115ñ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÛÚ³
+p	java:S115€"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(“ºı‰
+p	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ô´–ë
+u	java:S115Í	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Á‚Í·ùÿÿÿÿ
+X
+java:S1444\"=Make this "public static ubigeo_nom_departamento" field final(ÑØôÿÿÿÿÿ
+p	java:S115¨"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¾»İ–
+u	java:S115Ï"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£™¨…øÿÿÿÿ
+u	java:S115¼"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ü’„”üÿÿÿÿ
+p	java:S115Â"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ßğä›
+u	java:S115æ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ˆÜìÛşÿÿÿÿ
+u	java:S115î"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(«Â•ãúÿÿÿÿ
+n
+java:S1104t"YMake estado_nombre a static final constant or non-public and provide accessors if needed.(é¸†P
+p	java:S115Ç	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÖîÍØ
+p	java:S115Ò	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(†§ñô
+k
+java:S1104Z"UMake ubigeo_id a static final constant or non-public and provide accessors if needed.(ÊÏ„º
+p	java:S115å"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ëé”š
+p	java:S115·"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‹Õ±ú
+u	java:S115Æ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÿ¸³ÿÿÿÿÿ
+u
+java:S3008€"YRename this field "usuario_nombre" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€Æäçùÿÿÿÿ
+u	java:S115‹
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¨ÉÓøÿÿÿÿ
+p	java:S115›"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼™ÓÂ
+p	java:S115Í"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Å½¸‹
+u	java:S115İ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ãœˆ±şÿÿÿÿ
+u	java:S115Ã"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÇŒ©˜ùÿÿÿÿ
+u	java:S115Ü	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æ·ª±úÿÿÿÿ
+o	java:S115I"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ó·ÈÔ
+p	java:S115Ü"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‡“º°
+p	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÙÈ–î
+u	java:S115¦"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‹§õ¬üÿÿÿÿ
+N
+java:S1444’"2Make this "public static rutas_nombre" field final(ú¤¶Ïúÿÿÿÿ
+u	java:S115ƒ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬üê·úÿÿÿÿ
+u	java:S115«"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ìì…¨üÿÿÿÿ
+u	java:S115¬"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ß©×úÿÿÿÿ
+p	java:S115±"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(­Ó¹œ
+o	java:S115µ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(³ıã-
+p	java:S115°"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¡àÎ±
+u	java:S115è"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¾½Ìùÿÿÿÿ
+l
+java:S1104	"WMake tablapaises a static final constant or non-public and provide accessors if needed.(Å™Ó
+u	java:S115ò"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Á ¢‚úÿÿÿÿ
+p	java:S115º"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(±‰‘’
+u	java:S115ï"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(÷ÏŞÅøÿÿÿÿ
+u	java:S115•"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(âôß£úÿÿÿÿ
+K
+java:S1444
+"0Make this "public static tablarutas" field final(–Øêùÿÿÿÿ
+u	java:S115»	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¶Ÿì×ıÿÿÿÿ
+p	java:S115´"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ˆï©½
+t	java:S115K"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ŸŒğÛùÿÿÿÿ
+u	java:S115ì"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ğíÎÿÿÿÿÿ
+K
+java:S1444|"0Make this "public static usuario_id" field final(Çÿ¬ãıÿÿÿÿ
+n
+java:S3008‘"WRename this field "rutas_numero" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ò™
+x
+java:S1192"bUse already-defined constant 'fragments_hogar_funcionarios' instead of duplicating its value here.(«³Ç»
+p	java:S115è"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(›¥şø
+u	java:S115ó"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÿ‘¬óùÿÿÿÿ
+u	java:S115Ğ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Û»¶Óúÿÿÿÿ
+u	java:S115ê	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(²¶„øÿÿÿÿ
+u	java:S115‰
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ö’’¹ıÿÿÿÿ
+J
+java:S1444}"5Make this "public static usuario_usuario" field final(”øƒp
+p	java:S115Õ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ó€®Û
+{
+java:S1192"`Use already-defined constant 'fragments_vivienda_hogares' instead of duplicating its value here.(¢ªëıÿÿÿÿ
+p	java:S115®"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ğà««
+u	java:S115ş"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Íëëùÿÿÿÿ
+u	java:S115í"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(©üÀåúÿÿÿÿ
+p	java:S115¿	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(±™È—
+p	java:S115Ÿ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼Éûæ
+u	java:S115ã	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—üÚÊøÿÿÿÿ
+p	java:S115¾	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(©ó¿Ÿ
+p	java:S115ì"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(àîÛÇ
+u	java:S115µ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(·€¸¤ÿÿÿÿÿ
+p	java:S115´"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ô›ü™
+p	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÅÈˆ
+t	java:S115="ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ßÇ¸äÿÿÿÿÿ
+u	java:S115·"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¾®¨×şÿÿÿÿ
+u	java:S115Ö"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(à´ñëúÿÿÿÿ
+}
+java:S1192†"aUse already-defined constant 'visita_encuestador_id_hogar' instead of duplicating its value here.(®›è†üÿÿÿÿ
+o	java:S115…"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(œ‹ÀX
+u	java:S115”"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ò‚îóùÿÿÿÿ
+U
+java:S1444^":Make this "public static ubigeo_nom_provincia" field final(›÷²úÿÿÿÿ
+t	java:S115R"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æŒê®ûÿÿÿÿ
+p	java:S115Ã"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÌæÛÁ
+p	java:S115Î"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¿…±ÿ
+p	java:S115Ã	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¿–œ‰
+p	java:S115ş"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(±ªºê
+u	java:S115„"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ø‰¯‹ûÿÿÿÿ
+u	java:S115ô"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(°¿Â–ûÿÿÿÿ
+n
+java:S1104&"XMake tablalayouts a static final constant or non-public and provide accessors if needed.(¡Ü¹
+_
+java:S1444‹"CMake this "public static visita_supervisor_vis_hor_ini" field final(°ÕãÜÿÿÿÿÿ
+p	java:S115«"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Æ„ê
+u	java:S115Œ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(³ãÂÈùÿÿÿÿ
+†
+java:S1104Š"jMake visita_supervisor_vis_fecha_aa a static final constant or non-public and provide accessors if needed.(±»´…úÿÿÿÿ
+o
+java:S3008‰"XRename this field "paises_numero" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€‹°…
+M
+java:S1444"2Make this "public static tablamodulo7" field final(¨ôß¢ùÿÿÿÿ
+o	java:S115½"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬í¸3
+u	java:S115û	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¹³ÿûÿÿÿÿ
+o	java:S115ï"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÌöÍ!
+o	java:S115E"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(íâÎ¼
+o	java:S115P"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(½é€ï
+p
+java:S3008|"URename this field "usuario_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çÿ¬ãıÿÿÿÿ
+z
+java:S1104`"_Make ubigeo_nom_distrito a static final constant or non-public and provide accessors if needed.(àÒÓ‰şÿÿÿÿ
+t	java:S115<"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(†ÛöŸüÿÿÿÿ
+z
+java:S3008^"_Rename this field "ubigeo_nom_provincia" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›÷²úÿÿÿÿ
+u	java:S115á"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—¼Äìùÿÿÿÿ
+p	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µ²«î
+q
+java:S1104"VMake tablamarco a static final constant or non-public and provide accessors if needed.(¿ÿâüûÿÿÿÿ
+u	java:S115Ø"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‘×£œúÿÿÿÿ
+o	java:S1157"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(†Å³Ï
+t	java:S1159"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ğ³øÿÿÿÿ
+p	java:S115®"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‡°½¡
+p	java:S115§"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¨Ùü
+p
+java:S1104‰"YMake paises_numero a static final constant or non-public and provide accessors if needed.(€‹°…
+u	java:S115ı"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(œ‚öıÿÿÿÿ
+p	java:S115“"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬ÇÌÛ
+p	java:S115Ï"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¯ˆáğ
+u	java:S115ä	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ãûàüüÿÿÿÿ
+p	java:S115Â"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÄƒÜä
+p	java:S115³"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ó¿ø›
+p	java:S115â"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ï£ÿÑ
+u	java:S115ı"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™ı¿äşÿÿÿÿ
+u	java:S115Œ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(øÀ­”şÿÿÿÿ
+o	java:S115‡"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ãĞì7
+o	java:S115‡"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¡í¶C
+u	java:S115¥"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬“‚äıÿÿÿÿ
+L
+java:S1444"1Make this "public static usuario_dni" field final(Ùëøùùÿÿÿÿ
+u	java:S115Ô"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(îáÍ‡ûÿÿÿÿ
+o	java:S115û"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Á— 
+„
+java:S3008Œ"hRename this field "visita_supervisor_vis_min_ini" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñüğ÷ûÿÿÿÿ
+o	java:S115Ê	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(˜¥Ô<
+s
+java:S1192…"WUse already-defined constant 'hogar_id_vivienda' instead of duplicating its value here.(¹ü«òşÿÿÿÿ
+p	java:S115£"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Æñ¶
+u	java:S115Š"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ë—€«úÿÿÿÿ
+u	java:S115É"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(†Øçşÿÿÿÿ
+u	java:S115Ò"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(úÎèÍüÿÿÿÿ
+p	java:S115€"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÍÒÂ‰
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ò·ßşÿÿÿÿ
+h
+java:S1192}"SUse already-defined constant 'marco_usuario' instead of duplicating its value here.(”øƒp
+p
+java:S1104}"[Make usuario_usuario a static final constant or non-public and provide accessors if needed.(”øƒp
+p	java:S115Ì"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Î¡Í²
+p	java:S115ï"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µ³‹ñ
+u	java:S115Ã"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ù¸˜Éøÿÿÿÿ
+u	java:S115á"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(îõñˆùÿÿÿÿ
+u	java:S115ş"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Àöæ«ÿÿÿÿÿ
+p	java:S115‘"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(©¯°³
+n
+java:S1104"YMake tablacaratula a static final constant or non-public and provide accessors if needed.(Ïœ™4
+p	java:S115ì"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ØË®“
+o	java:S115H"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(££‹ 
+u	java:S115’
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(õÇçÿÿÿÿÿ
+u	java:S115»"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(òëšòúÿÿÿÿ
+u	java:S115›"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(­ØÆäúÿÿÿÿ
+p	java:S115–"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ï³÷¬
+N
+java:S1444"3Make this "public static tablamodulo1h" field final(íØèøÿÿÿÿ
+~
+java:S3008j"cRename this field "municipios_nom_municipio" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­À›Äüÿÿÿÿ
+p	java:S115à"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(²¥ÃÅ
+p	java:S115ù"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÍÔ±”
+p	java:S115«"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ôæÿ÷
+t	java:S115Q"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ùûâıÿÿÿÿ
+o	java:S115İ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ŸÍ—8
+
+java:S1192"eUse already-defined constant 'visita_encuestador_vis_resu_esp' instead of duplicating its value here.(¹‹ÖËøÿÿÿÿ
+
+java:S3008†"eRename this field "visita_supervisor_id_hogar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®›è†üÿÿÿÿ
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(»Š”Şÿÿÿÿÿ
+u	java:S115Ù"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(üİòÿÿÿÿÿ
+s
+java:S3008h"XRename this field "municipios_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇØùÿÿÿÿ
+p	java:S115™"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ºà€Ö
+p	java:S115é"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(øº‘
+s
+java:S1104"XMake tablamodulo3 a static final constant or non-public and provide accessors if needed.(äóÂüÿÿÿÿ
+…
+java:S1104‹"iMake visita_supervisor_vis_hor_ini a static final constant or non-public and provide accessors if needed.(°ÕãÜÿÿÿÿÿ
+}
+java:S3008["bRename this field "ubigeo_cod_departamento" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›âÕñüÿÿÿÿ
+o	java:S1156"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¿¨æ
+u	java:S115Ğ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÂŞ†üÿÿÿÿ
+u	java:S115ô"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(È¦°Óşÿÿÿÿ
+u	java:S115Ñ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(òÅ—…şÿÿÿÿ
+p	java:S115Í"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—óç
+u	java:S115‹"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(»úÙˆüÿÿÿÿ
+u	java:S115Ä"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÿŸË•øÿÿÿÿ
+u	java:S115Ï"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ä± Æÿÿÿÿÿ
+…
+java:S3008"iRename this field "visita_supervisor_vis_resu_esp" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹‹ÖËøÿÿÿÿ
+u	java:S115©"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(€¿Òıÿÿÿÿ
+u	java:S115Î	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(»ã‘²øÿÿÿÿ
+†
+java:S1104"jMake visita_supervisor_vis_resu_esp a static final constant or non-public and provide accessors if needed.(¹‹ÖËøÿÿÿÿ
+p	java:S115ï"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÖÂÙô
+n
+java:S1104 "XMake tablamodulo8 a static final constant or non-public and provide accessors if needed.(Õ›ºÍ
+u	java:S115µ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¤¨©¥şÿÿÿÿ
+p	java:S115À"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(«éÿ‚
+p	java:S115
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‡ÀĞ¤
+p	java:S115‹"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ğ˜Êş
+p	java:S115—"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(é¼¥°
+p	java:S115ò"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‰­î‚
+o	java:S115Â"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—õ¾\
+u	java:S115ç"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ç¶¿ÿúÿÿÿÿ
+u	java:S115ÿ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ûÔ²äşÿÿÿÿ
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Êø×çÿÿÿÿÿ
+t	java:S115B"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(½¸¨Ñüÿÿÿÿ
+o	java:S115?"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(êØ°È
+u	java:S115Ş"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(••ÃÀÿÿÿÿÿ
+u	java:S115â	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(·˜ÎŒùÿÿÿÿ
+u	java:S115¸"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÔÇÇŒúÿÿÿÿ
+p	java:S115Á"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ŸìàÉ
+p	java:S115ò"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‰¶áÜ
+p	java:S115Õ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¾Ä½Í
+u	java:S115Ê"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(–¡°×ùÿÿÿÿ
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÓÁèşÿÿÿÿ
+u	java:S115œ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.( »Û«ıÿÿÿÿ
+H
+java:S1444 "2Make this "public static tablamodulo8" field final(Õ›ºÍ
+p	java:S115Œ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£ç³¡
+u	java:S115Ì	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ìšõ’üÿÿÿÿ
+p	java:S115Ã"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(’åÑ
+p	java:S115¶"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(„È×ø
+u	java:S115¿"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ó¡æÀûÿÿÿÿ
+u	java:S115¬"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Èğ™ÿÿÿÿÿ
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(˜¦—•ûÿÿÿÿ
+p	java:S115Ü"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚Çİ€
+`
+java:S1444Š"DMake this "public static visita_supervisor_vis_fecha_aa" field final(±»´…úÿÿÿÿ
+u	java:S115ª"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬æâûÿÿÿÿ
+u	java:S115é"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ü€Ò’ÿÿÿÿÿ
+€
+java:S1192"dUse already-defined constant 'visita_encuestador_vis_min_fin' instead of duplicating its value here.(’áªóüÿÿÿÿ
+u	java:S115ÿ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ßî»øÿÿÿÿ
+p	java:S115©"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(­ôíß
+u	java:S115¿"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¸Ä¥Œûÿÿÿÿ
+p	java:S115Õ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¤ò„
+o	java:S115«"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İûµ(
+u	java:S115±"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¸¡¹ÿÿÿÿÿ
+p	java:S115›"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(…Õô•
+u	java:S115õ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Õ˜˜œşÿÿÿÿ
+p	java:S115ø"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(±Áä
+p	java:S115ÿ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¢çÖ„
+p	java:S115„
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(”Üşä
+p	java:S115š"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÄÔ÷Ü
+|
+java:S1104l"aMake municipios_cod_estado a static final constant or non-public and provide accessors if needed.(Õ×™øÿÿÿÿ
+u	java:S115İ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ø„çíşÿÿÿÿ
+p	java:S115ğ	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(üÎìô
+u	java:S115å"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(”’á¦ÿÿÿÿÿ
+o	java:S115†"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(è‘í@
+p	java:S115û"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ı¼Ñî
+u	java:S115Ó"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(õË¥ƒûÿÿÿÿ
+y
+java:S3008i"cRename this field "municipios_cod_municipio" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åĞ’°
+p	java:S115×"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(°úÕÀ
+x
+java:S3008a"]Rename this field "ubigeo_descripcion" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ ş„úÿÿÿÿ
+u	java:S115÷	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(õ¶š¶ûÿÿÿÿ
+u	java:S115¾"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(åŒî€ùÿÿÿÿ
+p	java:S115ô"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ƒâÚõ
+L
+java:S1444"6Make this "public static tablam3p309rutas" field final(½¶«‡
+u	java:S115Æ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÑéÂşÿÿÿÿ
+u	java:S115»"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(„µß³ùÿÿÿÿ
+u	java:S115¶	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(†©óÿÿÿÿÿ
+p	java:S115¦"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Õî†Ğ
+u	java:S115š"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÔŒŞÍûÿÿÿÿ
+z
+java:S1104"_Make tablam3p318personas a static final constant or non-public and provide accessors if needed.(£À¿ÿÿÿÿÿ
+p	java:S115Ô"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(†®ÕŞ
+u	java:S115–"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(üß«Šúÿÿÿÿ
+u	java:S115×"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÆæŠğüÿÿÿÿ
+p	java:S115©"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(“¤§Û
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¤µÃáûÿÿÿÿ
+u	java:S115®"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æªµ’ùÿÿÿÿ
+p	java:S115¡"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(˜¢´
+u	java:S115¹"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(üö‰¤şÿÿÿÿ
+u	java:S115Œ
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(®æ›¾ùÿÿÿÿ
+s
+java:S1104"XMake tablamodulo5 a static final constant or non-public and provide accessors if needed.(µÅóúÿÿÿÿ
+u	java:S115Ö"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¹³ªÿÿÿÿÿ
+Y
+java:S1444"CMake this "public static visita_supervisor_vis_hor_fin" field final(êı
+p	java:S115³	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ñßò¸
+u	java:S115ú"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(–Åğ³ûÿÿÿÿ
+p	java:S115ù"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ïµ¦å
+u	java:S115ë"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¦é“¨şÿÿÿÿ
+p	java:S115æ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ìŞ±Ê
+u	java:S115¤"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¦‚°Äùÿÿÿÿ
+p	java:S115è"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(­ŠòÑ
+p	java:S115ú"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(÷ÖÏÒ
+u	java:S115ê"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£õ€ûüÿÿÿÿ
+t
+java:S1104u"YMake estado_numero a static final constant or non-public and provide accessors if needed.(ş¬ëßşÿÿÿÿ
+P
+java:S1444€"4Make this "public static usuario_nombre" field final(€Æäçùÿÿÿÿ
+{
+java:S1104]"`Make ubigeo_cod_provincia a static final constant or non-public and provide accessors if needed.(¹š¨ÿÿÿÿÿ
+{
+java:S3008„"_Rename this field "visita_supervisor_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îüõ¬ıÿÿÿÿ
+u	java:S115×"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(÷Ëóƒÿÿÿÿÿ
+u	java:S115°"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¯áÀœøÿÿÿÿ
+u	java:S115å"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(êìûÿÿÿÿ
+S
+java:S1444("=Make this "public static tablacoberturafragments" field final(‹ŠÂ¹
+o	java:S115À"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ò–
+u	java:S115¿"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ğò†Èüÿÿÿÿ
+u	java:S115õ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(´ÓÿŸùÿÿÿÿ
+p	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ˆõø©
+p	java:S115Ü"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(àß›Ù
+s
+java:S1104"XMake tablamodulo7 a static final constant or non-public and provide accessors if needed.(¨ôß¢ùÿÿÿÿ
+p	java:S115Ç"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¿¢øÍ
+u	java:S115°"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ñÿŞ£ıÿÿÿÿ
+p	java:S115ú"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(”ÑÒ
+p	java:S115š"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼…–
+p	java:S115§"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ì®¤Ÿ
+
+java:S1104"iMake visita_supervisor_vis_hor_fin a static final constant or non-public and provide accessors if needed.(êı
+p	java:S115¦"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(§ˆª
+p	java:S115®"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Öÿ— 
+u	java:S115ğ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(èÆ«’üÿÿÿÿ
+u	java:S115²	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—™µ‚úÿÿÿÿ
+Q
+java:S1444m";Make this "public static municipios_nom_estado" field final(Íññª
+p	java:S115Â"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(–Â³ş
+o	java:S115²"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(è£²H
+u	java:S115´"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ñ¨÷ïüÿÿÿÿ
+u	java:S115ğ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ùèşæüÿÿÿÿ
+u	java:S115ç	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ßëúùÿÿÿÿ
+u	java:S115æ	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Í“ğ„ıÿÿÿÿ
+w
+java:S1104m"aMake municipios_nom_estado a static final constant or non-public and provide accessors if needed.(Íññª
+p	java:S115•"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ç÷µİ
+p	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æ·ù¢
+o	java:S115Ê"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(·‹T
+J
+java:S1444s"/Make this "public static estado_id" field final(Ğı’”şÿÿÿÿ
+u	java:S115Œ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Õ‰„ ûÿÿÿÿ
+m
+java:S3008"RRename this field "DB_PATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©˜ë…úÿÿÿÿ
+u	java:S115ƒ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¶¹ÅÍûÿÿÿÿ
+o
+java:S1104"YMake tablamodulo1v a static final constant or non-public and provide accessors if needed.(„ØÈš
+H
+java:S1444"2Make this "public static tablausuario" field final(ğä™
+u	java:S115ú"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(éİİùÿÿÿÿ
+u	java:S115Ó"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(°‚×úÿÿÿÿ
+u	java:S115¤"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(šè¥øÿÿÿÿ
+…
+java:S1104"iMake visita_supervisor_vis_min_fin a static final constant or non-public and provide accessors if needed.(’áªóüÿÿÿÿ
+V
+java:S1444l";Make this "public static municipios_cod_estado" field final(Õ×™øÿÿÿÿ
+|
+java:S3008"eRename this field "visita_supervisor_vis_resu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆìĞŸ
+u	java:S115Û"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¾ ÷Êÿÿÿÿÿ
+U
+java:S1444"?Make this "public static tablaresultadoencuestador" field final(‹Ú£¡
+p	java:S115ó"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ÿ™ë«
+u	java:S115î"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ôü‘Ëÿÿÿÿÿ
+u	java:S115Õ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Áô¦ºûÿÿÿÿ
+u	java:S115Î"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ŠĞùÿÿÿÿ
+p	java:S115¬"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(§¸„‹
+p
+java:S1104s"UMake estado_id a static final constant or non-public and provide accessors if needed.(Ğı’”şÿÿÿÿ
+p	java:S115ˆ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œ¹Ï
+u	java:S115£"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ì·¥•ûÿÿÿÿ
+u	java:S115¿"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(˜«²ÿÿÿÿÿ
+u	java:S115“
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¡İòÔúÿÿÿÿ
+p	java:S115¾"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(È«è±
+p	java:S115‹"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ˆááë
+}
+java:S3008\"bRename this field "ubigeo_nom_departamento" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑØôÿÿÿÿÿ
+o	java:S115„"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(äÇÇ*
+u	java:S115¼	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(«´Õúÿÿÿÿ
+p	java:S115¯	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ËÔˆ–
+u	java:S115Ò"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Öªäşÿÿÿÿ
+u	java:S115Ó	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ğßßòşÿÿÿÿ
+p	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‹ã“À
+u	java:S115è	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÆòÓûÿÿÿÿ
+p	java:S115’"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¦¡Ä÷
+p	java:S115Ñ	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¡¡î
+K
+java:S1444"5Make this "public static tablaresidentes" field final(Êî‹É
+o	java:S115M"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Æíƒ
+E
+java:S1444".Make this "public static rutas_id" field final(«ÎÏ½
+t
+java:S1104"YMake tablamodulo1h a static final constant or non-public and provide accessors if needed.(íØèøÿÿÿÿ
+p	java:S115À"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(äÒ½
+p	java:S115÷"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¡¤¹²
+u	java:S115Ş"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¹Ù†ÿÿÿÿÿ
+u	java:S115ö"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(€¦¼Èüÿÿÿÿ
+o	java:S115ë"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ì–Ñt
+u	java:S115À"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¢¨µ˜ÿÿÿÿÿ
+u	java:S115Š"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‡Áß‘úÿÿÿÿ
+p	java:S115ü	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(çÏİ
+u	java:S115ç"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æí«ëşÿÿÿÿ
+u	java:S115£"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(çç ±şÿÿÿÿ
+u	java:S115¯"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æçæ˜úÿÿÿÿ
+p	java:S115ó"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÖË 
+u	java:S115º"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ß±ˆÿıÿÿÿÿ
+p	java:S115Š
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ú†ä
+u	java:S115Ò"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(­Õ¯“ùÿÿÿÿ
+p	java:S115
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ƒú÷í
+^
+java:S1192Ö"GDefine a constant instead of duplicating this literal " TEXT" 23 times.(Õ©Ùµ
+p	java:S115Ì"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(®Ó­Â
+L
+java:S1444%"1Make this "public static tablaubigeo" field final(ññ’¾ûÿÿÿÿ
+K
+java:S1444"0Make this "public static tablamarco" field final(¿ÿâüûÿÿÿÿ
+„
+java:S1192"iUse already-defined constant 'fragments_hogar_visitas_encuestador' instead of duplicating its value here.(”‘ÎŞıÿÿÿÿ
+m
+java:S3008t"XRename this field "estado_nombre" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é¸†P
+u	java:S115ß	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¿ú§Éÿÿÿÿÿ
+r
+java:S1104%"WMake tablaubigeo a static final constant or non-public and provide accessors if needed.(ññ’¾ûÿÿÿÿ
+p	java:S115ä"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Í¿éò
+u	java:S115¯"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Š¯¯öüÿÿÿÿ
+_
+java:S1444Œ"CMake this "public static visita_supervisor_vis_min_ini" field final(Ñüğ÷ûÿÿÿÿ
+u	java:S115Å"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ã¼äÖûÿÿÿÿ
+p	java:S115á"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(“ç¹±
+p	java:S115¼"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ş½·„
+u	java:S115Ô	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(”–â‰ıÿÿÿÿ
+
+java:S1104j"dMake municipios_nom_municipio a static final constant or non-public and provide accessors if needed.(­À›Äüÿÿÿÿ
+p	java:S115ì"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÔÊ«œ
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(„ø×¤ıÿÿÿÿ
+p	java:S115Ä"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ò‰¢¸
+O
+java:S1444Š"3Make this "public static paises_nombre" field final(î¼·‹úÿÿÿÿ
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ñéó˜øÿÿÿÿ
+p	java:S115à"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ığ¦
+u	java:S115ô"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÛÔœÃÿÿÿÿÿ
+u	java:S115…"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(äù‘¿ùÿÿÿÿ
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¹œäšüÿÿÿÿ
+p	java:S115ç"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(îáµÛ
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(–¾±ˆÿÿÿÿÿ
+u	java:S115Ø"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¸ÊŠ«ûÿÿÿÿ
+p	java:S115Ä"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œ°¢Ñ
+p	java:S115€"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÁçÛ×
+
+java:S1192‰"eUse already-defined constant 'visita_encuestador_vis_fecha_mm' instead of duplicating its value here.(úŒÍ–øÿÿÿÿ
+`
+java:S1444"DMake this "public static visita_supervisor_vis_resu_esp" field final(¹‹ÖËøÿÿÿÿ
+p	java:S115‚
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÇùÒÏ
+u	java:S115Ì"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(öÌ©¯ıÿÿÿÿ
+u	java:S115ß"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µŒÏıÿÿÿÿ
+t	java:S115C"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(íş¿¾ûÿÿÿÿ
+p	java:S115î"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(•Ó—‰
+u	java:S115Ş	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œ¦¬ıÿÿÿÿ
+u	java:S115ø"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¿”ßËúÿÿÿÿ
+u	java:S115º"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ÿ·Šòùÿÿÿÿ
+n
+java:S1104"SMake DB_PATH a static final constant or non-public and provide accessors if needed.(©˜ë…úÿÿÿÿ
+u	java:S115ñ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‡êŒ­ıÿÿÿÿ
+V
+java:S1444„":Make this "public static visita_supervisor_id" field final(Îüõ¬ıÿÿÿÿ
+u	java:S115¤"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ş¼Ç˜ûÿÿÿÿ
+p	java:S115ü"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ËœÉÿ
+p	java:S115è"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(©Ì¡Ô
+o	java:S115©"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¨ÿ®t
+t	java:S115D"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(º·¼Øÿÿÿÿÿ
+u	java:S115ƒ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ĞÛ¹ºüÿÿÿÿ

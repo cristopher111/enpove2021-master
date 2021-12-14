@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".fragments.modulo6.FragmentP609P612">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/texto_medium"
+        android:textColor="@color/colorIcons"
+        android:background="@color/colorPrimary"
+        android:text="@string/modulo_6_nombre"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margen_small"
+            android:orientation="vertical">
+            <include layout="@layout/cabecera"/>
+<!--            <include layout="@layout/modulo6_p609" android:id="@+id/layout_m6_p609"/>-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/sub_modulo_6_2"
+                android:textColor="@color/cardview_dark_background"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="@color/greyBluePrimaryLight"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/sub_modulo_6_2_ind"
+                android:textColor="@color/colorIcons"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="@color/greyBluePrimaryDark"/>
+            <include layout="@layout/modulo6_p609" android:id="@+id/layout_m6_p609"/>
+            <include layout="@layout/modulo6_p610" android:id="@+id/layout_m6_p610"/>
+            <include layout="@layout/modulo6_p611" android:id="@+id/layout_m6_p611"/>
+           <!--
+            <include layout="@layout/modulo6_p611a" android:id="@+id/layout_m6_p611a"/>
+            <include layout="@layout/modulo6_p611b" android:id="@+id/layout_m6_p611b"/>
+            -->
+            <include layout="@layout/modulo6_p612" android:id="@+id/layout_m6_p612"/>
+            <include layout="@layout/modulo6_p613" android:id="@+id/layout_m6_p613"/>
+            <include layout="@layout/modulo6_p614" android:id="@+id/layout_m6_p614"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

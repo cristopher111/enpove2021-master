@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margen_layout_pregunta"
+    android:padding="@dimen/padding_layout_pregunta"
+    android:background="@drawable/marco_pregunta">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TemaTextoPregunta"
+        android:text="@string/modulo_3_p303"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginRight="@dimen/margen_small"
+            android:text="@string/modulo_3_p303_mes"/>
+        <android.support.v7.widget.CardView
+            android:layout_width="104dp"
+            android:layout_height="32dp"
+            android:layout_margin="1dp">
+            <Spinner
+                android:id="@+id/mod3_303_spinner_C3_P303_M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:drawSelectorOnTop="true"
+                android:entries="@array/numeros_meses"/>
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/margen_medium"
+            android:layout_marginRight="@dimen/margen_small"
+            android:text="@string/modulo_3_p303_anio"/>
+        <android.support.v7.widget.CardView
+            android:layout_width="104dp"
+            android:layout_height="32dp"
+            android:layout_margin="1dp">
+            <Spinner
+                android:id="@+id/mod3_303_spinner_C3_P303_A"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:drawSelectorOnTop="true"
+                android:entries="@array/numeros_anios"/>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/mod3_303_checkbox_C3_P303_NO_NACIO"
+        android:layout_marginLeft="@dimen/margen_large"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modulo_3_p303_no_nacido"/>
+
+</LinearLayout>

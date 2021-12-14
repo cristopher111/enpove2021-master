@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margen_layout_pregunta"
+    android:padding="@dimen/padding_layout_pregunta"
+    android:background="@drawable/marco_pregunta">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:theme="@style/TemaTextoPregunta"
+            android:text="@string/modulo_3_p307"/>
+
+<!--        <ImageView-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:src="@drawable/estrella">-->
+<!--        </ImageView>-->
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/modulo_3_p307_ind"/>
+
+    <RadioGroup
+        android:id="@+id/mod3_307_radiogroup_C3_P307"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <RadioButton
+            android:id="@+id/mod3_307_rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_3_p307_sp1"/>
+        <RadioButton
+            android:id="@+id/mod3_307_rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_3_p307_sp2"/>
+        <RadioButton
+            android:id="@+id/mod3_307_rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_3_p307_sp3"/>
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_3_p307_sp4"/>
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_3_p307_sp5"/>
+
+        <!--        <EditText-->
+        <!--            android:id="@+id/mod5_515_edittext_C5_P515_O"-->
+        <!--            style="@style/TemaInputEspecifiqueRadioIntermedio"/>-->
+
+
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_3_p307_sp6"/>
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_3_p307_sp7"/>
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_3_p307_sp8"/>
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_3_p307_sp9"/>
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_3_p307_sp10"/>
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_3_p307_sp11"/>
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_3_p307_sp12"/>
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_3_p307_sp13"/>
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_3_p307_sp14"/>
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_3_p307_sp15"/>
+        <EditText
+            android:id="@+id/mod3_307_edittext_C3_P307_O6"
+            style="@style/TemaInputEspecifiqueRadioIntermedio"/>
+    </RadioGroup>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <CheckBox
+        android:id="@+id/mod3_307_checkbox_C3_P307_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modulo_3_p307_sp1"/>
+    <CheckBox
+        android:id="@+id/mod3_307_checkbox_C3_P307_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modulo_3_p307_sp2"/>
+    <CheckBox
+        android:id="@+id/mod3_307_checkbox_C3_P307_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modulo_3_p307_sp3"/>
+    <CheckBox
+        android:id="@+id/mod3_307_checkbox_C3_P307_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modulo_3_p307_sp4"/>
+    <CheckBox
+        android:id="@+id/mod3_307_checkbox_C3_P307_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modulo_3_p307_sp5"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/mod3_307_checkbox_C3_P307_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margen_small"
+            android:text="@string/modulo_3_p307_sp6"/>
+        <EditText
+            android:id="@+id/asd"
+            style="@style/TemaInputEspecifique"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/mod3_307_checkbox_C3_P307_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modulo_3_p307_sp7"/>
+    <CheckBox
+        android:id="@+id/mod3_307_checkbox_C3_P307_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modulo_3_p307_sp8"/>
+    <CheckBox
+        android:id="@+id/mod3_307_checkbox_C3_P307_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modulo_3_p307_sp9"/>
+    <CheckBox
+        android:id="@+id/mod3_307_checkbox_C3_P307_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modulo_3_p307_sp10"/>
+    <CheckBox
+        android:id="@+id/mod3_307_checkbox_C3_P307_11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modulo_3_p307_sp11"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/mod3_307_checkbox_C3_P307_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margen_small"
+            android:text="@string/modulo_3_p307_sp12"/>
+        <EditText
+            android:id="@+id/mod3_307_edittext_C3_P307_O12"
+            style="@style/TemaInputEspecifique"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/mod3_307_checkbox_C3_P307_13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modulo_3_p307_sp13"/>
+</LinearLayout>
+
+</LinearLayout>

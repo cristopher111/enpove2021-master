@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margen_layout_pregunta"
+    android:padding="@dimen/padding_layout_pregunta"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:background="@drawable/marco_pregunta">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/sub_modulo_4_5"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/greyBluePrimaryLight"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:theme="@style/TemaTextoPregunta"
+            android:text="@string/modulo_4_p418"/>
+
+<!--        <ImageView-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:src="@drawable/estrella">-->
+<!--        </ImageView>-->
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/mod4_p418_radiogroup_C2_P418"
+        android:orientation="vertical"
+        style="@style/EstiloRadioGroup">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_4_p418_sp1"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margen_small"
+            android:text="@string/modulo_4_p418_sp2"/>
+    </RadioGroup>
+    <LinearLayout
+        android:id="@+id/layout_m4_p418a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margen_layout_pregunta"
+        android:padding="@dimen/padding_layout_pregunta"
+        android:visibility="gone"
+        android:background="@drawable/marco_pregunta">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:theme="@style/TemaTextoPregunta"
+                android:text="@string/modulo_4_p418A"/>
+
+<!--            <ImageView-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_width="20dp"-->
+<!--                android:layout_height="20dp"-->
+<!--                android:src="@drawable/estrella">-->
+<!--            </ImageView>-->
+        </LinearLayout>
+
+
+        <RadioGroup
+            android:id="@+id/mod4_p418_radiogroup_C2_P418_si_no"
+            style="@style/EstiloRadioGroup"
+            android:layout_width="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modulo_4_p418A_sp1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margen_small"
+                android:text="@string/modulo_4_p418A_sp2" />
+
+
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

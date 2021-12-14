@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ricindigus.enpove2021"
+    android:versionCode="0"
+    android:versionName="0.0.1"
+    >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_enpove"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_enpove"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.ricindigus.enpove2021.activities.SplashActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.ricindigus.enpove2021.activities.LoginActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.example.ricindigus.enpove2021.activities.EncuestaActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/title_activity_encuesta"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.example.ricindigus.enpove2021.activities.MarcoActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.ricindigus.enpove2021.activities.agregacion.AgregarResidenteActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.example.ricindigus.enpove2021.activities.agregacion.AgregarRutaActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@style/TemaTransparente"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.example.ricindigus.enpove2021.activities.agregacion.AgregarPersonaActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name="com.example.ricindigus.enpove2021.activities.admin.AdminActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name="com.example.ricindigus.enpove2021.activities.admin.AdmMarcoActivity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name="com.example.ricindigus.enpove2021.activities.ViviendaActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/title_activity_vivienda"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.example.ricindigus.enpove2021.activities.UbicacionViviendaActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.example.ricindigus.enpove2021.activities.HogarActivity"
+            android:label="@string/title_activity_hogar"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.ricindigus.enpove2021.activities.BPRActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.example.ricindigus.enpove2021.activities.EvaluacionActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.example.ricindigus.enpove2021.activities.CroquisActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.example.ricindigus.enpove2021.activities.ExportarActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name="com.example.ricindigus.enpove2021.activities.ImportarActivity"
+            android:screenOrientation="landscape"></activity>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA665SUB47xKavD1sJPwDcsnYFeKqFqvA0"/>
+    </application>
+
+</manifest>

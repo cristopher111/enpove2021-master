@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".fragments.modulo4.FragmentP408P410">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/texto_medium"
+        android:textColor="@color/colorIcons"
+        android:background="@color/colorPrimary"
+        android:text="@string/modulo_4_nombre"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margen_small"
+            android:orientation="vertical">
+            <include layout="@layout/cabecera"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="@dimen/margen_small"
+                android:layout_marginLeft="@dimen/margen_small">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/modulo_4_p408_p1"
+                    android:textColor="@color/colorIcons"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:background="@color/greyBluePrimaryDark"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/modulo_4_p408_p2"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:background="@color/greyBluePrimaryLight"/>
+            </LinearLayout>
+            <include layout="@layout/modulo4_p408" android:id="@+id/layout_m4_p408"/>
+            <include layout="@layout/modulo4_p409" android:id="@+id/layout_m4_p409"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="@dimen/margen_small"
+                android:layout_marginLeft="@dimen/margen_small">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/modulo_4_p410_p1"
+                    android:textColor="@color/colorIcons"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:background="@color/greyBluePrimaryDark"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/modulo_4_p410_p2"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:background="@color/greyBluePrimaryLight"/>
+            </LinearLayout>
+            <include layout="@layout/modulo4_p410_a" android:id="@+id/layout_m4_p410_a"/>
+            <include layout="@layout/modulo4_p410_b" android:id="@+id/layout_m4_p410_b" android:visibility="gone"/>
+            <include layout="@layout/modulo4_p410" android:id="@+id/layout_m4_p410"/>
+            <include layout="@layout/modulo4_p411" android:id="@+id/layout_m4_p411"/>
+            <include layout="@layout/modulo4_p412" android:id="@+id/layout_m4_p412"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

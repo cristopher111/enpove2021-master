@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".fragments.modulo4.FragmentP401P404">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/texto_medium"
+        android:textColor="@color/colorIcons"
+        android:background="@color/colorPrimary"
+        android:text="@string/modulo_4_nombre"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margen_small"
+            android:orientation="vertical">
+            <include layout="@layout/cabecera"/>
+            <include layout="@layout/modulo4_p401" android:id="@+id/layout_m4_p401"/>
+            <include layout="@layout/modulo4_p402" android:id="@+id/layout_m4_p402"/>
+            <include layout="@layout/modulo4_p403" android:id="@+id/layout_m4_p403"/>
+            <include layout="@layout/modulo4_p404" android:id="@+id/layout_m4_p404"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

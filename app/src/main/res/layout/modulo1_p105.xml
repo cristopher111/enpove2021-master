@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margen_layout_pregunta"
+    android:padding="@dimen/padding_layout_pregunta"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:background="@drawable/marco_pregunta">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TemaTextoPregunta"
+        android:text="@string/modulo_1_p105"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_1_p105_ind"/>
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/mod1_105_edittext_C1_P105"
+            android:layout_margin="@dimen/margen_small"
+            android:layout_width="80dp"
+            android:inputType="numberPassword"
+            android:paddingLeft="@dimen/margen_small"
+            android:background="@drawable/input_text_enabled"
+            android:layout_height="@dimen/altura_input_especifique"
+            />
+    </LinearLayout>
+
+</LinearLayout>

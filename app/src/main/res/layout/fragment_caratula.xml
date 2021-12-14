@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".fragments.vivienda.FragmentCaratula">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/texto_medium"
+        android:textColor="@color/colorIcons"
+        android:background="@color/colorPrimary"
+        android:text="CARÁTULA"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margen_small"
+            android:orientation="vertical">
+            <include layout="@layout/caratula_pconglomerado_vivienda"/>
+            <include layout="@layout/caratula_pubicacion_geo"/>
+            <include layout="@layout/caratula_pubicacion_mue"/>
+            <include layout="@layout/caratula_pgps"/>
+            <include layout="@layout/caratula_pdireccion_viv"/>
+            <!--<include layout="@layout/caratula_pcant_hogares"/>-->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

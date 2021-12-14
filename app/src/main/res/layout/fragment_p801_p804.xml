@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".fragments.modulo8.FragmentP801P804">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/texto_medium"
+        android:textColor="@color/colorIcons"
+        android:background="@color/colorPrimary"
+        android:text="@string/modulo_8_nombre"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margen_small"
+            android:orientation="vertical">
+            <include layout="@layout/cabecera"/>
+            <include layout="@layout/modulo8_p801" android:id="@+id/layout_m8_p801"/>
+            <include layout="@layout/modulo8_p802" android:id="@+id/layout_m8_p802"/>
+            <!--
+            <include layout="@layout/modulo8_p803" android:id="@+id/layout_m8_p803"/>
+            <include layout="@layout/modulo8_p804" android:id="@+id/layout_m8_p804"/>
+            -->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".fragments.modulo6.FragmentP613P617">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/texto_medium"
+        android:textColor="@color/colorIcons"
+        android:background="@color/colorPrimary"
+        android:text="@string/modulo_6_nombre"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margen_small"
+            android:orientation="vertical">
+            <include layout="@layout/cabecera"/>
+<!--            <include layout="@layout/modulo6_p613" android:id="@+id/layout_m6_p613"/>-->
+<!--            <include layout="@layout/modulo6_p614" android:id="@+id/layout_m6_p614"/>-->
+            <include layout="@layout/modulo6_p615" android:id="@+id/layout_m6_p615"/>
+            <include layout="@layout/modulo6_p616" android:id="@+id/layout_m6_p616"/>
+            <include layout="@layout/modulo6_p616_a" android:id="@+id/layout_m6_p616_a"/>
+            <include layout="@layout/modulo6_p617" android:id="@+id/layout_m6_p617"/>
+            <include layout="@layout/modulo6_p618" android:id="@+id/layout_m6_p618"/>
+            <include layout="@layout/modulo6_p619" android:id="@+id/layout_m6_p619"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

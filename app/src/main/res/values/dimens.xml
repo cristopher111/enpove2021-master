@@ -1,0 +1,35 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="texto_small">15sp</dimen>
+    <dimen name="texto_medium">20sp</dimen>
+    <dimen name="texto_large">25sp</dimen>
+    <dimen name="texto_xlarge">30sp</dimen>
+    <dimen name="margen_small">8dp</dimen>
+    <dimen name="margen_medium">16dp</dimen>
+    <dimen name="margen_large">24dp</dimen>
+    <dimen name="margen_xlarge">32dp</dimen>
+
+    <dimen name="margen_layout_pregunta">8dp</dimen>
+    <dimen name="padding_layout_pregunta">16dp</dimen>
+    <dimen name="width_input_especifique">300dp</dimen>
+    <dimen name="altura_cabecera">40dp</dimen>
+    <dimen name="longitud_input_n">56dp</dimen>
+    <dimen name="longitud_radio">200dp</dimen>
+    <dimen name="longitud_ubicacion">300dp</dimen>
+    <dimen name="altura_toolbar">60dp</dimen>
+    <dimen name="altura_spinner">30dp</dimen>
+    <dimen name="altura_input_especifique">24dp</dimen>
+    <dimen name="altura_input_multilinea">160dp</dimen>
+    <dimen name="longitud_input_n_horas">150dp</dimen>
+    <dimen name="altura_input_solo">32dp</dimen>
+    <dimen name="altura_layout_dividido">40dp</dimen>
+    <dimen name="longitud_radio_3">300dp</dimen>
+    <dimen name="width_spinner_ubigeo">500dp</dimen>
+    <dimen name="width_desc_ubigeo">120dp</dimen>
+    <dimen name="longitud_pregunta_ubicacion">150dp</dimen>
+</resources>

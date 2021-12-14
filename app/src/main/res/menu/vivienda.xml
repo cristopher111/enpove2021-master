@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/action_volver_marco"
+        android:orderInCategory="100"
+        android:title="Volver al Marco"
+        app:showAsAction="always"
+        tools:context=".activities.ViviendaActivity"/>
+    <item
+        android:id="@+id/action_registrar_observacion"
+        android:orderInCategory="100"
+        android:visible="false"
+        android:title="Registrar Observación"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_finalizar_vivienda"
+        android:orderInCategory="100"
+        android:title="Finalizar Encuesta"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_resultado_vivienda"
+        android:orderInCategory="100"
+        android:title="Resultado Final Vivienda"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_ubicacion_vivienda"
+        android:orderInCategory="100"
+        android:title="Ver Ubicación Vivienda"
+        android:visible="true"
+        app:showAsAction="never" />
+
+</menu>

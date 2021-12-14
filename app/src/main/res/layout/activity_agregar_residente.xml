@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.agregacion.AgregarResidenteActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include layout="@layout/layout_toolbar_agregar_residente"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margen_medium"
+                android:orientation="vertical">
+                <include layout="@layout/modulo2_p202" android:id="@+id/layout_m2_p202"/>
+                <include layout="@layout/modulo2_p203" android:id="@+id/layout_m2_p203"/>
+                <include layout="@layout/modulo2_p204" android:id="@+id/layout_m2_p204"/>
+                <include layout="@layout/modulo2_p205" android:id="@+id/layout_m2_p205"/>
+                <include layout="@layout/modulo2_p206" android:id="@+id/layout_m2_p206"/>
+                <include layout="@layout/modulo2_p207" android:id="@+id/layout_m2_p207"/>
+                <include layout="@layout/modulo2_p208" android:id="@+id/layout_m2_p208"/>
+                <include layout="@layout/modulo2_p209" android:id="@+id/layout_m2_p209"/>
+                <include layout="@layout/modulo2_p210" android:id="@+id/layout_m2_p210"/>
+                <include layout="@layout/modulo2_p211" android:id="@+id/layout_m2_p211"/>
+                <include layout="@layout/modulo2_p212" android:id="@+id/layout_m2_p212"/>
+                <include layout="@layout/observaciones_modulo2" android:id="@+id/layout_m2_obs"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mod2_fab_guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:backgroundTint="@color/colorPrimary"
+        android:visibility="gone"
+        android:layout_marginRight="@dimen/margen_small"
+        android:layout_marginBottom="@dimen/margen_small"
+        android:src="@drawable/ic_action_save"/>
+</RelativeLayout>
