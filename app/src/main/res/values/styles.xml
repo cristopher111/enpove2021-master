@@ -185,6 +185,16 @@
         <item name="android:layout_width">@dimen/width_input_especifique</item>
     </style>
 
+    <style name="TemaInputEspecifiqueRadioCostado" parent="AppTheme">
+        <item name="android:inputType">text</item>
+        <item name="android:enabled">false</item>
+        <item name="android:hint">@string/texto_especifique</item>
+        <item name="android:paddingLeft">@dimen/margen_small</item>
+        <item name="android:background">@drawable/input_text_disabled</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_width">@dimen/width_input_especifique</item>
+    </style>
+
     <style name="EstiloRadioGroup" parent="AppTheme">
         <item name="android:orientation">vertical</item>
         <item name="android:layout_width">wrap_content</item>

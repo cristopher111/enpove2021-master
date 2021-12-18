@@ -273,7 +273,7 @@ AgregarResidenteActivity extends AppCompatActivity implements InterfazOperacione
                     c2_p205_a_sp.setEnabled(false);
                     setBlockingP206();
                     setBlockingP207();
-                    if(i>11){
+                    if(i>12){
                         c2_p205_m_sp.setSelection(1);
                     }
                 }
@@ -374,7 +374,8 @@ AgregarResidenteActivity extends AppCompatActivity implements InterfazOperacione
                         linearLayout210_p.setVisibility(View.GONE);
                     }
                 }else if(seleccionado == 1 && c2_p205_m_sp.getSelectedItemPosition()>0){
-                    if(c2_p205_m_sp.getSelectedItemPosition()<12){
+                    //estuvo en 12 , el anterior tambien sume 1
+                    if(c2_p205_m_sp.getSelectedItemPosition()<13){
                         setUnlockingP209();
                         setUnlockingP210();
                         setUnlockingP211();

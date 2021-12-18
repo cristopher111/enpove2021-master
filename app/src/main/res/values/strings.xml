@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">ENPOVE 2021</string>
+    <string name="app_name">ENPOVE 2021-2022</string>
+    <string name="app_name1">II ENPOVE</string>
     <string name="app_version">Versión 0.0.0</string>
     <string name="title_activity_encuesta">EncuestaActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -228,7 +229,7 @@
     <string name="modulo_1_p101_sp5">5.Choza o cabaña</string>
     <string name="modulo_1_p101_sp6">6.Vivienda improvisada</string>
     <string name="modulo_1_p101_sp7">7.Local no destinado para habitación humana</string>
-    <string name="modulo_1_p101_sp8">8.	Otro</string>
+    <string name="modulo_1_p101_sp8">8.Otro</string>
     <string name="modulo_1_p101_especifique">Especifique</string>
 
     <string name="modulo_1_p102">102.¿EL MATERIAL DE CONSTRUCCIÓN PREDOMINANTE EN LAS PAREDES EXTERIORES ES:</string>
@@ -275,7 +276,7 @@
 
     <!-- EMPIEZA EL SEGUNDO MODULO DEL HOGAR -->
 
-    <string name="sub_modulo_1_2">DATOS DEL HOGAR</string>.
+    <string name="sub_modulo_1_2">DATOS DEL HOGAR</string>
     <string name="sub_modulo_1_3">ESCALA DE EXPERIENCIA EN INSEGURIDAD ALIMENTARIA</string>
 
     <string name="modulo_1_p107">107.¿LA VIVIENDA QUE OCUPA ES:</string>
@@ -576,7 +577,7 @@
 
 
     <!-- NUEVA PREGUNTA 211 2021 -->
-    <string name="modulo_2_p211_cabezera">211.SOLO SI EN P209 Y P210 MARCÓ CPÓDIGO 2(NO), EN AMBAS PREGUNTAS</string>
+    <string name="modulo_2_p211_cabezera">211.SOLO SI EN P209 Y P210 MARCÓ CÓDIGO 2(NO), EN AMBAS PREGUNTAS</string>
     <string name="modulo_2_p211">211.¿QUÉ PERSONA DEL HOGAR ES RESPONSABLE DE SU CUIDADO?</string>
 
     <!--Strings asociados al Capítulo 3: SITUACIÓN MIGRATORIA DE LA PERSONA-->
@@ -632,13 +633,13 @@
 
 
     <string name="modulo_3_p307">307. ¿ACTUALMENTE, QUÉ TIPO DE PERMISO MIGRATORIO TIENE PARA ESTAR EN PERÚ?</string>
-    <string name="modulo_3_p307_ind">(Espere la respuesta y seleccione uno o más códigos)</string>
+    <string name="modulo_3_p307_ind">(Espere la respuesta y seleccione un código)</string>
     <string name="modulo_3_p307_sp1">1.Carné de Permiso Temporal de Permanencia (CPP)</string>
-    <string name="modulo_3_p307_sp2">2.Carné de extranjería por humanitaria (CMH)</string>
+    <string name="modulo_3_p307_sp2">2.Carné de extranjería por calidad migratoria humanitaria (CMH)</string>
     <string name="modulo_3_p307_sp3">3.Carné de extranjería por PTP</string>
     <string name="modulo_3_p307_sp4">4.Carné de extranjería por vulnerabilidad</string>
     <string name="modulo_3_p307_sp5">5.Carné de extranjería por familiar de residente</string>
-    <string name="modulo_3_p307_sp6">6.Carné de extranjería por trabajador</string>
+    <string name="modulo_3_p307_sp6">6.Carné de extranjería para trabajador</string>
     <string name="modulo_3_p307_sp7">7.Carné de extranjería por refugiado</string>
     <string name="modulo_3_p307_sp8">8.Otro tipo de carné de extranjería</string>
     <string name="modulo_3_p307_sp9">9.Permiso Temporal de Permanencia (PTP)</string>
@@ -647,7 +648,7 @@
     <string name="modulo_3_p307_sp12">12.Turista vigente</string>
     <string name="modulo_3_p307_sp13">13.DNI</string>
     <string name="modulo_3_p307_sp14">14.Otro tipo de permiso</string>
-    <string name="modulo_3_p307_sp15">15.No cuenta con un permiso vigente</string>
+    <string name="modulo_3_p307_sp15">15.NO CUENTA CON UN PERMISO MIGRATORIO</string>
     <string name="modulo_3_p307_especifique_sp16">Especifique</string>
 
 
@@ -660,12 +661,11 @@
     <string name="modulo_3_p307A_sp3">3.Tengo multa y no he podido cancelarla</string>
     <string name="modulo_3_p307A_sp4">4.No tengo alternativas migratorias</string>
     <string name="modulo_3_p307A_sp5">5.No tengo los medios electrónicos para ingresar a la Plataforma de Migraciones </string>
-    <string name="modulo_3_p307A_sp6">6.No me interesa hacerlo</string>
+    <string name="modulo_3_p307A_sp6">6.No tengo interés en tramitarlo/solicitarlo</string>
     <string name="modulo_3_p307A_sp7">7.Otro</string>
     <string name="modulo_3_p307A_especifique">Especifique</string>
 
-    ¿CUÁL ES LA RAZÓN PRINCIPAL POR LA QUE NO CUENTA
-    CON PERMISO MIGRATORIO PARA ESTAR EN PERÚ?
+
 
     <string name="modulo_3_p308_cognitiva">"SEÑOR/A, SEÑORITA: AHORA ME GUSTARÍA HACERLE UNAS PREGUNTAS ADICIONALES PARA SABER QUE LE PARECIERON ESTAS PREGUNTAS"</string>
     <string name="modulo_3_p308">308.¿USTED, HA SOLICITADO REFUGIO?</string>
@@ -704,7 +704,7 @@
     <string name="modulo_3_p310_sp2">Municipio</string>
 
     <string name="modulo_3_p311_cognitiva">"SEÑOR/A, SEÑORITA: AHORA ME GUSTARÍA HACERLE UNAS PREGUNTAS ADICIONALES PARA SABER QUE LE PARECIERON ESTAS PREGUNTAS"</string>
-    <string name="modulo_3_p311">311.USTED, ¿PIENSA QUEDARSE A VIVIR EN EL PERÚ?</string>
+    <string name="modulo_3_p311">311.USTED, ¿PIENSA QUEDARSE A VIVIR EN PERÚ?</string>
     <string name="modulo_3_p311_sp1">1.Sí</string>
     <string name="modulo_3_p311_sp2">2.No</string>
 
@@ -938,10 +938,12 @@
         <item>2.Esposo/a</item>
         <item>3.Abuelo/a</item>
         <item>4.Suegro/a</item>
-        <item>5.Tio/a</item>
+        <item>5.Tío/a</item>
         <item>6.Otro</item>
 
     </string-array>
+
+    <string name="modulo_4_p409_ind">¿QUÉ RELACIÓN DE PARENTESCO TIENE CON EL RESPONSABLE DE SU CUIDADO?</string>
     <string-array name="modulo_4_p409_parentescos">
         <item>Seleccione Parentesco</item>
         <item>1.Jefe/a del hogar</item>
@@ -966,11 +968,11 @@
     <string name="modulo_4_p410a_sp1">1.Si</string>
     <string name="modulo_4_p410a_sp2">2.No</string>
 
-    <string name="modulo_4_p410b">410B.¿CUÁNTAS DOSIS SE APLICÓ?</string>
+    <string name="modulo_4_p410b">410B.¿QUÉ NÚMERO DE DOSIS LE APLICARON?</string>
     <string name="modulo_4_p410b_ind">(Marque una alternativa)</string>
     <string name="modulo_4_p410b_sp1">1.Primera dosis</string>
     <string name="modulo_4_p410b_sp2">2.Segunda dosis</string>
-    <string name="modulo_4_p410b_sp3">2.Tercera dosis</string>
+    <string name="modulo_4_p410b_sp3">3.Tercera dosis</string>
 
 
 
@@ -1001,7 +1003,7 @@
     <string name="modulo_4_p413_sp2">2.Recibió vacunas?</string>
     <string name="modulo_4_p413_sp3">3.Recibió consejería (presencial o por teléfono o similar)?</string>
     <string name="modulo_4_p413_sp4">4.Recibió suplemento de hierro?</string>
-    <string name="modulo_4_p413_sp5">5.NO HAY NIÑAS/OS MENORES DE 5 AÑOS</string>
+    <string name="modulo_4_p413_sp5">5.NO HAY NIÑOS/AS MENORES DE 5 AÑOS</string>
     <string name="modulo_4_p413_si">SI</string>
     <string name="modulo_4_p413_no">NO</string>
 
@@ -1016,7 +1018,7 @@
     <string name="modulo_4_p415_sp1">1.Sí</string>
     <string name="modulo_4_p415_sp2">2.No</string>
 
-    <string name="sub_modulo_4_2">Para personas de 15 y más años de edad</string>
+    <string name="sub_modulo_4_2">Para personas de 15 años y más de edad</string>
 
     <string name="modulo_4_p416">416.¿A DÓNDE ACUDIÓ PARA REALIZAR EL CONTROL PRE NATAL?</string>
     <string name="modulo_4_p416_ind">(Espere la respuesta y seleccione uno o más códigos)</string>
@@ -1032,13 +1034,14 @@
 
     <string name="sub_modulo_4_4">Para personas de 15 años y más de edad</string>
     <string name="sub_modulo_4_4_1">Sr(a): Ahora me gustaría conversar con usted sobre salud sexual y reproductiva; es decir, acerca de las diferentes formas o métodos que una persona puede usar para evitar un embarazo y/o enfermedades de transmisión sexual.</string>
-    <string name="modulo_4_p417">417.¿HA TENIDO USTED O SU PAREJA ACCESO A:</string>
+    <string name="modulo_4_p417">417. HA TENIDO USTED O SU PAREJA ACCESO A:</string>
     <string name="modulo_4_p417_ind">(Lea cada una de las alternativas y seleccione un código para cada una de ellas)</string>
     <string name="modulo_4_p417_si">1.SÍ</string>
     <string name="modulo_4_p417_no">2.NO</string>
     <string name="modulo_4_p417_noconoce">3.No Conoce</string>
     <string name="modulo_4_p417_sp1">1.Métodos anticonceptivos?</string>
     <string name="modulo_4_p417_spa">417.A. ¿Qué método anticonceptivo utiliza Usted o su pareja:</string>
+    <string name="modulo_4_p417_ind2">(Espere la respuesta y seleccione uno o más códigos)</string>
     <string name="modulo_4_p417_spa1">1.Esterilización femenina</string>
     <string name="modulo_4_p417_spa2">2.Esterilización masculina (Vasectomía)</string>
     <string name="modulo_4_p417_spa3">3.Pildora</string>
@@ -1120,7 +1123,7 @@
     <string name="modulo_5_p502_sp1">1.NO SABE</string>
 
 
-    <string name="modulo_5_p503">503.EL AÑO 2020, ¿ESTUVO INSCRITO/MATRICULADO EN ALGUN CENTRO O PROGRAMA DE EDUCACION BÁSICA O SUPERIOR EN PERÚ?</string>
+    <string name="modulo_5_p503">503.EL AÑO 2020, ¿ESTUVO INSCRITO/MATRICULADO EN ALGÚN CENTRO O PROGRAMA DE EDUCACION BÁSICA O SUPERIOR EN PERÚ?</string>
     <string name="modulo_5_p503_sp1">1.Sí</string>
     <string name="modulo_5_p503_sp2">2.No</string>
 
@@ -1145,7 +1148,7 @@
     <string name="modulo_5_p505_sp1">1.Sí</string>
     <string name="modulo_5_p505_sp2">2.No</string>
 
-    <string name="modulo_5_p506">506. EL AÑO 2021, ¿ASISTIÓ A ALGUN CENTRO O PROGRAMA DE EDUCACIÓN BÁSICA O SUPERIOR A DISTANCIA O PRESENCIAL EN PERÚ?</string>
+    <string name="modulo_5_p506">506. EL AÑO 2021, ¿ASISTIÓ A ALGÚN CENTRO O PROGRAMA DE EDUCACIÓN BÁSICA O SUPERIOR A DISTANCIA O PRESENCIAL EN PERÚ?</string>
     <string name="modulo_5_p506_sp1">1.Sí</string>
     <string name="modulo_5_p506_sp2">2.No</string>
 
@@ -1217,12 +1220,12 @@
     <string name="modulo_5_p511_sp9">9.No me interesa/no me gusta el estudio</string>
     <string name="modulo_5_p511_sp10">10.Se dedicó a los quehaceres del hogar</string>
     <string name="modulo_5_p511_sp11">11.No consiguió vacante, no lo aceptaron, no sabía el procedimiento de la matricula</string>
-    <string name="modulo_5_p511_sp12">12.Otra rázon</string>
+    <string name="modulo_5_p511_sp12">12.Otra razón</string>
     <string name="modulo_5_p511_especifique">Especifique</string>
 
     <string name="sub_modulo_5_4">ETNICIDAD (14 y más años de edad)</string>
 
-    <string name="sub_modulo_5_5">Para personas que respondieron Códigos 10 y 11 en la pregunta 501.</string>
+    <string name="sub_modulo_5_5">Para personas que respondieron el código 10 u 11 en la pregunta 501</string>
     <string name="modulo_5_p512">512.¿OBTUVO USTED EL TÍTULO QUE ACREDITE SUS ESTUDIOS?</string>
     <string name="modulo_5_p512_sp1">1.Sí</string>
     <string name="modulo_5_p512_sp2">2.No</string>
@@ -1282,7 +1285,6 @@
     <string name="sub_modulo_6_1">CONDICIÓN DE ACTIVIDAD</string>
 
     <string name="modulo_6_p601">601.LA SEMANA PASADA, DEL %1$s ¿TUVO ALGÚN TRABAJO? (sin contar los quehaceres del hogar)</string>
-    <string name="modulo_6_p601_ind"><i><b>(sin contar con los quehaceres del hogar)</b></i></string>
     <string name="modulo_6_p601_sp1">1.Si</string>
     <string name="modulo_6_p601_sp2">2.No</string>
 
@@ -1567,7 +1569,7 @@
     <string name="sub_modulo_6_9">TRABAJO EN PERÚ</string>
     <string name="sub_modulo_6_9_ind">Para personas de 5 años y más de edad</string>
 
-    <string name="modulo_6_p635">635.USTED, ¿HA TRABAJADO EN PERU O HA DESEMPEÑADO ALGUNA ACTIVIDAD SIN RECIBIR EL PAGO ACORDADO?</string>
+    <string name="modulo_6_p635">635.USTED, ¿HA TRABAJADO EN PERÚ O HA DESEMPEÑADO ALGUNA ACTIVIDAD SIN RECIBIR EL PAGO ACORDADO?</string>
     <string name="modulo_6_p635_ind"><i><b>(Espere la respuesta y seleccione solo un código)</b></i></string>
     <string name="modulo_6_p635_sp1">1.Sí, recibió menos de lo establecido</string>
     <string name="modulo_6_p635_sp2">2.Sí, no recibió pago alguno</string>
@@ -1775,6 +1777,7 @@
     <string name="modulo_8_p802_no">NO</string>
 
     <string name="modulo_8_p802A">802A.SABE USTED ¿QUIÉN LLEVÓ A CABO EL MALTRATO FISICO ?</string>
+    <string name="modulo_8_p802A_ind">(Espere la respuesta y seleccione uno o más códigos)</string>
     <string name="modulo_8_p802A_2">802A.SABE USTED ¿QUIÉN LLEVÓ A CABO EL MALTRATO PSICOLÓGICO ?</string>
     <string name="modulo_8_p802A_3">802A.SABE USTED ¿QUIÉN LLEVÓ A CABO LA VIOLENCIA SEXUAL ?</string>
     <string name="modulo_8_p802A_sp1">1.Cónyuge / pareja</string>
@@ -1796,7 +1799,7 @@
         <item>5.Servidor privado</item>
         <item>6.Fuerzas del orden</item>
         <item>7.Un extraño</item>
-        <item>8.Otro.</item>
+        <item>8.Otro</item>
     </string-array>
 
 
@@ -1956,7 +1959,7 @@
     <string name="modulo_8_p818_si">1.Sí</string>
     <string name="modulo_8_p818_no">2.No</string>
 
-    <string name="modulo_8_p819">819.	USTED SABE, ¿A QUIÉN O A DÓNDE RECURRIÓ?</string>
+    <string name="modulo_8_p819">819.USTED SABE, ¿A QUIÉN O A DÓNDE RECURRIÓ?</string>
     <string name="modulo_8_p819_ind">(Entregue la tarjeta, espere la respuesta y seleccione uno o más códigos)</string>
     <string name="modulo_8_p819_sp1">1.Esposo/a o compañero/a</string>
     <string name="modulo_8_p819_sp2">2.Padre o madre</string>

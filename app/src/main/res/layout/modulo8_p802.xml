@@ -90,6 +90,10 @@
                             android:layout_height="wrap_content"
                             android:theme="@style/TemaTextoPregunta"
                             android:text="@string/modulo_8_p802A"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/modulo_8_p802A_ind"/>
                         <LinearLayout
                             android:layout_marginTop="13dp"
                             android:layout_width="match_parent"
@@ -218,6 +222,10 @@
                             android:layout_height="wrap_content"
                             android:theme="@style/TemaTextoPregunta"
                             android:text="@string/modulo_8_p802A_2"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/modulo_8_p802A_ind"/>
                         <LinearLayout
                             android:layout_marginTop="13dp"
                             android:layout_width="match_parent"
@@ -347,6 +355,10 @@
                             android:layout_height="wrap_content"
                             android:theme="@style/TemaTextoPregunta"
                             android:text="@string/modulo_8_p802A_3"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/modulo_8_p802A_ind"/>
 
                         <LinearLayout
                             android:layout_marginTop="13dp"

@@ -45,6 +45,7 @@ import com.example.ricindigus.enpove2021.util.UtilsMethodsInputs;
 
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.LinkedList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -321,6 +322,7 @@ public class FragmentP626P629 extends FragmentPagina {
                  }else{
                     if(cant_p2_respondidos <= 1){
                         c6_p632i_EditText.setEnabled(false);
+                        c6_p632i_EditText.setText("");
                         c6_p632i_EditText.setBackgroundResource(R.drawable.input_text_disabled);
                     }
 
@@ -369,6 +371,7 @@ public class FragmentP626P629 extends FragmentPagina {
                 }else{
                     if(cant_p2_respondidos <= 1){
                         c6_p632i_EditText.setEnabled(false);
+                        c6_p632i_EditText.setText("");
                         c6_p632i_EditText.setBackgroundResource(R.drawable.input_text_disabled);
                     }
 
@@ -416,6 +419,7 @@ public class FragmentP626P629 extends FragmentPagina {
                 }else{
                     if(cant_p2_respondidos <= 1){
                         c6_p632i_EditText.setEnabled(false);
+                        c6_p632i_EditText.setText("");
                         c6_p632i_EditText.setBackgroundResource(R.drawable.input_text_disabled);
                     }
 
@@ -462,6 +466,7 @@ public class FragmentP626P629 extends FragmentPagina {
                 }else{
                     if(cant_p2_respondidos <= 1){
                         c6_p632i_EditText.setEnabled(false);
+                        c6_p632i_EditText.setText("");
                         c6_p632i_EditText.setBackgroundResource(R.drawable.input_text_disabled);
                     }
 
@@ -508,6 +513,7 @@ public class FragmentP626P629 extends FragmentPagina {
                 }else{
                     if(cant_p2_respondidos <= 1){
                         c6_p632i_EditText.setEnabled(false);
+                        c6_p632i_EditText.setText("");
                         c6_p632i_EditText.setBackgroundResource(R.drawable.input_text_disabled);
                     }
 
@@ -554,6 +560,7 @@ public class FragmentP626P629 extends FragmentPagina {
                 }else{
                     if(cant_p2_respondidos <= 1){
                         c6_p632i_EditText.setEnabled(false);
+                        c6_p632i_EditText.setText("");
                         c6_p632i_EditText.setBackgroundResource(R.drawable.input_text_disabled);
                     }
 
@@ -600,6 +607,7 @@ public class FragmentP626P629 extends FragmentPagina {
                 }else{
                     if(cant_p2_respondidos <= 1){
                         c6_p632i_EditText.setEnabled(false);
+                        c6_p632i_EditText.setText("");
                         c6_p632i_EditText.setBackgroundResource(R.drawable.input_text_disabled);
                     }
 
@@ -646,6 +654,7 @@ public class FragmentP626P629 extends FragmentPagina {
                 }else{
                     if(cant_p2_respondidos <= 1){
                         c6_p632i_EditText.setEnabled(false);
+                        c6_p632i_EditText.setText("");
                         c6_p632i_EditText.setBackgroundResource(R.drawable.input_text_disabled);
                     }
 
@@ -691,6 +700,7 @@ public class FragmentP626P629 extends FragmentPagina {
                 }else{
                     if(cant_p2_respondidos <= 1){
                         c6_p632i_EditText.setEnabled(false);
+                        c6_p632i_EditText.setText("");
                         c6_p632i_EditText.setBackgroundResource(R.drawable.input_text_disabled);
                     }
 
@@ -755,6 +765,7 @@ public class FragmentP626P629 extends FragmentPagina {
 
                     if(cant_p2_respondidos <= 1){
                         c6_p632i_EditText.setEnabled(false);
+                        c6_p632i_EditText.setText("");
                         c6_p632i_EditText.setBackgroundResource(R.drawable.input_text_disabled);
                     }
 
@@ -1057,11 +1068,11 @@ public class FragmentP626P629 extends FragmentPagina {
         //PREGUNTA 631
         if (m6_p631_linearlayout.getVisibility() == View.VISIBLE) {
             if (c6_p631.equals("-1")) {
-                mostrarMensaje("ERROR “PREGUNA 631 – DEBE SELECCIONAR ALGUNA ALTERNATIVA”");
+                mostrarMensaje("ERROR “PREGUNTA 631 – DEBE SELECCIONAR ALGUNA ALTERNATIVA”");
                 return false;
             }
             if(c6_p631.equals("3") && edad >= 18 && edad <= 50)
-            {mostrarMensaje("VERIFICAR “PREGUNA 631 – INDICA QUE EL MOTIVO POR EL CUAL NO BUSCO TRABAJO ES POR SU EDAD ( " +edad+" AÑOS)");}
+            {mostrarMensaje("VERIFICAR “PREGUNTA 631 – INDICA QUE EL MOTIVO POR EL CUAL NO BUSCO TRABAJO ES POR SU EDAD ( " +edad+" AÑOS)");}
 
             if(c6_p631.equals("5") && p506.equals("2"))
             {mostrarMensaje("VERIFICAR “EN LA PREGUNTA 631 INDICA QUE NO BUSCO TRABAJO PORQUE SUS ESTUDIOS NO LO PERMITEN PERO EN LA PREGUNTA 506 DICE QUE ACTUALMENTE NO ASISTE A ALGÚN CENTRO DE EDUCACIÓN BÁSICA O SUPERIOR”");}
@@ -1083,7 +1094,7 @@ public class FragmentP626P629 extends FragmentPagina {
                     c6_p632_9.equals("0") && c6_p632_10.equals("0") &&
                     c6_p632_11.equals("0")
             ) {
-                mostrarMensaje("ERROR “PREGUNA 632 – DEBE SELECCIONAR ALGUNA ALTERNATIVA”");
+                mostrarMensaje("ERROR “PREGUNTA 632 – DEBE SELECCIONAR ALGUNA ALTERNATIVA”");
                 return false;
             }
             if (c6_p632_10.equals("1")) {
@@ -1091,6 +1102,11 @@ public class FragmentP626P629 extends FragmentPagina {
                     mostrarMensaje("PREGUNTA 632 - OPCION 10: DEBE ESPECIFICAR OTRO");
                     return false;
                 }
+                if (c6_p632_10_o.trim().length()<3) {
+                    mostrarMensaje("ERROR  : P632. EL ESPECIFIQUE NO DEBE SER MENOR A 3 CARACTERES");
+                    return false;
+                }
+
             }
 
             ///AGREGADO 12/11/21
@@ -1098,6 +1114,28 @@ public class FragmentP626P629 extends FragmentPagina {
                 c6_p632i_EditText.requestFocus();
                 mostrarMensaje("ERROR PREGUNTA 632 – DEBE INGRESAR EL CÓDIGO DE LA GESTIÓN MÁS IMPORTANTE"); return false;
 
+            }
+
+            ///AGREGADO 14/12/21
+            LinkedList<String> listP632 = new LinkedList<String>();
+            if (c6_p632_1.equals("1")) listP632.add("1");
+            if (c6_p632_2.equals("1")) listP632.add("2");
+            if (c6_p632_3.equals("1")) listP632.add("3");
+            if (c6_p632_4.equals("1")) listP632.add("4");
+            if (c6_p632_5.equals("1")) listP632.add("5");
+            if (c6_p632_6.equals("1")) listP632.add("6");
+            if (c6_p632_7.equals("1")) listP632.add("7");
+            if (c6_p632_8.equals("1")) listP632.add("8");
+            if (c6_p632_9.equals("1")) listP632.add("9");
+            if (c6_p632_10.equals("1")) listP632.add("10");
+            boolean estaEnP632 = false;
+            for (int i = 0; i < listP632.size(); i++) {
+                if (listP632.get(i).equals(c6_p632i.trim())) {
+                    estaEnP632=true;
+                }
+            }
+            if(estaEnP632==false && cant_p2_respondidos > 1){
+                mostrarMensaje("ERROR – EL CÓDIGO INGRESADO DEBE ESTAR ENTRE LOS CÓDIGOS SELECCIONADOS DE LA P632"); return false;
             }
            /* if (Integer.parseInt(c6_p632i) > 10){
                 mostrarMensaje("ERROR PREGUNTA 632 – EL CÓDIGO DE LA GESTIÓN MAS IMPORTANTE NO PUEDE SER MAYOR A 10"); return false;

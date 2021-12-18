@@ -220,7 +220,7 @@ public class FragmentCaratula extends FragmentPagina implements GoogleApiClient.
         UtilsMethodsInputs.setupEditText(block_EditText,getContext(),1,4);
         UtilsMethodsInputs.setupEditText(interior_EditText,getContext(),1,4);
         UtilsMethodsInputs.setupEditText(nroPta2_EditText,getContext(),1,2);
-        //UtilsMethodsInputs.setupEditText(piso_EditText,getContext(),1,2);
+        UtilsMethodsInputs.setupEditText(piso_EditText,getContext(),1,2);
         UtilsMethodsInputs.setupEditText(mza_EditText,getContext(),1,4);
         UtilsMethodsInputs.setupEditText(lote_EditText,getContext(),1,4);
         UtilsMethodsInputs.setupEditText(km_EditText,getContext(),2,4);

@@ -78,6 +78,7 @@ public class FragmentP306P308 extends FragmentPagina {
     private String c3_p306_6_o;
 
     //RadioGroup mod3_307_radiogroup_C3_P307;
+    TextView c3_p307_TextView;
     CheckBox c3_p307_1_CheckBox, c3_p307_2_CheckBox, c3_p307_3_CheckBox, c3_p307_4_CheckBox, c3_p307_5_CheckBox,c3_p307_6_CheckBox,c3_p307_7_CheckBox,
             c3_p307_8_CheckBox,c3_p307_9_CheckBox,c3_p307_10_CheckBox,c3_p307_11_CheckBox,c3_p307_12_CheckBox,c3_p307_13_CheckBox;
     EditText mod3_307_edittext_C3_P307_O6,mod3_307_edittext_C3_P307_O12,mod3_307A_edittext_C3_P307A_O;
@@ -193,6 +194,8 @@ public class FragmentP306P308 extends FragmentPagina {
         mod3_307_edittext_C3_P307_O6 = (EditText) rootView.findViewById(R.id.mod3_307_edittext_C3_P307_O6);
         mod3_307_edittext_C3_P307_O12 = (EditText) rootView.findViewById(R.id.mod3_307_edittext_C3_P307_O12);
        // mod3_307_edittext_C3_P307_O = (EditText) rootView.findViewById(R.id.mod3_307_edittext_C3_P307_O);
+
+        c3_p307_TextView = (TextView)rootView.findViewById(R.id.txv_Especifique);
 
         mod3_308_radiogroup_C3_P308 = (RadioGroup) rootView.findViewById(R.id.mod3_308_radiogroup_C3_P308);
         mod3_307_radiogroup_C3_P307 = (RadioGroup) rootView.findViewById(R.id.mod3_307_radiogroup_C3_P307);

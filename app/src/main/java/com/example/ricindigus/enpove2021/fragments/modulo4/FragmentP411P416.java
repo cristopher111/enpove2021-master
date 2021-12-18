@@ -1098,13 +1098,6 @@ public class FragmentP411P416 extends FragmentPagina {
                         return false;
                     }
                 }*/
-                if(c4_p417_1_1.equals("0") && c4_p417_1_2.equals("0") && c4_p417_1_3.equals("0") && c4_p417_1_4.equals("0") && c4_p417_1_5.equals("0") && c4_p417_1_6.equals("0") &&
-                        c4_p417_1_7.equals("0") && c4_p417_1_8.equals("0") && c4_p417_1_9.equals("0") && c4_p417_1_10.equals("0") && c4_p417_1_11.equals("0") && c4_p417_1_12.equals("0")&& c4_p417_1_13.equals("0")){
-                    mostrarMensaje("ERROR  “DEBE SELECCIONAR AL MENOS UNA ALTERNATIVA EN LA PREGUNTA 417A”");return false;
-                }
-                if(c4_p417_1_13.equals("1") && c4_p417_1_13_o.equals("")){
-                    mostrarMensaje("ERROR  “DEBE ESPECIFICAR OTRO EN LA PREGUNTA 417A”");return false;   }
-                if (c4_p417_1_13.equals("1") && c4_p417_1_13_o.length() < 3){ mostrarMensaje("ERROR  EL ESPECIFIQUE NO DEBE SER MENOR A 3 CARACTERES EN LA PREGUNTA 417A");return false;}
 
             }
 
@@ -1122,6 +1115,24 @@ public class FragmentP411P416 extends FragmentPagina {
             c4_p417_1 = "";
             //c4_p417_1a = "";
             //c4_p417_1a_o = "";
+
+
+            c4_p417_2 = "";
+            c4_p417_3 = "";
+            c4_p417_4 = "";
+            c4_p417_4_o = "";
+        }
+
+        if(layout_m4_417_a.getVisibility() == View.VISIBLE){
+            if(c4_p417_1_1.equals("0") && c4_p417_1_2.equals("0") && c4_p417_1_3.equals("0") && c4_p417_1_4.equals("0") && c4_p417_1_5.equals("0") && c4_p417_1_6.equals("0") &&
+                    c4_p417_1_7.equals("0") && c4_p417_1_8.equals("0") && c4_p417_1_9.equals("0") && c4_p417_1_10.equals("0") && c4_p417_1_11.equals("0") && c4_p417_1_12.equals("0")&& c4_p417_1_13.equals("0")){
+                mostrarMensaje("ERROR  “DEBE SELECCIONAR AL MENOS UNA ALTERNATIVA EN LA PREGUNTA 417A”");return false;
+            }
+            if(c4_p417_1_13.equals("1") && c4_p417_1_13_o.equals("")){
+                mostrarMensaje("ERROR  “DEBE ESPECIFICAR OTRO EN LA PREGUNTA 417A”");return false;   }
+            if (c4_p417_1_13.equals("1") && c4_p417_1_13_o.length() < 3){ mostrarMensaje("ERROR  EL ESPECIFIQUE NO DEBE SER MENOR A 3 CARACTERES EN LA PREGUNTA 417A");return false;}
+
+        }else{
             c4_p417_1_1 = "";
             c4_p417_1_2 = "";
             c4_p417_1_3 = "";
@@ -1137,10 +1148,7 @@ public class FragmentP411P416 extends FragmentPagina {
             c4_p417_1_13 = "";
             c4_p417_1_13_o = "";
 
-            c4_p417_2 = "";
-            c4_p417_3 = "";
-            c4_p417_4 = "";
-            c4_p417_4_o = "";
+
         }
 
 

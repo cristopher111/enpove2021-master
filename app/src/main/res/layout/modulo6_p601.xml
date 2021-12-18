@@ -20,10 +20,6 @@
         android:layout_height="wrap_content"
         android:theme="@style/TemaTextoPregunta"
         android:text="@string/modulo_6_p601"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/modulo_6_p601_ind"/>
     <RadioGroup
         android:id="@+id/mod6_601_radiogroup_C6_P601"
         android:orientation="vertical"

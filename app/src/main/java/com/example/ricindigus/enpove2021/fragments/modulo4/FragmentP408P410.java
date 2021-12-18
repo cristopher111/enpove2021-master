@@ -486,7 +486,7 @@ public class FragmentP408P410 extends FragmentPagina {
             Log.e("cargar","p409_nom = "+modulo4.getC4_p409_nom());
             Log.e("cargar","p409_2 = "+modulo4.getC4_p409_2());
             if(modulo4.getC4_p410a() != null && !modulo4.getC4_p410a().equals("-1") && !modulo4.getC4_p410a().equals(""))((RadioButton)c4_p410a_RadioGroup.getChildAt(Integer.parseInt(modulo4.getC4_p410a()))).setChecked(true);
-            if(modulo4.getC4_p410b() != null && !modulo4.getC4_p410b().equals("-1") && !modulo4.getC4_p410b().equals(""))((RadioButton)c4_p410a_RadioGroup.getChildAt(Integer.parseInt(modulo4.getC4_p410b()))).setChecked(true);
+            if(modulo4.getC4_p410b() != null && !modulo4.getC4_p410b().equals("-1") && !modulo4.getC4_p410b().equals(""))((RadioButton)c4_p410b_RadioGroup.getChildAt(Integer.parseInt(modulo4.getC4_p410b()))).setChecked(true);
             if(modulo4.getC4_p410() != null && !modulo4.getC4_p410().equals("-1") && !modulo4.getC4_p410().equals(""))((RadioButton)c4_p410_RadioGroup.getChildAt(Integer.parseInt(modulo4.getC4_p410()))).setChecked(true); // Anthony 30/04/2021
             if(modulo4.getC4_p411() != null && !modulo4.getC4_p411().equals("-1") && !modulo4.getC4_p411().equals(""))((RadioButton)c4_p411_RadioGroup.getChildAt(Integer.parseInt(modulo4.getC4_p411()))).setChecked(true); // Anthony 30/04/2021
             if(modulo4.getC4_p412() != null && !modulo4.getC4_p412().equals("-1") && !modulo4.getC4_p412().equals(""))((RadioButton)c4_p412_RadioGroup.getChildAt(Integer.parseInt(modulo4.getC4_p412()))).setChecked(true); // Anthony 30/04/2021

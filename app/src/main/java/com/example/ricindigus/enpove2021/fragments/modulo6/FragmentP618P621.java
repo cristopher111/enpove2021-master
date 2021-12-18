@@ -689,8 +689,13 @@ public class FragmentP618P621 extends FragmentPagina {
 //                return false;
 //            }
 
-            if(c6_p622_mon.trim().equals("0") && c6_p622_esp.trim().equals("0"))  //AGREGADO 17/11/21
+            if(Integer.valueOf(c6_p622_mon.trim()) == 0 && Integer.valueOf(c6_p622_esp.trim()) == 0)
             {mostrarMensaje("EL INGRESO TOTAL NO PUEDE SER CERO EN PREGUNTA 622”");return false;}
+
+           /*EL QUE FUNCIONA
+            if(c6_p622_mon.trim().equals("0") && c6_p622_esp.trim().equals("0"))  //AGREGADO 17/11/21
+            {mostrarMensaje("EL INGRESO TOTAL NO PUEDE SER CERO EN PREGUNTA 622”");return false;} */
+
 
             //REGLA 0081 modificada el dia 23 05 2021 a las 7 pm el dia domingo
            /* if ( !(p612.equals("8")) && c6_p622_mon.equals("0") && c6_p622_esp.equals("0")){
@@ -718,10 +723,13 @@ public class FragmentP618P621 extends FragmentPagina {
 //            if(c6_p623_esp.trim().equals("")){ mostrarMensaje("PREGUNTA 623 - ESPECIE: DEBE ESPECIFICAR");return false; }
 
                 //REGLA 0082
-                if (c6_p623_mon.trim().equals("0") && c6_p623_esp.trim().equals("0")) {
+               /* if (c6_p623_mon.trim().equals("0") && c6_p623_esp.trim().equals("0")) {
                     mostrarMensaje("ERROR “LA GANANCIA NETA DEL MES ANTERIOR NO PUEDE SER CERO EN PREGUNTA 623”");
                     return false;
-                }
+                }*/
+
+                if(Integer.valueOf(c6_p623_mon.trim()) == 0 && Integer.valueOf(c6_p623_esp.trim()) == 0)
+                {mostrarMensaje("ERROR “LA GANANCIA NETA DEL MES ANTERIOR NO PUEDE SER CERO EN PREGUNTA 623”");return false;}
             }
 
         }else{
@@ -734,8 +742,12 @@ public class FragmentP618P621 extends FragmentPagina {
                 if( c6_p624_mon.trim().equals("") && c6_p624_esp.trim().equals("") ) //REGLA 82
                 { mostrarMensaje("ERROR “DEBE REGISTRAR INFORMACIÓN EN PREGUNTA 624”");return false; }
 
-                if( c6_p624_mon.trim().equals("0") && c6_p624_esp.trim().equals("0") ) //AGREGADO 17/11/21
+                if(Integer.valueOf(c6_p624_mon.trim()) == 0 && Integer.valueOf(c6_p624_esp.trim()) == 0)
                 { mostrarMensaje("ERROR “EL INGRESO TOTAL NO PUEDE SER CERO EN PREGUNTA 624");return false; }
+
+                /*if( c6_p624_mon.trim().equals("0") && c6_p624_esp.trim().equals("0") ) //AGREGADO 17/11/21
+                { mostrarMensaje("ERROR “EL INGRESO TOTAL NO PUEDE SER CERO EN PREGUNTA 624");return false; }*/
+
                 /*if(c6_p624_mon.trim().equals("0") && c6_p624_esp.trim().equals("0"))
                 { mostrarMensaje("ERROR “EL INGRESO DEL MES ANTERIOR NO PUEDE SER CERO EN PREGUNTA 624”");return false; }*/
                 //Anthony M. 03/06/2021

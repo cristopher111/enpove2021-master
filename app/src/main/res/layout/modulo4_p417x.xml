@@ -46,12 +46,14 @@
         android:padding="@dimen/padding_layout_pregunta"
         android:background="@drawable/marco_pregunta"
         android:orientation="vertical">
+
         <TextView
-            android:layout_weight="4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:theme="@style/TemaTextoPregunta"
-            android:text="@string/modulo_4_p417"/>
+            android:layout_weight="4"
+            android:text="@string/modulo_4_p417"
+            android:theme="@style/TemaTextoPregunta" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -100,6 +102,16 @@
             android:orientation="vertical"
             android:padding="@dimen/margen_medium"
             android:background="@drawable/marco_subpregunta">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="@string/modulo_4_p417_spa"
+                android:theme="@style/TemaTextoPregunta" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/modulo_4_p417_ind2"/>
             <CheckBox
                 android:id="@+id/mod4_417_checkbox_C4_P417_1_1"
                 android:layout_width="wrap_content"

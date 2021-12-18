@@ -29,102 +29,143 @@
         android:layout_height="wrap_content"
         android:text="@string/modulo_3_p307_ind"/>
 
-    <RadioGroup
-        android:id="@+id/mod3_307_radiogroup_C3_P307"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <RadioButton
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/mod3_307_radiogroup_C3_P307"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:visibility="gone"/>
-        <RadioButton
-            android:id="@+id/mod3_307_rb1"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <RadioButton
+                android:id="@+id/mod3_307_rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modulo_3_p307_sp1" />
+
+            <RadioButton
+                android:id="@+id/mod3_307_rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modulo_3_p307_sp2" />
+
+            <RadioButton
+                android:id="@+id/mod3_307_rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modulo_3_p307_sp3" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modulo_3_p307_sp4" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modulo_3_p307_sp5" />
+
+            <!--        <EditText-->
+            <!--            android:id="@+id/mod5_515_edittext_C5_P515_O"-->
+            <!--            style="@style/TemaInputEspecifiqueRadioIntermedio"/>-->
+
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modulo_3_p307_sp6" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modulo_3_p307_sp7" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modulo_3_p307_sp8" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modulo_3_p307_sp9" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modulo_3_p307_sp10" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modulo_3_p307_sp11" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modulo_3_p307_sp12" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modulo_3_p307_sp13" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modulo_3_p307_sp14" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modulo_3_p307_sp15" />
+        </RadioGroup>
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/modulo_3_p307_sp1"/>
-        <RadioButton
-            android:id="@+id/mod3_307_rb2"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+        <TextView
+            android:id="@+id/txv_Especifique"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/modulo_3_p307_sp2"/>
-        <RadioButton
-            android:id="@+id/mod3_307_rb3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/modulo_3_p307_sp3"/>
-        <RadioButton
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:text="Especificar Respuesta: ">
 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/modulo_3_p307_sp4"/>
-        <RadioButton
+        </TextView>
 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/modulo_3_p307_sp5"/>
+            <EditText
+                android:id="@+id/mod3_307_edittext_C3_P307_O6"
+                style="@style/TemaInputEspecifiqueRadioCostado"
+                android:layout_height="37dp"
+                android:layout_gravity="center"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
 
-        <!--        <EditText-->
-        <!--            android:id="@+id/mod5_515_edittext_C5_P515_O"-->
-        <!--            style="@style/TemaInputEspecifiqueRadioIntermedio"/>-->
-
-
-        <RadioButton
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/modulo_3_p307_sp6"/>
-        <RadioButton
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/modulo_3_p307_sp7"/>
-        <RadioButton
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/modulo_3_p307_sp8"/>
-        <RadioButton
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/modulo_3_p307_sp9"/>
-        <RadioButton
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/modulo_3_p307_sp10"/>
-        <RadioButton
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/modulo_3_p307_sp11"/>
-        <RadioButton
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/modulo_3_p307_sp12"/>
-        <RadioButton
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/modulo_3_p307_sp13"/>
-        <RadioButton
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/modulo_3_p307_sp14"/>
-        <RadioButton
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/modulo_3_p307_sp15"/>
-        <EditText
-            android:id="@+id/mod3_307_edittext_C3_P307_O6"
-            style="@style/TemaInputEspecifiqueRadioIntermedio"/>
-    </RadioGroup>
-
-<LinearLayout
+    <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"

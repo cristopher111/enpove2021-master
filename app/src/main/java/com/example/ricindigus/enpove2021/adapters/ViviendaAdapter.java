@@ -122,8 +122,6 @@ public class ViviendaAdapter extends RecyclerView.Adapter<ViviendaAdapter.ViewHo
             holder.txtEstado.setVisibility(View.GONE);
 
             String posicion = String.valueOf(position);
-
-
             Log.e("CONGLOMERADO:",conglomerado);
             String segmento = listaViviendas.get(position).getNrosegmento()+"";
             Log.e("SEGMENTO2:",segmento);

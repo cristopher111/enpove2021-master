@@ -3,6 +3,7 @@ package com.example.ricindigus.enpove2021.activities.agregacion;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.database.Cursor;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,6 +20,7 @@ import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.example.ricindigus.enpove2021.R;
 import com.example.ricindigus.enpove2021.modelo.Data;
@@ -139,7 +141,7 @@ public class AgregarPersonaActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_guardar_pregunta, menu);
+        inflater.inflate(R.menu.menu_agregar_persona, menu);
         return true;
     }
 
@@ -147,15 +149,74 @@ public class AgregarPersonaActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle item selection
         switch (item.getItemId()) {
-            case R.id.action_guardar:
+            case R.id.action_guardar_persona:
                 llenarVariables();
+
+                /* if(spParentesco.getSelectedItemPosition() != 0){
+                    guardarDatos();
+                    finish();
+                }else{
+                    mostrarMensaje("ESCOGER UN PARENTESCO ANTES DE GUARDAR");
+                }*/
+
                 if (validarDatos()){
                     guardarDatos();
                     finish();
                 }
+
+                return true;
+
+
+            case R.id.action_siguiente_persona:
+                M3Pregunta318 m3Pregunta318 = new M3Pregunta318();
+
+
+                if (!getExistePersona(_id)){
+                    Toast.makeText(this,"DEBE COMPLETAR P313_1 Y GUARDAR PARA CONTINUAR",Toast.LENGTH_SHORT).show();
+                }//else if((getExistePersona(_id) && !getJefeHogar().getC3_p204().equals("")) || (_id.equals(getJefeHogar().get_id()))){
+                    else if(getExistePersona(_id) || (_id.equals(m3Pregunta318.getNumero()))){
+                    lyt1.setVisibility(View.GONE);
+                    lyt2.setVisibility(View.VISIBLE);
+                    lyt3.setVisibility(View.VISIBLE);
+                    lyt4.setVisibility(View.VISIBLE);
+                }
+                    return true;
+////////////////////////////
+              /*  if(spParentesco.getSelectedItemPosition() == 0){
+                    mostrarMensaje("ESCOGER UN PARENTESCO");
+                }
+                if(numero.trim().equals("")){
+                    mostrarMensaje("DEBE COMPLETAR P313_1 Y GUARDAR PARA CONTINUAR");
+                }
+                if(!numero.trim().equals("")){
+                    lyt1.setVisibility(View.GONE);
+                    lyt2.setVisibility(View.VISIBLE);
+                    lyt3.setVisibility(View.VISIBLE);
+                    lyt4.setVisibility(View.VISIBLE);
+                }
+
+                return true;*/
+/////////////////////
+              /* if(spParentesco.getSelectedItemPosition() == 0){
+                    mostrarMensaje("ESCOGER UN PARENTESCO");
+                }else {
+                    lyt1.setVisibility(View.GONE);
+                    lyt2.setVisibility(View.VISIBLE);
+                    lyt3.setVisibility(View.VISIBLE);
+                    lyt4.setVisibility(View.VISIBLE);
+                }
+                return true;*/
+
+            case R.id.action_anterior_persona:
+                lyt1.setVisibility(View.VISIBLE);
+                lyt2.setVisibility(View.GONE);
+                lyt3.setVisibility(View.GONE);
+                lyt4.setVisibility(View.GONE);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
+
+
         }
     }
 
@@ -168,22 +229,29 @@ public class AgregarPersonaActivity extends AppCompatActivity {
 
     public boolean validarDatos(){
         llenarVariables();
-        if (c3_p318_f == 0){mostrarMensaje("FAMILIAR: DEBE SELECCIONAR UNA OPCIÓN"); return false;}
-        if (c3_p318_s == -1){mostrarMensaje("SEXO: DEBE MARCAR UNA OPCIÓN"); return false;}
-        if (c3_p318_e.equals("")){mostrarMensaje("EDAD: DEBE INDICAR SU EDAD"); return false;}
-        if (c3_p318_f==1 && c3_p318_s!=1){mostrarMensaje("SELECCIONO PAPÁ, SEXO DEBE SER HOMBRE"); return false;}
-        if (c3_p318_f==2 && c3_p318_s!=2){mostrarMensaje("SELECCIONO MAMÁ, SEXO DEBE SER MUJER"); return false;}
-        if (c3_p318_p == -1){mostrarMensaje("PIENSA TRAER A SU FAMILIAR: DEBE MARCAR UNA OPCIÓN"); return false;}
 
-        if((c3_p318_f == 1 || c3_p318_f == 2) && Integer.parseInt(c3_p318_e)-edad<12 ){
-            mostrarMensaje("VERIFIQUE LA RELACION DE PARENTESCO DEL FAMILIAR QUE DEJÓ EN VENEZUELA Y SU EDAD"); return false;
-        }else if(c3_p318_f == 4 && edad-Integer.parseInt(c3_p318_e)<12 ){
-            mostrarMensaje("VERIFIQUE LA RELACION DE PARENTESCO DEL FAMILIAR QUE DEJÓ EN VENEZUELA Y SU EDAD"); return false;
-        }else if(c3_p318_f == 6 && edad-Integer.parseInt(c3_p318_e)<24 ){
-            mostrarMensaje("VERIFIQUE LA RELACION DE PARENTESCO DEL FAMILIAR QUE DEJÓ EN VENEZUELA Y SU EDAD"); return false;
-        }else if(c3_p318_f == 7 && Integer.parseInt(c3_p318_e)-edad<12 ){
-            mostrarMensaje("VERIFIQUE LA RELACION DE PARENTESCO DEL FAMILIAR QUE DEJÓ EN VENEZUELA Y SU EDAD"); return false;
+        if(lyt1.getVisibility() == View.VISIBLE){
+            if (c3_p318_f == 0){mostrarMensaje("FAMILIAR: DEBE SELECCIONAR UNA OPCIÓN"); return false;}
         }
+        if(lyt2.getVisibility() == View.VISIBLE && lyt3.getVisibility() == View.VISIBLE && lyt4.getVisibility() == View.VISIBLE){
+            if (c3_p318_s == -1){mostrarMensaje("SEXO: DEBE MARCAR UNA OPCIÓN"); return false;}
+            if (c3_p318_e.equals("")){mostrarMensaje("EDAD: DEBE INDICAR SU EDAD"); return false;}
+            if (c3_p318_f==1 && c3_p318_s!=1){mostrarMensaje("SELECCIONO PAPÁ, SEXO DEBE SER HOMBRE"); return false;}
+            if (c3_p318_f==2 && c3_p318_s!=2){mostrarMensaje("SELECCIONO MAMÁ, SEXO DEBE SER MUJER"); return false;}
+            if (c3_p318_p == -1){mostrarMensaje("PIENSA TRAER A SU FAMILIAR: DEBE MARCAR UNA OPCIÓN"); return false;}
+
+            if((c3_p318_f == 1 || c3_p318_f == 2) && Integer.parseInt(c3_p318_e)-edad<12 ){
+                mostrarMensaje("VERIFIQUE LA RELACION DE PARENTESCO DEL FAMILIAR QUE DEJÓ EN VENEZUELA Y SU EDAD"); return false;
+            }else if(c3_p318_f == 4 && edad-Integer.parseInt(c3_p318_e)<12 ){
+                mostrarMensaje("VERIFIQUE LA RELACION DE PARENTESCO DEL FAMILIAR QUE DEJÓ EN VENEZUELA Y SU EDAD"); return false;
+            }else if(c3_p318_f == 6 && edad-Integer.parseInt(c3_p318_e)<24 ){
+                mostrarMensaje("VERIFIQUE LA RELACION DE PARENTESCO DEL FAMILIAR QUE DEJÓ EN VENEZUELA Y SU EDAD"); return false;
+            }else if(c3_p318_f == 7 && Integer.parseInt(c3_p318_e)-edad<12 ){
+                mostrarMensaje("VERIFIQUE LA RELACION DE PARENTESCO DEL FAMILIAR QUE DEJÓ EN VENEZUELA Y SU EDAD"); return false;
+            }
+        }
+
+
 //        if(c3_p318_f==1 || c3_p318_f==2){
 //            if(Integer.parseInt(c3_p318_e)<edad){ mostrarMensaje("EDAD: DEBE SER MAYOR O IGUAL A SU EDAD("+edad+")"); return false;}
 //        }
@@ -211,6 +279,21 @@ public class AgregarPersonaActivity extends AppCompatActivity {
         data.actualizarValor(SQLConstantes.tablamodulo3,SQLConstantes.modulo3_c3_p313,"1",idEncuestado);
         data.close();
     }
+
+
+
+    public boolean getExistePersona(String idPersona){
+        boolean respuesta = false;
+        Data data = new Data(this);
+        data.open();
+        if(data.existeElemento(getNombreTabla(),idPersona)){
+            respuesta = true;
+        }
+        data.close();
+        return respuesta;
+    }
+
+
 
     public String getNombreTabla() {
         return SQLConstantes.tablam3p318personas;

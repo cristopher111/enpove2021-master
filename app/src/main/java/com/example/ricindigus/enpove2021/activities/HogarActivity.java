@@ -43,6 +43,8 @@ public class HogarActivity extends AppCompatActivity implements NavigationView.O
     private String idVivienda;
     private String nickUsuario;
     private String idCargo;
+    ////Agregado 17/12/21
+    //private String idEncuestado;
 
     private Hogar hogar;
     private TextView btnAtras;
@@ -61,6 +63,8 @@ public class HogarActivity extends AppCompatActivity implements NavigationView.O
         setSupportActionBar(toolbar);
         idHogar = getIntent().getExtras().getString("idHogar");
         nickUsuario = getIntent().getExtras().getString("nickUsuario");
+        ///agregado 17/12/21
+        //idEncuestado = getIntent().getExtras().getString("idEncuestado");
 
 
 
