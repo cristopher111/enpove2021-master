@@ -44,7 +44,7 @@ public class HogarActivity extends AppCompatActivity implements NavigationView.O
     private String nickUsuario;
     private String idCargo;
     ////Agregado 17/12/21
-    //private String idEncuestado;
+    private String idEncuestado;
 
     private Hogar hogar;
     private TextView btnAtras;
@@ -229,7 +229,7 @@ public class HogarActivity extends AppCompatActivity implements NavigationView.O
                 case TipoFragmentHogar.VISITAS_ENCUESTADOR:
                     btnAtras.setVisibility(View.GONE);
                     btnSiguiente.setVisibility(View.VISIBLE);
-                    FragmentVisitasEncuestador fragmentVisitasEncuestador = new FragmentVisitasEncuestador(idHogar,idVivienda,HogarActivity.this, idCargo,nickUsuario);
+                    FragmentVisitasEncuestador fragmentVisitasEncuestador = new FragmentVisitasEncuestador(idHogar,idVivienda,HogarActivity.this, idCargo,nickUsuario,idEncuestado);
                     fragmentTransaction.replace(R.id.fragment_layout, fragmentVisitasEncuestador);
                     fragmentActual = fragmentVisitasEncuestador; tFragment = TipoFragmentHogar.VISITAS_ENCUESTADOR;
                     navigationView.setCheckedItem(R.id.nav_visita_encuestador);break;

@@ -213,7 +213,7 @@ public class SQLConstantes {
     public static final String caratula_block = "block";
     public static final String caratula_interior = "interior";
     public static final String caratula_piso = "piso";
-    public static final String caratula_mza = "manz"; //ESTABA COMO MZA
+    public static final String caratula_mza = "mza"; //ESTABA COMO MZA
     public static final String caratula_lote = "lote";
     public static final String caratula_km = "km";
     public static final String caratula_telefono = "telefono";
@@ -868,6 +868,7 @@ public class SQLConstantes {
     public static final String residentes_c2_p211_1 = "c2_p211_1";
     public static final String residentes_c2_p211_1_o = "c2_p211_1_o";
     public static final String residentes_c2_p212 = "c2_p212";
+    public static final String residentes_p200_aportante = "p200_aportante";
     public static final String residentes_c2_OBS200 = "OBS_200";
     public static final String residentes_COB200 = "COB200";
     public static final String residentes_encuestado_cobertura = "encuestado_cobertura";

@@ -49,6 +49,7 @@ import android.widget.Toast;
 import android.widget.ToggleButton;
 
 import com.example.ricindigus.enpove2021.R;
+import com.example.ricindigus.enpove2021.adapters.HogarMixtoAdapter;
 import com.example.ricindigus.enpove2021.adapters.VisitaEncuestadorAdapter;
 import com.example.ricindigus.enpove2021.modelo.DAOUtils;
 import com.example.ricindigus.enpove2021.modelo.Data;
@@ -56,7 +57,9 @@ import com.example.ricindigus.enpove2021.modelo.SQLConstantes;
 import com.example.ricindigus.enpove2021.modelo.pojos.Hogar;
 import com.example.ricindigus.enpove2021.modelo.pojos.Modulo6;
 import com.example.ricindigus.enpove2021.modelo.pojos.ResVisitaEncuestador;
+import com.example.ricindigus.enpove2021.modelo.pojos.Residente;
 import com.example.ricindigus.enpove2021.modelo.pojos.VisitaEncuestador;
+
 import com.example.ricindigus.enpove2021.util.FragmentPagina;
 import com.example.ricindigus.enpove2021.util.InputFilterSoloLetras;
 import com.example.ricindigus.enpove2021.util.UtilsMethods;
@@ -89,6 +92,13 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
     private TextView txtResultadoFinal;
     private TextView txtNombreUsuario;
 
+    //AGREGADO PARA EL DIALOG DE RECYCLER
+    HogarMixtoAdapter hogarmixtoAdapter;
+    ArrayList<Residente> residentes;
+    ArrayList<Residente> residentesedad;
+    ArrayList<Modulo6> modulo6s;
+    RecyclerView.LayoutManager layoutManager;
+    //ResidenteAdapter residenteAdapter;
     //GPS
     private static final String LOGTAG = "android-localizacion";
     private static final int PETICION_PERMISO_LOCALIZACION = 101;
@@ -100,6 +110,7 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
     private CardView cvLongitud, cvAltitud, cvLatitud;
     private ToggleButton btnGPS;
     private TextView txtLatitud, txtLongitud, txtAltitud;
+    //private RadioGroup Radioingresos;
 
     private String idHogar;
     private String idVivienda;
@@ -158,7 +169,19 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
     int ING_NO_LAB3=0;
     int ING_NO_LAB4=0;
 
-    int ING_NOLAB = 0;
+    String ING_NO_LAB;
+
+
+
+    int edad = 0;
+
+    int conteo1 = 0;
+    int conteo2 = 0;
+    int conteoedad = 0;
+
+    String p212;
+    String p208;
+
 
 
     public FragmentVisitasEncuestador() {
@@ -166,33 +189,120 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
     }
 
     @SuppressLint("ValidFragment")
-    public FragmentVisitasEncuestador(String idHogar, String idVivienda, Context context, String idCargo,String user) {
+    public FragmentVisitasEncuestador(String idHogar, String idVivienda, Context context, String idCargo,String user,String idEncuestado) {
         this.idHogar = idHogar;
         this.idVivienda = idVivienda;
         this.context = context;
         this.idCargo = idCargo;
         this.user = user;
-        //this.idEncuestado = idEncuestado;
+        this.idEncuestado = idEncuestado;
 
         Data data = new Data(context);
         data.open();
+//        Modulo1V modulo1V = data.getModulo1V(idVivienda);
+//        p212 = modulo1V.getC1_p101();
+
+        Hogar hogar =  data.getHogar(idHogar);
+        p212 =  hogar.getApe_materno();
+
+        modulo6s = new ArrayList<>();
+        residentes = new ArrayList<>();
+        residentesedad = new ArrayList<>();
+
+
+        cargarDatos1();
+
+        for (Residente r : residentes){
+            p208 = r.getC2_p208();
+            edad = Integer.parseInt(r.getC2_p205_a());
+
+            if (p208.equals("1") ){
+                 conteo1++;
+            }
+            if(p208.equals("2")){
+                conteo2++;
+            }
+            if(edad >= 5){
+                conteoedad++;
+                r.setNumero(String.valueOf(conteoedad));
+                residentesedad.add(r);
+            }
+
+            Log.e("migro?",""+p208);
+            Log.e("edad",""+edad);
+        }
+        Log.e("conteo1p208",""+conteo1);
+        Log.e("conteo2p208",""+conteo2);
+        Log.e("conteoedad",""+conteoedad);
+
+
+
+
+
+        for (Modulo6 m : modulo6s){
+            ING_NO_LAB = m.getING_NO_LAB1P638();
+            Log.e("modulo6_1",""+m.get_id()+":"+ m.getING_NO_LAB1P638());
+            Log.e("modulo6_2",""+m.get_id()+":"+ m.getING_NO_LAB2P638());
+            Log.e("modulo6_3",""+m.get_id()+":"+ m.getING_NO_LAB3P638());
+            Log.e("modulo6_4",""+m.get_id()+":"+ m.getING_NO_LAB4P638());
+        }
+
+
+
+
+
+
+
+ //       Log.e("idencuestado",""+idEncuestado);
+
+  /*      Residente residente = data.getResidente(idEncuestado);
+        Modulo6 modulo6 = data.getModulo6(idEncuestado);
+
+
+
+
+
+        if(residente == null || modulo6 == null){
+            Log.e("null","residente");
+
+        }else{
+            edad = residente.getC2_p205_a();
+            p638_1_1 = modulo6.getC6_p638_1_frec();
+            p638_2_1 = modulo6.getC6_p638_2_frec();
+            p638_3_1 = modulo6.getC6_p638_3_frec();
+            p638_4_1 = modulo6.getC6_p638_4_frec();
+        }*/
+
+  /*      try{
+            edad = data.getResidente(idEncuestado).getC2_p205_a();
+            p638_1_1 = data.getModulo6(idEncuestado).getC6_p638_1_frec();
+            p638_2_1 = data.getModulo6(idEncuestado).getC6_p638_2_frec();
+            p638_3_1 = data.getModulo6(idEncuestado).getC6_p638_3_frec();
+            p638_4_1 = data.getModulo6(idEncuestado).getC6_p638_4_frec();
+
+        }catch (Exception e){
+            edad = "0";
+            p638_1_1 = "0";
+            p638_2_1 = "0";
+            p638_3_1 = "0";
+            p638_4_1 = "0";
+        }
+
+        Log.e("vamoss",edad);
+        Log.e("vamos",p212);
+
+
+        Log.e("valor1_1",p638_1_1);
+        Log.e("valor2_1",p638_2_1);
+        Log.e("valor3_1",p638_3_1);
+        Log.e("valor4_1",p638_4_1);*/
 
         visitas = data.getAllVisitasHogar(idHogar);
 
 
-     /*   ArrayList<Modulo6> modulo6 = data.getAllModulo6Hogar(idHogar);
-        boolean todosMayoresEdad = true;
-        for (Modulo6 m : modulo6){
 
 
-        }*/
-
-
-
-      /*  Modulo6 modulo6 = data.getModulo6(idEncuestado);
-
-
-        /// TRAYENDO p638_1_1 (frecuencia)
+ /*       /// TRAYENDO p638_1_1 (frecuencia)
         p638_1_1 = modulo6.getC6_p638_1_frec();
         p638_2_1 = modulo6.getC6_p638_2_frec();
         p638_3_1 = modulo6.getC6_p638_3_frec();
@@ -204,6 +314,12 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
         p638m_2_2 = modulo6.getC6_p638_2_monto();
         p638m_3_2 = modulo6.getC6_p638_3_monto();
         p638m_4_2 = modulo6.getC6_p638_4_monto();
+
+
+        Log.e("spinner1",""+p638_1_1);
+        Log.e("spinner2",""+p638_2_1);
+        Log.e("spinner3",""+p638_3_1);
+        Log.e("spinner4",""+p638_4_1);
 
         ////TRASNFORMANDO A ENTEROS LOS MONTOS (P638_1_2)
         p638m_1 = Integer.parseInt(p638m_1_2.trim());
@@ -237,7 +353,7 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
         if(p638_4_1.equals("3")) ING_NO_LAB4 = p638m_4 /6;
         if(p638_4_1.equals("4")) ING_NO_LAB4 = p638m_4 /12;
 
-        ING_NOLAB = ING_NO_LAB1 + ING_NO_LAB2 + ING_NO_LAB3 + ING_NO_LAB4;*/
+        ING_NOLAB = ING_NO_LAB1 + ING_NO_LAB2 + ING_NO_LAB3 + ING_NO_LAB4; */
 
         double A = 5.7;
         double B = 6.22;
@@ -262,6 +378,7 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
         txtFechaFinal = (TextView) rootView.findViewById(R.id.visitas_fecha_final);
         txtNombreUsuario = (TextView) rootView.findViewById(R.id.txt_entrevistador);
         btnAgregar = (FloatingActionButton) rootView.findViewById(R.id.visitas_btnAgregarVisita);
+       // Radioingresos = (RadioGroup)rootView.findViewById(R.id.item_hogarmixto_ingresos);
         return rootView;
     }
 
@@ -269,6 +386,8 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         txtNombreUsuario.setText("12.ENTREVISTA Y SUPERVISIÓN");
+
+        residentes = new ArrayList<>();
         //CAMBIADO POR OBS 125
         //txtNombreUsuario.setText("12.ENTREVISTA Y SUPERVISIÓN ( "+DAOUtils.getUsuario(user,context).getNombre()+" )");
         if (idCargo.equals("2")) btnAgregar.setVisibility(View.GONE);
@@ -799,6 +918,9 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
         alert.setNegativeButton("Cancelar",null);
         final AlertDialog alertDialog = alert.create();
 
+
+
+
         alertDialog.setOnShowListener(new DialogInterface.OnShowListener() {
             @Override
             public void onShow(DialogInterface dialogInterface) {
@@ -820,6 +942,7 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
                 btnFinalizarVisita.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
+
                         boolean valido = false;
                         boolean vHoraFin = true, vResultado = true, vEspecifique = true, vFechaProxima = true, vHoraProxima = true, estado = true;
                         boolean estadoVerificar = false;
@@ -837,13 +960,16 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
                             estado = false;
                             if(mensaje.equals("")) mensaje = "LA HORA DE FIN DEBE SER MAYOR A LA DE INICIO";
                         }
-                        /////////ABRIR EL OTRO ALERTI DIALOG EN CASO SEA COMPLETO O INCOMPLETA//////
-                        if(spResultado.getSelectedItemPosition() == 1 || spResultado.getSelectedItemPosition() == 2){
-                            Ingresos(posicion);
-
+                        /////////ABRIR EL OTRO ALERT DIALOG EN CASO SEA COMPLETO O INCOMPLETA//////
+                        if((spResultado.getSelectedItemPosition() == 1 || spResultado.getSelectedItemPosition() == 2) && ING_NO_LAB.equals("") ){
+                            if((conteo1 > 0 && conteo2 > 0) && conteoedad > 0){
+                                HogarMixto(posicion);
+                            }else if(conteo2 == 0 && conteo1 > 0){
+                                Ingresos(posicion);
+                            }
                         }
 
-
+////////////////////////////////////////////////////////////
 
                         //VALIDACIONES ANTES DE GUARDADO
                         cursor.moveToPosition(posicion);
@@ -1028,28 +1154,120 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
         alertDialog.setOnShowListener(new DialogInterface.OnShowListener() {
             @Override
             public void onShow(DialogInterface dialogInterface) {
+
                 ocultarTeclado(lytDialog);
+                cursor.moveToPosition(posicion);
 
 
+                Button btnFinalizarIngreso = alertDialog.getButton(AlertDialog.BUTTON_POSITIVE);
+                btnFinalizarIngreso.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                   /*   ContentValues contentValues = new ContentValues();
+                        contentValues.put(SQLConstantes.caratula_observaciones,edtObsIngresos.getText().toString());
+
+                        dataTablas = new Data(context);
+                        dataTablas.open();
+                        cursor.moveToPosition(posicion);
+                        //actualiza la visita con los datos de finalizacion
+                        dataTablas.actualizarElemento(getIdTablaOBS100(),contentValues,cursor.getString(cursor.getColumnIndex("_id")));
+                        dataTablas.close();  */
+
+                    }
+                });
 
             }
+
+
+
         });
         alertDialog.show();
 
     }
 
+    public void HogarMixto(final int posicion){
+        AlertDialog.Builder alert = new AlertDialog.Builder(getActivity());
+        final View dialogView = getActivity().getLayoutInflater().inflate(R.layout.dialog_p200aportante, null);
+        final LinearLayout lytDialog = (LinearLayout) dialogView.findViewById(R.id.dialog_p200aportante_ingresos);
+        final RecyclerView recyclerView = (RecyclerView) dialogView.findViewById(R.id.hogarmixto_recyclerview);
+        final RadioGroup radioGroup = (RadioGroup) dialogView.findViewById(R.id.item_hogarmixto_ingresos);
+
+
+
+        residentes = new ArrayList<>();
+        recyclerView.setHasFixedSize(true);
+
+        //linearLayoutManager = new LinearLayoutManager(getActivity());
+        layoutManager = new LinearLayoutManager(context);
+        recyclerView.setLayoutManager(layoutManager);
+        linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
+        cargarDatos1();
+
+       //Log.e("residentessize",""+residentesedad.size());
+         hogarmixtoAdapter = new HogarMixtoAdapter(residentesedad,context);
+        recyclerView.setAdapter(hogarmixtoAdapter);
+
+        alert.setView(dialogView);
+        alert.setPositiveButton("Finalizar",null);
+        alert.setNegativeButton("Cancelar",null);
+        final AlertDialog alertDialog = alert.create();
+
+        alertDialog.setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialogInterface) {
+
+                ocultarTeclado(lytDialog);
+                cursor.moveToPosition(posicion);
 
 
 
 
+                Button btnFinalizarIngreso = alertDialog.getButton(AlertDialog.BUTTON_POSITIVE);
+                btnFinalizarIngreso.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+
+                     /*   String P200_APORTANTE = radioGroup.indexOfChild(radioGroup.findViewById(radioGroup.getCheckedRadioButtonId()))+"";
+
+                        Data data = new Data(context);
+                        data.open();
+                        ContentValues contentValues = new ContentValues();
+                        contentValues.put(SQLConstantes.residentes_p200_aportante,P200_APORTANTE);
+                        data.actualizarElemento(getNombreTabla(),contentValues,idEncuestado);*/
 
 
 
 
+                    }
+                });
+
+            }
 
 
 
+        });
+        alertDialog.show();
 
+    }
+
+    private void cargarDatos1() {
+        residentes = new ArrayList<>();
+        Data data =  new Data(context);
+        data.open();
+        residentes = data.getAllResidentesHogar(idHogar);
+        modulo6s = data.getAllModulo6Hogar(idHogar);
+        data.close();
+    }
+
+//    private void cargarDatos1() {
+//        Data data = new Data(context);
+//        data.open();
+//        if (data.existeElemento(SQLConstantes.tablahogares,idHogar)){
+//            Hogar hogar = data.getHogar(idHogar);
+//
+//        }
+//        data.close();
+//    }
 
 
     public void modificarVisita(final int posicion){
@@ -1964,6 +2182,10 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
     }
     public String getIdTablaParte2(){
         return SQLConstantes.tablaresultadoencuestador;
+    }
+
+    public String getIdTablaOBS100(){
+        return  SQLConstantes.tablacaratula;
     }
 
     private void toggleLocationUpdates(boolean enable) {

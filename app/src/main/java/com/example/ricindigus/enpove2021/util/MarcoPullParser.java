@@ -41,7 +41,7 @@ public class MarcoPullParser {
     private static final String NROPTA = "NROPTA";
     private static final String LOTE = "LOTE";
     private static final String PISO = "PISO";
-    private static final String MANZANA = "MANZ"; //ESTABA COMO MZA
+    private static final String MANZANA = "MZA"; //ESTABA COMO MZA
     private static final String BLOCK = "BLOCK";
     private static final String INTERIOR = "INTERIOR";
     private static final String KM = "KM";

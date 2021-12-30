@@ -182,13 +182,15 @@ public class ExportarActivity extends AppCompatActivity {
                         "No",
                         "",
                         "",
-                        ""
+                        caratula.getNroSegmento()
                 );
                 listaViviendas.add(viviendaItem);
             }
         }
         data.close();
     }
+
+
 
 //    public void mostrarMensaje(String m){
 //        final AlertDialog.Builder builder = new AlertDialog.Builder(this);

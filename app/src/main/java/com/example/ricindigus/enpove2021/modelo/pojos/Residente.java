@@ -418,4 +418,6 @@ public class Residente {
         contentValues.put(SQLConstantes.residentes_encuestado_cobertura,encuestado_cobertura);
         return contentValues;
     }
+
+
 }

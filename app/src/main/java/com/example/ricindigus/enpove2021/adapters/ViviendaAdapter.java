@@ -28,6 +28,8 @@ public class ViviendaAdapter extends RecyclerView.Adapter<ViviendaAdapter.ViewHo
     OnItemClickListener onItemClickListener;
     int vista=0;
 
+   // String segmentoo;
+
     public interface OnItemClickListener{
         public void onItemClick(View view,int position);
     }
@@ -81,6 +83,8 @@ public class ViviendaAdapter extends RecyclerView.Adapter<ViviendaAdapter.ViewHo
             holder.txtResultado.setVisibility(View.GONE);
             holder.txtEstado.setVisibility(View.GONE);
 
+          //  segmentoo = holder.txtTipoSelecVivienda.getText().toString();
+
             String segmento = listaViviendas.get(position).getNrosegmento()+"";
             String posicion = String.valueOf(position);
             Log.e("SEGMENTO1:",segmento);
@@ -111,6 +115,7 @@ public class ViviendaAdapter extends RecyclerView.Adapter<ViviendaAdapter.ViewHo
             holder.txtNroVivienda.setText(listaViviendas.get(position).getNroVivienda().toString());
             holder.txtConglomerado.setText(listaViviendas.get(position).getConglomerado().toString());
             holder.txtNroSelecVivienda.setText(listaViviendas.get(position).getNroSelecVivienda().toString());
+            //holder.txtTipoSelecVivienda.setText(segmentoo);
             holder.txtTipoSelecVivienda.setText(listaViviendas.get(position).getNrosegmento().toString());
             //holder.txtTipoSelecVivienda.setText(UtilsMethods.getTipoSeleccionVivienda(listaViviendas.get(position).getTipoSelecVivienda().toString()));
             holder.txtReemplazoVivienda.setText(UtilsMethods.getViviendaReemplazo(listaViviendas.get(position).getReemplazoVivienda().toString()));
@@ -123,15 +128,13 @@ public class ViviendaAdapter extends RecyclerView.Adapter<ViviendaAdapter.ViewHo
 
             String posicion = String.valueOf(position);
             Log.e("CONGLOMERADO:",conglomerado);
-            String segmento = listaViviendas.get(position).getNrosegmento()+"";
-            Log.e("SEGMENTO2:",segmento);
+          //  String segmento = listaViviendas.get(1).getNrosegmento()+"";
+
+          //  Log.e("SEGMENTO2:",segmentoo);
             Log.e("POSICION2",posicion);
             Log.e("PRUEBADELVACIO","");
             Log.e("PRUEBADEvista",""+vista);
-
-
         }
-
 
         Log.e("POSICIONafuera",""+position);
 

@@ -225,8 +225,12 @@ public class Modulo6 {
     private String c6_p639_2_frec_o;
     private String c6_p639_2_monto;
 
+
+
     private String obs_cap6;
     private String COB600;
+
+
 
     public Modulo6() {
         _id = "";
@@ -2393,4 +2397,92 @@ public class Modulo6 {
         contentValues.put(SQLConstantes.modulo6_c6_p639_2_monto,c6_p639_2_monto);
         return contentValues;
     }
+    public String getING_NO_LAB1P638(){
+
+        String ING_NO_LAB1 = "";
+
+        switch (c6_p638_1_frec){
+            case "1":
+                ING_NO_LAB1 = c6_p638_1_monto;
+                break;
+            case "2":
+                ING_NO_LAB1 = String.valueOf(Integer.parseInt(c6_p638_1_monto)/2);
+                break;
+            case "3":
+                ING_NO_LAB1 = String.valueOf(Integer.parseInt(c6_p638_1_monto)/6);
+                break;
+            case "4":
+                ING_NO_LAB1 = String.valueOf(Integer.parseInt(c6_p638_1_monto)/12);
+                break;
+        }
+        return ING_NO_LAB1;
+    }
+
+    public String getING_NO_LAB2P638(){
+
+        String ING_NO_LAB2 = "";
+
+        switch (c6_p638_2_frec){
+            case "1":
+                ING_NO_LAB2 = c6_p638_2_monto;
+                break;
+            case "2":
+                ING_NO_LAB2 = String.valueOf(Integer.parseInt(c6_p638_2_monto)/2);
+                break;
+            case "3":
+                ING_NO_LAB2 = String.valueOf(Integer.parseInt(c6_p638_2_monto)/6);
+                break;
+            case "4":
+                ING_NO_LAB2 = String.valueOf(Integer.parseInt(c6_p638_2_monto)/12);
+                break;
+        }
+        return ING_NO_LAB2;
+
+    }
+
+    public String getING_NO_LAB3P638(){
+
+        String ING_NO_LAB3 = "";
+
+        switch (c6_p638_3_frec){
+            case "1":
+                ING_NO_LAB3 = c6_p638_3_monto;
+                break;
+            case "2":
+                ING_NO_LAB3 = String.valueOf(Integer.parseInt(c6_p638_3_monto)/2);
+                break;
+            case "3":
+                ING_NO_LAB3 = String.valueOf(Integer.parseInt(c6_p638_3_monto)/6);
+                break;
+            case "4":
+                ING_NO_LAB3 = String.valueOf(Integer.parseInt(c6_p638_3_monto)/12);
+                break;
+        }
+        return ING_NO_LAB3;
+
+    }
+
+    public String getING_NO_LAB4P638(){
+
+        String ING_NO_LAB4 = "";
+
+        switch (c6_p638_4_frec){
+            case "1":
+                ING_NO_LAB4 = c6_p638_4_monto;
+                break;
+            case "2":
+                ING_NO_LAB4 = String.valueOf(Integer.parseInt(c6_p638_4_monto)/2);
+                break;
+            case "3":
+                ING_NO_LAB4 = String.valueOf(Integer.parseInt(c6_p638_4_monto)/6);
+                break;
+            case "4":
+                ING_NO_LAB4 = String.valueOf(Integer.parseInt(c6_p638_4_monto)/12);
+                break;
+        }
+        return ING_NO_LAB4;
+
+    }
+
+
 }
