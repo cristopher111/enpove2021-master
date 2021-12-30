@@ -29,7 +29,7 @@ import com.example.ricindigus.enpove2021.util.UtilsMethods;
 import java.util.ArrayList;
 
 public class DAOUtils {
-    //USUARIO
+    //MARCO
     public static Marco getMarco(String idVivienda, Context context){
         Marco marco = null;
         Data data = new Data(context);
@@ -37,6 +37,15 @@ public class DAOUtils {
         marco = data.getMarco(idVivienda);
         data.close();
         return marco;
+    }
+
+    public static ArrayList<Marco> getListaSegmentoViviendas(String idSegmento,Context context){
+        ArrayList<Marco> viviendas ;
+        Data data = new Data(context);
+        data.open();
+        viviendas = data.getAllSegmentoViviendas(idSegmento);
+        data.close();
+        return viviendas;
     }
 
     //USUARIO

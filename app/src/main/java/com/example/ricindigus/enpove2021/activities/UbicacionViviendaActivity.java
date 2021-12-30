@@ -24,6 +24,8 @@ import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import java.util.ArrayList;
+
 public class
 UbicacionViviendaActivity extends AppCompatActivity implements OnMapReadyCallback {
     Toolbar toolbar;
@@ -77,19 +79,8 @@ UbicacionViviendaActivity extends AppCompatActivity implements OnMapReadyCallbac
         mgoogleMap.getUiSettings().setMyLocationButtonEnabled(true);
         Marco marco = DAOUtils.getMarco(idVivienda,UbicacionViviendaActivity.this);
         final LatLng ubicacion = new LatLng(Double.parseDouble(marco.getLatitud()), Double.parseDouble(marco.getLongitud()));
-        googleMap.addMarker(new MarkerOptions()
-                .position(ubicacion)
-                .title("Vivienda N° "+vivienda)
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA))
-        );
+        showMarkerVivienda(googleMap,marco);
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            // TODO: Consider calling
-            //    ActivityCompat#requestPermissions
-            // here to request the missing permissions, and then overriding
-            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-            //                                          int[] grantResults)
-            // to handle the case where the user grants the permission. See the documentation
-            // for ActivityCompat#requestPermissions for more details.
             return;
         }
         googleMap.setMyLocationEnabled(true);
@@ -97,5 +88,25 @@ UbicacionViviendaActivity extends AppCompatActivity implements OnMapReadyCallbac
         CameraPosition Liberty = CameraPosition.builder().target(ubicacion).zoom(16).bearing(0).tilt(45).build();
         googleMap.moveCamera(CameraUpdateFactory.newCameraPosition(Liberty));
 
+    }
+
+    public void showMarkerVivienda(GoogleMap googleMap,Marco marco){
+        ArrayList<Marco> lista = DAOUtils.getListaSegmentoViviendas(marco.getNroSegmento(),UbicacionViviendaActivity.this);
+        Float colorMarker;
+        for (Marco vivienda: lista) {
+            final LatLng ubicacion = new LatLng(Double.parseDouble(vivienda.getLatitud()), Double.parseDouble(vivienda.getLongitud()));
+            if(marco.getNro_selec_vivienda().equals(vivienda.getNro_selec_vivienda())){
+               //VIVIENDA ACTUAL
+               colorMarker = BitmapDescriptorFactory.HUE_GREEN;
+            }else{
+                //OTRAS VIVIENDAS
+                colorMarker = BitmapDescriptorFactory.HUE_MAGENTA;
+            }
+            googleMap.addMarker(new MarkerOptions()
+                    .position(ubicacion)
+                    .title("Vivienda N° "+vivienda.getNro_selec_vivienda())
+                    .icon(BitmapDescriptorFactory.defaultMarker(colorMarker))
+            );
+        }
     }
 }
