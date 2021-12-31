@@ -611,6 +611,7 @@ public class ExportarActivity extends AppCompatActivity {
                     escribirCampoXml(serializer, SQLConstantes.residentes_c2_p211_nom, residente.getC2_p211_nom());
                     escribirCampoXml(serializer, SQLConstantes.residentes_c2_p211_pos, residente.getC2_p211_pos());
                     escribirCampoXml(serializer, SQLConstantes.residentes_c2_p212, residente.getC2_p212());
+                    escribirCampoXml(serializer, SQLConstantes.residentes_p200_aportante, residente.getP200_aportante());
                     escribirCampoXml(serializer, SQLConstantes.residentes_c2_OBS200, residente.getOBS200());
                     escribirCampoXml(serializer, SQLConstantes.residentes_COB200, residente.getCOB200());
                     escribirCampoXml(serializer, SQLConstantes.residentes_encuestado_cobertura, residente.getEncuestado_cobertura());
@@ -2158,6 +2159,7 @@ public class ExportarActivity extends AppCompatActivity {
                     escribirCampoXml(serializer, XMLConstantes.P211, residente.getC2_p211_nom());
                     escribirCampoXml(serializer, XMLConstantes.P211_1, residente.getC2_p211_1());
                     escribirCampoXml(serializer, XMLConstantes.P211_1_O, residente.getC2_p211_1_o());
+                    escribirCampoXml(serializer, XMLConstantes.P200_APORTANTE, residente.getP200_aportante());
                     escribirCampoXml(serializer, XMLConstantes.OBS_200, residente.getOBS200());
 //                    escribirCampoXml(serializer, XMLConstantes.P212, residente.getC2_p212());
                     escribirCampoXml(serializer, XMLConstantes.EMAIL, "");

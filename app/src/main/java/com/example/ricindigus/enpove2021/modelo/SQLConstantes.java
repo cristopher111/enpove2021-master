@@ -907,6 +907,7 @@ public class SQLConstantes {
                     residentes_c2_p211_1 + " TEXT," +
                     residentes_c2_p211_1_o + " TEXT," +
                     residentes_c2_p212 + " TEXT," +
+                    residentes_p200_aportante + " TEXT," +
                     residentes_c2_OBS200 + " TEXT," +
                     residentes_encuestado_cobertura + " TEXT," +
                     residentes_COB200  + " TEXT" + ");"

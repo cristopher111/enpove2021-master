@@ -834,6 +834,7 @@ public class ImportarActivity extends AppCompatActivity {
                 case SQLConstantes.residentes_c2_p211_nom:currentResidente.setC2_p211_nom(valor);break;//---
                 case SQLConstantes.residentes_c2_p211_pos:currentResidente.setC2_p211_pos(valor);break;//---
                 case SQLConstantes.residentes_c2_p212:currentResidente.setC2_p212(valor);break;//---
+                case SQLConstantes.residentes_p200_aportante:currentResidente.setP200_aportante(valor);break;//--- MODIFICADO 30/12/21
                 case SQLConstantes.residentes_c2_OBS200:currentResidente.setOBS200(valor);break;//---
                 case SQLConstantes.residentes_COB200:currentResidente.setCOB200(valor);break;
                 case SQLConstantes.residentes_encuestado_cobertura:currentResidente.setEncuestado_cobertura(valor);break;

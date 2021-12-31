@@ -1328,6 +1328,7 @@ public class Data {
                 residente.setC2_p211_1(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_c2_p211_1)));
                 residente.setC2_p211_1_o(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_c2_p211_1_o)));
                 residente.setC2_p212(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_c2_p212)));
+                residente.setP200_aportante(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_p200_aportante)));
                 residente.setOBS200(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_c2_OBS200)));
                 residente.setCOB200(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_COB200)));
                 residente.setEncuestado_cobertura(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_encuestado_cobertura)));
@@ -1378,6 +1379,7 @@ public class Data {
                 residente.setC2_p211_1(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_c2_p211_1)));
                 residente.setC2_p211_1_o(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_c2_p211_1_o)));
                 residente.setC2_p212(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_c2_p212)));
+                residente.setP200_aportante(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_p200_aportante)));
                 residente.setOBS200(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_c2_OBS200)));
                 residente.setCOB200(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_COB200)));
                 residente.setEncuestado_cobertura(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_encuestado_cobertura)));
@@ -1435,6 +1437,7 @@ public class Data {
                 residente.setC2_p211_1(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_c2_p211_1)));
                 residente.setC2_p211_1_o(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_c2_p211_1_o)));
                 residente.setC2_p212(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_c2_p212)));
+                residente.setP200_aportante(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_p200_aportante)));
                 residente.setOBS200(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_c2_OBS200)));
                 residente.setCOB200(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_COB200)));
                 residente.setEncuestado_cobertura(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_encuestado_cobertura)));
@@ -1535,6 +1538,7 @@ public class Data {
                 residente.setC2_p211_1(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_c2_p211_1)));
                 residente.setC2_p211_1_o(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_c2_p211_1_o)));
                 residente.setC2_p212(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_c2_p212)));
+                residente.setP200_aportante(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_p200_aportante)));
                 residente.setOBS200(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_c2_OBS200)));
                 residente.setCOB200(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_COB200)));
                 residente.setEncuestado_cobertura(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_encuestado_cobertura)));
@@ -1850,6 +1854,7 @@ public class Data {
                 residente.setC2_p211_1(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_c2_p211_1)));
                 residente.setC2_p211_1_o(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_c2_p211_1_o)));
                 residente.setC2_p212(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_c2_p212)));
+                residente.setP200_aportante(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_p200_aportante)));
                 residente.setOBS200(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_c2_OBS200)));
                 residente.setCOB200(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_COB200)));
                 residente.setEncuestado_cobertura(cursor.getString(cursor.getColumnIndex(SQLConstantes.residentes_encuestado_cobertura)));
@@ -3934,6 +3939,7 @@ public class Data {
                 modulo6.setC6_p639_2_frec(cursor.getString(cursor.getColumnIndex(SQLConstantes.modulo6_c6_p639_2_frec)));
                 modulo6.setC6_p639_2_frec_o(cursor.getString(cursor.getColumnIndex(SQLConstantes.modulo6_c6_p639_2_frec_o)));
                 modulo6.setC6_p639_2_monto(cursor.getString(cursor.getColumnIndex(SQLConstantes.modulo6_c6_p639_2_monto)));
+
             }
         }finally{
             if(cursor != null) cursor.close();
@@ -4171,6 +4177,7 @@ public class Data {
                 modulo6.setC6_p639_2_frec(cursor.getString(cursor.getColumnIndex(SQLConstantes.modulo6_c6_p639_2_frec)));
                 modulo6.setC6_p639_2_frec_o(cursor.getString(cursor.getColumnIndex(SQLConstantes.modulo6_c6_p639_2_frec_o)));
                 modulo6.setC6_p639_2_monto(cursor.getString(cursor.getColumnIndex(SQLConstantes.modulo6_c6_p639_2_monto)));
+
                 modulo6.setObs_cap6(cursor.getString(cursor.getColumnIndex(SQLConstantes.modulo6_obs_cap6)));
                 modulo6.setCOB600(cursor.getString(cursor.getColumnIndex(SQLConstantes.modulo6_COB600)));
                 modulo6s.add(modulo6);

@@ -39,6 +39,9 @@ public class Residente {
     private String COB200;
     private String encuestado_cobertura;
 
+    public String p200_aportante = "";
+
+
     public Residente() {
         _id = "";
         id_informante = "";
@@ -71,7 +74,8 @@ public class Residente {
         c2_p211_pos = "";
         OBS200 = "";
         COB200 = "0";
-        encuestado_cobertura   = "";
+        encuestado_cobertura  = "";
+
     }
 
     public Residente(String _id, String id_informante, String id_hogar, String id_vivienda, String numero, String c2_p202, String c2_p202_pat, String c2_p202_mat, String c2_p203, String c2_p204, String c2_p205_a, String c2_p205_m, String c2_p206, String c2_p207, String c2_p207_o, String c2_p208, String c2_p209, String c2_p209_n, String c2_p209_p, String c2_p209_pos, String c2_p210, String c2_p210_n, String c2_p210_p, String c2_p210_pos, String c2_p211, String c2_p211_nom, String c2_p211_pos, String c2_p211_1, String c2_p211_1_o, String c2_p212, String COB200, String encuestado_cobertura) {
@@ -381,6 +385,15 @@ public class Residente {
         this.c2_p211_pos = c2_p211_pos;
     }
 
+    public String getP200_aportante(){
+        return p200_aportante;
+    }
+
+    public void setP200_aportante(String p200_aportante) {
+        this.p200_aportante = p200_aportante;
+    }
+
+
     public ContentValues toValues(){
         ContentValues contentValues = new ContentValues();
         contentValues.put(SQLConstantes.residentes_id,_id);
@@ -413,6 +426,7 @@ public class Residente {
         contentValues.put(SQLConstantes.residentes_c2_p211_1,c2_p211_1);
         contentValues.put(SQLConstantes.residentes_c2_p211_1_o,c2_p211_1_o);
         contentValues.put(SQLConstantes.residentes_c2_p212,c2_p212);
+        contentValues.put(SQLConstantes.residentes_p200_aportante,p200_aportante);
         contentValues.put(SQLConstantes.residentes_c2_OBS200,OBS200);
         contentValues.put(SQLConstantes.residentes_COB200,COB200);
         contentValues.put(SQLConstantes.residentes_encuestado_cobertura,encuestado_cobertura);

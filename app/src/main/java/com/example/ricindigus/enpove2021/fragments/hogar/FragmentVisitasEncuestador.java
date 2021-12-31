@@ -60,6 +60,7 @@ import com.example.ricindigus.enpove2021.modelo.pojos.ResVisitaEncuestador;
 import com.example.ricindigus.enpove2021.modelo.pojos.Residente;
 import com.example.ricindigus.enpove2021.modelo.pojos.VisitaEncuestador;
 
+import com.example.ricindigus.enpove2021.util.AppConfiguration;
 import com.example.ricindigus.enpove2021.util.FragmentPagina;
 import com.example.ricindigus.enpove2021.util.InputFilterSoloLetras;
 import com.example.ricindigus.enpove2021.util.UtilsMethods;
@@ -169,7 +170,7 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
     int ING_NO_LAB3=0;
     int ING_NO_LAB4=0;
 
-    String ING_NO_LAB;
+    String ING_NO_LAB ="";
 
 
 
@@ -181,6 +182,8 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
 
     String p212;
     String p208;
+    String radiogroup;
+    String _id;
 
 
 
@@ -207,7 +210,9 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
 
         modulo6s = new ArrayList<>();
         residentes = new ArrayList<>();
+
         residentesedad = new ArrayList<>();
+        ((AppConfiguration) context.getApplicationContext()).setResidentesedad(residentesedad);
 
 
         cargarDatos1();
@@ -231,6 +236,11 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
             Log.e("migro?",""+p208);
             Log.e("edad",""+edad);
         }
+
+        ((AppConfiguration) context.getApplicationContext()).setResidentesedad(residentesedad);
+
+        Log.e("AppConfiguratio","getResisendets().size: "+((AppConfiguration) context.getApplicationContext()).getResidentesedad().size());
+
         Log.e("conteo1p208",""+conteo1);
         Log.e("conteo2p208",""+conteo2);
         Log.e("conteoedad",""+conteoedad);
@@ -1220,26 +1230,34 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
                 cursor.moveToPosition(posicion);
 
 
-
-
                 Button btnFinalizarIngreso = alertDialog.getButton(AlertDialog.BUTTON_POSITIVE);
                 btnFinalizarIngreso.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
 
-                     /*   String P200_APORTANTE = radioGroup.indexOfChild(radioGroup.findViewById(radioGroup.getCheckedRadioButtonId()))+"";
+                        for(Residente r: ((AppConfiguration) context.getApplicationContext()).getResidentesedad()){
+                            radiogroup = r.p200_aportante;
+                            _id = r.get_id();
 
-                        Data data = new Data(context);
-                        data.open();
-                        ContentValues contentValues = new ContentValues();
-                        contentValues.put(SQLConstantes.residentes_p200_aportante,P200_APORTANTE);
-                        data.actualizarElemento(getNombreTabla(),contentValues,idEncuestado);*/
+                            Data data = new Data(context);
+                            data.open();
+                            ContentValues contentValues = new ContentValues();
+                            contentValues.put(SQLConstantes.residentes_p200_aportante,radiogroup);
+                            data.actualizarElemento(SQLConstantes.tablaresidentes,contentValues,_id);
+
+                            Log.e("GUARDADO", ""+r.getP200_aportante());
+                            Log.e("NOMBRERESIDENTE", ""+r.getC2_p202());
 
 
+                            data.close();
+                        }
 
+                        alertDialog.dismiss();
 
                     }
                 });
+
+
 
             }
 
@@ -2157,6 +2175,7 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
     public String getNombreTabla() {
         return null;
     }
+
 
 
     public String checkDigito (int number) {

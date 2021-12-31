@@ -10,12 +10,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import com.example.ricindigus.enpove2021.R;
 import com.example.ricindigus.enpove2021.modelo.DAOUtils;
+import com.example.ricindigus.enpove2021.modelo.Data;
 import com.example.ricindigus.enpove2021.modelo.pojos.Residente;
+import com.example.ricindigus.enpove2021.util.AppConfiguration;
 import com.example.ricindigus.enpove2021.util.UtilsMethods;
 
 import java.util.ArrayList;
@@ -96,14 +99,19 @@ public class HogarMixtoAdapter extends RecyclerView.Adapter<HogarMixtoAdapter.Vi
                 holder.txtLlegoVenezuela.setText("NO");
             else holder.txtLlegoVenezuela.setText("-----");
 
-
-
+            if( residentes.get(position).getP200_aportante() != null && !residentes.get(position).getP200_aportante().equals("")){
+                ((RadioButton)holder.RadioIngresos.getChildAt(Integer.parseInt(
+                        residentes.get(position).getP200_aportante()
+                ))).setChecked(true);
+            }
 
             holder.RadioIngresos.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 int seleccionado = group.indexOfChild(group.findViewById(checkedId));
                 Log.e("RADIO",""+residentes.get(position).get_id()+":"+seleccionado);
+                residentes.get(position).p200_aportante = ""+seleccionado;
+                ((AppConfiguration) context.getApplicationContext()).setResidentesedad(residentes);
 
             }
             });
@@ -213,6 +221,8 @@ public class HogarMixtoAdapter extends RecyclerView.Adapter<HogarMixtoAdapter.Vi
             txtEstadoCivil = itemView.findViewById(R.id.item_hogarmixto_estado_civil);
             txtLlegoVenezuela = itemView.findViewById(R.id.item_hogarmixto_llego_venezuela);
             RadioIngresos = itemView.findViewById(R.id.item_hogarmixto_ingresos);
+
+
           /*  txtCobertura = itemView.findViewById(R.id.item_residente_cobertura);
             txtResultado = itemView.findViewById(R.id.item_residente_resultado);
             ivCapitulo200 = itemView.findViewById(R.id.item_cobertura_200);

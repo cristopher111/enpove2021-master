@@ -256,6 +256,7 @@ public class XMLConstantes {
     public static final String P211_1 = "P211_1";
     public static final String P211_1_O = "P211_1_O";
     public static final String P212 = "P212";
+    public static final String P200_APORTANTE = "P200_APORTANTE";
     public static final String OBS_200 = "OBS_200";
     public static final String EMAIL = "EMAIL";
 

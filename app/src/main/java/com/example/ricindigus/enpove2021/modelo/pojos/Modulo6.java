@@ -227,6 +227,8 @@ public class Modulo6 {
 
 
 
+
+
     private String obs_cap6;
     private String COB600;
 
@@ -452,6 +454,7 @@ public class Modulo6 {
         c6_p639_2_monto="";
         obs_cap6= "";
         COB600= "0";
+
     }
 
     public String get_id() {
@@ -2173,6 +2176,8 @@ public class Modulo6 {
     public void setC6_p611_cod(String c6_p611_cod) {
         this.c6_p611_cod = c6_p611_cod;
     }
+
+
 
     public ContentValues toValues(){
         ContentValues contentValues = new ContentValues();
