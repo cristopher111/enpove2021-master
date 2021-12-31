@@ -363,6 +363,74 @@ public class Data {
         return marco;
     }
 
+    public ArrayList<Marco> getAllSegmentoViviendas(String idSegmento){
+        ArrayList<Marco> listaViviendas= new ArrayList<>();
+        String[] whereArgs = new String[]{idSegmento};
+        Cursor cursor = null;
+        try{
+            cursor = sqLiteDatabase.query(SQLConstantes.tablamarco,null,SQLConstantes.WHERE_CLAUSE_SEGMENTO,whereArgs,null,null,null);
+            while (cursor.moveToNext()){
+                Marco marco = new Marco();
+                marco.set_id(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_id)));
+                marco.setAnio(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_anio)));
+                marco.setMes(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_mes)));
+                marco.setPeriodo(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_periodo)));
+                marco.setConglomerado(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_conglomerado)));
+                marco.setCodccpp(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_codccpp)));
+                marco.setNomccpp(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_nomccpp)));
+                marco.setNorden(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_norden)));
+                marco.setZona(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_zona)));
+                marco.setManzana_id(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_manzana_id)));
+                marco.setTipvia(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_tipvia)));
+                marco.setNomvia(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_nomvia)));
+                marco.setNropta(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_nropta)));
+                marco.setLote(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_lote)));
+                marco.setPiso(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_piso)));
+                marco.setMza(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_mza)));
+                marco.setBlock(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_block)));
+                marco.setInterior(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_interior)));
+                marco.setKm(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_km)));
+                marco.setCcdd(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_ccdd)));
+                marco.setDepartamento(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_departamento)));
+                marco.setCcpp(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_ccpp)));
+                marco.setProvincia(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_provincia)));
+                marco.setCcdi(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_ccdi)));
+                marco.setDistrito(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_distrito)));
+                marco.setUsuario_id(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_usuario_id)));
+                marco.setUsuario_sup_id(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_usuario_sup_id)));
+                marco.setEstado(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_estado)));
+                marco.setNro_selec_vivienda(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_nro_selec_vivienda)));
+                marco.setTipo_selec_vivienda(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_tipo_selec_vivienda)));
+                marco.setVivienda_reemplazo(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_vivienda_reemplazo)));
+                marco.setTipo(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_tipo)));
+                marco.setNroVivienda(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_nroVivienda)));
+                marco.setNroSegmento(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_nroSegmento)));
+                marco.setMarcoProviene(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_marcoProviene)));
+                marco.setEstrato(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_estrato)));
+                marco.setObservaciones(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_observaciones)));
+                marco.setNroPuerta2(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_nroPuerta2)));
+                marco.setJefeHogar(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_jefeHogar)));
+                marco.setTelefono(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_telefono)));
+                marco.setCorreo(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_correo)));
+                marco.setAerInicial(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_aerInicial)));
+                marco.setAerFinal(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_aerFinal)));
+                marco.setCono(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_cono)));
+                marco.setArea(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_area)));
+                marco.setAreaEncuesta(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_areaEncuesta)));
+                marco.setRegion(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_region)));
+                marco.setDominio(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_dominio)));
+                marco.setIdCarga(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_idCarga)));
+                marco.setFrente(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_frente)));
+                marco.setLatitud(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_latitud)));
+                marco.setLongitud(cursor.getString(cursor.getColumnIndex(SQLConstantes.marco_longitud)));
+                listaViviendas.add(marco);
+            }
+        }finally{
+            if(cursor != null) cursor.close();
+        }
+        return listaViviendas;
+    }
+
 
     public ArrayList<ItemMarco> getListMarco(String idUsuario){
         ArrayList<ItemMarco> itemMarcos = new ArrayList<>();
