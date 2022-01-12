@@ -2127,7 +2127,7 @@ public class Data {
         }finally{
             if(cursor != null) cursor.close();
         }
-        return existe;
+       return existe;
     }
 
     public void actualizarElemento(String nombreTabla, ContentValues contentValues, String idEncuestado){
@@ -2184,7 +2184,12 @@ public class Data {
             ocultar = true;
         return ocultar;
     }
-
+/////////////AGREGADO 6/01/21
+    public void eliminarTabla(String tabla){
+        String[] whereArgs = new String[]{null};
+        sqLiteDatabase.delete(tabla,SQLConstantes.WHERE_CLAUSE_ID,whereArgs);
+    }
+////////////////////////////////////
     public void eliminarDato(String tabla, String id){
         String[] whereArgs = new String[]{id};
         sqLiteDatabase.delete(tabla,SQLConstantes.WHERE_CLAUSE_ID,whereArgs);

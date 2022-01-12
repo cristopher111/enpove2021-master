@@ -317,8 +317,8 @@
     <string name="modulo_1_p110_sp3">3.¿Licuadora?</string>
     <string name="modulo_1_p110_sp4">4.¿Plancha eléctrica?</string>
     <string name="modulo_1_p110_sp5">5.¿Computadora/laptop/tableta? </string>
-    <string name="modulo_1_p110_sp6">6.¿Telefono celular? </string>
-    <string name="modulo_1_p110_sp7">7.¿Telefono fijo?</string>
+    <string name="modulo_1_p110_sp6">6.¿Teléfono celular? </string>
+    <string name="modulo_1_p110_sp7">7.¿Teléfono fijo?</string>
     <string name="modulo_1_p110_sp8">8.¿Radio?</string>
     <string name="modulo_1_p110_sp9">9.¿Refrigeradora/congeladora?</string>
     <string name="modulo_1_p110_sp10">10.¿Lavadora de ropa?</string>
@@ -672,7 +672,7 @@
     <string name="modulo_3_p308_ind">(Espere la respuesta y seleccione solo un código)</string>
     <string name="modulo_3_p308_sp1">1.Sí, solicité refugio, decisión pendiente</string>
     <string name="modulo_3_p308_sp2">2.Sí, solicité pero abandoné mi solicitud</string>
-    <string name="modulo_3_p308_sp3">3.Sí, soy refugiado reconocido, con carnet de extranjería</string>
+    <string name="modulo_3_p308_sp3">3.Sí, soy refugiado reconocido, con carné de extranjería</string>
     <string name="modulo_3_p308_sp4">4.Sí, pero fue denegada</string>
     <string name="modulo_3_p308_sp5">5.No solicité refugio</string>
 
@@ -690,9 +690,9 @@
     <string name="modulo_3_p309_especifique">Especifique</string>
 
 
-    <string name="modulo_3_p309_1">¿Por qué motivo?</string>
+    <string name="modulo_3_p309_1">No he necesitado ¿Por qué motivo?</string>
     <string name="modulo_3_p309_1_ind">(Marque una alternativa)</string>
-    <string name="modulo_3_p309_1_sp1">1.Cuenta con Carnet de Extranjería</string>
+    <string name="modulo_3_p309_1_sp1">1.Cuenta con Carné de Extranjería</string>
     <string name="modulo_3_p309_1_sp2">2.Cuenta con DNI</string>
     <string name="modulo_3_p309_1_sp3">3.Otro</string>
     <string name="modulo_3_p309_1_especifique">Especifique</string>

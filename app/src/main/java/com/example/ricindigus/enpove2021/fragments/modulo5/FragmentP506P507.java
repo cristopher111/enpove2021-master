@@ -212,7 +212,7 @@ public class FragmentP506P507 extends FragmentPagina {
         if(validar_P506()) m5_p506_linearlayout.setVisibility(View.VISIBLE);
         else {limpiar_p506();m5_p506_linearlayout.setVisibility(View.GONE);}
         //P506A
-        m5_p506a_linearlayout.setVisibility(View.GONE);
+        //m5_p506a_linearlayout.setVisibility(View.GONE);
         //P507
         if(validar_P507()) m5_p507_linearlayout.setVisibility(View.VISIBLE);
         else {limpiar_p507();m5_p507_linearlayout.setVisibility(View.GONE);}

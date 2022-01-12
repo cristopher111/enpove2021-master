@@ -673,12 +673,12 @@ AgregarResidenteActivity extends AppCompatActivity implements InterfazOperacione
                 mostrarMensaje("PREGUNTA 204: DEBE INDICAR EL SEXO");
                 return false;
             }
-            if (Integer.parseInt(numero) > 1) {
+           /* if (Integer.parseInt(numero) > 1) {
                 if (c2_p204 == Integer.parseInt(sexoJefeHogar) && c2_p203 == 2) {
                     mostrarMensaje("PREGUNTA 204: EL SEXO DEL JEFE(A) DEL HOGAR Y ESPOSO(A) /COMPAÑERO(A) DEBEN SER DIFERENTES");
                     return false;
                 }
-            }
+            }*/
             //P205
             if (c2_p205_a==0 && c2_p205_m== -1) {
                 mostrarMensaje("PREGUNTA 205: SOLO DEBE HABER INFORMACIÓN DE LA EDAD EN AÑOS O MESES");

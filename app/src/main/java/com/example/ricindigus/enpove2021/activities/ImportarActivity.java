@@ -139,6 +139,36 @@ public class ImportarActivity extends AppCompatActivity {
                         .setPositiveButton("Sí",
                                 new DialogInterface.OnClickListener() {
                                     public void onClick(DialogInterface dialog, int id) {
+                                        ///////////AGREGADO 6/01/21////////
+                                        Data data = new Data(getApplicationContext());
+                                        data.open();
+                                        data.eliminarTabla(SQLConstantes.tablacaratula);
+                                        data.eliminarTabla(SQLConstantes.tablamarco);
+                                        data.eliminarTabla(SQLConstantes.tablahogares);
+                                        data.eliminarTabla(SQLConstantes.tablavisitasencuestador);
+                                        data.eliminarTabla(SQLConstantes.tablavisitassupervisor);
+                                        data.eliminarTabla(SQLConstantes.tablaresultadoencuestador);
+                                        data.eliminarTabla(SQLConstantes.tablaresultadosupervisor);
+                                        data.eliminarTabla(SQLConstantes.tablaresultadoresidente);
+                                        data.eliminarTabla(SQLConstantes.tablafuncionarios);
+                                        data.eliminarTabla(SQLConstantes.tablamodulo1h);
+                                        data.eliminarTabla(SQLConstantes.tablamodulo1v);
+                                        data.eliminarTabla(SQLConstantes.tablaresidentes);
+                                        data.eliminarTabla(SQLConstantes.tablamodulo3);
+                                        data.eliminarTabla(SQLConstantes.tablam3p309rutas);
+                                        data.eliminarTabla(SQLConstantes.tablam3p318personas);
+                                        data.eliminarTabla(SQLConstantes.tablamodulo4);
+                                        data.eliminarTabla(SQLConstantes.tablamodulo5);
+                                        data.eliminarTabla(SQLConstantes.tablamodulo6);
+                                        data.eliminarTabla(SQLConstantes.tablamodulo7);
+                                        data.eliminarTabla(SQLConstantes.tablamodulo8);
+                                        data.eliminarTabla(SQLConstantes.tablafragmentsvivienda);
+                                        data.eliminarTabla(SQLConstantes.tablafragmentshogar);
+                                        data.eliminarTabla(SQLConstantes.tablafragments);
+                                        data.eliminarTabla(SQLConstantes.tablalayouts);
+                                        data.eliminarTabla(SQLConstantes.tablacoberturafragments);
+                                        data.close();
+                                        ////////////////////////////////////////////
                                         String nombreArchivo = txtArchivo.getText().toString();
                                         parseXMLImportar(nombreArchivo);
                                         dialog.dismiss();

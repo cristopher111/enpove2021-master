@@ -37,6 +37,7 @@ import com.example.ricindigus.enpove2021.modelo.Data;
 import com.example.ricindigus.enpove2021.modelo.SQLConstantes;
 import com.example.ricindigus.enpove2021.modelo.pojos.M3Pregunta309;
 import com.example.ricindigus.enpove2021.modelo.pojos.Modulo3;
+import com.example.ricindigus.enpove2021.modelo.pojos.Residente;
 import com.example.ricindigus.enpove2021.util.FragmentPagina;
 import com.example.ricindigus.enpove2021.util.InputFilterSoloLetras;
 import com.example.ricindigus.enpove2021.util.NumericKeyBoardTransformationMethod;
@@ -59,6 +60,7 @@ public class FragmentP309 extends FragmentPagina {
     EditText mod3_309_edittext_C3_P309_O,mod3_309_1_edittext_C3_P309_O;
     LinearLayout layoutp309, layoutp309_1;
 
+    String p307;
     String c3_p309;
     String c3_p309_o;
     String c3_p309_1;
@@ -83,6 +85,14 @@ public class FragmentP309 extends FragmentPagina {
         this.idEncuestado = idEncuestado;
         this.idVivienda = idVivienda;
         this.contexto = contexto;
+
+        Data data = new Data(contexto);
+        data.open();
+        Modulo3 modulo3 = data.getModulo3(idEncuestado);
+        p307 = modulo3.getC3_p307_1();
+        data.close();
+
+        Log.e("307", ""+p307);
     }
 
     @Override
@@ -291,6 +301,8 @@ public class FragmentP309 extends FragmentPagina {
          */
     }
 
+
+
     @Override
     public boolean validarDatos() {
         llenarVariables();
@@ -322,6 +334,8 @@ public class FragmentP309 extends FragmentPagina {
                     mostrarMensaje("ERROR  “P309A. EL ESPECIFIQUE NO DEBE SER MENOR A 3 CARACTERES”");return false;
                 }
             }
+            if(c3_p309_1.equals("2") && p307.equals("15")){mostrarMensaje("VERIFICAR EN P307 INDICÓ QUE NO TIENE PERMISO MIGRATORIO PERO EN P309 INDICA QUE TIENE DNI");return true;}
+
 
         }else{
             c3_p309_1 = "";

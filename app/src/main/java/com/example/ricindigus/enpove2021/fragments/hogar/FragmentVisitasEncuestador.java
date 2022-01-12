@@ -179,10 +179,15 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
     int conteo1 = 0;
     int conteo2 = 0;
     int conteoedad = 0;
+    int conteonumerorecycler = 0;
 
+    int conteoradiorecycler = 0;
+
+    String migro;
     String p212;
     String p208;
-    String radiogroup;
+    String radiogroup="";
+    String obs="";
     String _id;
 
 
@@ -226,12 +231,17 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
             }
             if(p208.equals("2")){
                 conteo2++;
+
             }
             if(edad >= 5){
                 conteoedad++;
-                r.setNumero(String.valueOf(conteoedad));
-                residentesedad.add(r);
+                if(p208.equals("2")){
+                conteonumerorecycler++;
+                r.setNumero(String.valueOf(conteonumerorecycler));
+                residentesedad.add(r);}
             }
+
+
 
             Log.e("migro?",""+p208);
             Log.e("edad",""+edad);
@@ -1173,22 +1183,27 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
                 btnFinalizarIngreso.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                   /*   ContentValues contentValues = new ContentValues();
-                        contentValues.put(SQLConstantes.caratula_observaciones,edtObsIngresos.getText().toString());
 
-                        dataTablas = new Data(context);
-                        dataTablas.open();
-                        cursor.moveToPosition(posicion);
-                        //actualiza la visita con los datos de finalizacion
-                        dataTablas.actualizarElemento(getIdTablaOBS100(),contentValues,cursor.getString(cursor.getColumnIndex("_id")));
-                        dataTablas.close();  */
+                        obs = edtObsIngresos.getText().toString();
+
+                        if(obs.equals("")){
+                            mostrarMensaje( "DEBE INFORMAR COMO LOGRAN CUBRIR SUS GASTOS DEL HOGAR");
+
+                        }else{
+                            dataTablas = new Data(context);
+                            dataTablas.open();
+                            ContentValues contentValues = new ContentValues();
+                            contentValues.put(SQLConstantes.modulo1_h_COB100B,edtObsIngresos.getText().toString());
+                            dataTablas.actualizarElemento(SQLConstantes.tablamodulo1h,contentValues,idHogar);
+                            dataTablas.close();
+                            alertDialog.dismiss();
+                            mostrarMensaje("INFORMACION GUARDADA");
+                        }
 
                     }
                 });
 
             }
-
-
 
         });
         alertDialog.show();
@@ -1234,35 +1249,76 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
                 btnFinalizarIngreso.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-
-                        for(Residente r: ((AppConfiguration) context.getApplicationContext()).getResidentesedad()){
-                            radiogroup = r.p200_aportante;
-                            _id = r.get_id();
-
-                            Data data = new Data(context);
-                            data.open();
-                            ContentValues contentValues = new ContentValues();
-                            contentValues.put(SQLConstantes.residentes_p200_aportante,radiogroup);
-                            data.actualizarElemento(SQLConstantes.tablaresidentes,contentValues,_id);
-
-                            Log.e("GUARDADO", ""+r.getP200_aportante());
-                            Log.e("NOMBRERESIDENTE", ""+r.getC2_p202());
+                      //  String radio = radioGroup.indexOfChild(radioGroup.findViewById(radioGroup.getCheckedRadioButtonId()))+"";
+                        //Log.e("radiovalor",""+radio);
+                            conteoradiorecycler = 0; //TOTAL MARCADOS RADIOS = 1
+                            int value = 0; //TOTAL FILAS = 2
 
 
-                            data.close();
-                        }
+                            for (Residente r : ((AppConfiguration) context.getApplicationContext()).getResidentesedad()) {
+                                value++;
+                            }
 
+                            for (Residente r : ((AppConfiguration) context.getApplicationContext()).getResidentesedad()) {
+
+                                radiogroup = r.p200_aportante;
+
+
+                                _id = r.get_id();
+
+                                if(radiogroup == null){
+                                    radiogroup = "";
+                                }
+
+                                if(radiogroup.equals("1") || radiogroup.equals("2")){
+                                    conteoradiorecycler++;
+                                }
+
+                                Log.e("conteoradiorecycler",""+conteoradiorecycler);
+
+
+                               /* if (!radiogroup.equals("") && conteoradiorecycler == value ){
+
+                                    Data data = new Data(context);
+                                    data.open();
+                                    ContentValues contentValues = new ContentValues();
+                                    contentValues.put(SQLConstantes.residentes_p200_aportante, radiogroup);
+                                    data.actualizarElemento(SQLConstantes.tablaresidentes, contentValues, _id);
+
+
+                                    Log.e("GUARDADO", "" + r.getP200_aportante());
+                                    Log.e("NOMBRERESIDENTE", "" + r.getC2_p202());
+
+
+                                    data.close();
+                                    mostrarMensaje("INFORMACION DE LOS HOGARES SIN INGRESOS GUARDADA");
+                                    alertDialog.dismiss();
+
+                                }else{
+                                    mostrarMensaje("DEBE INFORMAR SI TIENEN INGRESOS LOS MIEMBROS DEL HOGAR NO MIGRANTES");
+                                }     */
+
+                            }
+
+                        if (!radiogroup.equals("") && conteoradiorecycler == value ){
+
+                        Data data = new Data(context);
+                        data.open();
+                        ContentValues contentValues = new ContentValues();
+                        contentValues.put(SQLConstantes.residentes_p200_aportante, radiogroup);
+                        data.actualizarElemento(SQLConstantes.tablaresidentes, contentValues, _id);
+
+                     //   Log.e("GUARDADO", "" + r.getP200_aportante());
+                     //   Log.e("NOMBRERESIDENTE", "" + r.getC2_p202());
+                        data.close();
+                        mostrarMensaje("INFORMACION DE LOS HOGARES SIN INGRESOS GUARDADA");
                         alertDialog.dismiss();
-
+                        }else{
+                            mostrarMensaje("DEBE INFORMAR SI TIENEN INGRESOS LOS MIEMBROS DEL HOGAR NO MIGRANTES");
+                        }
                     }
                 });
-
-
-
             }
-
-
-
         });
         alertDialog.show();
 
@@ -1347,8 +1403,8 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
                     txtFechaProxVisita.setText("");
                     txtHoraProxVisita.setText("");
                 }
-                if(pos == 8 || pos == 9){
-                    if(pos==8){ Toast.makeText(getContext(),"Especifique:¿Cuánto tiempo  permaneció en la vivienda?",Toast.LENGTH_LONG).show();}
+                if(pos == 9 ){ ///////SE QUITO || POS == 8 31/12/21
+                    if(pos==9){ Toast.makeText(getContext(),"Especifique:¿Cuánto tiempo  permaneció en la vivienda?",Toast.LENGTH_LONG).show();} //SE CAMBIO POS==8 POR POS==9
                     edtEspecifique.setEnabled(true);
                     cardViewEspecifique.setVisibility(View.VISIBLE);
                 }else{

@@ -7,7 +7,7 @@
         <item
             android:id="@+id/nav_visita_encuestador"
             android:icon="@drawable/visita_encuestador"
-            android:title="Visita Encuestador" />
+            android:title="Visita Entrevistador" />
         <item
             android:id="@+id/nav_visita_supervisor"
             android:icon="@drawable/visita_supervisor"

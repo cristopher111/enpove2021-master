@@ -565,15 +565,15 @@ public class FragmentCaratula extends FragmentPagina implements GoogleApiClient.
         boolean result=false;
         int numero;
         String piso = cadena.trim();
-        if(piso.length()==1) {
+        if(piso.length()==1 || (piso.equals("S1") || piso.equals("S2"))) {
             try {
                 //result = cadena.matches("[+-]?\\d*(\\.\\d+)?");
-                result = piso.matches("a|A|s|S|[1-9].*");
+                result = piso.matches("a|A|s|S|s1|S1|s2|S2|[1-9].*");
             } catch (Exception e) {
                 // TODO: handle exception
             }
         }
-        if(piso.length()==2) {
+        if(piso.length()==2 && !piso.equals("S2")) {
             try {
                 numero = Integer.parseInt(piso);
                 result = (numero<=15); //

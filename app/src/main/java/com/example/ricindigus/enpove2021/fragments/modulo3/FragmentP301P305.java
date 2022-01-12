@@ -447,7 +447,7 @@ public class FragmentP301P305 extends FragmentPagina {
                 if(Integer.parseInt(c3_p303_m)<Integer.parseInt(c3_p301_m)){
                     mostrarMensaje("PREGUNTA 303: EL AÑO DE INGRESO AL PERÚ  ES MENOR A LA FECHA DE NACIMIENTO DECLARADA");return false;
                 }
-            }else if(Integer.parseInt(p303_a)==2021 && Integer.parseInt(c3_p303_m)>Integer.parseInt(UtilsMethods.getFechaNow().getMesInicio())){
+            }else if(Integer.parseInt(p303_a)==2022 && Integer.parseInt(c3_p303_m)>Integer.parseInt(UtilsMethods.getFechaNow().getMesInicio())){
                     mostrarMensaje("PREGUNTA 303: EL MES DE INGRESO AL PERÚ  NO PUEDE SER POSTERIOR AL MES ACTUAL");return false;
             }
         }
