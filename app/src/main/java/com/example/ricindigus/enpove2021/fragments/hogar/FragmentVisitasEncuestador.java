@@ -165,13 +165,23 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
     int p638m_3=0;
     int p638m_4=0;
 
-    int ING_NO_LAB1=0;
-    int ING_NO_LAB2=0;
-    int ING_NO_LAB3=0;
-    int ING_NO_LAB4=0;
+//////////ING NO LAB//////////////
+    String ING_NO_LAB1 ="";
+    String ING_NO_LAB2 ="";
+    String ING_NO_LAB3 ="";
+    String ING_NO_LAB4 ="";
 
-    String ING_NO_LAB ="";
+////////////ING DEPENDIENTE
+    String ING_DEP_MON ="";
+    String ING_DEP_ESP ="";
 
+/////////// ING INDEPENDIENTE
+    String ING_INDEP_MON ="";
+    String ING_INDEP_ESP ="";
+
+/////////// ING SECUNDARIO
+    String ING_SEC_MON ="";
+    String ING_SEC_ESP ="";
 
 
     int edad = 0;
@@ -182,6 +192,8 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
     int conteonumerorecycler = 0;
 
     int conteoradiorecycler = 0;
+
+    int conteoMONTOS = 0;
 
     String migro;
     String p212;
@@ -256,15 +268,44 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
         Log.e("conteoedad",""+conteoedad);
 
 
-
-
-
         for (Modulo6 m : modulo6s){
-            ING_NO_LAB = m.getING_NO_LAB1P638();
+
+            ING_NO_LAB1 = m.getING_NO_LAB1P638();
+            ING_NO_LAB2 = m.getING_NO_LAB2P638();
+            ING_NO_LAB3 = m.getING_NO_LAB3P638();
+            ING_NO_LAB4 = m.getING_NO_LAB4P638();
+
+            ING_DEP_MON = m.getING_DEP_MON621();
+            ING_DEP_ESP = m.getING_DEP_ESP621();
+
+            ING_INDEP_MON = m.getING_INDEP_MONP623();
+            ING_INDEP_ESP = m.getING_INDEP_ESPP623();
+
+            ING_SEC_MON = m.getING_SEC_MONP624();
+            ING_SEC_ESP = m.getING_SEC_ESPP624();
+
+
+
+            if(!ING_NO_LAB1.equals("") || !ING_NO_LAB2.equals("") || !ING_NO_LAB3.equals("") || !ING_NO_LAB4.equals("")
+                    || !ING_DEP_MON.equals("") || !ING_DEP_ESP.equals("") || !ING_INDEP_MON.equals("") || !ING_INDEP_ESP.equals("")
+                    || !ING_SEC_MON.equals("") || !ING_SEC_ESP.equals("")){
+
+                conteoMONTOS++;
+
+            }
+            Log.e("CONTEOMONTOS",""+conteoMONTOS);
+
+
             Log.e("modulo6_1",""+m.get_id()+":"+ m.getING_NO_LAB1P638());
             Log.e("modulo6_2",""+m.get_id()+":"+ m.getING_NO_LAB2P638());
             Log.e("modulo6_3",""+m.get_id()+":"+ m.getING_NO_LAB3P638());
             Log.e("modulo6_4",""+m.get_id()+":"+ m.getING_NO_LAB4P638());
+            Log.e("ING_DEP_MON",""+m.get_id()+":"+ m.getING_DEP_MON621());
+            Log.e("ING_DEP_ESP",""+m.get_id()+":"+ m.getING_DEP_ESP621());
+            Log.e("ING_INDEP_MON",""+m.get_id()+":"+ m.getING_INDEP_MONP623());
+            Log.e("ING_INDEP_ESP",""+m.get_id()+":"+ m.getING_INDEP_ESPP623());
+            Log.e("ING_SEC_MON",""+m.get_id()+":"+ m.getING_SEC_MONP624());
+            Log.e("ING_SEC_ESP",""+m.get_id()+":"+ m.getING_SEC_ESPP624());
         }
 
 
@@ -321,59 +362,6 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
 
 
 
-
- /*       /// TRAYENDO p638_1_1 (frecuencia)
-        p638_1_1 = modulo6.getC6_p638_1_frec();
-        p638_2_1 = modulo6.getC6_p638_2_frec();
-        p638_3_1 = modulo6.getC6_p638_3_frec();
-        p638_4_1 = modulo6.getC6_p638_4_frec();
-
-        //// TRAYENDO p638_1_2 (montos)
-
-        p638m_1_2 = modulo6.getC6_p638_1_monto();
-        p638m_2_2 = modulo6.getC6_p638_2_monto();
-        p638m_3_2 = modulo6.getC6_p638_3_monto();
-        p638m_4_2 = modulo6.getC6_p638_4_monto();
-
-
-        Log.e("spinner1",""+p638_1_1);
-        Log.e("spinner2",""+p638_2_1);
-        Log.e("spinner3",""+p638_3_1);
-        Log.e("spinner4",""+p638_4_1);
-
-        ////TRASNFORMANDO A ENTEROS LOS MONTOS (P638_1_2)
-        p638m_1 = Integer.parseInt(p638m_1_2.trim());
-        p638m_2 = Integer.parseInt(p638m_1_2.trim());
-        p638m_3 = Integer.parseInt(p638m_1_2.trim());
-        p638m_4 = Integer.parseInt(p638m_1_2.trim());
-
-        ////DANDO VALORES ING_NO_LAB
-
-        if(p638_1_1.equals("")) ING_NO_LAB1 = 0;
-        if(p638_1_1.equals("1")) ING_NO_LAB1 = p638m_1;
-        if(p638_1_1.equals("2")) ING_NO_LAB1 = p638m_1 /2;
-        if(p638_1_1.equals("3")) ING_NO_LAB1 = p638m_1 /6;
-        if(p638_1_1.equals("4")) ING_NO_LAB1 = p638m_1 /12;
-
-        if(p638_2_1.equals("")) ING_NO_LAB2 = 0;
-        if(p638_2_1.equals("1")) ING_NO_LAB2 = p638m_2;
-        if(p638_2_1.equals("2")) ING_NO_LAB2 = p638m_2 /2;
-        if(p638_2_1.equals("3")) ING_NO_LAB2 = p638m_2 /6;
-        if(p638_2_1.equals("4")) ING_NO_LAB2 = p638m_2 /12;
-
-        if(p638_3_1.equals("")) ING_NO_LAB3 = 0;
-        if(p638_3_1.equals("1")) ING_NO_LAB3 = p638m_3;
-        if(p638_3_1.equals("2")) ING_NO_LAB3 = p638m_3 /2;
-        if(p638_3_1.equals("3")) ING_NO_LAB3 = p638m_3 /6;
-        if(p638_3_1.equals("4")) ING_NO_LAB3 = p638m_3 /12;
-
-        if(p638_4_1.equals("")) ING_NO_LAB4 = 0;
-        if(p638_4_1.equals("1")) ING_NO_LAB4 = p638m_4;
-        if(p638_4_1.equals("2")) ING_NO_LAB4 = p638m_4 /2;
-        if(p638_4_1.equals("3")) ING_NO_LAB4 = p638m_4 /6;
-        if(p638_4_1.equals("4")) ING_NO_LAB4 = p638m_4 /12;
-
-        ING_NOLAB = ING_NO_LAB1 + ING_NO_LAB2 + ING_NO_LAB3 + ING_NO_LAB4; */
 
         double A = 5.7;
         double B = 6.22;
@@ -981,7 +969,9 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
                             if(mensaje.equals("")) mensaje = "LA HORA DE FIN DEBE SER MAYOR A LA DE INICIO";
                         }
                         /////////ABRIR EL OTRO ALERT DIALOG EN CASO SEA COMPLETO O INCOMPLETA//////
-                        if((spResultado.getSelectedItemPosition() == 1 || spResultado.getSelectedItemPosition() == 2) && ING_NO_LAB.equals("") ){
+                        if((spResultado.getSelectedItemPosition() == 1 || spResultado.getSelectedItemPosition() == 2) /*&& ING_NO_LAB1.equals("")&& ING_NO_LAB2.equals("")&& ING_NO_LAB3.equals("")
+                                && ING_NO_LAB4.equals("") && ING_DEP_MON.equals("") && ING_DEP_ESP.equals("") && ING_INDEP_MON.equals("")  && ING_INDEP_ESP.equals("") && ING_SEC_MON.equals("")
+                                && ING_SEC_ESP.equals("")*/ && conteoMONTOS == 0){
                             if((conteo1 > 0 && conteo2 > 0) && conteoedad > 0){
                                 HogarMixto(posicion);
                             }else if(conteo2 == 0 && conteo1 > 0){

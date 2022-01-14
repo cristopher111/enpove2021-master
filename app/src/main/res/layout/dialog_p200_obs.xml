@@ -17,12 +17,12 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
                 android:gravity="center"
                 android:textColor="@color/colorPrimaryTransparente"
                 android:textSize="@dimen/margen_large"
                 android:textStyle="bold"
-                android:text="CONSULTA A HOGAR SIN PERCEPCIÓN  DE INGRESOS"/>
+                android:text="@string/p200_obs"/>
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"

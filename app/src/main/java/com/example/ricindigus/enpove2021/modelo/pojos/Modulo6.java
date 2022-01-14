@@ -2489,5 +2489,88 @@ public class Modulo6 {
 
     }
 
+    public String getING_DEP_MON621(){
+        String ING_DEP_MON = "";
+
+        switch(c6_p621){
+            case "1":
+                ING_DEP_MON = String.valueOf(Integer.parseInt(c6_p622_mon)*30);
+                break;
+            case "2":
+                ING_DEP_MON = String.valueOf(Integer.parseInt(c6_p622_mon)*4.33);
+                break;
+            case "3":
+                ING_DEP_MON = String.valueOf(Integer.parseInt(c6_p622_mon)*2);
+                break;
+            case "4":
+                ING_DEP_MON = c6_p622_mon;
+                break;
+        }
+
+        return ING_DEP_MON;
+    }
+
+    public String getING_DEP_ESP621(){
+        String ING_DEP_ESP = "";
+
+        switch(c6_p621){
+            case "1":
+                ING_DEP_ESP = String.valueOf(Integer.parseInt(c6_p622_esp)*30);
+                break;
+            case "2":
+                ING_DEP_ESP = String.valueOf(Integer.parseInt(c6_p622_esp)*4.33);
+                break;
+            case "3":
+                ING_DEP_ESP = String.valueOf(Integer.parseInt(c6_p622_esp)*2);
+                break;
+            case "4":
+                ING_DEP_ESP = c6_p622_esp;
+                break;
+        }
+
+        return ING_DEP_ESP;
+    }
+
+    public String getING_INDEP_MONP623(){
+        String ING_INDEP_MON = "";
+
+        if(!c6_p612.equals("")){
+            ING_INDEP_MON = c6_p623_mon;
+        }
+
+        return ING_INDEP_MON;
+    }
+
+    public String getING_INDEP_ESPP623(){
+        String ING_INDEP_ESP = "";
+
+        switch(c6_p612){
+            case "1":
+                ING_INDEP_ESP = c6_p623_esp;
+                break;
+            case "2":
+                ING_INDEP_ESP = c6_p623_esp;
+                break;
+        }
+
+        return ING_INDEP_ESP;
+    }
+
+    public String getING_SEC_MONP624(){
+        String ING_SEC_MON = "";
+
+        ING_SEC_MON = c6_p624_mon;
+
+      return ING_SEC_MON;
+    }
+
+    public String getING_SEC_ESPP624(){
+        String ING_SEC_ESP = "";
+
+        ING_SEC_ESP = c6_p624_esp;
+
+        return ING_SEC_ESP;
+    }
+
 
 }

@@ -142,7 +142,7 @@ public class ImportarActivity extends AppCompatActivity {
                                         ///////////AGREGADO 6/01/21////////
                                         Data data = new Data(getApplicationContext());
                                         data.open();
-                                        data.eliminarTabla(SQLConstantes.tablacaratula);
+                                     /* data.eliminarTabla(SQLConstantes.tablacaratula);
                                         data.eliminarTabla(SQLConstantes.tablamarco);
                                         data.eliminarTabla(SQLConstantes.tablahogares);
                                         data.eliminarTabla(SQLConstantes.tablavisitasencuestador);
@@ -166,7 +166,36 @@ public class ImportarActivity extends AppCompatActivity {
                                         data.eliminarTabla(SQLConstantes.tablafragmentshogar);
                                         data.eliminarTabla(SQLConstantes.tablafragments);
                                         data.eliminarTabla(SQLConstantes.tablalayouts);
-                                        data.eliminarTabla(SQLConstantes.tablacoberturafragments);
+                                        data.eliminarTabla(SQLConstantes.tablacoberturafragments);*/
+
+                                        //
+                                        String idVivienda = txtArchivo.getText().toString();
+
+                                        data.eliminarDato(SQLConstantes.tablacaratula,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablamarco,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablahogares,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablavisitasencuestador,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablavisitassupervisor,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablaresultadoencuestador,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablaresultadosupervisor,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablaresultadoresidente,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablafuncionarios,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablamodulo1h,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablamodulo1v,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablaresidentes,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablamodulo3,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablam3p309rutas,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablam3p318personas,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablamodulo4,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablamodulo5,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablamodulo6,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablamodulo7,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablamodulo8,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablafragmentsvivienda,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablafragmentshogar,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablafragments,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablalayouts,idVivienda);
+                                        data.eliminarDato(SQLConstantes.tablacoberturafragments,idVivienda);
                                         data.close();
                                         ////////////////////////////////////////////
                                         String nombreArchivo = txtArchivo.getText().toString();

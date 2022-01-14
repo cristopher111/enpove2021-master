@@ -537,6 +537,10 @@
 
     <string name="sub_modulo_2_2">PARA 14 AÑOS Y MÁS DE EDAD</string>
 
+    <string name="p200_obs">CONSULTA A HOGAR \n SIN PERCEPCIÓN DE INGRESOS</string>
+
+
+
     <string name="modulo_2_p207">207.¿CUÁL ES SU NÚMERO DE CELULAR?</string>
     <string name="modulo_2_p207_sp1">1.El N° es</string>
     <string name="modulo_2_p207_sp2">2.No quiso dar N°</string>
