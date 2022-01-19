@@ -171,31 +171,31 @@ public class ImportarActivity extends AppCompatActivity {
                                         //
                                         String idVivienda = txtArchivo.getText().toString();
 
-                                        data.eliminarDato(SQLConstantes.tablacaratula,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablamarco,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablahogares,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablavisitasencuestador,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablavisitassupervisor,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablaresultadoencuestador,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablaresultadosupervisor,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablaresultadoresidente,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablafuncionarios,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablamodulo1h,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablamodulo1v,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablaresidentes,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablamodulo3,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablam3p309rutas,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablam3p318personas,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablamodulo4,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablamodulo5,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablamodulo6,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablamodulo7,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablamodulo8,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablafragmentsvivienda,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablafragmentshogar,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablafragments,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablalayouts,idVivienda);
-                                        data.eliminarDato(SQLConstantes.tablacoberturafragments,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablacaratula);
+                                        data.eliminarTable(SQLConstantes.tablamarco);
+                                        data.eliminarTable(SQLConstantes.tablahogares);
+                                        data.eliminarTable(SQLConstantes.tablavisitasencuestador);
+                                        data.eliminarTable(SQLConstantes.tablavisitassupervisor);
+                                        data.eliminarTable(SQLConstantes.tablaresultadoencuestador);
+                                        data.eliminarTable(SQLConstantes.tablaresultadosupervisor);
+                                        data.eliminarTable(SQLConstantes.tablaresultadoresidente);
+                                        data.eliminarTable(SQLConstantes.tablafuncionarios);
+                                        data.eliminarTable(SQLConstantes.tablamodulo1h);
+                                        data.eliminarTable(SQLConstantes.tablamodulo1v);
+                                        data.eliminarTable(SQLConstantes.tablaresidentes);
+                                        data.eliminarTable(SQLConstantes.tablamodulo3);
+                                        data.eliminarTable(SQLConstantes.tablam3p309rutas);
+                                        data.eliminarTable(SQLConstantes.tablam3p318personas);
+                                        data.eliminarTable(SQLConstantes.tablamodulo4);
+                                        data.eliminarTable(SQLConstantes.tablamodulo5);
+                                        data.eliminarTable(SQLConstantes.tablamodulo6);
+                                        data.eliminarTable(SQLConstantes.tablamodulo7);
+                                        data.eliminarTable(SQLConstantes.tablamodulo8);
+                                        data.eliminarTable(SQLConstantes.tablafragmentsvivienda);
+                                        data.eliminarTable(SQLConstantes.tablafragmentshogar);
+                                        data.eliminarTable(SQLConstantes.tablafragments);
+                                        data.eliminarTable(SQLConstantes.tablalayouts);
+                                        data.eliminarTable(SQLConstantes.tablacoberturafragments);
                                         data.close();
                                         ////////////////////////////////////////////
                                         String nombreArchivo = txtArchivo.getText().toString();
@@ -299,7 +299,7 @@ public class ImportarActivity extends AppCompatActivity {
             data.open();
             String idVivienda = txtArchivo.getText().toString();
             //insertar la caratula
-            if(!caratula.get_id().equals("")){ data.eliminarDato(SQLConstantes.tablacaratula,idVivienda);data.insertarElemento(SQLConstantes.tablacaratula,caratula.toValues()); }
+            if(!caratula.get_id().equals("")){ /*data.eliminarDato(SQLConstantes.tablacaratula,idVivienda)*/;data.insertarElemento(SQLConstantes.tablacaratula,caratula.toValues()); }
 
             if(!marco.get_id().equals("0")){
                 data.eliminarDato(SQLConstantes.tablamarco,idVivienda);data.insertarElemento(SQLConstantes.tablamarco,marco.toValues());

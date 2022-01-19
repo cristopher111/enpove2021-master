@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/TemaTextoPregunta"
-        android:text="OBSERVACIONES MODULO 1:"/>
+        android:text="OBSERVACIONES :"/>
     <LinearLayout
         android:background="@drawable/fondo_edit_text"
         android:layout_width="match_parent"
