@@ -243,8 +243,8 @@ public class UtilsMethods {
         }
         return nombreMes;
     }
-
-    public static String getPeriodoReferenciaMes(int nroMeses){
+//////////////ANTIGU0////////////////////////////////////////////////////////////
+   /* public static String getPeriodoReferenciaMes(int nroMeses){
         //PERIODO SOLO ADMITE VALORES DE 1 A 11
         String mensaje="";
         int mesInicio=0;
@@ -259,8 +259,27 @@ public class UtilsMethods {
             mensaje   = "Ingrese solo valores de 1 a 11";
         }
         return mensaje;
-    }
+    }*/
 
+ /////////////////NUEVO 26/01/2022/////////////////////////////////////////////
+
+    public static String getPeriodoReferenciaMes(int nroMeses){
+        //PERIODO SOLO ADMITE VALORES DE 1 A 11
+        String mensaje="";
+        int mesInicio=0;
+        int mesFinal = Integer.parseInt(getFechaNow().getMesInicio())-1;
+        if(Integer.parseInt(getFechaNow().getMesInicio())>nroMeses && nroMeses>0 && nroMeses<12){
+            mesInicio = Integer.parseInt(getFechaNow().getMesInicio())-nroMeses;
+            mensaje   = getMes(mesInicio)+"-"+getFechaNow().getAnioInicio()+" A "+ getMes(mesFinal)+"-"+2021;
+        }else if(Integer.parseInt(getFechaNow().getMesInicio())<=nroMeses && nroMeses>0 && nroMeses<12){
+            mesInicio = Integer.parseInt(getFechaNow().getMesInicio())-nroMeses+12;
+            mensaje   = getMes(mesInicio)+"-"+(Integer.parseInt(getFechaNow().getAnioInicio())-1)+" A "+ getMes(mesFinal)+"-"+2021;
+        }else {
+            mensaje   = "Ingrese solo valores de 1 a 11";
+        }
+        return mensaje;
+    }
+///////////////////////////////////////////////////////////////////////////////////////////
     public static String getPeriodoReferenciaMesPasado(){
         String mensaje="";
         int mesInicio= Integer.parseInt(getFechaNow().getMesInicio())-1;

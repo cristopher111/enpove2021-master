@@ -638,7 +638,7 @@ public class FragmentP301P305 extends FragmentPagina {
 
     public void showCapitulo200(){
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        builder.setMessage("LA FECHA DE NACIMIENTO NO COINCIDE CON LA EDAD (P208_A)" +
+        builder.setMessage("LA FECHA DE NACIMIENTO NO COINCIDE CON LA EDAD (P205_A)" +
                 "¿Desea corregir la edad?")
                 .setTitle("AVISO:")
                 .setCancelable(false)

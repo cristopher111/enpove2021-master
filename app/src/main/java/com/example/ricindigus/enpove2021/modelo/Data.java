@@ -2184,12 +2184,20 @@ public class Data {
             ocultar = true;
         return ocultar;
     }
-/////////////AGREGADO 6/01/21
+/////////////AGREGADO 6/01/22
     public void eliminarTabla(String tabla){
         String[] whereArgs = new String[]{null};
         sqLiteDatabase.delete(tabla,SQLConstantes.WHERE_CLAUSE_ID,whereArgs);
     }
-////////////////////////////////////
+///////////////AGREGADO 19/01/22
+    public void eliminarTable(String tabla){
+        sqLiteDatabase.execSQL("delete from"+" "+tabla);
+        Log.e("FORMA DEL STRING","Delete * from"+" "+tabla);
+    }
+
+
+
+//////////////////////////////
     public void eliminarDato(String tabla, String id){
         String[] whereArgs = new String[]{id};
         sqLiteDatabase.delete(tabla,SQLConstantes.WHERE_CLAUSE_ID,whereArgs);

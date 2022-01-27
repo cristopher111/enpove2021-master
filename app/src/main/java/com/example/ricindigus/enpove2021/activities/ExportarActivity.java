@@ -1755,7 +1755,7 @@ public class ExportarActivity extends AppCompatActivity {
             serializer.endTag("", "ENPOVE");
             serializer.endDocument();
             String result = writer.toString();
-            File nuevaCarpeta = new File(getExternalStorageDirectory(), "ENPOVE2021");
+            File nuevaCarpeta = new File(getExternalStorageDirectory(), "ENPOVE2022");
             nuevaCarpeta.mkdirs();
             File file = new File(nuevaCarpeta, nombreArchivo);
             IOHelper.writeToFile(file,result);
@@ -2772,7 +2772,7 @@ public class ExportarActivity extends AppCompatActivity {
                         exportarViviendaTablet(getTotalSeleccionadas(listaViviendas).get(i).getIdVivienda());
                         exportarViviendaServidor(getTotalSeleccionadas(listaViviendas).get(i).getIdVivienda());
                         if((getTotalSeleccionadas(listaViviendas).size()-1)==i){
-                            mensaje = "SE EXPORTO "+getTotalSeleccionadas(listaViviendas).size()+" VIVIENDA(S) EN LA CARPETA ENPOVE2021 DE LA TABLET";
+                            mensaje = "SE EXPORTO "+getTotalSeleccionadas(listaViviendas).size()+" VIVIENDA(S) EN LA CARPETA ENPOVE2022 DE LA TABLET";
                         }
                     }
                 }else{
