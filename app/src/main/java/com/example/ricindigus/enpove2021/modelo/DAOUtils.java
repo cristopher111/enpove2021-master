@@ -382,15 +382,25 @@ public class DAOUtils {
         int cobertura = 0;
         Residente modulo200 = getResidente(id, context);
         Modulo3 modulo300 = getModulo300(id, context);
+        M3Pregunta318 m3Pregunta318 = getModulo300_P313(modulo200.get_id(),id,context);
         int P301_D = convertNumber(modulo300.getC3_p301_d());
         int P308   = convertNumber(modulo300.getC3_p308());
         int P311   = convertNumber(modulo300.getC3_p311());
         int P313   = convertNumber(modulo300.getC3_p313());
+        int P313_1 = convertNumber(m3Pregunta318.getC3_p318_f());
+        int P313_4 = convertNumber(m3Pregunta318.getC3_p318_p());
         int P205_A = convertNumberEdad(modulo200.getC2_p205_a());
 
-        if (P301_D>0 && P308>0 && P311>0 && ((P313>0 && P205_A >= 12) || (P205_A<12))){
+////////////////////////BACKUP////////////////////////
+       /* if (P301_D>0 && P308>0 && P311>0 && ((P313>0 && P205_A >= 12) || (P205_A<12))){
+            cobertura = 1;
+        }¨*/
+
+//////////////////////////MODIFICADO 27/01/22///////////
+        if (P301_D>0 && P308>0 && P311>0 && ((P313>0 && P205_A >= 12 && (P313_1>0 == P313_4>0))) || (P205_A<12)){
             cobertura = 1;
         }
+
         return cobertura;
     }
 

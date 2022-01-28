@@ -1471,8 +1471,8 @@
     <string name="modulo_6_p624_sp2">NO TUVO ACTIVIDAD SECUNDARIA</string>
 
     <string name="modulo_6_p625">625.EL CENTRO DE TRABAJO DONDE DESEMPEÑA SU OCUPACIÓN PRINCIPAL, ¿ESTÁ UBICADO:</string>
-    <string name="modulo_6_p625_sp1">1.Aquí, en este distrito</string>
-    <string name="modulo_6_p625_sp2">2.En otro distrito</string>
+    <string name="modulo_6_p625_sp1">1.Aquí, en este distrito?</string>
+    <string name="modulo_6_p625_sp2">2.En otro distrito?</string>
     <string name="modulo_6_p625_dist">Distrito</string>
     <string name="modulo_6_p625_prov">Provincia:</string>
     <string name="modulo_6_p625_dep">Departamento:</string>
@@ -1596,7 +1596,7 @@
 
     <string name="modulo_6_p638">638. EN LOS ÚLTIMOS 6 MESES DE %1$s ¿RECIBIÓ INGRESOS POR CONCEPTO DE:</string>
     <string name="modulo_6_p638_ind"><i><b>(Seleccione solo un código para cada alternativa)</b></i></string>
-    <string name="modulo_6_p638_sp1">a.Pensión de divorcio, alimentos y/o jubilación</string>
+    <string name="modulo_6_p638_sp1">a.Pensión de divorcio, alimentos y/o jubilación?</string>
     <string name="modulo_6_p638_sp2">b.Arrendamiento de casas, maquinarias, vehículos?</string>
     <string name="modulo_6_p638_sp3">c.Ingresos financieros?</string>
     <string name="modulo_6_p638_sp4">d.Otros ingresos?</string>
