@@ -1178,7 +1178,7 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
                         dataTablas = new Data(context);
                         dataTablas.open();
                         Modulo1H modulo1H = dataTablas.getModulo1H(idHogar);
-                        edtObsIngresos.setText(modulo1H.getCOB100B()+"\n");
+                        //edtObsIngresos.setText(modulo1H.getCOB100B()+"\n");
 
 
                         String mensaje = modulo1H.getCOB100B();
@@ -1187,6 +1187,7 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
 
 
                         obs = edtObsIngresos.getText().toString();
+                        String obs100 = modulo1H.getCOB100B()+"\n";
 
                         if(obs.equals("")){
                             mostrarMensaje( "DEBE INFORMAR COMO LOGRAN CUBRIR SUS GASTOS DEL HOGAR");
@@ -1195,7 +1196,7 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
                             dataTablas = new Data(context);
                             dataTablas.open();
                             ContentValues contentValues = new ContentValues();
-                            contentValues.put(SQLConstantes.modulo1_h_COB100B,edtObsIngresos.getText().toString());
+                            contentValues.put(SQLConstantes.modulo1_h_COB100B,obs100 + edtObsIngresos.getText().toString());
                             dataTablas.actualizarElemento(SQLConstantes.tablamodulo1h,contentValues,idHogar);
                             dataTablas.close();
                             alertDialog.dismiss();
@@ -1209,6 +1210,7 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
 
         });
         alertDialog.show();
+        alertDialog.getWindow().setLayout(1700,900);
 
     }
 
@@ -1323,6 +1325,7 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
             }
         });
         alertDialog.show();
+        alertDialog.getWindow().setLayout(1700,900);
 
     }
 

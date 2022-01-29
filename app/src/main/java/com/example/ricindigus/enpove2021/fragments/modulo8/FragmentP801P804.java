@@ -1050,7 +1050,7 @@ public class FragmentP801P804 extends FragmentPagina {
                     }
 
 */
-                    if (c8_p802a_3_1.equals("0") && c8_p802a_3_2.equals("0") &&c8_p802a_3_3.equals("0") &&
+               /*     if (c8_p802a_3_1.equals("0") && c8_p802a_3_2.equals("0") &&c8_p802a_3_3.equals("0") &&
                             c8_p802a_3_4.equals("0") &&c8_p802a_3_5.equals("0") &&c8_p802a_3_6.equals("0") &&
                             c8_p802a_3_7.equals("0") &&c8_p802a_3_8.equals("0")){
                         mostrarMensaje("PREGUNTA 802A-3: DEBE SELECCIONAR UNA RESPUESTA");return false;
@@ -1062,7 +1062,7 @@ public class FragmentP801P804 extends FragmentPagina {
                         if (c8_p802a_3_o.length()<3){
                             mostrarMensaje("ERROR  “P802A-3. EL ESPECIFIQUE NO DEBE SER MENOR A 3 CARACTERES”");return false;
                         }
-                    }
+                    }*/
                 }
             }
 

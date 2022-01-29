@@ -1070,8 +1070,8 @@ public class ImportarActivity extends AppCompatActivity {
                 case SQLConstantes.modulo4_c4_p405_3:currentModulo4.setC4_p405_3(valor);break;
                 case SQLConstantes.modulo4_c4_p405_4:currentModulo4.setC4_p405_4(valor);break;
                 case SQLConstantes.modulo4_c4_p405_5:currentModulo4.setC4_p405_5(valor);break;
-//                case SQLConstantes.modulo4_c4_p405_6:currentModulo4.setC4_p405_6(valor);break;
-//                case SQLConstantes.modulo4_c4_p405_7:currentModulo4.setC4_p405_7(valor);break;
+                case SQLConstantes.modulo4_c4_p405_6:currentModulo4.setC4_p405_6(valor);break;
+                case SQLConstantes.modulo4_c4_p405_7:currentModulo4.setC4_p405_7(valor);break;
                 case SQLConstantes.modulo4_c4_p406_1:currentModulo4.setC4_p406_1(valor);break;
                 case SQLConstantes.modulo4_c4_p406_2:currentModulo4.setC4_p406_2(valor);break;
                 case SQLConstantes.modulo4_c4_p406_3:currentModulo4.setC4_p406_3(valor);break;

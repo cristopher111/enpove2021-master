@@ -268,6 +268,40 @@ public class DAOUtils {
         data.close();
         return modulo3P313;
     }
+    ////////////////////////////////////////////////////AGREGADO 29/01/2022////////////////////////////////////
+    public static int getModulo300_P313_1(String idEncuestado, Context context){
+        int conteoP313_1=0;
+        Data data = new Data(context);
+        data.open();
+        ArrayList<M3Pregunta318> modulo3P313_list= data.getAllM3Pregunta318(idEncuestado);
+        for (int i = 0; i < modulo3P313_list.size(); i++) {
+            if (modulo3P313_list.get(i).getC3_p318_f().toString().compareTo("-1")!=0) {
+                Log.e("getC3_p318_f",""+modulo3P313_list.get(i).getC3_p318_f().toString());
+                conteoP313_1++;
+            }
+        }
+        data.close();
+        Log.e("conteoP313_1",""+conteoP313_1);
+        return conteoP313_1;
+    }
+
+    public static int getModulo300_P313_4(String idEncuestado, Context context){
+        int conteoP313_4=0;
+        Data data = new Data(context);
+        data.open();
+        ArrayList<M3Pregunta318> modulo3P313_list= data.getAllM3Pregunta318(idEncuestado);
+        for (int i = 0; i < modulo3P313_list.size(); i++) {
+            if (modulo3P313_list.get(i).getC3_p318_p().toString().compareTo("-1")!=0) {
+                Log.e("getC3_p318_p",""+modulo3P313_list.get(i).getC3_p318_p().toString());
+                conteoP313_4++;
+            }
+        }
+        data.close();
+        Log.e("conteoP313_4",""+conteoP313_4);
+        return conteoP313_4;
+    }
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     public static Modulo4 getModulo400(String id, Context context){
         Modulo4 modulo4 = new Modulo4();
@@ -382,13 +416,15 @@ public class DAOUtils {
         int cobertura = 0;
         Residente modulo200 = getResidente(id, context);
         Modulo3 modulo300 = getModulo300(id, context);
-        M3Pregunta318 m3Pregunta318 = getModulo300_P313(modulo200.get_id(),id,context);
+        //M3Pregunta318 m3Pregunta318 = getModulo300_P313(modulo200.get_id(),id,context);
+        int ConteoP313_1 = getModulo300_P313_1(modulo200.get_id(),context);
+        int ConteoP313_4 = getModulo300_P313_4(modulo200.get_id(),context);
         int P301_D = convertNumber(modulo300.getC3_p301_d());
         int P308   = convertNumber(modulo300.getC3_p308());
         int P311   = convertNumber(modulo300.getC3_p311());
         int P313   = convertNumber(modulo300.getC3_p313());
-        int P313_1 = convertNumber(m3Pregunta318.getC3_p318_f());
-        int P313_4 = convertNumber(m3Pregunta318.getC3_p318_p());
+        //int P313_1 = convertNumber(m3Pregunta318.getC3_p318_f());
+        //int P313_4 = convertNumber(m3Pregunta318.getC3_p318_p());
         int P205_A = convertNumberEdad(modulo200.getC2_p205_a());
 
 ////////////////////////BACKUP////////////////////////
@@ -397,7 +433,7 @@ public class DAOUtils {
         }¨*/
 
 //////////////////////////MODIFICADO 27/01/22///////////
-        if (P301_D>0 && P308>0 && P311>0 && ((P313>0 && P205_A >= 12 && (P313_1>0 == P313_4>0))) || (P205_A<12)){
+        if (P301_D>0 && P308>0 && P311>0 && ((P313>0 && P205_A >= 12 && (ConteoP313_1 == ConteoP313_4))) || (P205_A<12)){
             cobertura = 1;
         }
 
@@ -412,7 +448,7 @@ public class DAOUtils {
         int P205_A = convertNumberEdad(modulo200.getC2_p205_a());
         int P205_B = convertNumberEdad(modulo200.getC2_p205_m());
         int P402   = convertNumber(modulo400.getC4_p402());
-        int P405_5 = convertNumber(modulo400.getC4_p405_5());
+        int P405_7 = convertNumber(modulo400.getC4_p405_7());
         int P408_1 = convertNumber(modulo400.getC4_p408_1());
         int P408_2 = convertNumber(modulo400.getC4_p408_2());
         int P408_3 = convertNumber(modulo400.getC4_p408_3());
@@ -427,7 +463,7 @@ public class DAOUtils {
         int P414   = convertNumber(modulo400.getC4_p414());
         int P417_4 = convertNumber(modulo400.getC4_p417_4());
         int P417_9 = convertNumber(modulo400.getC4_p417_9());
-        if (P402>0 && P405_5>=0 && P408_1>0 && P408_2>0 && P408_3>0 && P408_4>0 && P408_5>0 && P408_6>0 && P410>0 &&
+        if (P402>0 && P405_7>=0 && P408_1>0 && P408_2>0 && P408_3>0 && P408_4>0 && P408_5>0 && P408_6>0 && P410>0 &&
             ( ((P205_A<5 || P205_B>=0) && P413_1>0 && P413_2>0 && P413_3>0 && P413_4>0)
               || (P205_A>=5 && P205_A<=11)
               || (P204==1 && (P205_A>=12 && P205_A<=14))

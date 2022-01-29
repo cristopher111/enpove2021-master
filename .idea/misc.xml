@@ -3,11 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/activity_admin.xml" value="0.28020833333333334" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/dialog_p200_obs.xml" value="0.36666666666666664" />
-        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/dialog_p200aportante.xml" value="0.17806484295845998" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/dialog_p200aportante.xml" value="0.18" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/fragment_evaluacion.xml" value="0.17806484295845998" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/fragment_p405_p407.xml" value="0.36666666666666664" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/header_item_vivienda.xml" value="0.36666666666666664" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/hogar_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/hogarmixto_item.xml" value="0.25" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/lista_item.xml" value="0.36666666666666664" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/modulo1_p111.xml" value="0.36666666666666664" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/modulo1_p112.xml" value="0.36666666666666664" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/modulo4_p405.xml" value="0.36666666666666664" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/modulo4_p405x.xml" value="0.36666666666666664" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/modulo6_p615.xml" value="0.2640625" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/residente_item.xml" value="0.36666666666666664" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/menu/menu_mapa.xml" value="0.36614583333333334" />

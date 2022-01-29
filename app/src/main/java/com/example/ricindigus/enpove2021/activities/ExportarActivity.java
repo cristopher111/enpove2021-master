@@ -792,8 +792,8 @@ public class ExportarActivity extends AppCompatActivity {
                     escribirCampoXml(serializer, SQLConstantes.modulo4_c4_p405_3, modulo4.getC4_p405_3());
                     escribirCampoXml(serializer, SQLConstantes.modulo4_c4_p405_4, modulo4.getC4_p405_4());
                     escribirCampoXml(serializer, SQLConstantes.modulo4_c4_p405_5, modulo4.getC4_p405_5());
-//                    escribirCampoXml(serializer, SQLConstantes.modulo4_c4_p405_6, modulo4.getC4_p405_6());
-//                    escribirCampoXml(serializer, SQLConstantes.modulo4_c4_p405_7, modulo4.getC4_p405_7());
+                    escribirCampoXml(serializer, SQLConstantes.modulo4_c4_p405_6, modulo4.getC4_p405_6());
+                    escribirCampoXml(serializer, SQLConstantes.modulo4_c4_p405_7, modulo4.getC4_p405_7());
                     escribirCampoXml(serializer, SQLConstantes.modulo4_c4_p406_1, modulo4.getC4_p406_1());
                     escribirCampoXml(serializer, SQLConstantes.modulo4_c4_p406_2, modulo4.getC4_p406_2());
                     escribirCampoXml(serializer, SQLConstantes.modulo4_c4_p406_3, modulo4.getC4_p406_3());
@@ -2283,6 +2283,8 @@ public class ExportarActivity extends AppCompatActivity {
                     escribirCampoXml(serializer, XMLConstantes.P405_3, modulo4.getC4_p405_3());
                     escribirCampoXml(serializer, XMLConstantes.P405_4, modulo4.getC4_p405_4());
                     escribirCampoXml(serializer, XMLConstantes.P405_5, modulo4.getC4_p405_5());
+                    escribirCampoXml(serializer, XMLConstantes.P405_6, modulo4.getC4_p405_6());
+                    escribirCampoXml(serializer, XMLConstantes.P405_7, modulo4.getC4_p405_7());
                     escribirCampoXml(serializer, XMLConstantes.P406_1, modulo4.getC4_p406_1());
                     escribirCampoXml(serializer, XMLConstantes.P406_2, modulo4.getC4_p406_2());
                     escribirCampoXml(serializer, XMLConstantes.P406_3, modulo4.getC4_p406_3());

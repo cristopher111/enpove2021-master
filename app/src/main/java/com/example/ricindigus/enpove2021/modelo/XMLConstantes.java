@@ -349,6 +349,8 @@ public class XMLConstantes {
     public static final String P405_3 = "P405_3";
     public static final String P405_4 = "P405_4";
     public static final String P405_5 = "P405_5";
+    public static final String P405_6 = "P405_6";
+    public static final String P405_7 = "P405_7";
     public static final String P406_1 = "P406_1";
     public static final String P406_2 = "P406_2";
     public static final String P406_3 = "P406_3";

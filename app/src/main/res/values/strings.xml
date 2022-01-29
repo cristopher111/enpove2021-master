@@ -872,7 +872,8 @@
     <string name="modulo_4_p404_sp3">3.NO RECIBE TRATAMIENTO</string>
 
     <!--    <string name="modulo_4_p405">405.DESDE SU LLEGADA AL PERÚ ¿PRESENTÓ USTED ALGÚN/A:</string>-->
-    <string name="modulo_4_p405">405.EN LAS ÚLTIMAS 4 SEMANAS, DEL …..AL…..,¿PRESENTÓ USTED ALGÚN/A:</string>
+    <!--<string name="modulo_4_p405">405.EN LAS ÚLTIMAS 4 SEMANAS, DEL …..AL…..,¿PRESENTÓ USTED ALGÚN/A:</string>-->
+    <string name="modulo_4_p405">405.DESDE SU LLEGADA AL PERÚ ¿PRESENTÓ USTED ALGÚN/A:</string>
     <string name="modulo_4_p405_ind">(Lea cada una de las alternativas y seleccione uno o más códigos)</string>
     <string name="modulo_4_p405_sp1">1.Síntoma o malestar (tos, dolor de cabeza, fiebre, nauseas)?</string>
     <string name="modulo_4_p405_sp2">2.Enfermedad (gripe, colitis, etc.)?</string>
@@ -880,7 +881,7 @@
     <string name="modulo_4_p405_sp4">4.Accidente?</string>
     <string name="modulo_4_p405_sp5">5.Molestia o problema como: depresión, enojo, ansiedad, estrés,  etc.?</string>
     <string name="modulo_4_p405_sp6">6.Embarazo?</string>
-    <string name="modulo_4_p405_sp7">7.No tuvo enfermedad, síntoma, recaída, accidente</string>
+    <string name="modulo_4_p405_sp7">7.NO TUVO ENFERMEDAD, SÍNTOMA,RECAÍDA, ACCIDENTE</string>
 
     <string name="modulo_4_p405x">405. EN LAS ÚLTIMAS 4 SEMANAS, DEL %1$s .¿PRESENTÓ USTED ALGÚN/A:</string>
     <string name="modulo_4_p405_indx">(Lea cada una de las alternativas y seleccione uno o más códigos)</string>

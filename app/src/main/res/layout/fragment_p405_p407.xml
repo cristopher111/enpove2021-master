@@ -23,8 +23,8 @@
             android:padding="@dimen/margen_small"
             android:orientation="vertical">
             <include layout="@layout/cabecera"/>
-            <include layout="@layout/modulo4_p405x" android:id="@+id/layout_m4_p405x"/>
-<!--            <include layout="@layout/modulo4_p405" android:id="@+id/layout_m4_p405"/>-->
+            <!--            <include layout="@layout/modulo4_p405x" android:id="@+id/layout_m4_p405x"/>-->
+            <include layout="@layout/modulo4_p405" android:id="@+id/layout_m4_p405"/>
             <include layout="@layout/modulo4_p406" android:id="@+id/layout_m4_p406"/>
             <include layout="@layout/modulo4_p407" android:id="@+id/layout_m4_p407"/>
         </LinearLayout>
