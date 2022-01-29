@@ -180,8 +180,8 @@ public class FragmentP405P407 extends FragmentPagina {
         super.onViewCreated(view, savedInstanceState);
         m4_p407_linearlayout.setVisibility(View.GONE);
 
-        /*String text405 = getString(R.string.modulo_4_p405x, UtilsMethods.getPeriodoReferenciaSemana(4));
-        tv405_periodo.setText(text405);*/
+        String text405 = getString(R.string.modulo_4_p405x, UtilsMethods.getPeriodoReferenciaSemana(4));
+        tv405_periodo.setText(text405);
 
 //        configurarEditText(c4_p406_o_EditText,m4_p406_linearlayout,0,30);
 //        configurarEditText(c4_p407_o_EditText,m4_p407_linearlayout,0,30);

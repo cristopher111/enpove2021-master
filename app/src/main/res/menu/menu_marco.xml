@@ -14,7 +14,7 @@
     <item
         android:id="@+id/opcion_croquis"
         android:orderInCategory="100"
-        android:visible="true"
+        android:visible="false"
         android:title="Descargar Croquis"
         app:showAsAction="never" />
     <item

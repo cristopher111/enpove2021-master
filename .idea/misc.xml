@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/activity_admin.xml" value="0.28020833333333334" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/activity_hogar.xml" value="0.28020833333333334" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/dialog_p200_obs.xml" value="0.36666666666666664" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/dialog_p200aportante.xml" value="0.18" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/fragment_evaluacion.xml" value="0.17806484295845998" />
@@ -18,7 +19,10 @@
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/modulo4_p405x.xml" value="0.36666666666666664" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/modulo6_p615.xml" value="0.2640625" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/residente_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/menu/hogar.xml" value="0.28020833333333334" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/menu/menu_croquis.xml" value="0.36666666666666664" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/menu/menu_mapa.xml" value="0.36614583333333334" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/menu/menu_marco.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

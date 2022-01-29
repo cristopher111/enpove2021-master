@@ -1195,19 +1195,20 @@ public class Evaluacion {
         lista.add(102,P306_5);
         lista.add(103,P306_6);
         lista.add(104,P306_7);
-        lista.add(105,P307_1);
-        lista.add(106,P307_2);
-        lista.add(107,P307_3);
-        lista.add(108,P307_4);
-        lista.add(109,P307_5);
-        lista.add(110,P307_6);
-        lista.add(111,P307_7);
-        lista.add(112,P307_8);
-        lista.add(113,P307_9);
-        lista.add(114,P307_10);
-        lista.add(115,P307_11);
-        lista.add(116,P307_12);
-        lista.add(117,P307_13);
+        //AGREGAR P307
+        lista.add(105,P307_1);//ELIMINAR
+        lista.add(106,P307_2);//ELIMINAR
+        lista.add(107,P307_3);//ELIMINAR
+        lista.add(108,P307_4);//ELIMINAR
+        lista.add(109,P307_5);//ELIMINAR
+        lista.add(110,P307_6);//ELIMINAR
+        lista.add(111,P307_7);//ELIMINAR
+        lista.add(112,P307_8);//ELIMINAR
+        lista.add(113,P307_9);//ELIMINAR
+        lista.add(114,P307_10);//ELIMINAR
+        lista.add(115,P307_11);//ELIMINAR
+        lista.add(116,P307_12);//ELIMINAR
+        lista.add(117,P307_13);//ELIMINAR
         lista.add(118,P308);
         lista.add(119,P310_E);
         lista.add(120,P310_M);
@@ -1268,7 +1269,7 @@ public class Evaluacion {
         lista.add(175,P408_6);
         lista.add(176,P410);
         lista.add(177,P417_1);
-        lista.add(178,P417_1A);
+        lista.add(178,P417_1A);//ELIMINAR
         lista.add(179,P417_2);
         lista.add(180,P417_3);
         lista.add(181,P417_4);
@@ -1395,6 +1396,8 @@ public class Evaluacion {
         lista.add(302,PTIPOENT);
         lista.add(303,PTIPOENT_1);
         lista.add(304,PRESFIN);
+
+        ///// 291 total
 
 
         double puntaje = 0.0d;

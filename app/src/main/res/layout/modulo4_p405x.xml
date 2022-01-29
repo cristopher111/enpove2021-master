@@ -7,7 +7,7 @@
     android:padding="@dimen/padding_layout_pregunta"
     android:background="@drawable/marco_pregunta">
     <TextView
-        android:id="@+id/tv405_periodo"
+        android:id="@+id/tv405x_periodo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/TemaTextoPregunta"
