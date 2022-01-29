@@ -55,6 +55,7 @@ import com.example.ricindigus.enpove2021.modelo.DAOUtils;
 import com.example.ricindigus.enpove2021.modelo.Data;
 import com.example.ricindigus.enpove2021.modelo.SQLConstantes;
 import com.example.ricindigus.enpove2021.modelo.pojos.Hogar;
+import com.example.ricindigus.enpove2021.modelo.pojos.Modulo1H;
 import com.example.ricindigus.enpove2021.modelo.pojos.Modulo6;
 import com.example.ricindigus.enpove2021.modelo.pojos.ResVisitaEncuestador;
 import com.example.ricindigus.enpove2021.modelo.pojos.Residente;
@@ -969,7 +970,7 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
                             if(mensaje.equals("")) mensaje = "LA HORA DE FIN DEBE SER MAYOR A LA DE INICIO";
                         }
                         /////////ABRIR EL OTRO ALERT DIALOG EN CASO SEA COMPLETO O INCOMPLETA//////
-                        if((spResultado.getSelectedItemPosition() == 1 || spResultado.getSelectedItemPosition() == 2) /*&& ING_NO_LAB1.equals("")&& ING_NO_LAB2.equals("")&& ING_NO_LAB3.equals("")
+                        if((spResultado.getSelectedItemPosition() == 1) /*&& ING_NO_LAB1.equals("")&& ING_NO_LAB2.equals("")&& ING_NO_LAB3.equals("")
                                 && ING_NO_LAB4.equals("") && ING_DEP_MON.equals("") && ING_DEP_ESP.equals("") && ING_INDEP_MON.equals("")  && ING_INDEP_ESP.equals("") && ING_SEC_MON.equals("")
                                 && ING_SEC_ESP.equals("")*/ && conteoMONTOS == 0){
                             if((conteo1 > 0 && conteo2 > 0) && conteoedad > 0){
@@ -1173,6 +1174,17 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
                 btnFinalizarIngreso.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
+
+                        dataTablas = new Data(context);
+                        dataTablas.open();
+                        Modulo1H modulo1H = dataTablas.getModulo1H(idHogar);
+                        edtObsIngresos.setText(modulo1H.getCOB100B()+"\n");
+
+
+                        String mensaje = modulo1H.getCOB100B();
+                        Log.e("OBS100APORTANTE",mensaje);
+                        dataTablas.close();
+
 
                         obs = edtObsIngresos.getText().toString();
 

@@ -102,6 +102,9 @@ public class FragmentP613P617 extends FragmentPagina {
     private int p615_sv=0;
     private int p615_ss=0;
     private int p615_st=0;
+
+
+    private int p615_op=0;
 //    private int p615_t=0;
 
     //PREGUNTA 16
@@ -634,7 +637,20 @@ public class FragmentP613P617 extends FragmentPagina {
             if(p601.equals("1") && c6_p615_t.equals("0"))
             {mostrarMensaje("ERROR “PREGUNTA 615 – EL TOTAL DE HORAS TRABAJADAS DURANTE LA SEMANA PASADA NO PUEDE SER CERO PORQUE SI TUVO TRABAJO LA SEMANA PASADA (P601)”");return false;}
 
-            if((p603.equals("1") || p604.equals("1")) && !c6_p615_t.equals("0"))
+            p615_pd = Integer.parseInt(c6_p615_pd.trim());
+            p615_pl = Integer.parseInt(c6_p615_pl.trim());
+            p615_pm = Integer.parseInt(c6_p615_pm.trim());
+            p615_pmi = Integer.parseInt(c6_p615_pmi.trim());
+            p615_pj = Integer.parseInt(c6_p615_pj.trim());
+            p615_pv = Integer.parseInt(c6_p615_pv.trim());
+            p615_ps = Integer.parseInt(c6_p615_ps.trim());
+
+            p615_op = p615_pd + p615_pl + p615_pm+ p615_pmi + p615_pj + p615_pv + p615_ps;
+
+            Log.e("TOTALPRINCIPALOCUPACION", p615_op+"");
+
+          //  if((p603.equals("1") || p604.equals("1")) && !c6_p615_t.equals("0"))
+                if((p603.equals("1") || p604.equals("1")) && p615_op>0)
             {mostrarMensaje("ERROR “PREGUNTA 615 – NO LE CORRESPONDE HORAS TRABAJADAS PORQUE NO TRABAJO LA SEMANA PASADA (P603 O P604)”");return false;}
 
             if(c6_p615_pd.trim().equals("")){ mostrarMensaje("PREGUNTA 615 PRINCIPAL - DOMINGO: DEBE INGRESAR HORAS TRABAJADAS");return false; }

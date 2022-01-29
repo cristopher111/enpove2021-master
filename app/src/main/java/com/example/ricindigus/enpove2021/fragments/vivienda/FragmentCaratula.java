@@ -565,10 +565,10 @@ public class FragmentCaratula extends FragmentPagina implements GoogleApiClient.
         boolean result=false;
         int numero;
         String piso = cadena.trim();
-        if(piso.length()==1 || (piso.equals("S1") || piso.equals("S2"))) {
+        if(piso.length()==1 || (piso.equals("S1") || piso.equals("S2")|| piso.equals("S3"))) {
             try {
                 //result = cadena.matches("[+-]?\\d*(\\.\\d+)?");
-                result = piso.matches("a|A|s|S|s1|S1|s2|S2|[1-9].*");
+                result = piso.matches("a|A|s|S|s1|S1|s2|S2|s3|S3|[1-9].*");
             } catch (Exception e) {
                 // TODO: handle exception
             }
@@ -576,7 +576,7 @@ public class FragmentCaratula extends FragmentPagina implements GoogleApiClient.
         if(piso.length()==2 && !piso.equals("S2")) {
             try {
                 numero = Integer.parseInt(piso);
-                result = (numero<=15); //
+                result = (numero<=40); //
             } catch (Exception e) {
                 // TODO: handle exception
             }

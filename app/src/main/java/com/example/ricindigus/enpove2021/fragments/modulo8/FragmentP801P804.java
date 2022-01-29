@@ -285,13 +285,12 @@ public class FragmentP801P804 extends FragmentPagina {
             public void onCheckedChanged(RadioGroup radioGroup, @IdRes int i) {
                 int pos = radioGroup.indexOfChild(c8_p802_RadioGroup_3.findViewById(c8_p802_RadioGroup_3.getCheckedRadioButtonId()));
                 if(pos==1){
-                    linear802a3.setVisibility(View.VISIBLE);
-                    //c8_p802a_3_Spinner.setEnabled(true);
-//                    m8_p803_linearlayout.setVisibility(View.VISIBLE);
-//                    limpiar804();
-//                    m8_p804_linearlayout.setVisibility(View.GONE);
-//                    c8_p802a_3_o_EditText.setEnabled(true);
-//                    c8_p802a_3_o_EditText.setBackgroundResource(R.drawable.input_text_enabled);
+                    //linear802a3.setVisibility(View.VISIBLE);
+                    limpiar802a_3();
+                    c8_p802a_3_o_EditText.setEnabled(false);
+                    c8_p802a_3_o_EditText.setBackgroundResource(R.drawable.input_text_disabled);
+                    linear802a3.setVisibility(View.GONE);
+
                 }else{
                     //c8_p802a_3_Spinner.setSelection(0);
                     //c8_p802a_3_Spinner.setEnabled(false);
