@@ -54,7 +54,7 @@ public class LoginActivity extends AppCompatActivity {
         passwordEditText.setFilters(new InputFilter[]{new InputFilter.AllCaps(),new InputFilter.LengthFilter(8)});
 
         usuarioEditText.setText("ENC001");
-        passwordEditText.setText("210769");
+        passwordEditText.setText("291538");
         //versionTxt.setText("Primera Prueba Piloto (Cognitiva) - Versión "+ UtilsMethods.getVersion(this));
         //versionTxt.setText("Prueba Requerimientos - Versión 0.3.1");
         versionTxt.setText("II ENPOVE 2021-2022 - Versión "+ UtilsMethods.getVersion(this));
