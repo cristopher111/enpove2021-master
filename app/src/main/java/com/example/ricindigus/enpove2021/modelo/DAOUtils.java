@@ -474,8 +474,7 @@ public class DAOUtils {
             )
           ) {
             cobertura = 1;
-        }    
-
+        }
 
         return cobertura;
     }
