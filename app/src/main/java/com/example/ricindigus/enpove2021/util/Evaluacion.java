@@ -599,7 +599,7 @@ public class Evaluacion {
          P306_5 = modulo300.getC3_p306_5();
          P306_6 = modulo300.getC3_p306_6();
          P306_7 = modulo300.getC3_p306_7();
-         P307 = modulo300.getC3_p307();
+         P307 = modulo300.getC3_p307_1();
          /*P307_1 = modulo300.getC3_p307_1();
          P307_2 = modulo300.getC3_p307_2();
          P307_3 = modulo300.getC3_p307_3();
