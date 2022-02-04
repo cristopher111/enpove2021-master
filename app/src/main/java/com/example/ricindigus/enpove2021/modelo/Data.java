@@ -2191,9 +2191,14 @@ public class Data {
     }
 ///////////////AGREGADO 19/01/22
     public void eliminarTable(String tabla, String id){
-        sqLiteDatabase.execSQL("delete from"+" "+tabla+" "+"where _id="+id);
-        Log.e("FORMA DE SENTENCIA","Delete from"+" "+tabla+" "+"where _id="+id);
+        sqLiteDatabase.execSQL("delete from"+" "+tabla+" "+"where _id="+"'"+id+"'");
+        Log.e("FORMA DE SENTENCIA","Delete from"+" "+tabla+" "+"where _id="+"'"+id+"'");
     }
+///////////////AGREGADO 04/02/22
+public void eliminarTablenivelhogar(String tabla, String id){
+    sqLiteDatabase.execSQL("delete from"+" "+tabla+" "+"where id_vivienda="+"'"+id+"'");
+    Log.e("FORMA DE SENTENCIA","Delete from"+" "+tabla+" "+"where _id="+"'"+id+"'");
+}
 
 
 
