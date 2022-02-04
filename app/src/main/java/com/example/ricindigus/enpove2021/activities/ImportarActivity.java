@@ -8,6 +8,7 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -110,6 +111,8 @@ public class ImportarActivity extends AppCompatActivity {
     private String currentTag = null;
     private String currentVariable = null;
 
+    private String idVivienda;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -169,33 +172,33 @@ public class ImportarActivity extends AppCompatActivity {
                                         data.eliminarTabla(SQLConstantes.tablacoberturafragments);*/
 
                                         //
-                                        String idVivienda = txtArchivo.getText().toString();
 
-                                        data.eliminarTable(SQLConstantes.tablacaratula);
-                                        //data.eliminarTable(SQLConstantes.tablamarco);
-                                        data.eliminarTable(SQLConstantes.tablahogares);
-                                        data.eliminarTable(SQLConstantes.tablavisitasencuestador);
-                                        data.eliminarTable(SQLConstantes.tablavisitassupervisor);
-                                        data.eliminarTable(SQLConstantes.tablaresultadoencuestador);
-                                        data.eliminarTable(SQLConstantes.tablaresultadosupervisor);
-                                        data.eliminarTable(SQLConstantes.tablaresultadoresidente);
-                                        data.eliminarTable(SQLConstantes.tablafuncionarios);
-                                        data.eliminarTable(SQLConstantes.tablamodulo1h);
-                                        data.eliminarTable(SQLConstantes.tablamodulo1v);
-                                        data.eliminarTable(SQLConstantes.tablaresidentes);
-                                        data.eliminarTable(SQLConstantes.tablamodulo3);
-                                        data.eliminarTable(SQLConstantes.tablam3p309rutas);
-                                        data.eliminarTable(SQLConstantes.tablam3p318personas);
-                                        data.eliminarTable(SQLConstantes.tablamodulo4);
-                                        data.eliminarTable(SQLConstantes.tablamodulo5);
-                                        data.eliminarTable(SQLConstantes.tablamodulo6);
-                                        data.eliminarTable(SQLConstantes.tablamodulo7);
-                                        data.eliminarTable(SQLConstantes.tablamodulo8);
-                                        data.eliminarTable(SQLConstantes.tablafragmentsvivienda);
-                                        data.eliminarTable(SQLConstantes.tablafragmentshogar);
-                                        data.eliminarTable(SQLConstantes.tablafragments);
-                                        data.eliminarTable(SQLConstantes.tablalayouts);
-                                        data.eliminarTable(SQLConstantes.tablacoberturafragments);
+
+                                        data.eliminarTable(SQLConstantes.tablacaratula,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablamarco,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablahogares,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablavisitasencuestador,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablavisitassupervisor,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablaresultadoencuestador,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablaresultadosupervisor,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablaresultadoresidente,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablafuncionarios,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablamodulo1h,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablamodulo1v,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablaresidentes,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablamodulo3,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablam3p309rutas,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablam3p318personas,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablamodulo4,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablamodulo5,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablamodulo6,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablamodulo7,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablamodulo8,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablafragmentsvivienda,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablafragmentshogar,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablafragments,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablalayouts,idVivienda);
+                                        data.eliminarTable(SQLConstantes.tablacoberturafragments,idVivienda);
                                         data.close();
                                         ////////////////////////////////////////////
                                         String nombreArchivo = txtArchivo.getText().toString();
@@ -227,6 +230,9 @@ public class ImportarActivity extends AppCompatActivity {
                         public void fileSelected(File file) {
                             String filename = file.getAbsolutePath();
                             if(filename.substring(filename.length()-4,filename.length()).toLowerCase().equals(".xml")){
+                                String V = filename.substring(filename.length()-24);
+                                idVivienda = V.substring(0,20);
+                                Log.e("TAMAÑO DE LETRAS",""+idVivienda);
                                 txtArchivo.setText(filename);
                             }else{
                                 Toast.makeText(ImportarActivity.this, "archivo de tipo incorrecto", Toast.LENGTH_SHORT).show();

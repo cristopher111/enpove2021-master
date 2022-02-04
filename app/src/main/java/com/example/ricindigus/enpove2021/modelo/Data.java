@@ -2190,9 +2190,9 @@ public class Data {
         sqLiteDatabase.delete(tabla,SQLConstantes.WHERE_CLAUSE_ID,whereArgs);
     }
 ///////////////AGREGADO 19/01/22
-    public void eliminarTable(String tabla){
-        sqLiteDatabase.execSQL("delete from"+" "+tabla);
-        Log.e("FORMA DEL STRING","Delete * from"+" "+tabla);
+    public void eliminarTable(String tabla, String id){
+        sqLiteDatabase.execSQL("delete from"+" "+tabla+" "+"where _id="+id);
+        Log.e("FORMA DE SENTENCIA","Delete from"+" "+tabla+" "+"where _id="+id);
     }
 
 
