@@ -32,7 +32,7 @@ public class EnviarAServidorCommand {
     // private static final String SERVICE_URL_EXPORTACION = Configuracion.URL_SERVIDOR_WEB_DESARROLLO+"/webresources/files/uploadMultiple";
 //------EL DE TRABAJO FORZOSO /webresources/files/uploadMultiple
    // http://webapp.inei.gob.pe:8080/ENPOVE2021_TRANSFERENCIA_DEV/webresources/files/uploadMultiple
-    private static final String SERVICE_URL_EXPORTACION = Configuracion.URL_SERVIDOR_WEB_DESARROLLO+"/webresources/files/uploadMultiple";
+    private static final String SERVICE_URL_EXPORTACION = Configuracion.URL_SERVIDOR_WEB_PRODUCCION+"/webresources/files/uploadMultiple";
 
     private final Context context;
     private final TextView txtMensaje;

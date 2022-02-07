@@ -489,7 +489,7 @@ public class MarcoActivity extends AppCompatActivity {
     }
 
     public void copyCroquisEncuestadores(int idEncuestador){
-        ArrayList<Integer> listaEnc001 = new ArrayList<>();
+    /*    ArrayList<Integer> listaEnc001 = new ArrayList<>();
         ArrayList<Integer> listaEnc002 = new ArrayList<>();
         ArrayList<Integer> listaEnc003 = new ArrayList<>();
         ArrayList<Integer> listaEnc004 = new ArrayList<>();
@@ -917,7 +917,7 @@ public class MarcoActivity extends AppCompatActivity {
                 break;
 
         }
-
+*/
     }
 
     public void mensaje(){

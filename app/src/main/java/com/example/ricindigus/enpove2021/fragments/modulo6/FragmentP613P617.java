@@ -637,13 +637,34 @@ public class FragmentP613P617 extends FragmentPagina {
             if(p601.equals("1") && c6_p615_t.equals("0"))
             {mostrarMensaje("ERROR “PREGUNTA 615 – EL TOTAL DE HORAS TRABAJADAS DURANTE LA SEMANA PASADA NO PUEDE SER CERO PORQUE SI TUVO TRABAJO LA SEMANA PASADA (P601)”");return false;}
 
-            p615_pd = Integer.parseInt(c6_p615_pd.trim());
+            if(c6_p615_pd.equals("")) {p615_pd=0;}
+            else{p615_pd = Integer.parseInt(c6_p615_pd.trim());}
+
+            if(c6_p615_pl.equals("")) {p615_pl=0;}
+            else{p615_pd = Integer.parseInt(c6_p615_pl.trim());}
+
+            if(c6_p615_pm.equals("")) {p615_pm=0;}
+            else{p615_pm = Integer.parseInt(c6_p615_pm.trim());}
+
+            if(c6_p615_pmi.equals("")) {p615_pmi=0;}
+            else{p615_pmi = Integer.parseInt(c6_p615_pmi.trim());}
+
+            if(c6_p615_pj.equals("")) {p615_pj=0;}
+            else{p615_pj = Integer.parseInt(c6_p615_pj.trim());}
+
+            if(c6_p615_pv.equals("")) {p615_pv=0;}
+            else{p615_pv = Integer.parseInt(c6_p615_pv.trim());}
+
+            if(c6_p615_ps.equals("")) {p615_ps=0;}
+            else{p615_ps = Integer.parseInt(c6_p615_ps.trim());}
+
+           /* p615_pd = Integer.parseInt(c6_p615_pd.trim());
             p615_pl = Integer.parseInt(c6_p615_pl.trim());
             p615_pm = Integer.parseInt(c6_p615_pm.trim());
             p615_pmi = Integer.parseInt(c6_p615_pmi.trim());
             p615_pj = Integer.parseInt(c6_p615_pj.trim());
             p615_pv = Integer.parseInt(c6_p615_pv.trim());
-            p615_ps = Integer.parseInt(c6_p615_ps.trim());
+            p615_ps = Integer.parseInt(c6_p615_ps.trim());*/
 
             p615_op = p615_pd + p615_pl + p615_pm+ p615_pmi + p615_pj + p615_pv + p615_ps;
 

@@ -97,6 +97,7 @@ public class FragmentP405P407 extends FragmentPagina {
     private String c4_p407_13;
     private String c4_p407_13_o; //Anthony M.
 //    private String c4_p407_o;
+    String p204;
 
     int edad=0,sexo=0;
 
@@ -113,6 +114,13 @@ public class FragmentP405P407 extends FragmentPagina {
         data.close();
 
          */
+
+        Data data = new Data(context);
+        data.open();
+        Residente residente = data.getResidente(idEncuestado);
+        p204 = residente.getC2_p204();
+        if(residente.getC2_p204().equals("")) sexo = 0; else sexo = Integer.parseInt(residente.getC2_p204());
+        data.close();
     }
 
     public FragmentP405P407() {
@@ -542,9 +550,13 @@ public class FragmentP405P407 extends FragmentPagina {
 //        if(c4_p405_1.equals("0") && c4_p405_2.equals("0") && c4_p405_3.equals("0") && c4_p405_4.equals("0") && c4_p405_5.equals("0") &&
 //                c4_p405_6.equals("0") && c4_p405_7.equals("0")){
         if(m4_p405_linearlayout.getVisibility() == View.VISIBLE){
+
+            if(c4_p405_6.equals("1") && sexo == 1){mostrarMensaje("VERIFICAR  “P405 - ITEM 6 - ES UN HOMBRE (P204) Y HA INDICADO EMBARAZO”");return true;}
             if(c4_p405_1.equals("0") && c4_p405_2.equals("0") && c4_p405_3.equals("0") && c4_p405_4.equals("0") && c4_p405_5.equals("0")&& c4_p405_6.equals("0")&& c4_p405_7.equals("0")){
                 mostrarMensaje("ERROR  “DEBE SELECCIONAR AL MENOS UNA ALTERNATIVA EN LA PREGUNTA 405”");return false;
             }
+
+
         }else {
             c4_p405_1 = "";
             c4_p405_2 = "";
