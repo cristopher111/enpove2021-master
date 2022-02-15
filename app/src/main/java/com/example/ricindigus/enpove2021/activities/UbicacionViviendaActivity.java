@@ -1,15 +1,20 @@
 package com.example.ricindigus.enpove2021.activities;
 
 import android.Manifest;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import com.example.ricindigus.enpove2021.R;
 import com.example.ricindigus.enpove2021.modelo.DAOUtils;
@@ -78,23 +83,39 @@ UbicacionViviendaActivity extends AppCompatActivity implements OnMapReadyCallbac
         mgoogleMap = googleMap;
         mgoogleMap.getUiSettings().setMyLocationButtonEnabled(true);
         Marco marco = DAOUtils.getMarco(idVivienda,UbicacionViviendaActivity.this);
-        final LatLng ubicacion = new LatLng(Double.parseDouble(marco.getLatitud()), Double.parseDouble(marco.getLongitud()));
-        showMarkerVivienda(googleMap,marco);
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            return;
+        try {
+            final LatLng ubicacion = new LatLng(Double.parseDouble(marco.getLatitud()), Double.parseDouble(marco.getLongitud()));
+            showMarkerVivienda(googleMap, marco);
+            if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                return;
+            }
+            googleMap.setMyLocationEnabled(true);
+            googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+            CameraPosition Liberty = CameraPosition.builder().target(ubicacion).zoom(16).bearing(0).tilt(45).build();
+            googleMap.moveCamera(CameraUpdateFactory.newCameraPosition(Liberty));
+        }catch (Exception e){
+
+            /*Intent intent = new Intent(getApplicationContext(), ViviendaActivity.class);
+            intent.putExtra("idVivienda",idVivienda);
+            intent.putExtra("nroVivienda", vivienda);
+            startActivity(intent);*/
+            finish();
+            //mostrarMensaje("Coordenadas de ubicación no disponible en el marco");
+            Toast.makeText(this, "Coordenadas de ubicación no disponible en el marco", Toast.LENGTH_LONG).show();
         }
-        googleMap.setMyLocationEnabled(true);
-        googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
-        CameraPosition Liberty = CameraPosition.builder().target(ubicacion).zoom(16).bearing(0).tilt(45).build();
-        googleMap.moveCamera(CameraUpdateFactory.newCameraPosition(Liberty));
 
     }
 
     public void showMarkerVivienda(GoogleMap googleMap,Marco marco){
         ArrayList<Marco> lista = DAOUtils.getListaSegmentoViviendas(marco.getNroSegmento(),UbicacionViviendaActivity.this);
         Float colorMarker;
+
         for (Marco vivienda: lista) {
-            final LatLng ubicacion = new LatLng(Double.parseDouble(vivienda.getLatitud()), Double.parseDouble(vivienda.getLongitud()));
+            try{
+
+            final LatLng ubicacion = new LatLng(Double.parseDouble(vivienda.getLatitud().trim()), Double.parseDouble(vivienda.getLongitud().trim()));
+            Log.e("lATITUD",""+Double.parseDouble(vivienda.getLatitud()));
+            Log.e("lONGITUD",""+Double.parseDouble(vivienda.getLongitud()));
             if(marco.getNro_selec_vivienda().equals(vivienda.getNro_selec_vivienda())){
                //VIVIENDA ACTUAL
                colorMarker = BitmapDescriptorFactory.HUE_GREEN;
@@ -107,6 +128,22 @@ UbicacionViviendaActivity extends AppCompatActivity implements OnMapReadyCallbac
                     .title("Vivienda N° "+vivienda.getNro_selec_vivienda())
                     .icon(BitmapDescriptorFactory.defaultMarker(colorMarker))
             );
+        }catch(Exception e){
+                // Toast.makeText(this, "Coordenadas de ubicación no disponible en el marco", Toast.LENGTH_SHORT).show();
+            }
+
         }
+
+    }
+    public void mostrarMensaje(String m){
+        final AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage(m);
+        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+                dialog.dismiss();
+            }
+        });
+        final AlertDialog alertDialog = builder.create();
+        alertDialog.show();
     }
 }

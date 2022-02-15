@@ -57,7 +57,7 @@ public class LoginActivity extends AppCompatActivity {
         passwordEditText.setText("291538");
         //versionTxt.setText("Primera Prueba Piloto (Cognitiva) - Versión "+ UtilsMethods.getVersion(this));
         //versionTxt.setText("Prueba Requerimientos - Versión 0.3.1");
-        versionTxt.setText("II ENPOVE 2021-2022 - Versión "+ UtilsMethods.getVersion(this));
+        versionTxt.setText("II ENPOVE 2021-2022 - Versión "+ UtilsMethods.getVersion(this) +" (Campo)");
 
         ingresarButton.setOnClickListener(new View.OnClickListener() {
             @Override

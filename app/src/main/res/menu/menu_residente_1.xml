@@ -16,6 +16,12 @@
         android:orderInCategory="100"
         android:title="Eliminar"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/opcion_sobrehogar"
+        android:orderInCategory="100"
+        android:title="Sobre hogar mixto"
+        android:visible="false"
+        app:showAsAction="never" />
     <!--<item-->
         <!--android:id="@+id/opcion_ir_800"-->
         <!--android:orderInCategory="100"-->

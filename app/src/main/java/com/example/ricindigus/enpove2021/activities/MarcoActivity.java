@@ -77,6 +77,7 @@ public class MarcoActivity extends AppCompatActivity {
     private MarcoAdapter marcoAdapter;
     private ViviendaAdapter viviendaAdapter;
     ArrayList<ViviendaItem> listaViviendas;
+    ArrayList<ViviendaItem> listaViviendasmarco;
     private ArrayList<ItemMarco> itemMarcos;
     private ArrayList<String> anios;
     private ArrayList<String> meses;
@@ -196,7 +197,12 @@ public class MarcoActivity extends AppCompatActivity {
         spPeriodos.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                if(i > 0) obtenerZonas(Integer.parseInt(spPeriodos.getSelectedItem().toString()));
+                if(i > 0) {
+                    //obtenerPeriodos(Integer.parseInt(spMeses.getSelectedItem().toString()));
+                    //obtenerMeses(Integer.parseInt(spAnio.getSelectedItem().toString()));
+                    obtenerZonas(Integer.parseInt(spPeriodos.getSelectedItem().toString()));
+                           /*obtenerZonasinS(Integer.parseInt(spPeriodos.getSelectedItem().toString()));*/}
+                Log.e("seleccionadoPeriodo",""+spPeriodos.getSelectedItem().toString());
                 if(i == 0) zonas = new ArrayList<String>();
                 cargarSpinerZonas(zonas);
             }
@@ -212,6 +218,10 @@ public class MarcoActivity extends AppCompatActivity {
                             spMeses.getSelectedItem().toString(),
                             spPeriodos.getSelectedItem().toString(),
                             spZonas.getSelectedItem().toString());
+                    obtenerPeriodos(Integer.parseInt(spMeses.getSelectedItem().toString()));
+                    obtenerMeses(Integer.parseInt(spAnio.getSelectedItem().toString()));
+                    obtenerZonas(Integer.parseInt(spPeriodos.getSelectedItem().toString()));
+                            //obetnerMarcoSpinner();
                 }else{
                     Toast.makeText(MarcoActivity.this, "DEBE SELECCIONAR TODOS LOS CAMPOS ANTES DE FILTRAR", Toast.LENGTH_SHORT).show();
                 }
@@ -230,6 +240,13 @@ public class MarcoActivity extends AppCompatActivity {
 //            itemEvaluacion.setVisible(true);
 //        }
 
+    }
+
+    public void obetnerMarcoSpinner(){
+        cargarSpinerAnios(anios);
+        cargarSpinerMeses(meses);
+        cargarSpinerPeriodos(periodos);
+        cargarSpinerZonas(zonas);
     }
 
     public void obtenerMarcoFiltrado(String anio,String mes, String periodo, String nroSegmento){
@@ -278,6 +295,19 @@ public class MarcoActivity extends AppCompatActivity {
     public void obtenerZonas(int periodo){
         zonas = new ArrayList<String>();
         zonas.add("Seleccione");
+        for(ViviendaItem viviendaItem : listaViviendas){
+            if(Integer.parseInt(viviendaItem.getPeriodo())== periodo){
+                if(!zonas.contains(viviendaItem.getNrosegmento())){
+                    zonas.add(String.valueOf(viviendaItem.getNrosegmento()));
+                    Log.e("zonas",""+zonas);
+                }
+            }
+        }
+    }
+
+    public void obtenerZonasinS(int periodo){
+        zonas = new ArrayList<String>();
+        //zonas.add("Seleccione");
         for(ViviendaItem viviendaItem : listaViviendas){
             if(Integer.parseInt(viviendaItem.getPeriodo())== periodo){
                 if(!zonas.contains(viviendaItem.getNrosegmento())){

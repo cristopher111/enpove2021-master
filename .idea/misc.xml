@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/activity_adm_marco.xml" value="0.21145833333333333" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/activity_admin.xml" value="0.28020833333333334" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/activity_agregar_hogar_mixto.xml" value="0.28854166666666664" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/activity_agregar_persona.xml" value="0.30520833333333336" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/activity_agregar_residente.xml" value="0.28854166666666664" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/activity_hogar.xml" value="0.28020833333333334" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/activity_importar.xml" value="0.28489583333333335" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/caratula_pdireccion_viv.xml" value="0.20989583333333334" />
@@ -13,22 +17,32 @@
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/fragment_evaluacion.xml" value="0.17806484295845998" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/fragment_p306_p308.xml" value="0.11374750950914689" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/fragment_p405_p407.xml" value="0.36666666666666664" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/fragment_p630.xml" value="0.36666666666666664" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/header_item_vivienda.xml" value="0.36666666666666664" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/hogar_item.xml" value="0.36666666666666664" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/hogarmixto_item.xml" value="0.25" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/layout_toolbar.xml" value="0.30520833333333336" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/layout_toolbar_agregar_hogarmixto.xml" value="0.36666666666666664" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/layout_toolbar_agregar_residente.xml" value="0.10507246376811594" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/lista_item.xml" value="0.36666666666666664" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/modulo1_p111.xml" value="0.36666666666666664" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/modulo1_p112.xml" value="0.36666666666666664" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/modulo2_p204.xml" value="0.28854166666666664" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/modulo3_p306.xml" value="0.32708333333333334" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/modulo4_p405.xml" value="0.36666666666666664" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/modulo4_p405x.xml" value="0.36666666666666664" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/modulo5_p506a.xml" value="0.21979166666666666" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/modulo6_p615.xml" value="0.2640625" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/modulo6_p638x.xml" value="0.36666666666666664" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/layout/residente_item.xml" value="0.36666666666666664" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/menu/hogar.xml" value="0.28020833333333334" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/menu/menu_croquis.xml" value="0.36666666666666664" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/menu/menu_guardar.xml" value="0.36666666666666664" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/menu/menu_guardar_ingresos.xml" value="0.36666666666666664" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/menu/menu_mapa.xml" value="0.36614583333333334" />
         <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/menu/menu_marco.xml" value="0.36666666666666664" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/menu/menu_residente_1.xml" value="0.30520833333333336" />
+        <entry key="..\:/INEI/enpove2021/enpove2021-master/app/src/main/res/menu/menu_residente_2.xml" value="0.23697916666666666" />
       </map>
     </option>
   </component>

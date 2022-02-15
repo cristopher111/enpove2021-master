@@ -515,7 +515,7 @@ public class Modulo5 {
     }
 
     public String getC5_p506a() {
-        return c5_p506;
+        return c5_p506a;
     }
 
     public void setC5_p506a(String c5_p506a) {

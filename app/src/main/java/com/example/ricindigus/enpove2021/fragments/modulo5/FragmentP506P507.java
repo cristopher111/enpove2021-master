@@ -242,6 +242,7 @@ public class FragmentP506P507 extends FragmentPagina {
 //        contentValues.put(SQLConstantes.modulo5_c5_p507_prov,c5_p507_prov);
 //        contentValues.put(SQLConstantes.modulo5_c5_p507_dep,c5_p507_dep);
         //Anthony M
+        Log.e("guardarp506a",""+c5_p506a);
         contentValues.put(SQLConstantes.modulo5_c5_p506,c5_p506);
         contentValues.put(SQLConstantes.modulo5_c5_p506a,c5_p506a);
         contentValues.put(SQLConstantes.modulo5_c5_p507,c5_p507);
@@ -327,6 +328,7 @@ public class FragmentP506P507 extends FragmentPagina {
                 ((RadioButton) c5_p506_RadioGroup.getChildAt(Integer.parseInt(modulo5.getC5_p506()))).setChecked(true); //Anthony M
             if (modulo5.getC5_p506a() != null && !modulo5.getC5_p506a().equals("-1") && !modulo5.getC5_p506a().equals(""))
                 ((RadioButton) c5_p506a_RadioGroup.getChildAt(Integer.parseInt(modulo5.getC5_p506a()))).setChecked(true);
+            Log.e("p506a",""+modulo5.getC5_p506a());
             if (modulo5.getC5_p507() != null) {
                 if (!modulo5.getC5_p507().equals("-1") && !modulo5.getC5_p507().equals(""))
                     ((RadioButton) c5_p507_RadioGroup.getChildAt(Integer.parseInt(modulo5.getC5_p507()))).setChecked(true);
@@ -371,6 +373,8 @@ public class FragmentP506P507 extends FragmentPagina {
         }else {
             c5_p506a = "";
         }
+
+
 
         if(m5_p507_linearlayout.getVisibility() == View.VISIBLE){
             if(c5_p507.equals("-1")) { mostrarMensaje("PREGUNTA 507: DEBE SELECCIONAR UNA OPCION");return false;}

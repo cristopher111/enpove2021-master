@@ -601,27 +601,27 @@ public class FragmentCaratula extends FragmentPagina implements GoogleApiClient.
                 mostrarMensaje("TIPO DE VIA: EL ESPECIFIQUE NO DEBE SER MENOR A 3 CARACTERES"); return false;
             }
         }
-        if(nomvia.equals("")){ mostrarMensaje("NOMBRE DE VIA NO DEBE ESTAR VACIO PONER NEP DE NO HABER INFORMACIÓN"); return false; }
-        if(nropta.equals("")){ mostrarMensaje("Nº PUERTA NO DEBE ESTAR VACIO - COLOCAR SN"); return false; }
+        if(nomvia.trim().equals("")){ mostrarMensaje("NOMBRE DE VIA NO DEBE ESTAR VACIO PONER NEP DE NO HABER INFORMACIÓN"); return false; }
+        if(nropta.trim().equals("")){ mostrarMensaje("Nº PUERTA NO DEBE ESTAR VACIO - COLOCAR SN"); return false; }
         //if(nropta.equals("SN") && (mza.equals("") || lote.equals(""))){ mostrarMensaje("Vía sin número, debe indicar Manzana y Lote");}
         if(es_cero(nropta)){ mostrarMensaje("NO PUEDE SER CERO, NÚMERO DE LA PUERTA"); return false; }
 //        if(block.equals("")){ mostrarMensaje("Debe completar BLOCK"); return false; }
 //        if(interior.equals("")){ mostrarMensaje("Debe completar INTERIOR"); return false; }
-        if(piso.equals("")){ mostrarMensaje("EL PISO NO DEBE ESTAR VACIO, PONER 1 DE NO HABER INFORMACIÓN"); return false; }
+        if(piso.trim().equals("")){ mostrarMensaje("EL PISO NO DEBE ESTAR VACIO, PONER 1 DE NO HABER INFORMACIÓN"); return false; }
         if(es_cero(piso)){ mostrarMensaje("NO PUEDE SER CERO, PISO"); return false; }
 
         if(!validarPiso(piso)){mostrarMensaje("DEBE INGRESAR UN NUMERO DE PISO CORRECTO"); return false; }
         //if(piso != "A" || piso != "S"){ mostrarMensaje("DEBE INGRESAR UN NUMERO DE PISO CORRECTO"); return false; }
 
-        if(!telefono.equals("") && telefono.length()<6){ mostrarMensaje("TELEFONO: DEBE INGRESAR MAS DE 5 NUMEROS"); return false; }
+        if(!telefono.trim().equals("") && telefono.length()<6){ mostrarMensaje("TELEFONO: DEBE INGRESAR MAS DE 5 NUMEROS"); return false; }
 
         if(!telefono.equals("") && UtilsMethods.validarTelefono(telefono)>1){ mostrarMensaje("TELEFONO: DEBE INGRESAR UN NUMERO VALIDO"); return false; }
 //        if(tipvia == 5) {
 //            if(km.trim().equals("")){ mostrarMensaje("Tipo de vía es Carretera, debe indicar el Km."); return false;}
 //            if(Integer.parseInt(km.trim())==0){ mostrarMensaje("Tipo de vía es Carretera, Kilometros debe ser diferente de cero."); return false;}
 //        }
-        if(!mza.equals("") && lote.equals("")){ mostrarMensaje("SI TIENE MANZANA DEBE INGRESA EL LOTE"); return false; }
-        if(mza.equals("") && !lote.equals("")){ mostrarMensaje("SI TIENE LOTE DEBE INGRESA LA MANZANA"); return false; }
+        if(!mza.trim().equals("") && lote.equals("")){ mostrarMensaje("SI TIENE MANZANA DEBE INGRESA EL LOTE"); return false; }
+        if(mza.trim().equals("") && !lote.equals("")){ mostrarMensaje("SI TIENE LOTE DEBE INGRESA LA MANZANA"); return false; }
 
 
 
@@ -907,7 +907,8 @@ public class FragmentCaratula extends FragmentPagina implements GoogleApiClient.
         locationB.setLatitude(lat2);
         locationB.setLongitude(lng2);
         distancia = locationA.distanceTo(locationB);
-        if(distancia<=10){
+        //MODIFICADO DE 10 A 100 09/02/2022
+        if(distancia<=100){
             estado = true;
         }
         return estado;

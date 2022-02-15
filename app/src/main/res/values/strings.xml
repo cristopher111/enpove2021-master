@@ -52,8 +52,6 @@
     </string-array>
 
 
-
-
     <!--Strings asociados a la caratula-->
     <string name="caratula_ubicacion_geografica">UBICACIÓN GEOGRÁFICA</string>
     <string name="caratula_departamento">1.DEPARTAMENTO</string>
@@ -125,8 +123,8 @@
         <item>4.Ausente</item>
         <item>5.Vivienda desocupada</item>
         <item>6.No se inició la entrevista</item>
-<!--        <item>7.Teléfono fuera de servicio</item>-->
-<!--        <item>8.Teléfono no existe/Equivocado</item>-->
+        <!--        <item>7.Teléfono fuera de servicio</item>-->
+        <!--        <item>8.Teléfono no existe/Equivocado</item>-->
         <item>7.Nunca vivió alguna persona venezolana en la vivienda</item>
         <item>8.La persona venezolana se mudó de la vivienda</item>
         <item>9.Otro</item>
@@ -182,7 +180,6 @@
     <string name="funcionario_supervisor_n">SUPERVISOR/A NACIONAL:</string>
 
 
-
     <!--Strings asociados a la Cabecera-->
     <string name="cabecera_persona_n">Persona N°</string>
     <string name="cabecera_nombre">Nombre: </string>
@@ -207,7 +204,6 @@
     <string name="cabecera_pregunta_21_sp3">3. Vivienda Particular</string>
     <string name="cabecera_pregunta_21_sp4">4. Otro Establecimiento</string>
     <string name="cabecera_pregunta_21_especifique">Especifique</string>
-
 
 
     <!--Strings asociados al Capítulo : CARACTERÍSTICAS DE LA VIVIENDA Y DEL HOGAR-->
@@ -388,6 +384,10 @@
         <item>11.Otro No Pariente</item>
     </string-array>
 
+    <string name="modulo_2_hogarmixto">Tiene ingresos?</string>
+    <string name="modulo_2_hogarmixto_sp1">1.Si</string>
+    <string name="modulo_2_hogarmixto_sp2">2.No</string>
+
     <string name="modulo_2_p204">204.SEXO</string>
     <string name="modulo_2_p204_sp1">1.Hombre</string>
     <string name="modulo_2_p204_sp2">2.Mujer</string>
@@ -506,7 +506,7 @@
     </string-array>
 
     <string-array name="modulo_2_p205b_meses">
-    <item>-- Seleccione Mes --</item>
+        <item>-- Seleccione Mes --</item>
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -538,7 +538,6 @@
     <string name="sub_modulo_2_2">PARA 14 AÑOS Y MÁS DE EDAD</string>
 
     <string name="p200_obs">CONSULTA A HOGAR \n SIN PERCEPCIÓN DE INGRESOS</string>
-
 
 
     <string name="modulo_2_p207">207.¿CUÁL ES SU NÚMERO DE CELULAR?</string>
@@ -633,9 +632,6 @@
     <string name="modulo_3_p306_especifique">Especifique</string>
 
 
-
-
-
     <string name="modulo_3_p307">307. ¿ACTUALMENTE, QUÉ TIPO DE PERMISO MIGRATORIO TIENE PARA ESTAR EN PERÚ?</string>
     <string name="modulo_3_p307_ind">(Espere la respuesta y seleccione un código)</string>
     <string name="modulo_3_p307_sp1">1.Carné de Permiso Temporal de Permanencia (CPP)</string>
@@ -656,8 +652,6 @@
     <string name="modulo_3_p307_especifique_sp16">Especifique</string>
 
 
-
-
     <string name="modulo_3_p307A">307A. ¿CUÁL ES LA RAZÓN PRINCIPAL POR LA QUE NO CUENTA CON PERMISO MIGRATORIO PARA ESTAR EN PERÚ?</string>
     <string name="modulo_3_p307A_ind">(Espere la respuesta y seleccione un código)</string>
     <string name="modulo_3_p307A_sp1">1.No me enteré de que existían estas posibilidades</string>
@@ -668,7 +662,6 @@
     <string name="modulo_3_p307A_sp6">6.No tengo interés en tramitarlo/solicitarlo</string>
     <string name="modulo_3_p307A_sp7">7.Otro</string>
     <string name="modulo_3_p307A_especifique">Especifique</string>
-
 
 
     <string name="modulo_3_p308_cognitiva">"SEÑOR/A, SEÑORITA: AHORA ME GUSTARÍA HACERLE UNAS PREGUNTAS ADICIONALES PARA SABER QUE LE PARECIERON ESTAS PREGUNTAS"</string>
@@ -700,7 +693,6 @@
     <string name="modulo_3_p309_1_sp2">2.Cuenta con DNI</string>
     <string name="modulo_3_p309_1_sp3">3.Otro</string>
     <string name="modulo_3_p309_1_especifique">Especifique</string>
-
 
 
     <string name="modulo_3_p310">310.¿EN QUÉ ESTADO DE VENEZUELA VIVÍA PERMANENTEMENTE ANTES DE INICIAR SU VIAJE?</string>
@@ -821,8 +813,6 @@
         <item>8.Hermano/a</item>
         <item>9.Otro/a pariente</item>
     </string-array>
-
-
 
 
     <!--Strings asociados al Capítulo 4: SALUD-->
@@ -978,7 +968,6 @@
     <string name="modulo_4_p410b_sp1">1.Primera dosis</string>
     <string name="modulo_4_p410b_sp2">2.Segunda dosis</string>
     <string name="modulo_4_p410b_sp3">3.Tercera dosis</string>
-
 
 
     <string name="modulo_4_p410">410.¿USTED TUVO O TIENE LA COVID-19?</string>
@@ -1545,8 +1534,6 @@
 
 
     <string name="modulo_6_p632_i">Registre el código de la gestión más importante:</string>
-
-
 
 
     <string name="modulo_6_p633">633¿CUÁNTAS SEMANAS HA ESTADO BUSCANDO TRABAJO, SIN INTERRUPCIONES?</string>

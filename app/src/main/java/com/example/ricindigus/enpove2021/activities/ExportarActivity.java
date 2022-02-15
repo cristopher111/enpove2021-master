@@ -6,6 +6,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.util.Xml;
 import android.view.View;
 import android.widget.Button;
@@ -301,6 +302,7 @@ public class ExportarActivity extends AppCompatActivity {
                 escribirCampoXml(serializer, SQLConstantes.marco_aerInicial,marco.getAerInicial()+"");
                 escribirCampoXml(serializer, SQLConstantes.marco_aerFinal,marco.getAerFinal()+"");
                 escribirCampoXml(serializer, SQLConstantes.marco_cono,marco.getCono()+"");
+
                 escribirCampoXml(serializer, SQLConstantes.marco_area,marco.getArea()+"");
                 escribirCampoXml(serializer, SQLConstantes.marco_areaEncuesta,marco.getAreaEncuesta()+"");
                 escribirCampoXml(serializer, SQLConstantes.marco_region,marco.getRegion()+"");

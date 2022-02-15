@@ -99,6 +99,8 @@ public class HogarMixtoAdapter extends RecyclerView.Adapter<HogarMixtoAdapter.Vi
                 holder.txtLlegoVenezuela.setText("NO");
             else holder.txtLlegoVenezuela.setText("-----");
 
+
+
             if( residentes.get(position).getP200_aportante() != null && !residentes.get(position).getP200_aportante().equals("")){
                 ((RadioButton)holder.RadioIngresos.getChildAt(Integer.parseInt(
                         residentes.get(position).getP200_aportante()

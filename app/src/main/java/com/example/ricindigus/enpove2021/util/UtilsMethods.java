@@ -270,10 +270,10 @@ public class UtilsMethods {
         int mesFinal = Integer.parseInt(getFechaNow().getMesInicio())-1;
         if(Integer.parseInt(getFechaNow().getMesInicio())>nroMeses && nroMeses>0 && nroMeses<12){
             mesInicio = Integer.parseInt(getFechaNow().getMesInicio())-nroMeses;
-            mensaje   = getMes(mesInicio)+"-"+getFechaNow().getAnioInicio()+" A "+ getMes(mesFinal)+"-"+2021;
+            mensaje   = getMes(mesInicio)+"-"+getFechaNow().getAnioInicio()+" A "+ getMes(mesFinal)+"-"+2022;
         }else if(Integer.parseInt(getFechaNow().getMesInicio())<=nroMeses && nroMeses>0 && nroMeses<12){
             mesInicio = Integer.parseInt(getFechaNow().getMesInicio())-nroMeses+12;
-            mensaje   = getMes(mesInicio)+"-"+(Integer.parseInt(getFechaNow().getAnioInicio())-1)+" A "+ getMes(mesFinal)+"-"+2021;
+            mensaje   = getMes(mesInicio)+"-"+(Integer.parseInt(getFechaNow().getAnioInicio())-1)+" A "+ getMes(mesFinal)+"-"+2022;
         }else {
             mensaje   = "Ingrese solo valores de 1 a 11";
         }

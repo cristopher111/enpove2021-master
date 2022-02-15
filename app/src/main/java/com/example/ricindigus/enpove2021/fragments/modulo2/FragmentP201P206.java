@@ -14,6 +14,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -25,14 +26,19 @@ import android.widget.Toast;
 
 import com.example.ricindigus.enpove2021.R;
 import com.example.ricindigus.enpove2021.activities.EncuestaActivity;
+import com.example.ricindigus.enpove2021.activities.agregacion.AgregarHogarMixtoActivity;
 import com.example.ricindigus.enpove2021.activities.agregacion.AgregarResidenteActivity;
+import com.example.ricindigus.enpove2021.adapters.HogarMixtoAdapter;
 import com.example.ricindigus.enpove2021.adapters.ResidenteAdapter;
 import com.example.ricindigus.enpove2021.modelo.DAOUtils;
 import com.example.ricindigus.enpove2021.modelo.Data;
 import com.example.ricindigus.enpove2021.modelo.SQLConstantes;
 import com.example.ricindigus.enpove2021.modelo.pojos.Hogar;
+import com.example.ricindigus.enpove2021.modelo.pojos.Modulo6;
 import com.example.ricindigus.enpove2021.modelo.pojos.Residente;
 import com.example.ricindigus.enpove2021.modelo.pojos.ResultadoResidente;
+import com.example.ricindigus.enpove2021.modelo.pojos.VisitaEncuestador;
+import com.example.ricindigus.enpove2021.util.AppConfiguration;
 import com.example.ricindigus.enpove2021.util.FragmentPagina;
 import com.example.ricindigus.enpove2021.util.UtilsMethods;
 import com.example.ricindigus.enpove2021.util.UtilsMethodsUpdates;
@@ -56,6 +62,51 @@ public class FragmentP201P206 extends FragmentPagina {
     ArrayList<Residente> residentes;
     ResidenteAdapter residenteAdapter;
 
+
+    ///////para validacion/////////////////////
+    ArrayList<Modulo6> modulo6s;
+    ArrayList<Residente> residentesedad;
+    ArrayList<VisitaEncuestador> visitaEncuestador;
+    String vis_resu;
+    //////////ING NO LAB//////////////
+    String ING_NO_LAB1 ="";
+    String ING_NO_LAB2 ="";
+    String ING_NO_LAB3 ="";
+    String ING_NO_LAB4 ="";
+
+    ////////////ING DEPENDIENTE
+    String ING_DEP_MON ="";
+    String ING_DEP_ESP ="";
+
+    /////////// ING INDEPENDIENTE
+    String ING_INDEP_MON ="";
+    String ING_INDEP_ESP ="";
+
+    /////////// ING SECUNDARIO
+    String ING_SEC_MON ="";
+    String ING_SEC_ESP ="";
+
+
+    String p212;
+    String p208;
+    String radiogroup="";
+    String obs="";
+
+
+    int edad = 0;
+
+    int conteo1 = 0;
+    int conteo2 = 0;
+    int conteoedad = 0;
+
+    int conteoMONTOS = 0;
+    int conteoresu = 0;
+///////////////////////////////////////////////////////////////////////
+
+
+
+
+
     public FragmentP201P206() {
         // Required empty public constructor
     }
@@ -66,6 +117,105 @@ public class FragmentP201P206 extends FragmentPagina {
         this.idVivienda = idVivienda;
         this.context = context;
         idInformante = "";
+
+        Data data = new Data(context);
+        data.open();
+
+
+        //Log.e("resultadofinal",""+vis_resu);
+
+        modulo6s = new ArrayList<>();
+        residentes = new ArrayList<>();
+        visitaEncuestador = new ArrayList<>();
+
+        residentesedad = new ArrayList<>();
+        ((AppConfiguration) context.getApplicationContext()).setResidentesedad(residentesedad);
+
+        cargarDatos1();
+
+        for (VisitaEncuestador v : visitaEncuestador){
+            vis_resu = v.getVis_resu();
+            if(vis_resu == null){vis_resu = "";}
+            if(vis_resu.equals("1") || vis_resu.equals("2")){
+                conteoresu++;
+            }
+
+            Log.e("resultadoconteo",""+vis_resu);
+        }
+
+
+        for (Residente r : residentes){
+            p208 = r.getC2_p208();
+            edad = Integer.parseInt(r.getC2_p205_a());
+
+            if (p208.equals("1") ){
+                conteo1++;
+            }
+            if(p208.equals("2")){
+                conteo2++;
+
+            }
+            if(edad >= 5){
+                conteoedad++;
+
+            }
+
+
+
+            Log.e("migro?",""+p208);
+            Log.e("edad",""+edad);
+        }
+
+        ((AppConfiguration) context.getApplicationContext()).setResidentesedad(residentesedad);
+        Log.e("AppConfiguratio","getResisendets().size: "+((AppConfiguration) context.getApplicationContext()).getResidentesedad().size());
+
+        Log.e("conteo1p208",""+conteo1);
+        Log.e("conteo2p208",""+conteo2);
+        Log.e("conteoedad",""+conteoedad);
+
+
+        for (Modulo6 m : modulo6s){
+
+            ING_NO_LAB1 = m.getING_NO_LAB1P638();
+            ING_NO_LAB2 = m.getING_NO_LAB2P638();
+            ING_NO_LAB3 = m.getING_NO_LAB3P638();
+            ING_NO_LAB4 = m.getING_NO_LAB4P638();
+
+            ING_DEP_MON = m.getING_DEP_MON621();
+            ING_DEP_ESP = m.getING_DEP_ESP621();
+
+            ING_INDEP_MON = m.getING_INDEP_MONP623();
+            ING_INDEP_ESP = m.getING_INDEP_ESPP623();
+
+            ING_SEC_MON = m.getING_SEC_MONP624();
+            ING_SEC_ESP = m.getING_SEC_ESPP624();
+
+
+            if(!ING_NO_LAB1.equals("") || !ING_NO_LAB2.equals("") || !ING_NO_LAB3.equals("") || !ING_NO_LAB4.equals("")
+                    || !ING_DEP_MON.equals("") || !ING_DEP_ESP.equals("") || !ING_INDEP_MON.equals("") || !ING_INDEP_ESP.equals("")
+                    || !ING_SEC_MON.equals("") || !ING_SEC_ESP.equals("")){
+
+                conteoMONTOS++;
+
+            }
+            Log.e("CONTEOMONTOS",""+conteoMONTOS);
+
+            Log.e("modulo6_1",""+m.get_id()+":"+ m.getING_NO_LAB1P638());
+            Log.e("modulo6_2",""+m.get_id()+":"+ m.getING_NO_LAB2P638());
+            Log.e("modulo6_3",""+m.get_id()+":"+ m.getING_NO_LAB3P638());
+            Log.e("modulo6_4",""+m.get_id()+":"+ m.getING_NO_LAB4P638());
+            Log.e("ING_DEP_MON",""+m.get_id()+":"+ m.getING_DEP_MON621());
+            Log.e("ING_DEP_ESP",""+m.get_id()+":"+ m.getING_DEP_ESP621());
+            Log.e("ING_INDEP_MON",""+m.get_id()+":"+ m.getING_INDEP_MONP623());
+            Log.e("ING_INDEP_ESP",""+m.get_id()+":"+ m.getING_INDEP_ESPP623());
+            Log.e("ING_SEC_MON",""+m.get_id()+":"+ m.getING_SEC_MONP624());
+            Log.e("ING_SEC_ESP",""+m.get_id()+":"+ m.getING_SEC_ESPP624());
+
+        }
+        data.close();
+
+
+
     }
 
     @Override
@@ -173,6 +323,27 @@ public class FragmentP201P206 extends FragmentPagina {
                     final PopupMenu popupMenu = new PopupMenu(context,view);
                     if (residentes.size() == position + 1){
                         popupMenu.getMenuInflater().inflate(R.menu.menu_residente_1,popupMenu.getMenu());
+
+                        if(residentes.get(position).getC2_p208().equals("2")){
+
+                            MenuItem item = popupMenu.getMenu().findItem(R.id.opcion_sobrehogar);
+                            item.setVisible(true);
+                           if(conteoresu > 0 && conteoMONTOS == 0 &&(conteo1 > 0 && conteo2>0) && conteoedad>0){
+
+                                //MenuItem item = popupMenu.getMenu().findItem(R.id.opcion_sobrehogar);
+                                item.setVisible(true);
+
+                            }else{
+                               // MenuItem item = popupMenu.getMenu().findItem(R.id.opcion_sobrehogar);
+                                item.setVisible(false);
+                            }
+
+
+                        }else{
+                            MenuItem item = popupMenu.getMenu().findItem(R.id.opcion_sobrehogar);
+                            item.setVisible(false);
+                        }
+
                         popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
                             @Override
                             public boolean onMenuItemClick(MenuItem item) {
@@ -215,6 +386,7 @@ public class FragmentP201P206 extends FragmentPagina {
                                             intent2.putExtra("idJefeHogar", residentes.get(0).get_id());
                                             intent2.putExtra("vista", "0");
                                             startActivity(intent2);
+
                                       //  }
                                         break;
                                     case R.id.opcion_eliminar:
@@ -222,6 +394,24 @@ public class FragmentP201P206 extends FragmentPagina {
                                         else
                                             Toast.makeText(context, "NO PUEDE ELIMINAR AL JEFE DE HOGAR", Toast.LENGTH_SHORT).show();
                                         break;
+
+                                    case R.id.opcion_sobrehogar:
+//                                        Residente resident = residentes.get(0);
+//                                        if(resident.getC2_p204().equals("")  && !residentes.get(position).getC2_p203().equals("1") ){
+//                                            Toast.makeText(context, "DEBE INGRESAR LOS DATOS DEL JEFE DE HOGAR..", Toast.LENGTH_SHORT).show();
+//                                        }else {
+                                        Intent intent3 = new Intent(context, AgregarHogarMixtoActivity.class);
+                                        intent3.putExtra("idEncuestado", residentes.get(position).get_id() + "");
+                                        intent3.putExtra("numero", residentes.get(position).getNumero() + "");
+                                        intent3.putExtra("idHogar", idHogar);
+                                        intent3.putExtra("idVivienda", idVivienda);
+                                        intent3.putExtra("idJefeHogar", residentes.get(0).get_id());
+                                        intent3.putExtra("vista", "0");
+                                        startActivity(intent3);
+                                        //  }
+                                        break;
+
+
                                 }
                                 return true;
                             }
@@ -229,6 +419,26 @@ public class FragmentP201P206 extends FragmentPagina {
                         popupMenu.show();
                     }else{
                         popupMenu.getMenuInflater().inflate(R.menu.menu_residente_2,popupMenu.getMenu());
+
+                        if(residentes.get(position).getC2_p208().equals("2")){
+
+                            MenuItem item2 = popupMenu.getMenu().findItem(R.id.opcion_sobrehogar);
+                            item2.setVisible(true);
+                            if(conteoresu > 0 && conteoMONTOS == 0 &&(conteo1 > 0 && conteo2>0) && conteoedad>0){
+
+                               // MenuItem item2 = popupMenu.getMenu().findItem(R.id.opcion_sobrehogar);
+                                item2.setVisible(true);
+
+                            }else{
+                                 //MenuItem item2 = popupMenu.getMenu().findItem(R.id.opcion_sobrehogar);
+                                 item2.setVisible(false);
+                            }
+
+
+                        }else{
+                            MenuItem item2 = popupMenu.getMenu().findItem(R.id.opcion_sobrehogar);
+                            item2.setVisible(false);
+                        }
                         popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
                             @Override
                             public boolean onMenuItemClick(MenuItem item) {
@@ -272,6 +482,22 @@ public class FragmentP201P206 extends FragmentPagina {
                                             startActivity(intent2);
  //                                       }
 //                                        }
+                                        break;
+
+                                    case R.id.opcion_sobrehogar:
+//                                        Residente resident = residentes.get(0);
+//                                        if(resident.getC2_p204().equals("")  && !residentes.get(position).getC2_p203().equals("1") ){
+//                                            Toast.makeText(context, "DEBE INGRESAR LOS DATOS DEL JEFE DE HOGAR..", Toast.LENGTH_SHORT).show();
+//                                        }else {
+                                        Intent intent3 = new Intent(context, AgregarHogarMixtoActivity.class);
+                                        intent3.putExtra("idEncuestado", residentes.get(position).get_id() + "");
+                                        intent3.putExtra("numero", residentes.get(position).getNumero() + "");
+                                        intent3.putExtra("idHogar", idHogar);
+                                        intent3.putExtra("idVivienda", idVivienda);
+                                        intent3.putExtra("idJefeHogar", residentes.get(0).get_id());
+                                        intent3.putExtra("vista", "0");
+                                        startActivity(intent3);
+                                        //  }
                                         break;
                                 }
 
@@ -337,6 +563,16 @@ public class FragmentP201P206 extends FragmentPagina {
         if(!hogar.getId_informante().equals("")){
             informanteSpinner.setSelection(Integer.parseInt(hogar.getId_informante()));
         }
+        data.close();
+    }
+
+    public void cargarDatos1(){
+        residentes = new ArrayList<>();
+        Data data =  new Data(context);
+        data.open();
+        residentes = data.getAllResidentesHogar(idHogar);
+        modulo6s = data.getAllModulo6Hogar(idHogar);
+        visitaEncuestador = data.getAllVisitasReult(idVivienda);
         data.close();
     }
 

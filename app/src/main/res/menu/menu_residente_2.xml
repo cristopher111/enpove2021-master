@@ -11,4 +11,10 @@
         android:orderInCategory="100"
         android:title="Editar"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/opcion_sobrehogar"
+        android:orderInCategory="100"
+        android:visible="false"
+        android:title="Sobre hogar mixto"
+        app:showAsAction="never" />
 </menu>
