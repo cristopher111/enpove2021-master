@@ -17,6 +17,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.RecyclerView;
 import android.text.InputFilter;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -252,6 +253,10 @@ public class FragmentVisitasSupervisor extends FragmentPagina {
                             contentValues.put(SQLConstantes.visita_supervisor_vis_fecha_aa,anioInicio+"");
                             contentValues.put(SQLConstantes.visita_supervisor_vis_hor_ini,horaInicio+"");
                             contentValues.put(SQLConstantes.visita_supervisor_vis_min_ini,minutoInicio+"");
+                            Log.e("Diasupervisor", ""+diaInicio);
+                            Log.e("Messupervisor", ""+mesInicio);
+                            Log.e("Añosupervisor", ""+anioInicio);
+
 
                             try{
                                 Data dTablas = new Data(context);
@@ -316,6 +321,7 @@ public class FragmentVisitasSupervisor extends FragmentPagina {
                             int m = Integer.parseInt(cursor.getString(cursor.getColumnIndex(SQLConstantes.visita_supervisor_vis_fecha_mm)));
                             int y = Integer.parseInt(cursor.getString(cursor.getColumnIndex(SQLConstantes.visita_supervisor_vis_fecha_aa)));
 
+
                             int compHora = Integer.parseInt(cursor.getString(cursor.getColumnIndex(SQLConstantes.visita_supervisor_vis_hor_ini)));
                             int compMinuto = Integer.parseInt(cursor.getString(cursor.getColumnIndex(SQLConstantes.visita_supervisor_vis_min_ini)));
 
@@ -344,6 +350,7 @@ public class FragmentVisitasSupervisor extends FragmentPagina {
                             contentValues.put(SQLConstantes.visita_supervisor_vis_min_ini,minutoInicio);
                             contentValues.put(SQLConstantes.visita_supervisor_vis_fecha_dd,diaInicio);
                             contentValues.put(SQLConstantes.visita_supervisor_vis_fecha_dd,diaInicio);
+
                             try{
                                 cursor.moveToPosition(posicion);
                                 String idVisita = cursor.getString(cursor.getColumnIndex("_id"));

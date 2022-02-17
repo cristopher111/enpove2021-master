@@ -302,8 +302,9 @@ public class ExportarActivity extends AppCompatActivity {
                 escribirCampoXml(serializer, SQLConstantes.marco_aerInicial,marco.getAerInicial()+"");
                 escribirCampoXml(serializer, SQLConstantes.marco_aerFinal,marco.getAerFinal()+"");
                 escribirCampoXml(serializer, SQLConstantes.marco_cono,marco.getCono()+"");
-
+                Log.e("CONO", ""+marco.getCono());
                 escribirCampoXml(serializer, SQLConstantes.marco_area,marco.getArea()+"");
+                Log.e("AREA", ""+marco.getArea());
                 escribirCampoXml(serializer, SQLConstantes.marco_areaEncuesta,marco.getAreaEncuesta()+"");
                 escribirCampoXml(serializer, SQLConstantes.marco_region,marco.getRegion()+"");
                 escribirCampoXml(serializer, SQLConstantes.marco_dominio,marco.getDominio()+"");

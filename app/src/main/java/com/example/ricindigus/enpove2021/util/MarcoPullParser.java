@@ -66,9 +66,9 @@ public class MarcoPullParser {
     private static final String CORREO = "CORREO";
     private static final String AER_INI = "AER_INI";
     private static final String AER_FIN = "AER_FIN";
-    private static final String CONOS = "CONOS";
+    private static final String CONOS = "CONO"; //ESTABA COMO CONOS
     private static final String AREA = "AREA";
-    private static final String AREAENCUESTA = "AREA_ENC";
+    private static final String AREAENCUESTA = "AREAENCUESTA"; //ESTABA COMO AREA_ENC
     private static final String REGION = "REGION";
     private static final String DOMINIO = "DOMINIO";
     private static final String FRENTE = "FRENTE_ID";

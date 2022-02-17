@@ -41,6 +41,7 @@ import com.example.ricindigus.enpove2021.modelo.pojos.Hogar;
 import com.example.ricindigus.enpove2021.modelo.pojos.Modulo3;
 import com.example.ricindigus.enpove2021.modelo.pojos.Residente;
 import com.example.ricindigus.enpove2021.modelo.pojos.VisitaEncuestador;
+import com.example.ricindigus.enpove2021.modelo.pojos.VisitaSupervisor;
 import com.example.ricindigus.enpove2021.util.FragmentPagina;
 import com.example.ricindigus.enpove2021.util.InputFilterSoloLetras;
 import com.example.ricindigus.enpove2021.util.NumericKeyBoardTransformationMethod;
@@ -131,11 +132,18 @@ public class FragmentP301P305 extends FragmentPagina {
         idInformante = "";
         if(residente.getC2_p205_a().equals("")) edad = 0; else edad = Integer.parseInt(residente.getC2_p205_a());
         VisitaEncuestador visita = data.getUltimaVisitasHogar(idHogar);
+        VisitaSupervisor visitaSupervisor = data.getUltimaVisitasHogarSupervisor(idHogar);
         if(visita!=null){
             if(!visita.getVis_fecha_aa().equals("")){v_aa = visita.getVis_fecha_aa(); aa = Integer.parseInt(v_aa);}
             if(!visita.getVis_fecha_mm().equals("")){v_mm = visita.getVis_fecha_mm(); mm = Integer.parseInt(v_mm);}
             if(!visita.getVis_fecha_dd().equals("")){v_dd = visita.getVis_fecha_dd(); dd = Integer.parseInt(v_dd);}
+        }else if (visitaSupervisor!=null){
+            Log.e("añovisita",""+visitaSupervisor.getVis_fecha_aa());
+            if(!visitaSupervisor.getVis_fecha_aa().equals("")){v_aa = visitaSupervisor.getVis_fecha_aa(); aa = Integer.parseInt(v_aa);}
+            if(!visitaSupervisor.getVis_fecha_mm().equals("")){v_mm = visitaSupervisor.getVis_fecha_mm(); mm = Integer.parseInt(v_mm);}
+            if(!visitaSupervisor.getVis_fecha_dd().equals("")){v_dd = visitaSupervisor.getVis_fecha_dd(); dd = Integer.parseInt(v_dd);}
         }
+
         data.close();
     }
 
@@ -336,6 +344,8 @@ public class FragmentP301P305 extends FragmentPagina {
         }
 
         fecha_vici = v_aa  + "-" + v_mm + "-" + v_dd;
+        Log.e("fechaNacimiento", ""+fecha_naci);
+        Log.e("fechaVisita", ""+fecha_vici);
         c3_p303_m = p303spMes.getSelectedItemPosition() + "";
         c3_p303_a = p303spAnio.getSelectedItemPosition() + "";
         p303_a  = p303spAnio.getSelectedItem().toString();
@@ -349,10 +359,12 @@ public class FragmentP301P305 extends FragmentPagina {
             DateFormat dateFormat = dateFormat = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
             Date fechaNacimiento = dateFormat.parse(fecha_naci);
             Date fechaVisita = dateFormat.parse(fecha_vici);
+            Log.e("fechaNacimiento", ""+fechaNacimiento);
+            Log.e("fechaVisita", ""+fechaVisita);
             Calendar cal = Calendar.getInstance();
             Date fechaActual = cal.getTime();
             edad_ingresada = getEdad(fechaNacimiento, fechaActual);
-            edad_fecha = getEdad(fechaNacimiento, fechaVisita);
+            edad_fecha = getEdad(fechaNacimiento, fechaVisita);///antes estaba (fechaNacimiento, fechaVisita)
         } catch (ParseException e) {
             e.printStackTrace();
         }
@@ -420,9 +432,12 @@ public class FragmentP301P305 extends FragmentPagina {
     @Override
     public boolean validarDatos() {
         llenarVariables();
+
+        Log.e("edad",""+edad);
+        Log.e("edad_fecha",""+edad_fecha);
        if(informanteSpinner.getSelectedItemPosition() == 0) {mostrarMensaje("NÚMERO INFORMANTE: DEBE INDICAR INFORMANTE");return false;}
 
-        if (c3_p301_d.trim().equals("")){mostrarMensaje("PREGUNTA 301: DEBE AGREGAR FECHA");return false;}
+       if (c3_p301_d.trim().equals("")){mostrarMensaje("PREGUNTA 301: DEBE AGREGAR FECHA");return false;}
 //        if(((edad!=(aa-Integer.parseInt(c3_p301_a))) && (mm>Integer.parseInt(c3_p301_m))) ||
 //            ((edad!=(aa-Integer.parseInt(c3_p301_a)-1)) && (mm<Integer.parseInt(c3_p301_m))) ||
 //            ((edad!=(aa-Integer.parseInt(c3_p301_a))) && (mm==Integer.parseInt(c3_p301_m)) && (dd>Integer.parseInt(c3_p301_d))) ||
@@ -431,6 +446,8 @@ public class FragmentP301P305 extends FragmentPagina {
 //        }
         if(edad!=edad_fecha){
             showCapitulo200();
+            Log.e("edad",""+edad);
+            Log.e("edad_fecha",""+edad_fecha);
             //mostrarMensaje("PREGUNTA 301: DIFERENTE A EDAD CALCULADA ENTRE FECHA DE NACIMIENTO Y FECHA DE ENTREVISTA")
             ;return false;
         }
@@ -611,9 +628,13 @@ public class FragmentP301P305 extends FragmentPagina {
 
     public  int getEdad(Date fechaNacimiento, Date fechaActual) {
         DateFormat formatter = new SimpleDateFormat("yyyyMMdd");
+        Log.e("fechaNacimiento", ""+fechaNacimiento);
+        Log.e("fechaActual", ""+fechaActual);
         int dIni = Integer.parseInt(formatter.format(fechaNacimiento));
         int dEnd = Integer.parseInt(formatter.format(fechaActual));
+        Log.e("getedadnacimiento",""+dIni);
         int age = (dEnd-dIni)/10000;
+
         return age;
     }
 

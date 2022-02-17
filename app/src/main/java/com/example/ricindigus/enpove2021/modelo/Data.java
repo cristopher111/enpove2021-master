@@ -988,6 +988,38 @@ public class Data {
         return visitaEncuestadors;
     }
 
+   /////////////////////////////////////////////////////////AGREGADO 16/02/22
+   public VisitaSupervisor getUltimaVisitasHogarSupervisor(String idHogar){
+       VisitaSupervisor visitaSupervisor=null;
+       String[] whereArgs = new String[]{String.valueOf(idHogar)};
+       Cursor cursor = null;
+       try{
+           cursor = sqLiteDatabase.query(SQLConstantes.tablavisitassupervisor,
+                   null,SQLConstantes.WHERE_CLAUSE_HOGAR_ID,whereArgs,null,null,null);
+           while (cursor.moveToNext()){
+               visitaSupervisor = new VisitaSupervisor();
+               visitaSupervisor.set_id(cursor.getString(cursor.getColumnIndex(SQLConstantes.visita_encuestador_id)));
+               visitaSupervisor.setId_vivienda(cursor.getString(cursor.getColumnIndex(SQLConstantes.visita_encuestador_id_vivienda)));
+               visitaSupervisor.setId_hogar(cursor.getString(cursor.getColumnIndex(SQLConstantes.visita_encuestador_id_hogar)));
+               visitaSupervisor.setNumero(cursor.getString(cursor.getColumnIndex(SQLConstantes.visita_encuestador_numero)));
+               visitaSupervisor.setVis_fecha_dd(cursor.getString(cursor.getColumnIndex(SQLConstantes.visita_encuestador_vis_fecha_dd)));
+               visitaSupervisor.setVis_fecha_mm(cursor.getString(cursor.getColumnIndex(SQLConstantes.visita_encuestador_vis_fecha_mm)));
+               visitaSupervisor.setVis_fecha_aa(cursor.getString(cursor.getColumnIndex(SQLConstantes.visita_encuestador_vis_fecha_aa)));
+               visitaSupervisor.setVis_hor_ini(cursor.getString(cursor.getColumnIndex(SQLConstantes.visita_encuestador_vis_hor_ini)));
+               visitaSupervisor.setVis_min_ini(cursor.getString(cursor.getColumnIndex(SQLConstantes.visita_encuestador_vis_min_ini)));
+               visitaSupervisor.setVis_hor_fin(cursor.getString(cursor.getColumnIndex(SQLConstantes.visita_encuestador_vis_hor_fin)));
+               visitaSupervisor.setVis_min_fin(cursor.getString(cursor.getColumnIndex(SQLConstantes.visita_encuestador_vis_min_fin)));
+               visitaSupervisor.setVis_resu(cursor.getString(cursor.getColumnIndex(SQLConstantes.visita_encuestador_vis_resu)));
+               visitaSupervisor.setVis_resu_esp(cursor.getString(cursor.getColumnIndex(SQLConstantes.visita_encuestador_vis_resu_esp)));
+
+           }
+       }finally{
+           if(cursor != null) cursor.close();
+       }
+       return visitaSupervisor;
+   }
+   //////////////////////////////////////////////////////////////////////////////////////////////////////
+
     public VisitaEncuestador getUltimaVisitasHogar(String idHogar){
         VisitaEncuestador visitaEncuestador=null;
         String[] whereArgs = new String[]{String.valueOf(idHogar)};
