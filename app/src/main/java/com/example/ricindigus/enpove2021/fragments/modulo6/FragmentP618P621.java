@@ -110,6 +110,7 @@ public class FragmentP618P621 extends FragmentPagina {
 
     int edad=0;
     private String p607,p608,p619,p629,p628,p627;
+    private String p615_8,p615_9,p615_10,p615_11,p615_12,p615_13,p615_14;
     int p18 =0;
     private String p630,p631,p632i,p633;
     private String p632_1,p632_2,p632_3,p632_4,p632_5,p632_6,p632_7,p632_8,p632_9,p632_10;
@@ -146,6 +147,13 @@ public class FragmentP618P621 extends FragmentPagina {
         p607 = data.getModulo6(idEncuestado).getC6_p607();
         p608 = data.getModulo6(idEncuestado).getC6_p608();
         p612 = data.getModulo6(idEncuestado).getC6_p612();
+        p615_8 = data.getModulo6(idEncuestado).getC6_p615_sd();
+        p615_9 = data.getModulo6(idEncuestado).getC6_p615_sl();
+        p615_10 = data.getModulo6(idEncuestado).getC6_p615_sm();
+        p615_11 = data.getModulo6(idEncuestado).getC6_p615_smi();
+        p615_12 = data.getModulo6(idEncuestado).getC6_p615_sj();
+        p615_13 = data.getModulo6(idEncuestado).getC6_p615_sv();
+        p615_14 = data.getModulo6(idEncuestado).getC6_p615_ss();
         p615_t = data.getModulo6(idEncuestado).getC6_p615_t();
         p619 = data.getModulo6(idEncuestado).getC6_p619();
         p627 = data.getModulo6(idEncuestado).getC6_p627();
@@ -742,6 +750,7 @@ public class FragmentP618P621 extends FragmentPagina {
                 if( c6_p624_mon.trim().equals("") && c6_p624_esp.trim().equals("") ) //REGLA 82
                 { mostrarMensaje("ERROR “DEBE REGISTRAR INFORMACIÓN EN PREGUNTA 624”");return false; }
 
+
                 if(Integer.valueOf(c6_p624_mon.trim()) == 0 && Integer.valueOf(c6_p624_esp.trim()) == 0)
                 { mostrarMensaje("ERROR “EL INGRESO TOTAL NO PUEDE SER CERO EN PREGUNTA 624");return false; }
 
@@ -760,6 +769,10 @@ public class FragmentP618P621 extends FragmentPagina {
                 if(c6_p624_mon.trim().equals("0") && c6_p624_esp.trim().equals(""))
                 { mostrarMensaje("ERROR “EL INGRESO DEL MES ANTERIOR NO PUEDE SER CERO EN PREGUNTA 624”");return false; }
             }else{
+
+                int p615_st = Integer.parseInt(p615_8)+ Integer.parseInt(p615_9) + Integer.parseInt(p615_10)+ Integer.parseInt(p615_11) + Integer.parseInt(p615_12)+ Integer.parseInt(p615_13)+ Integer.parseInt(p615_14);
+                if(p615_st>0 && !c6_p624_nas2.equals("0")){mostrarMensaje("VERIFICAR “HA INDICADO CANTIDAD DE HORAS MAYORES QUE CERO EN LA P615 SOBRE OCUPACIÓN SECUNDARIA Y DICE QUE NO TUVO OCUPACIÓN SECUNDARIA”");return true;}
+
                 if(!c6_p624_mon.trim().equals("0") && !c6_p624_esp.trim().equals("0") && !c6_p624_mon.trim().equals("") && !c6_p624_esp.trim().equals(""))
                 { mostrarMensaje("ERROR “NO TUVO ACTIVIDAD SECUNDARIA Y TIENE INGRESO DEL MES ANTERIOR EN PREGUNTA 624”");return false; }
             }

@@ -637,11 +637,12 @@ public class FragmentP613P617 extends FragmentPagina {
             if(p601.equals("1") && c6_p615_t.equals("0"))
             {mostrarMensaje("ERROR “PREGUNTA 615 – EL TOTAL DE HORAS TRABAJADAS DURANTE LA SEMANA PASADA NO PUEDE SER CERO PORQUE SI TUVO TRABAJO LA SEMANA PASADA (P601)”");return false;}
 
+
             if(c6_p615_pd.equals("")) {p615_pd=0;}
             else{p615_pd = Integer.parseInt(c6_p615_pd.trim());}
 
             if(c6_p615_pl.equals("")) {p615_pl=0;}
-            else{p615_pd = Integer.parseInt(c6_p615_pl.trim());}
+            else{p615_pl = Integer.parseInt(c6_p615_pl.trim());}
 
             if(c6_p615_pm.equals("")) {p615_pm=0;}
             else{p615_pm = Integer.parseInt(c6_p615_pm.trim());}
@@ -658,6 +659,11 @@ public class FragmentP613P617 extends FragmentPagina {
             if(c6_p615_ps.equals("")) {p615_ps=0;}
             else{p615_ps = Integer.parseInt(c6_p615_ps.trim());}
 
+
+
+
+
+
            /* p615_pd = Integer.parseInt(c6_p615_pd.trim());
             p615_pl = Integer.parseInt(c6_p615_pl.trim());
             p615_pm = Integer.parseInt(c6_p615_pm.trim());
@@ -673,6 +679,8 @@ public class FragmentP613P617 extends FragmentPagina {
           //  if((p603.equals("1") || p604.equals("1")) && !c6_p615_t.equals("0"))
                 if((p603.equals("1") || p604.equals("1")) && p615_op>0)
             {mostrarMensaje("ERROR “PREGUNTA 615 – NO LE CORRESPONDE HORAS TRABAJADAS PORQUE NO TRABAJO LA SEMANA PASADA (P603 O P604)”");return false;}
+
+                if(p601.equals("1") && p615_op == 0){mostrarMensaje("VERIFICAR “INDICÓ QUE SI TUVO ALGÚN TRABAJO EN P601 Y HA PUESTO CERO HORAS EN P615 SOBRE OCUPACIÓN PRINCIPAL”");return true;}
 
             if(c6_p615_pd.trim().equals("")){ mostrarMensaje("PREGUNTA 615 PRINCIPAL - DOMINGO: DEBE INGRESAR HORAS TRABAJADAS");return false; }
             if(c6_p615_pl.trim().equals("")){ mostrarMensaje("PREGUNTA 615 PRINCIPAL - LUNES: DEBE INGRESAR HORAS TRABAJADAS");return false; }
