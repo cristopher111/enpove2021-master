@@ -1,8 +1,6 @@
 package com.example.ricindigus.enpove2021.modelo.pojos;
 
-/**
- * Created by RICARDO on 7/09/2017.
- */
+
 
 public class ExportarItem {
     private int seleccionado;

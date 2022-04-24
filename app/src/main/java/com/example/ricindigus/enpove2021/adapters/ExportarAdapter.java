@@ -16,9 +16,7 @@ import java.util.ArrayList;
 
 
 
-/**
- * Created by RICARDO on 7/09/2017.
- */
+
 
 public class ExportarAdapter extends RecyclerView.Adapter<ExportarAdapter.ViewHolder> {
     ArrayList<ExportarItem> exportarItems;

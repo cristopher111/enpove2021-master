@@ -15,9 +15,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 
 
-/**
- * Created by RICARDO on 10/08/2017.
- */
+
 
 public class UsuarioPullParser {
     private static final String _ID = "_ID";

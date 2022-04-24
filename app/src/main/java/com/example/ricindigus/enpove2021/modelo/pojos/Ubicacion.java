@@ -13,6 +13,8 @@ public class Ubicacion {
     private String id;
     private String idUsuario;
     private String usuario;
+    private String dni;
+    private String cargo;
     private String idDispositivo;
     private String serial;
     private String longitud;
@@ -21,14 +23,20 @@ public class Ubicacion {
     private String versionApk;
     private String bateria;
     private String conexion;
+    private String segmento;
+    private String periodo;
+    private String conglomerado;
 
     public Ubicacion() {
     }
 
-    public Ubicacion(String id, String idUsuario, String usuario, String idDispositivo, String serial, String longitud, String latitud, String fechaTablet, String versionApk, String bateria, String conexion) {
+    public Ubicacion(String id, String idUsuario, String usuario,String dni,String cargo, String idDispositivo, String serial, String longitud, String latitud, String fechaTablet, String versionApk, String bateria, String conexion, String segmento, String periodo, String conglomerado) {
+
         this.id = id;
         this.idUsuario = idUsuario;
         this.usuario = usuario;
+        this.dni = dni;
+        this.cargo = cargo;
         this.idDispositivo = idDispositivo;
         this.serial = serial;
         this.longitud = longitud;
@@ -37,6 +45,9 @@ public class Ubicacion {
         this.versionApk = versionApk;
         this.bateria = bateria;
         this.conexion = conexion;
+        this.segmento = segmento;
+        this.periodo = periodo;
+        this.conglomerado = conglomerado;
     }
 
     public String getId() {
@@ -61,6 +72,22 @@ public class Ubicacion {
 
     public void setUsuario(String usuario) {
         this.usuario = usuario;
+    }
+
+    public String getDni() {
+        return dni;
+    }
+
+    public void setDni(String dni) {
+        this.dni = dni;
+    }
+
+    public String getCargo() {
+        return cargo;
+    }
+
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
     }
 
     public String getIdDispositivo() {
@@ -126,4 +153,30 @@ public class Ubicacion {
     public void setConexion(String conexion) {
         this.conexion = conexion;
     }
+
+    public String getSegmento() {
+        return segmento;
+    }
+
+    public void setSegmento(String segmento) {
+        this.segmento = segmento;
+    }
+
+    public String getPeriodo() {
+        return periodo;
+    }
+
+    public void setPeriodo(String periodo) {
+        this.periodo = periodo;
+    }
+
+    public String getConglomerado() {
+        return conglomerado;
+    }
+
+    public void setConglomerado(String conglomerado) {
+        this.conglomerado = conglomerado;
+    }
+
+
 }

@@ -127,6 +127,9 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
     private VisitaEncuestadorAdapter.OnItemClickListener onItemClickListener;
 
 
+    int cob;
+
+
     int diaInicio;
     int mesInicio;
     int anioInicio;
@@ -205,14 +208,17 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
 
 
 
+
+
     public FragmentVisitasEncuestador() {
         // Required empty public constructor
     }
 
     @SuppressLint("ValidFragment")
-    public FragmentVisitasEncuestador(String idHogar, String idVivienda, Context context, String idCargo,String user,String idEncuestado) {
+    public FragmentVisitasEncuestador(String idHogar, String idVivienda,GoogleApiClient apiClient, Context context, String idCargo,String user,String idEncuestado) {
         this.idHogar = idHogar;
         this.idVivienda = idVivienda;
+        this.apiClient = apiClient;
         this.context = context;
         this.idCargo = idCargo;
         this.user = user;
@@ -396,6 +402,9 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
         super.onViewCreated(view, savedInstanceState);
         txtNombreUsuario.setText("12.ENTREVISTA Y SUPERVISIÓN");
 
+        cob = DAOUtils.getValidacionCoberturaPersona(idHogar,context);
+        //Log.e("cobertura0",""+cob);
+
         residentes = new ArrayList<>();
         //CAMBIADO POR OBS 125
         //txtNombreUsuario.setText("12.ENTREVISTA Y SUPERVISIÓN ( "+DAOUtils.getUsuario(user,context).getNombre()+" )");
@@ -504,11 +513,11 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
         });
 
         //Construcción cliente API Google
-        apiClient = new GoogleApiClient.Builder(getActivity().getApplicationContext())
+       /* apiClient = new GoogleApiClient.Builder(getActivity().getApplicationContext())
                 .enableAutoManage(getActivity(), this)
                 .addConnectionCallbacks(this)
                 .addApi(LocationServices.API)
-                .build();
+                .build();*/
     }
 
 
@@ -823,6 +832,10 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
 
         edtTipoEntrevista.setFilters(new InputFilter[]{new InputFilter.AllCaps(),new InputFilter.LengthFilter(100), new InputFilterSoloLetras()});
 
+
+
+        //cob = DAOUtils.getValidacionCoberturaPersona(idHogar,context);
+
         spResultado.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int pos, long l) {
@@ -1022,6 +1035,7 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
                         }
                         /*Validaciones cuando es completa*/
                         if(spResultado.getSelectedItemPosition() == 1){
+                            Log.e("cobertura1",""+cob);
                             if(rgTipoEntrevista.indexOfChild(rgTipoEntrevista.findViewById(rgTipoEntrevista.getCheckedRadioButtonId()))== -1){
                                 estado = false;
                                 if(mensaje.equals("")) mensaje = "DEBE INDICAR EL TIPO DE ENTREVISTA";
@@ -1034,8 +1048,10 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
                             }else if(!getHogar().getP15_o().equals(getHogar().getP17())){
                                 estado = false;
                                 if(mensaje.equals("")) mensaje = "EL NUMERO DE PERSONA QUE LLEGARON DE VENEZUELA (P15) NO COINCIDE CON LOS REGISTRADOS EN EL CAPITULO 200";
-                            }else if(DAOUtils.getValidacionCoberturaPersona(idHogar,context)>0){
+                            }else if(cob>0){
                                 estado = false;
+                                Log.e("cobertura2",""+cob);
+                                //Toast.makeText(context,"FALTA COMPLETAR ALGUN CAPITULO DE LAS PERSONAS QUE MIGRARON DE VENEZUELA",Toast.LENGTH_LONG).show();
                                 if(mensaje.equals("")) mensaje = "FALTA COMPLETAR ALGUN CAPITULO DE LAS PERSONAS QUE MIGRARON DE VENEZUELA";
                             }else if(getHogar().getP15().equals("")){
                                 estado = false;
@@ -2314,9 +2330,9 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
     }
 
     private void disableLocationUpdates() {
-        try{
+    /*    try{
             LocationServices.FusedLocationApi.removeLocationUpdates(apiClient, this);
-        }catch (Exception e){}
+        }catch (Exception e){}*/
 
     }
 
@@ -2414,8 +2430,8 @@ public class FragmentVisitasEncuestador extends FragmentPagina implements Google
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        apiClient.stopAutoManage(getActivity());
-        apiClient.disconnect();
+     /*   apiClient.stopAutoManage(getActivity());
+        apiClient.disconnect();*/
     }
 
     @Override

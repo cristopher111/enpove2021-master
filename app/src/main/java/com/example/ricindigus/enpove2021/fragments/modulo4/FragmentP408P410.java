@@ -71,6 +71,7 @@ public class FragmentP408P410 extends FragmentPagina {
     private String c4_p409;
     private String c4_p409_nom;
     private String c4_p409_parentesco;
+    private String c4_p409_1_o;
     private String c4_p409_2;
     private String c4_p410a;
     private String c4_p410b;
@@ -270,6 +271,7 @@ public class FragmentP408P410 extends FragmentPagina {
         contentValues.put(SQLConstantes.modulo4_c4_p409,c4_p409);
         contentValues.put(SQLConstantes.modulo4_c4_p409_nom,c4_p409_nom);//Anthony M 07/05/2021
         contentValues.put(SQLConstantes.modulo4_c4_p409_1,c4_p409_parentesco);
+        contentValues.put(SQLConstantes.modulo4_c4_p409_o,c4_p409_1_o);
         contentValues.put(SQLConstantes.modulo4_c4_p409_2,c4_p409_2);
         contentValues.put(SQLConstantes.modulo4_c4_p410a,c4_p410a);
         contentValues.put(SQLConstantes.modulo4_c4_p410b,c4_p410b);
@@ -376,7 +378,7 @@ public class FragmentP408P410 extends FragmentPagina {
 
 
         if(c4_p409_Spinner_parentesco.getSelectedItemPosition() == 6){
-            c4_p409_parentesco = text1_Editext.getText()+"";
+            c4_p409_1_o = text1_Editext.getText()+"";
             try{
                 Integer.parseInt(c4_p409_parentesco);
                 c4_p409_parentesco = "0";
@@ -470,7 +472,7 @@ public class FragmentP408P410 extends FragmentPagina {
                     if(p < 6 ) c4_p409_Spinner_parentesco.setSelection(p);
                 }catch (Exception e){
                     c4_p409_Spinner_parentesco.setSelection(6);
-                    text1_Editext.setText(modulo4.getC4_p409_1());
+                    text1_Editext.setText(modulo4.getC4_p409_o());
                 }
             }
 
@@ -638,6 +640,7 @@ public class FragmentP408P410 extends FragmentPagina {
             c4_p409_nom = "";
             c4_p409_parentesco="";
             c4_p409_2 = "";
+            c4_p409_1_o = "";
         }
 
         if (m4_p410a_linearlayout.getVisibility()==View.VISIBLE){

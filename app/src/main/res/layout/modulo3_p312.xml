@@ -17,33 +17,42 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/modulo_3_p312_ind"/>
-    <RadioGroup
-        android:id="@+id/mod3_312_radiogroup_C3_P312"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <RadioButton
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:id="@+id/mod3_312_radiogroup_C3_P312"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:visibility="gone"/>
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/modulo_3_p312_sp1"/>
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/modulo_3_p312_sp2"/>
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="@dimen/margen_small"
-            android:text="@string/modulo_3_p312_sp3"/>
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modulo_3_p312_sp1"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modulo_3_p312_sp2"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margen_small"
+                android:text="@string/modulo_3_p312_sp3"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modulo_3_p312_sp4"/>
+        </RadioGroup>
+
         <EditText
             android:id="@+id/mod3_312_edittext_C3_P312_O"
+            android:layout_marginTop="68dp"
             style="@style/TemaInputEspecifiqueRadioIntermedio" />
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/modulo_3_p312_sp4"/>
-    </RadioGroup>
+    </LinearLayout>
+
 </LinearLayout>

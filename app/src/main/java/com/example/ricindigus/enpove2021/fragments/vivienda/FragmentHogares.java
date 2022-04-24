@@ -1,21 +1,28 @@
 package com.example.ricindigus.enpove2021.fragments.vivienda;
 
 
+import android.Manifest;
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.location.Location;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.RecyclerView;
 import android.text.InputFilter;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -37,15 +44,26 @@ import com.example.ricindigus.enpove2021.modelo.pojos.POJOFragmentHogar;
 import com.example.ricindigus.enpove2021.modelo.pojos.Residente;
 import com.example.ricindigus.enpove2021.util.FragmentPagina;
 import com.example.ricindigus.enpove2021.util.InputFilterSoloLetras;
+import com.example.ricindigus.enpove2021.util.UtilsMethodsUpdates;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.location.LocationListener;
+import com.google.android.gms.location.LocationRequest;
+import com.google.android.gms.location.LocationServices;
 
 import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FragmentHogares extends FragmentPagina {
+public class FragmentHogares extends FragmentPagina implements GoogleApiClient.OnConnectionFailedListener,
+        GoogleApiClient.ConnectionCallbacks, LocationListener {
 
     String idVivienda;
+    String idUsuario;
+    String segmento;
+    String periodo;
+    String conglomerado;
     Context context;
     TextView numeroHogaresTextView;
     RecyclerView hogaresRecyclerView;
@@ -54,10 +72,18 @@ public class FragmentHogares extends FragmentPagina {
     HogarAdapter hogarAdapter;
     ArrayList<Hogar> hogares;
 
+    private GoogleApiClient apiClient;
+    private LocationRequest locRequest;
+
+
 
     @SuppressLint("ValidFragment")
-    public FragmentHogares(String idVivienda, Context context) {
+    public FragmentHogares(String idVivienda,String idUsuario,String segmento,String periodo, String conlgomerado, Context context) {
         this.idVivienda = idVivienda;
+        this.idUsuario = idUsuario;
+        this.segmento= segmento;
+        this.periodo = periodo;
+        this.conglomerado = conlgomerado;
         this.context = context;
     }
 
@@ -86,6 +112,14 @@ public class FragmentHogares extends FragmentPagina {
         cargarDatos();
         inicializarDatos();
         setearAdapter();
+
+        /*FragmentActivity fragmentActivity = getActivity();
+        FragmentCaratula fragmentCaratula = new FragmentCaratula();
+        fragmentCaratula.ApiGoogle(context, fragmentActivity);
+        fragmentCaratula.startLocationUpdates(context);
+        fragmentCaratula.sendUbicacion(context);*/
+
+
         agregarHogarFAB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -116,6 +150,32 @@ public class FragmentHogares extends FragmentPagina {
                             switch(item.getItemId()){
                                 case R.id.opcion_hogar_iniciar:
                                     iniciarHogar(position);
+                                    ///////////////////////////////////////////////////PARA ELIMINAR RESIDENTES MANUALMENTE POR CODIGO////////////////////////////////////
+                                    Data data = new Data(context);
+                                    data.open();
+                                    String idDelEncuestado = "00001010001047A00819_1_2";
+                                    data.eliminarDato(SQLConstantes.tablaresidentes,idDelEncuestado);
+                                    data.eliminarDato(SQLConstantes.tablamodulo3,idDelEncuestado);
+                                    data.eliminarDatos(SQLConstantes.tablam3p309rutas,SQLConstantes.modulo3_p309_id_encuestado,idDelEncuestado);
+                                    data.eliminarDatos(SQLConstantes.tablam3p318personas,SQLConstantes.modulo3_p318_idEncuestado,idDelEncuestado);
+                                    data.eliminarDato(SQLConstantes.tablamodulo4,idDelEncuestado);
+                                    data.eliminarDato(SQLConstantes.tablamodulo5,idDelEncuestado);
+                                    data.eliminarDato(SQLConstantes.tablamodulo6,idDelEncuestado);
+                                    data.eliminarDato(SQLConstantes.tablamodulo7,idDelEncuestado);
+                                    data.eliminarDato(SQLConstantes.tablamodulo8,idDelEncuestado);
+
+                                    ContentValues contentValues = new ContentValues();
+                                    String idHogar= "00001010001047A00819_1";
+                                    contentValues.put(SQLConstantes.hogar_nroviven,UtilsMethodsUpdates.getHogarP16(context,idHogar));
+                                    contentValues.put(SQLConstantes.hogar_vive,UtilsMethodsUpdates.getJefeVenezolanoHogar(context,idHogar));
+                                    contentValues.put(SQLConstantes.hogar_p16,UtilsMethodsUpdates.getHogarP16(context,idHogar));
+                                    contentValues.put(SQLConstantes.hogar_p17,UtilsMethodsUpdates.getHogarP17(context,idHogar));
+                                    contentValues.put(SQLConstantes.hogar_p18,UtilsMethodsUpdates.getHogarP18(context,idHogar));
+                                    contentValues.put(SQLConstantes.hogar_p19,UtilsMethodsUpdates.getHogarP19(context,idHogar));
+                                    contentValues.put(SQLConstantes.hogar_p20,UtilsMethodsUpdates.getHogarP20(context,idHogar));
+                                    data.actualizarElemento(SQLConstantes.tablahogares,contentValues,idHogar);
+                                    data.close();
+                                    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                     break;
                                 case R.id.opcion_hogar_editar:
                                     editarHogar(hogares.get(position));
@@ -168,9 +228,11 @@ public class FragmentHogares extends FragmentPagina {
     public void cargarDatos() {
         Data data = new Data(context);
         data.open();
-        if (data.existeElemento(SQLConstantes.tablacaratula,idVivienda)){
-            numeroHogaresTextView.setText(data.getCaratula(idVivienda).getT_hogar());
-        }
+
+            if (data.existeElemento(SQLConstantes.tablacaratula,idVivienda)){
+                numeroHogaresTextView.setText(data.getCaratula(idVivienda).getT_hogar());
+            }
+
         data.close();
     }
 
@@ -340,6 +402,11 @@ public class FragmentHogares extends FragmentPagina {
         intent.putExtra("idHogar",hogares.get(position).get_id());
         ViviendaActivity viviendaActivity = (ViviendaActivity)getActivity();
         intent.putExtra("nickUsuario", viviendaActivity.getNickUsuario());
+        intent.putExtra("idUsuario",idUsuario);
+        intent.putExtra("segmento",segmento);
+        intent.putExtra("periodo",periodo);
+        intent.putExtra("conglomerado",conglomerado);
+
         startActivity(intent);
     }
 
@@ -434,5 +501,25 @@ public class FragmentHogares extends FragmentPagina {
         super.onResume();
         inicializarDatos();
         setearAdapter();
+    }
+
+    @Override
+    public void onConnected(@Nullable Bundle bundle) {
+
+    }
+
+    @Override
+    public void onConnectionSuspended(int i) {
+
+    }
+
+    @Override
+    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+
+    }
+
+    @Override
+    public void onLocationChanged(Location location) {
+
     }
 }

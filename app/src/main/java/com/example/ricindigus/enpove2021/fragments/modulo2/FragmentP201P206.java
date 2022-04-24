@@ -52,7 +52,12 @@ public class FragmentP201P206 extends FragmentPagina {
 
     String idHogar;
     String idVivienda;
+    String idUsuario;
+    String nickUsuario;
     String idInformante;
+    String segmento;
+    String periodo;
+    String conglomerado;
     Context context;
     Spinner informanteSpinner;
     TextView txtNroPersonas;
@@ -112,9 +117,14 @@ public class FragmentP201P206 extends FragmentPagina {
     }
 
     @SuppressLint("ValidFragment")
-    public FragmentP201P206(String idHogar, String idVivienda, Context context) {
+    public FragmentP201P206(String idHogar, String idVivienda,String idUsuario,String nickUsuario,String segmento,String periodo, String conglomerado, Context context) {
         this.idHogar = idHogar;
         this.idVivienda = idVivienda;
+        this.idUsuario = idUsuario;
+        this.nickUsuario = nickUsuario;
+        this.segmento = segmento;
+        this.periodo = periodo;
+        this.conglomerado = conglomerado;
         this.context = context;
         idInformante = "";
 
@@ -235,6 +245,8 @@ public class FragmentP201P206 extends FragmentPagina {
         layoutManager = new LinearLayoutManager(context);
         recyclerView.setLayoutManager(layoutManager);
 
+        onStart();
+
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -244,8 +256,13 @@ public class FragmentP201P206 extends FragmentPagina {
                     intent.putExtra("idEncuestado",idHogar + "_" + num);
                     intent.putExtra("numero", num + "");
                     intent.putExtra("idHogar", idHogar);
+                    intent.putExtra("idUsuario", idUsuario);
+                    intent.putExtra("nickUsuario", nickUsuario);
                     intent.putExtra("idVivienda", idVivienda);
                     intent.putExtra("idJefeHogar", residentes.get(0).get_id());
+                    intent.putExtra("segmento", segmento);
+                    intent.putExtra("periodo", periodo);
+                    intent.putExtra("conglomerado", conglomerado);
                     intent.putExtra("vista", "0");
                     startActivity(intent);
 //                }else { mostrarMensaje("ANTES DE INGRESAR ALGÚN MIEMBRO DEL HOGAR, DEBE COMPLETAR LA INFORMACIÓN DEL JEFE DE HOGAR");}
@@ -367,6 +384,10 @@ public class FragmentP201P206 extends FragmentPagina {
                                                 intent1.putExtra("numero", residentes.get(position).getNumero() + "");
                                                 intent1.putExtra("idHogar", idHogar);
                                                 intent1.putExtra("idVivienda", idVivienda);
+                                                intent1.putExtra("idUsuario", idUsuario);
+                                                intent1.putExtra("segmento", segmento);
+                                                intent1.putExtra("periodo", periodo);
+                                                intent1.putExtra("conglomerado", conglomerado);
                                                 iniciarResultadoResidente(idEncuestado);
                                                 startActivity(intent1);
                                             }
@@ -382,8 +403,13 @@ public class FragmentP201P206 extends FragmentPagina {
                                             intent2.putExtra("idEncuestado", residentes.get(position).get_id() + "");
                                             intent2.putExtra("numero", residentes.get(position).getNumero() + "");
                                             intent2.putExtra("idHogar", idHogar);
+                                            intent2.putExtra("idUsuario", idUsuario);
+                                            intent2.putExtra("nickUsuario", nickUsuario);
                                             intent2.putExtra("idVivienda", idVivienda);
                                             intent2.putExtra("idJefeHogar", residentes.get(0).get_id());
+                                            intent2.putExtra("segmento", segmento);
+                                            intent2.putExtra("periodo", periodo);
+                                            intent2.putExtra("conglomerado", conglomerado);
                                             intent2.putExtra("vista", "0");
                                             startActivity(intent2);
 
@@ -405,7 +431,11 @@ public class FragmentP201P206 extends FragmentPagina {
                                         intent3.putExtra("numero", residentes.get(position).getNumero() + "");
                                         intent3.putExtra("idHogar", idHogar);
                                         intent3.putExtra("idVivienda", idVivienda);
+                                        intent3.putExtra("idUsuario", idUsuario);
                                         intent3.putExtra("idJefeHogar", residentes.get(0).get_id());
+                                        intent3.putExtra("segmento", segmento);
+                                        intent3.putExtra("periodo", periodo);
+                                        intent3.putExtra("conglomerado", conglomerado);
                                         intent3.putExtra("vista", "0");
                                         startActivity(intent3);
                                         //  }
@@ -461,6 +491,10 @@ public class FragmentP201P206 extends FragmentPagina {
                                                 intent1.putExtra("numero", residentes.get(position).getNumero() + "");
                                                 intent1.putExtra("idHogar", idHogar);
                                                 intent1.putExtra("idVivienda", idVivienda);
+                                                intent1.putExtra("idUsuario", idUsuario);
+                                                intent1.putExtra("segmento", segmento);
+                                                intent1.putExtra("periodo", periodo);
+                                                intent1.putExtra("conglomerado", conglomerado);
                                                 iniciarResultadoResidente(idEncuestado);
                                                 startActivity(intent1);
                                             }
@@ -476,8 +510,12 @@ public class FragmentP201P206 extends FragmentPagina {
                                             intent2.putExtra("idEncuestado", residentes.get(position).get_id() + "");
                                             intent2.putExtra("numero", residentes.get(position).getNumero() + "");
                                             intent2.putExtra("idHogar", idHogar);
+                                            intent2.putExtra("idUsuario", idUsuario);
                                             intent2.putExtra("idVivienda", idVivienda);
                                             intent2.putExtra("idJefeHogar", residentes.get(0).get_id());
+                                            intent2.putExtra("segmento", segmento);
+                                            intent2.putExtra("periodo", periodo);
+                                            intent2.putExtra("conglomerado", conglomerado);
                                             intent2.putExtra("vista", "0");
                                             startActivity(intent2);
  //                                       }
@@ -494,7 +532,11 @@ public class FragmentP201P206 extends FragmentPagina {
                                         intent3.putExtra("numero", residentes.get(position).getNumero() + "");
                                         intent3.putExtra("idHogar", idHogar);
                                         intent3.putExtra("idVivienda", idVivienda);
+                                        intent3.putExtra("idUsuario", idUsuario);
                                         intent3.putExtra("idJefeHogar", residentes.get(0).get_id());
+                                        intent3.putExtra("segmento", segmento);
+                                        intent3.putExtra("periodo", periodo);
+                                        intent3.putExtra("conglomerado", conglomerado);
                                         intent3.putExtra("vista", "0");
                                         startActivity(intent3);
                                         //  }

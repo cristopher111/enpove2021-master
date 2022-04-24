@@ -53,13 +53,15 @@ public class LoginActivity extends AppCompatActivity {
         usuarioEditText.setFilters(new InputFilter[]{new InputFilter.AllCaps(),new InputFilter.LengthFilter(8)});
         passwordEditText.setFilters(new InputFilter[]{new InputFilter.AllCaps(),new InputFilter.LengthFilter(8)});
 
-        //usuarioEditText.setText("ENC001");
-        //passwordEditText.setText("291538");
+        usuarioEditText.setText("ENC001");
+        passwordEditText.setText("291538");
+        //usuarioEditText.setText("ENC034");
+        //passwordEditText.setText("475937");
         //usuarioEditText.setText("SUP001");
         //passwordEditText.setText("908231");
         //versionTxt.setText("Primera Prueba Piloto (Cognitiva) - Versión "+ UtilsMethods.getVersion(this));
         //versionTxt.setText("Prueba Requerimientos - Versión 0.3.1");
-        versionTxt.setText("II ENPOVE 2021-2022 - Versión "+ UtilsMethods.getVersion(this) +" (Campo)");
+        versionTxt.setText("II ENPOVE 2022 - Versión "+ UtilsMethods.getVersion(this) +" (Campo)");
 
         ingresarButton.setOnClickListener(new View.OnClickListener() {
             @Override

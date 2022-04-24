@@ -1519,8 +1519,8 @@ public class SQLConstantes {
     public static final String modulo5_c5_p501b = "P501b";
     public static final String modulo5_c5_p502_c = "c5_p502_c";
     public static final String modulo5_c5_p502_eleccion = "c5_p502_eleccion";
-    public static final String modulo5_c5_p502 = "P502_codigoCarrera"; //Anthony M ///c5_p502
-    public static final String modulo5_c5_p502_o = "P502"; ////c5_p502_o
+    public static final String modulo5_c5_p502 = "P502_codigoCarrera"; //Anthony M ///c5_p502//antes:P502_codigoCarrera
+    public static final String modulo5_c5_p502_o = "P502"; ////c5_p502_o//antes:P502
     public static final String modulo5_c5_p503 = "P503"; ///c5_p503
     public static final String modulo5_c5_p504 = "P504_1"; ///c5_p504
     public static final String modulo5_c5_p504_anio = "P504_2"; //Anthony M ///c5_p504_anio

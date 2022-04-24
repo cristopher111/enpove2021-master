@@ -786,16 +786,48 @@ public class DAOUtils {
         return residentes;
     }
 
-    public static int getValidacionCoberturaPersona(String idHogar, Context context){
+/*    public static int getValidacionCoberturaPersona(String idHogar, Context context){
         ArrayList<Residente> residentes = getResidentesVenezolanosHogar(idHogar, context);
         ArrayList<String> lista = new ArrayList<>();
+        int cont = 0;
         for(Residente residente: residentes){
+
             if(residente.getEncuestado_cobertura().equals("2") || residente.getEncuestado_cobertura().equals(""))
             {
                 lista.add("2");
+
+                //cont++;
+                //Log.e("coberturasincompletas",""+cont);
             }
         }
         return lista.size();
+    }*/
+
+    public static int getValidacionCoberturaPersona(String idHogar, Context context){
+        Data data =  new Data(context);
+        data.open();
+        ArrayList<Residente> residentes;
+        residentes = data.getAllResidentesHogar(idHogar);
+        ArrayList<String> lista = new ArrayList<>();
+        for(Residente residente: residentes){
+
+            String s = residente.getEncuestado_cobertura();
+            String a = residente.getC2_p208();
+            Log.e("validarCob",""+s);
+            Log.e("validarP208",""+a);
+
+
+
+            if((residente.getEncuestado_cobertura().equals("0") && residente.getC2_p208().equals("1")) || (residente.getEncuestado_cobertura().equals("") && residente.getC2_p208().equals("1")) || residente.getC2_p208().equals(""))
+            {
+                lista.add("2");
+                //cont++;
+                //Log.e("coberturasincompletas",""+cont);
+            }
+        }
+        data.close();
+        return lista.size();
+
     }
 
     //OTROS

@@ -14,6 +14,7 @@ import android.support.v7.app.AlertDialog;
 import android.text.Editable;
 import android.text.InputFilter;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -288,6 +289,10 @@ public class FragmentP108P113 extends FragmentPagina {
         contentValues.put(SQLConstantes.modulo1_h_c1_p108_2,c1_p108_2+"");
         contentValues.put(SQLConstantes.modulo1_h_c1_p108_3,c1_p108_3+"");
         contentValues.put(SQLConstantes.modulo1_h_c1_p108_4,c1_p108_4+"");
+        Log.e("p108_1_o",""+c1_p108_1_o);
+        Log.e("p108_2_o",""+c1_p108_2_o);
+        Log.e("p108_3_o",""+c1_p108_3_o);
+
         contentValues.put(SQLConstantes.modulo1_h_c1_p108_1_o,c1_p108_1_o);
         contentValues.put(SQLConstantes.modulo1_h_c1_p108_2_o,c1_p108_2_o);
         contentValues.put(SQLConstantes.modulo1_h_c1_p108_3_o,c1_p108_3_o);

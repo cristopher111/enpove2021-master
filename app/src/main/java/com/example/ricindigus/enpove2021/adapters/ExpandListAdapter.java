@@ -13,9 +13,7 @@ import java.util.List;
 import com.example.ricindigus.enpove2021.R;
 
 
-/**
- * Created by RICARDO on 16/07/2017.
- */
+
 
 public class ExpandListAdapter extends BaseExpandableListAdapter {
     private Context _context;

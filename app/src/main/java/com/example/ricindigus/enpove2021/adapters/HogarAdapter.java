@@ -8,6 +8,7 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -48,8 +49,13 @@ public class HogarAdapter extends RecyclerView.Adapter<HogarAdapter.ViewHolder>{
         holder.txtEstado.setText(hogars.get(position).getEstado());
         holder.txtNumeroViven.setText(hogars.get(position).getNroviven());
         if(!hogars.get(position).getEstado().equals("0")){
-            if(!hogars.get(position).getEstado().equals(""))
-            {holder.txtEstado.setText(context.getResources().getStringArray(R.array.visita_array_resultados)[Integer.parseInt(hogars.get(position).getEstado())]);}
+            if(!hogars.get(position).getEstado().equals("")) {
+                try {
+                    holder.txtEstado.setText(context.getResources().getStringArray(R.array.visita_array_resultados)[Integer.parseInt(hogars.get(position).getEstado())]);
+                } catch (Exception e) {
+                    Log.e("Error", "HOGAR"+e.toString());
+                }
+            }
             else{holder.txtEstado.setText("Sin estado");}
         }else{
             holder.txtEstado.setText("Sin estado");

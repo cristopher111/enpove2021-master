@@ -43,9 +43,13 @@ import java.util.ArrayList;
 public class FragmentP318 extends FragmentPagina {
     String idEncuestado;
     String idVivienda;
+    String idUsuario;
     Context contexto;
     String idInformante;
     String idHogar;
+    String segmento;
+    String periodo;
+    String conglomerado;
 
     ArrayList<M3Pregunta318> m3Pregunta318s = new ArrayList<>();
     Spinner spInformante;
@@ -68,9 +72,13 @@ public class FragmentP318 extends FragmentPagina {
     }
 
     @SuppressLint("ValidFragment")
-    public FragmentP318(String idEncuestado,String idVivienda, Context contexto) {
+    public FragmentP318(String idEncuestado,String idVivienda,String idUsuario,String segmento,String periodo,String conglomerado, Context contexto) {
         this.idEncuestado = idEncuestado;
         this.idVivienda = idVivienda;
+        this.idUsuario = idUsuario;
+        this.segmento = segmento;
+        this.periodo = periodo;
+        this.conglomerado = conglomerado;
         this.contexto = contexto;
     }
 
@@ -86,6 +94,8 @@ public class FragmentP318 extends FragmentPagina {
         lytp318 = (LinearLayout) rootview.findViewById(R.id.layout_m3_p318);
         fab = (FloatingActionButton) rootview.findViewById(R.id.fab_p318);
         lytRecyclerP318 = (LinearLayout) rootview.findViewById(R.id.layout_recycler_p318);
+
+
 
 
         return rootview;
@@ -117,6 +127,10 @@ public class FragmentP318 extends FragmentPagina {
                 intent.putExtra("numero",(m3Pregunta318s.size()+1)+"");
                 intent.putExtra("idEncuestado",idEncuestado);
                 intent.putExtra("idVivienda",idVivienda);
+                intent.putExtra("idUsuario",idUsuario);
+                intent.putExtra("segmento",segmento);
+                intent.putExtra("periodo",periodo);
+                intent.putExtra("conglomerado",conglomerado);
                 intent.putExtra("id",idEncuestado+"_persona"+(m3Pregunta318s.size()+1)+"");
                 startActivity(intent);
             }
@@ -195,6 +209,10 @@ public class FragmentP318 extends FragmentPagina {
                                     Intent intent =  new Intent(contexto, AgregarPersonaActivity.class);
                                     intent.putExtra("idEncuestado",idEncuestado);
                                     intent.putExtra("idVivienda",idVivienda);
+                                    intent.putExtra("idUsuario",idUsuario);
+                                    intent.putExtra("segmento",segmento);
+                                    intent.putExtra("periodo",periodo);
+                                    intent.putExtra("conglomerado",conglomerado);
                                     intent.putExtra("numero",m3Pregunta318s.get(position).getNumero());
                                     intent.putExtra("id",m3Pregunta318s.get(position).get_id());
                                     startActivity(intent);
@@ -217,6 +235,10 @@ public class FragmentP318 extends FragmentPagina {
                                     Intent intent =  new Intent(contexto, AgregarPersonaActivity.class);
                                     intent.putExtra("idEncuestado",idEncuestado);
                                     intent.putExtra("idVivienda",idVivienda);
+                                    intent.putExtra("idUsuario",idUsuario);
+                                    intent.putExtra("segmento",segmento);
+                                    intent.putExtra("periodo",periodo);
+                                    intent.putExtra("conglomerado",conglomerado);
                                     intent.putExtra("numero",m3Pregunta318s.get(position).getNumero());
                                     intent.putExtra("id",m3Pregunta318s.get(position).get_id());
                                     startActivity(intent);

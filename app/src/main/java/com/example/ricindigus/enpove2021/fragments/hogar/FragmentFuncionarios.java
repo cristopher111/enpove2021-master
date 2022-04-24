@@ -5,6 +5,7 @@ import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.location.Location;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -24,6 +25,8 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
 import com.example.ricindigus.enpove2021.R;
+import com.example.ricindigus.enpove2021.activities.HogarActivity;
+import com.example.ricindigus.enpove2021.activities.ViviendaActivity;
 import com.example.ricindigus.enpove2021.modelo.Data;
 import com.example.ricindigus.enpove2021.modelo.SQLConstantes;
 import com.example.ricindigus.enpove2021.modelo.pojos.Caratula;
@@ -33,11 +36,17 @@ import com.example.ricindigus.enpove2021.modelo.pojos.Marco;
 import com.example.ricindigus.enpove2021.modelo.pojos.Usuario;
 import com.example.ricindigus.enpove2021.util.FragmentPagina;
 import com.example.ricindigus.enpove2021.util.UtilsMethodsInputs;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.location.LocationListener;
+import com.google.android.gms.location.LocationRequest;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FragmentFuncionarios extends FragmentPagina {
+public class FragmentFuncionarios extends FragmentPagina implements GoogleApiClient.OnConnectionFailedListener,
+        GoogleApiClient.ConnectionCallbacks, LocationListener {
+
     TextInputEditText caratula_p15_o_edt;
     EditText nomEncuestador, nomSupervisor, nomSupervisor_n,nomCoordinador;
     EditText dniEncuestador, dniSupervisor, dniSupervisor_n,dniCoordinador;
@@ -70,12 +79,17 @@ public class FragmentFuncionarios extends FragmentPagina {
     private String nropersonas;
     private int vive;
 
+    private GoogleApiClient apiClient;
+    private LocationRequest locRequest;
+
+
 
 
     @SuppressLint("ValidFragment")
-    public FragmentFuncionarios(String idHogar, String idVivienda, Context context) {
+    public FragmentFuncionarios(String idHogar, String idVivienda,GoogleApiClient apiClient, Context context) {
         this.idHogar = idHogar;
         this.idVivienda = idVivienda;
+        this.apiClient = apiClient;
         this.context = context;
     }
 
@@ -357,4 +371,23 @@ public class FragmentFuncionarios extends FragmentPagina {
     }
 
 
+    @Override
+    public void onConnected(@Nullable Bundle bundle) {
+
+    }
+
+    @Override
+    public void onConnectionSuspended(int i) {
+
+    }
+
+    @Override
+    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+
+    }
+
+    @Override
+    public void onLocationChanged(Location location) {
+
+    }
 }

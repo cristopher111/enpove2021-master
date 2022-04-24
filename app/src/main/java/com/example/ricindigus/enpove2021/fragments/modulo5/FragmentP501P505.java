@@ -31,6 +31,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.ricindigus.enpove2021.R;
 import com.example.ricindigus.enpove2021.modelo.Data;
@@ -134,6 +135,8 @@ public class FragmentP501P505 extends FragmentPagina {
         m5_p504_linearlayout = (LinearLayout) rootView.findViewById(R.id.layout_m5_p504);
         m5_p505_linearlayout = (LinearLayout) rootView.findViewById(R.id.layout_m5_p505);
 
+
+
         return rootView;
     }
 
@@ -154,7 +157,7 @@ public class FragmentP501P505 extends FragmentPagina {
         c5_p501_RadioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
-                c5_p502_o_EditText.setText("");
+                //c5_p502_o_EditText.setText("");
                 int pos = group.indexOfChild(c5_p501_RadioGroup.findViewById(c5_p501_RadioGroup.getCheckedRadioButtonId()));
                 if(pos >= 7 && pos <= 8){
                     ArrayAdapter adapter = new ArrayAdapter(getActivity().getApplicationContext(), R.layout.lista_item,R.id.item, getResources().getStringArray(R.array.array_carreras_tecnicas));
@@ -172,7 +175,7 @@ public class FragmentP501P505 extends FragmentPagina {
         c5_p501B_RadioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
-                c5_p502_o_EditText.setText("");
+                //c5_p502_o_EditText.setText("");
                 int pos = group.indexOfChild(c5_p501B_RadioGroup.findViewById(c5_p501B_RadioGroup.getCheckedRadioButtonId()));
                 if(pos >=8 && pos<=9){
                     ArrayAdapter adapter = new ArrayAdapter(getActivity().getApplicationContext(), R.layout.lista_item,R.id.item, getResources().getStringArray(R.array.array_carreras_tecnicas));
@@ -244,6 +247,9 @@ public class FragmentP501P505 extends FragmentPagina {
             }
         });
         cargarDatos();
+
+
+
 
 
     }
@@ -321,6 +327,8 @@ public class FragmentP501P505 extends FragmentPagina {
 //            informanteSpinner.setAdapter(adapter);
             ArrayList<String> informantes = data.getListaInformantesMayor12(modulo5.getIdHogar());
             UtilsMethodsInputs.loadSpinner(informantes,informanteSpinner,context);
+
+
             if(modulo5.getIdInformante() != null && !modulo5.getIdInformante().equals("")) informanteSpinner.setSelection(obtener_posicion(modulo5.getIdInformante(),informanteSpinner));
             if(modulo5.getC5_p501a() != null && !modulo5.getC5_p501a().equals("-1") && !modulo5.getC5_p501a().equals(""))((RadioButton)c5_p501A_RadioGroup.getChildAt(Integer.parseInt(modulo5.getC5_p501a()))).setChecked(true);
             if(modulo5.getC5_p501() != null && !modulo5.getC5_p501().equals("-1") && !modulo5.getC5_p501().equals(""))((RadioButton)c5_p501_RadioGroup.getChildAt(Integer.parseInt(modulo5.getC5_p501()))).setChecked(true);
@@ -328,9 +336,10 @@ public class FragmentP501P505 extends FragmentPagina {
 //            txtNombreCarrera.setText(modulo5.getC5_p502_eleccion());
             txtCodigoCarrera.setText(modulo5.getC5_p502());
             if (modulo5.getC5_p502() != null && modulo5.getC5_p502().equals("99999")) {
-                c5_p502_o_EditText.setText(modulo5.getC5_p502_o());
                 c5_p502_o_EditText.setEnabled(true);
                 c5_p502_o_EditText.setBackgroundResource(R.drawable.input_text_enabled);
+                //Log.e("obsp502",""+modulo5.getC5_p502_o());
+                c5_p502_o_EditText.setText(modulo5.getC5_p502_o());
                 if(modulo5.getC5_p501().equals("7") || modulo5.getC5_p501().equals("8"))
                     txtNombreCarrera.setText("OTRA CARRERA TÉCNICA");
                 if(modulo5.getC5_p501().equals("9") || modulo5.getC5_p501().equals("10") || modulo5.getC5_p501().equals("11"))
